@@ -897,7 +897,7 @@ def attach_hydro(
 
 
 def attach_GEM_renewables(
-    n: pypsa.Network, tech_map: dict[str, list[str]], smk_inputs: list[str]
+    n: pypsa.Network, tech_map: dict[str, list[str]], smk_inputs: list[str], carriers: list | set,
 ) -> None:
     """
     Attach renewable capacities from the GEM dataset to the network.
@@ -918,19 +918,23 @@ def attach_GEM_renewables(
         {"Solar": "PV"}
     )
 
+    # breakpoint() 
+    
     for fueltype, carrier in tech_map.items():
-        fn = smk_inputs.get(f"class_regions_{carrier}")
-        class_regions = gpd.read_file(fn)
+        if(carrier in carriers):
+            fn = smk_inputs.get(f"class_regions_{carrier}")
+            # breakpoint()
+            class_regions = gpd.read_file(fn)
 
-        df_fueltype = df.query("Fueltype == @fueltype")
-        geometry = gpd.points_from_xy(df_fueltype.lon, df_fueltype.lat)
-        caps = gpd.GeoDataFrame(df_fueltype, geometry=geometry, crs=4326)
-        caps = caps.sjoin(class_regions)
-        caps = caps.groupby(["bus", "bin"]).Capacity.sum()
-        caps.index = caps.index.map(flatten) + " " + carrier
+            df_fueltype = df.query("Fueltype == @fueltype")
+            geometry = gpd.points_from_xy(df_fueltype.lon, df_fueltype.lat)
+            caps = gpd.GeoDataFrame(df_fueltype, geometry=geometry, crs=4326)
+            caps = caps.sjoin(class_regions)
+            caps = caps.groupby(["bus", "bin"]).Capacity.sum()
+            caps.index = caps.index.map(flatten) + " " + carrier
 
-        n.generators.update({"p_nom": caps.dropna()})
-        n.generators.update({"p_nom_min": caps.dropna()})
+            n.generators.update({"p_nom": caps.dropna()})
+            n.generators.update({"p_nom_min": caps.dropna()})
 
 
 def estimate_renewable_capacities(
@@ -1275,7 +1279,7 @@ if __name__ == "__main__":
             year = estimate_renewable_caps["year"]
 
             if estimate_renewable_caps["from_gem"]:
-                attach_GEM_renewables(n, tech_map, snakemake.input)
+                attach_GEM_renewables(n, tech_map, snakemake.input, renewable_carriers)
 
             estimate_renewable_capacities(
                 n, year, tech_map, expansion_limit, params.countries
