@@ -1,0 +1,52 @@
+technology_map:
+# wind 
+  Offshore Wind (AC): wind power plant construction, 2MW, offshore, moving parts
+  Offshore Wind (DC): wind power plant construction, 2MW, offshore, moving parts
+  Offshore Wind (Floating): wind power plant construction, 2MW, offshore, moving parts
+  Onshore Wind: wind turbine construction, 4.5MW, onshore
+
+# solar
+  Solar: photovoltaic plant construction, 570kWp, multi-Si, on open ground
+  solar rooftop: photovoltaic slanted-roof installation, 3kWp, single-Si, panel, mounted, on roof
+#is there concentrated solar in pypsa?
+  solar thermal: 
+  solar-hsat: 
+
+# hydro
+  Run of River: 
+  Reservoir & Dam: hydropower plant construction, reservoir, non-alpine regions
+  Pumped Hydro Storage:
+
+# nuclear
+  nuclear: nuclear power plant construction, boiling water reactor 1000MW
+
+# gas
+  Combined-Cycle Gas: gas power plant construction, combined cycle, 400MW electrical
+  Open-Cycle Gas: gas turbine construction, 10MW electrical
+
+# biomass
+  urban central solid biomass CHP: furnace production, wood chips, with silo, 5000kW
+  urban central solid biomass CHP CC: 
+
+# biomass production?
+
+# storage: 
+  Pumped Hydro Storage:
+  EV battery:
+  home battery: 
+
+# electrolyser
+  H2 Electrolysis: electrolyzer production, 1MWe, AEC, Stack
+
+# fuel cell
+  H2 Fuel Cell: fuel cell production, solid oxide, 125kW electrical, future
+  H2 pipeline:
+
+# grid 
+  electricity distribution grid:
+
+# ccs
+
+# combined heat and power?
+CHP: 
+
