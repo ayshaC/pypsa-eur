@@ -1,0 +1,141 @@
+# SPDX-FileCopyrightText: Contributors to PyPSA-Eur <https://github.com/pypsa/pypsa-eur>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+run:
+  prefix: "es-overnight"
+  name: "elec-only"
+  disable_progressbar: true
+  shared_resources:
+    policy: es
+  shared_cutouts: true
+
+
+scenario:
+  clusters:
+  - 5
+  sector_opts:
+  - ''
+  planning_horizons:
+  - 2050
+
+countries: ['ES']
+
+snapshots:
+  start: "2013-01-01"
+  end: "2014-01-01"
+
+electricity:
+  extendable_carriers:
+    Generator: [solar, solar-hsat, onwind, offwind-ac, offwind-dc, offwind-float, OCGT, CCGT, nuclear]
+    StorageUnit: [battery]
+    Store: [H2]
+    Link: [H2 pipeline]
+
+  renewable_carriers: [solar, solar-hsat, onwind, offwind-ac, offwind-dc, offwind-float, hydro]
+
+  # this doesn't matter for overnight
+  conventional_carriers: [nuclear, oil, OCGT, CCGT, coal, lignite, geothermal, biomass]
+
+atlite:
+  default_cutout: europe-2013-sarah3-era5
+  cutouts:
+    europe-2013-sarah3-era5:
+      module: era5
+      x: [4., 15.]
+      y: [46., 56.]
+
+renewable:
+  offwind-ac:
+    max_depth: false
+  offwind-dc:
+    max_depth: false
+  offwind-float:
+    max_depth: false
+    min_depth: false
+
+clustering:
+  temporal:
+    resolution_sector: 96h
+
+sector:
+  transport: false
+  gas_network: false
+  H2_retrofit: false
+  biomass: false
+  industry: false
+  shipping: false
+  aviation: false
+  agriculture: false
+  fossil_fuels: false
+  heating: false
+  district_heating:
+    ptes:
+      supplemental_heating:
+        enable: true
+        booster_heat_pump: true
+    ates:
+      enable: true
+    heat_pump_sources:
+      urban central:
+      - air
+      - geothermal
+      urban decentral:
+      - air
+      rural:
+      - air
+      - ground
+  hydrogen_turbine: false
+  regional_oil_demand: false
+  regional_co2_sequestration_potential:
+    enable: false
+  co2_spatial: false
+  co2_network: false
+  methanol:
+    methanol_to_power:
+      ocgt: false
+    biomass_to_methanol: false
+  ammonia: false
+  biomass_spatial: false
+  biomass_to_liquid: false
+  electrobiofuels: false
+  imports:
+    enable: false
+    limit: .inf
+    limit_sense: <=
+    price:
+      H2: 74
+      NH3: 97
+      methanol: 121
+      gas: 122
+      oil: 125
+
+solving: 
+  options: 
+  # set load shedding to true, otherwise the network is infeasible in 2050
+    load_shedding: true
+
+
+industry:
+  HVC_environment_sequestration_fraction: 0.5
+  waste_to_energy: true
+  waste_to_energy_cc: true
+
+plotting:
+  map:
+    boundaries:
+  eu_node_location:
+    x: -5.5
+    y: 46.
+  costs_max: 1000
+  costs_threshold: 0.0000001
+  energy_max:
+  energy_min:
+  energy_threshold: 0.000001
+
+cluster-sync:
+  url: euler.ethz.ch
+  send-ignore: .syncignore-send
+  receive-ignore: .syncignore-receive
+  cluster-base-dir: /cluster/work/cpesm/acott/pypsa-eur
+  local-results-dir: build/cluster
