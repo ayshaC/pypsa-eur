@@ -9,6 +9,45 @@ from shutil import move, unpack_archive
 from shutil import copy2 as shcopy2
 from zipfile import ZipFile
 
+localrules: 
+    retrieve_databundle,
+    retrieve_eurostat_data,
+    retrieve_jrc_idees,
+    retrieve_eurostat_household_data,
+    retrieve_nuts_2013_shapes,
+    retrieve_nuts_2021_shapes,
+    retrieve_bidding_zones,
+    retrieve_cutout,
+    retrieve_tyndp_bundle,
+    retrieve_cost_data,
+    retrieve_gas_infrastructure_data,
+    retrieve_electricity_demand,
+    retrieve_synthetic_electricity_demand,
+    retrieve_ship_raster,
+    retrieve_jrc_enspreso_biomass,
+    retrieve_hotmaps_industrial_sites,
+    retrieve_usgs_ammonia_production,
+    retrieve_luisa_land_cover,
+    retrieve_eez,
+    retrieve_worldbank_urban_population,
+    retrieve_co2stop,
+    retrieve_gem_europe_gas_tracker,
+    retrieve_gem_steel_plant_tracker,
+    retrieve_monthly_co2_prices,
+    retrieve_monthly_fuel_prices,
+    retrieve_osm_prebuilt,
+    retrieve_osm_data,
+    retrieve_osm_data_all,
+    retrieve_osm_boundaries,
+    retrieve_geothermal_heat_utilisation_potentials,
+    retrieve_lau_regions,
+    retrieve_seawater_temperature,
+    retrieve_hera_data_test_cutout,
+    retrieve_hera_data,
+    retrieve_jrc_ardeco,
+    retrieve_aquifer_data_bgr,
+    retrieve_dh_areas
+
 
 # Configure the default storage provider for accessing remote files using http
 # and the special storage plugin for accessing Zenodo files

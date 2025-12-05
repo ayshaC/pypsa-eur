@@ -1,0 +1,21 @@
+# using https://snakemake.readthedocs.io/en/v7.19.1/executing/cluster.html#executing-on-slurm-clusters
+printshellcmds: True
+executor: slurm # requires snakemake-slurm-executor plugin
+jobs: 999 # max number of jobs to submit to the cluster (basically unlimited)
+local-cores: 1 # reserve one core for lightweight tasks to run on login node
+cores: 10 # number of cores snakemake can use across all jobs
+latency-wait: 60 # wait for 60s for an output file to appear before failing (and retry)
+retries: 3 # add if you want to retry failed jobs
+use-envmodules: True # load environment modules before running jobs
+# list-conda-envs: True # list location of conda envs on disk
+use-conda: True
+conda-prefix: /cluster/project/apatt/acott/snakemake-envs
+# max-jobs-per-second: 1 # limit the rate of jobs submitted
+# max-status-checks-per-second: 10 # limit the rate of status checks
+default-resources:
+    - runtime=60 # assumed runtime to help scheduler allocate resources efficiently
+    - cpus_per_task=4 # number of cpus per task
+    - mem_mb_per_cpu=1024 # memory per cpu/core
+    # - mem_mb=160000 # total memory per job = mem_mb_per_cpu * cpus_per_task (external limit from the Euler people)
+    - slurm_account=es_apatt
+ 

@@ -2,6 +2,8 @@
 #
 # SPDX-License-Identifier: MIT
 
+localrules: 
+    build_powerplants
 
 rule build_electricity_demand:
     params:
