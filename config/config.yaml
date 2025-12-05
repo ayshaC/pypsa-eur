@@ -4,7 +4,7 @@
 
 run:
   prefix: "es-overnight"
-  name: "elec-only"
+  name: "elec-only-td"
   disable_progressbar: true
   shared_resources:
     policy: es

@@ -16,7 +16,7 @@ remote:
 
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#run
 run:
-  prefix: "nothing"
+  prefix: ""
   name: ""
   scenarios:
     enable: false
@@ -34,13 +34,51 @@ foresight: overnight
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#scenario
 # Wildcard docs in https://pypsa-eur.readthedocs.io/en/latest/wildcards.html
 scenario:
-  clusters: [1]
-  opts: ['']
-  sector_opts: ['']
-  planning_horizons: [2050]
+  clusters:
+  - 50
+  opts:
+  - ''
+  sector_opts:
+  - ''
+  planning_horizons:
+  - 2050
 
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#countries
-countries: ["DE"]
+countries:
+- AL
+- AT
+- BA
+- BE
+- BG
+- CH
+- CZ
+- DE
+- DK
+- EE
+- ES
+- FI
+- FR
+- GB
+- GR
+- HR
+- HU
+- IE
+- IT
+- LT
+- LU
+- LV
+- ME
+- MK
+- NL
+- 'NO'
+- PL
+- PT
+- RO
+- RS
+- SE
+- SI
+- SK
+- XK
 
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#snapshots
 snapshots:
@@ -89,20 +127,23 @@ electricity:
     H2: 168
 
   extendable_carriers:
-    Generator: []
-    StorageUnit: []
-    Store: []
-    Link: []
 
-  powerplants_filter: false
+  # if a generator is not in conventional carriers, its lower limit for capacity is zero
+    Generator: [solar, solar-hsat, onwind, offwind-ac, offwind-dc, offwind-float, OCGT, CCGT]
+    StorageUnit: [] # battery, H2
+    Store: [battery, H2]
+    Link: [] # H2 pipeline
+
+  powerplants_filter: (DateOut >= 2024 or DateOut != DateOut) and not (Country == 'Germany' and Fueltype == 'Nuclear')
   custom_powerplants: false
   everywhere_powerplants: []
 
-  conventional_carriers: []
-  renewable_carriers: []
+# conventional carriers: existing carriers
+  conventional_carriers: [nuclear, oil, OCGT, CCGT, coal, lignite, geothermal, biomass]
+  renewable_carriers: [solar, solar-hsat, onwind, offwind-ac, offwind-dc, offwind-float, hydro]
 
   estimate_renewable_capacities:
-    enable: false
+    enable: true
     from_gem: true
     year: 2020
     expansion_limit: false
@@ -311,7 +352,7 @@ links:
 
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#transmission_projects
 transmission_projects:
-  enable: false
+  enable: true
   include:
     tyndp2020: true
     nep: true
@@ -353,7 +394,6 @@ load:
 # some technologies are removed because they are implemented differently
 # (e.g. battery or H2 storage) or have different year-dependent costs
 # in PyPSA-Eur-Sec
-# If a category isn't mentioned, all its components are automatically transferred to SC model
 pypsa_eur:
   Bus:
   - AC
@@ -445,14 +485,14 @@ existing_capacities:
 
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#sector
 sector:
-  transport: false
-  heating: false
-  biomass: false
-  industry: false
-  shipping: false
-  aviation: false
-  agriculture: false
-  fossil_fuels: false
+  transport: true
+  heating: true
+  biomass: true
+  industry: true
+  shipping: true
+  aviation: true
+  agriculture: true
+  fossil_fuels: true
   district_heating:
     potential: 0.6
     progress:
@@ -483,7 +523,7 @@ sector:
       rolling_window_ambient_temperature: 72
       relative_annual_temperature_reduction: 0.01
     ptes:
-      dynamic_capacity: false
+      dynamic_capacity: true
       supplemental_heating:
         enable: false
         booster_heat_pump: false
@@ -496,6 +536,7 @@ sector:
       aquifer_volumetric_heat_capacity: 2600
       fraction_of_aquifer_area_available: 0.2
       effective_screen_length: 20
+      dh_area_buffer: 1000
       capex_as_fraction_of_geothermal_heat_source: 0.75
       recovery_factor: 0.6
       marginal_cost_charger: 0.035
@@ -511,15 +552,10 @@ sector:
       geothermal:
         constant_temperature_celsius: 65
         ignore_missing_regions: false
-      river_water:
-        constant_temperature_celsius: false
     direct_utilisation_heat_sources:
     - geothermal
     temperature_limited_stores:
     - ptes
-    dh_areas:
-      buffer: 1000
-      handle_missing_countries: fill
   heat_pump_sources:
     urban central:
     - air
@@ -528,7 +564,7 @@ sector:
     rural:
     - air
     - ground
-  cluster_heat_buses: false
+  cluster_heat_buses: true
   heat_demand_cutout: default
   bev_dsm_restriction_value: 0.8
   bev_dsm_restriction_time: 7
@@ -538,14 +574,14 @@ sector:
   ICE_upper_degree_factor: 1.6
   EV_lower_degree_factor: 0.98
   EV_upper_degree_factor: 0.63
-  bev_dsm: false
+  bev_dsm: true
   bev_dsm_availability: 0.5
   bev_energy: 0.05
   bev_charge_efficiency: 0.9
   bev_charge_rate: 0.011
   bev_avail_max: 0.95
   bev_avail_mean: 0.8
-  v2g: false
+  v2g: true
   land_transport_fuel_cell_share:
     2020: 0
     2025: 0
@@ -609,9 +645,9 @@ sector:
   shipping_oil_efficiency: 0.40
   aviation_demand_factor: 1.
   HVC_demand_factor: 1.
-  time_dep_hp_cop: false
+  time_dep_hp_cop: true
   heat_pump_sink_T_individual_heating: 55.
-  reduce_space_heat_exogenously: false
+  reduce_space_heat_exogenously: true
   reduce_space_heat_exogenously_factor:
     2020: 0.10  # this results in a space heat demand reduction of 10%
     2025: 0.09  # first heat demand increases compared to 2020 because of larger floor area per capita
@@ -627,40 +663,40 @@ sector:
     annualise_cost: true
     tax_weighting: false
     construction_index: true
-  tes: false
-  boilers: false
-  resistive_heaters: false
+  tes: true
+  boilers: true
+  resistive_heaters: true
   oil_boilers: false
-  biomass_boiler: false
+  biomass_boiler: true
   overdimension_heat_generators:
     decentral: 1.1  #to cover demand peaks bigger than data
     central: 1.0
   chp:
-    enable: false
+    enable: true
     fuel:
     - solid biomass # For solid biomass, CHP with and without CC are added
     - gas # For all other fuels the same techno economic data from gas CHP is taken
     micro_chp: false # Only gas is used for micro_chp
-  solar_thermal: false
+  solar_thermal: true
   solar_cf_correction: 0.788457  # =  >>> 1/1.2683
-  methanation: false
+  methanation: true
   coal_cc: false
-  dac: false
+  dac: true
   co2_vent: false
   heat_vent:
-    urban central: false
-    urban decentral: false
-    rural: false
+    urban central: true
+    urban decentral: true
+    rural: true
   marginal_cost_heat_vent: 0.02
   allam_cycle_gas: false
-  hydrogen_fuel_cell: false
-  hydrogen_turbine: false
-  SMR: false
-  SMR_cc: false
-  regional_oil_demand: false
+  hydrogen_fuel_cell: true
+  hydrogen_turbine: true
+  SMR: true
+  SMR_cc: true
+  regional_oil_demand: true
   regional_coal_demand: false
   regional_co2_sequestration_potential:
-    enable: false
+    enable: true
     attribute:
     - conservative estimate Mt
     - conservative estimate GAS Mt
@@ -680,11 +716,11 @@ sector:
     2050: 250
   co2_sequestration_cost: 30
   co2_sequestration_lifetime: 50
-  co2_spatial: false
-  co2_network: false
+  co2_spatial: true
+  co2_network: true
   co2_network_cost_factor: 1
   cc_fraction: 0.9
-  hydrogen_underground_storage: false
+  hydrogen_underground_storage: true
   hydrogen_underground_storage_locations:
   - onshore    # more than 50 km from sea
   - nearshore      # within 50 km of sea
@@ -697,12 +733,11 @@ sector:
     methanol_to_power:
       ccgt: false
       ccgt_cc: false
-      ocgt: false
+      ocgt: true
       allam: false
-    biomass_to_methanol: false
+    biomass_to_methanol: true
     biomass_to_methanol_cc: false
-  ammonia: false
-  min_part_load_electrolysis: 0
+  ammonia: true
   min_part_load_fischer_tropsch: 0.5
   min_part_load_methanolisation: 0.3
   min_part_load_methanation: 0.3
@@ -713,8 +748,9 @@ sector:
   use_fuel_cell_waste_heat: 1
   use_electrolysis_waste_heat: 0.25
   electricity_transmission_grid: true
+  # if true, set existing solar to cost of utility cost rather than 50-50 rooftop/utility
   electricity_distribution_grid: true
-  electricity_grid_connection: false
+  electricity_grid_connection: true
   transmission_efficiency:
     enable:
     - DC
@@ -732,23 +768,23 @@ sector:
       compression_per_1000km: 0.01
     electricity distribution grid:
       efficiency_static: 0.97
-  H2_network: false
-  gas_network: false
+  H2_network: true
+  gas_network: true
   H2_retrofit: false
   H2_retrofit_capacity_per_CH4: 0.6
   gas_network_connectivity_upgrade: 1
-  gas_distribution_grid: false
+  gas_distribution_grid: true
   gas_distribution_grid_cost_factor: 1.0
-  biomass_spatial: false
+  biomass_spatial: true
   biomass_transport: false
-  biogas_upgrading: false
+  biogas_upgrading: true
   biogas_upgrading_cc: false
-  conventional_generation: {}
-    # OCGT: gas
-    # CCGT: gas
-  biomass_to_liquid: false
+  conventional_generation:
+    OCGT: gas
+    CCGT: gas
+  biomass_to_liquid: true
   biomass_to_liquid_cc: false
-  electrobiofuels: false
+  electrobiofuels: true
   biosng: false
   biosng_cc: false
   bioH2: false
@@ -757,6 +793,11 @@ sector:
     enable: false
     # allowing 30% larger than max historic growth
     factor: 1.3
+    # I think these are max yearly growth. The links are outdated and maybe some of the figures too. 
+    # But I'm not sure why the units are different.
+    # Europe 2024: 
+    # Solar: 66 GW https://ember-energy.org/latest-insights/european-electricity-review-2025/solars-meteoric-growth-continues/
+    # Offwind: 2.6 GW https://windeurope.org/data/products/wind-energy-in-europe-2024-statistics-and-the-outlook-for-2025-2030/
     max_growth:  # unit GW
       onwind: 16 # onshore max grow so far 16 GW in Europe https://www.iea.org/reports/renewables-2020/wind
       solar: 28 # solar max grow so far 28 GW in Europe https://www.iea.org/reports/renewables-2020/solar-pv
@@ -769,10 +810,10 @@ sector:
       offwind-dc: 3
   enhanced_geothermal:
     enable: false
-    flexible: false # was True
+    flexible: true
     max_hours: 240
     max_boost: 0.25
-    var_cf: false # was True
+    var_cf: true
     sustainability_factor: 0.0025
   solid_biomass_import:
     enable: false
@@ -896,8 +937,20 @@ costs:
     "CO2 intensity": 0
     "discount rate": 0.07
     "standing losses": 0
-  custom_cost_fn: data/custom_costs.csv
   overwrites: {}
+  marginal_cost:
+    solar: 0.01
+    onwind: 0.015
+    offwind: 0.015
+    hydro: 0.
+    H2: 0.
+    electrolysis: 0.
+    fuel cell: 0.
+    battery: 0.
+    battery inverter: 0.
+    home battery storage: 0
+    water tank charger: 0.03
+    central water pit charger: 0.025
   emission_prices:
     enable: false
     co2: 0.
@@ -947,7 +1000,7 @@ adjustments:
 solving:
   options:
     clip_p_max_pu: 1.e-2
-    load_shedding: true
+    load_shedding: false
     curtailment_mode: false
     noisy_costs: true
     skip_iterations: true
