@@ -30,6 +30,8 @@ doc/_build
 /scripts/create_scenarios.py
 /config/create_scenarios.py
 
+/build
+
 config/config.yaml
 config/scenarios.yaml
 
