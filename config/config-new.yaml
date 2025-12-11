@@ -1,0 +1,55 @@
+# docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html
+
+run:
+  prefix: "ac_dc_vre_dist_tnspt_dsm_v2g_heat_dh06"
+  shared_resources:
+    policy: true
+  use_shadow_directory: true
+
+scenario:
+  clusters: [3]
+
+countries: ["DE", "CH"]
+
+electricity:
+  renewable_carriers: [solar, solar-hsat, onwind, offwind-ac, offwind-dc, hydro]
+  extendable_carriers:
+    Generator: [solar, solar-hsat, onwind, offwind-ac, offwind-dc]
+  estimate_renewable_capacities:
+    enable: false
+  transmission_limit: c1.25
+
+transmission_projects:
+  enable: true
+  include:
+    tyndp2020: true
+    nep: true
+    manual: true
+
+pypsa_eur:
+  Generator: [solar, solar-hsat, onwind, offwind-ac, offwind-dc, ror]
+  StorageUnit: [PHS, hydro]
+  Link: [DC]
+  Line: [AC]
+
+clustering:
+  temporal:
+    resolution_sector: 24H  # limit of diurnal storage (Mai, 2022)
+
+sector:
+  transport: true
+  bev_dsm: true
+  v2g: true
+
+  heating: true
+  district_heating:
+    potential: 0.6
+    ates:
+      enable: false
+  time_dep_hp_cop: true
+  tes: false
+
+  fossil_fuels: false
+  dac: false
+  electricity_transmission_grid: true
+  electricity_distribution_grid: true

@@ -1,0 +1,13 @@
+__pycache__
+ 
+.DS_Store
+.git
+.pytest_cache
+.snakemake
+.vscode
+ 
+*.pyc
+*.pyo
+ 
+build
+analysis

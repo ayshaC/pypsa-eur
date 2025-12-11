@@ -1,0 +1,100 @@
+# The right place for all your configuration values.
+run: 10-20 # this will overwrite pypsa_config["run"]["prefix"]
+
+logging:
+  level: INFO
+  format: '[%(asctime)s]: %(levelname)s: %(filename)s: %(message)s'
+  datefmt: '%Y-%m-%d %H:%M:%S'
+
+cluster-sync:
+  url: euler.ethz.ch
+  send-ignore: .syncignore-send
+  receive-ignore: .syncignore-receive
+  cluster-base-dir: /cluster/work/cpesm/jpeel/ml-res
+  local-results-dir: build/cluster
+
+sampling:
+  method: test
+  generate:
+    n_samples: 512
+    e_demand: 460e6 # 2023 energy demand in MWh for Germany only 460e6
+  test:
+    filename: tests/sliding_gas.csv
+    samples: all
+
+plotting:
+  nice_names:
+    # this section adds to or overwrites pypsa-eur/config/plotting.default.yaml
+    offwind: Offshore Wind (MW)
+    load_shed: Load Shed (MWh)
+    system_cost: System Cost (€)
+
+base_system:
+  techs: [wind, solar_pv]
+  proportion: 0.9
+
+strategies:
+  overcapacity: [wind, solar_pv]
+  other_re: []
+  nuclear_fossil_ccs: [ch4_power, ch4_energy]
+  seasonal_storage: [h2_power, h2_energy]
+  cdr: []
+
+techs:
+  wind:
+    pypsa_carriers: [onwind, offwind-ac, offwind-dc]
+    network_component: generators
+    average_cf: 0.3
+    type: power
+    nice_name: Wind
+  solar_pv:
+    pypsa_carriers: [solar-hsat, solar rooftop, solar] # TODO: is solar redudant, 'cos it's the solar from electricity only - it seems to be zero in the scenario
+    network_component: generators
+    average_cf: 0.2
+    type: power
+    nice_name: Solar PV
+  h2_power:
+    pypsa_carriers: [H2 Fuel Cell, H2 turbine]
+    network_component: links
+    type: power
+    nice_name: H2 Power
+  h2_energy:
+    pypsa_carriers: [H2 Store]
+    network_component: stores
+    type: energy
+    nice_name: H2 Energy
+  ch4_power:
+    pypsa_carriers: ["OCGT", "CCGT"]
+    network_component: links
+    type: power
+    nice_name: CH4 Power
+  ch4_energy:
+    pypsa_carriers: [gas]
+    network_component: stores
+    type: energy
+    nice_name: CH4 Energy
+  # ch4_imports:
+
+units:
+  power:
+    pypsa: MW
+    display: GW
+    factor: 1000
+  energy:
+    pypsa: MWh
+    display: TWh
+    factor: 1000000
+  money:
+    pypsa: €
+    display: bn €
+    factor: 1000000000
+
+outputs:
+  load_shed:
+    pypsa_carriers: [load_shed]
+    type: energy
+    nice_name: Load Shed
+  system_cost:
+    pypsa_carriers: [system_cost]
+    type: cost
+    nice_name: Cost
