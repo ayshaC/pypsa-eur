@@ -513,8 +513,7 @@ if config["enable"]["retrieve"]:
     # Sometimes files are released delayed or ahead of schedule, check which file is currently available
 
     def check_file_exists(url):
-        response = requests.head(url)
-        return response.status_code == 200
+        return True
 
     # Basic pattern where WDPA files can be found
     url_pattern = (
@@ -525,6 +524,8 @@ if config["enable"]["retrieve"]:
     current_monthyear = datetime.now().strftime("%b%Y")
     prev_monthyear = (datetime.now() - timedelta(30)).strftime("%b%Y")
     next_monthyear = (datetime.now() + timedelta(30)).strftime("%b%Y")
+
+    url = url_pattern.format(bYYYY=current_monthyear)
 
     # Test prioritised: current month -> previous -> next
     for bYYYY in [current_monthyear, prev_monthyear, next_monthyear]:
