@@ -337,6 +337,7 @@ plotting:
     agriculture machinery electric: '#444578'
     shipping oil: "#808080"
     land transport oil: '#afafaf'
+    fossil oil and gas: '#c9c9c9'
     # nuclear
     Nuclear: '#ff8c00'
     Nuclear marginal: '#ff8c00'
@@ -505,6 +506,7 @@ plotting:
     H2 turbine: '#991f83'
     H2 Electrolysis: '#ff29d9'
     H2 electrolysis: '#ff29d9'
+    'power-to-hydrogen': '#ff29d9'
     # ammonia
     NH3: '#46caf0'
     ammonia: '#46caf0'
@@ -539,7 +541,9 @@ plotting:
     CC: '#f29dae'
     CCS: '#f29dae'
     CO2 sequestration: '#f29dae'
+    carbon capture: '#ff5270'
     DAC: '#ff5270'
+    direct air capture: '#ff5270'
     co2 stored: '#f2385a'
     co2 sequestered: '#f2682f'
     co2: '#f29dae'

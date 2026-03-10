@@ -90,3 +90,10 @@ CLAUDE.local.md
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+
+.git-backup
+.git-broken
+
+.DS_Store
+
+analysis/figures/*
