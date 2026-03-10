@@ -1,0 +1,2841 @@
+cost,component,location,carrier,0
+capital,Generator,AL0 0,load,0.0
+capital,Generator,AL0 0,offwind-ac,89504471.04444
+capital,Generator,AL0 0,offwind-dc,1129751723.03454
+capital,Generator,AL0 0,onwind,22040227.91404
+capital,Generator,AL0 0,residential rural solar thermal,1855636.80672
+capital,Generator,AL0 0,residential urban decentral solar thermal,1707427.02043
+capital,Generator,AL0 0,ror,14853811.92575
+capital,Generator,AL0 0,services rural solar thermal,427377.7847
+capital,Generator,AL0 0,services urban decentral solar thermal,423601.10292
+capital,Generator,AL0 0,solar,204729544.2562
+capital,Generator,AL0 0,solar rooftop,13634350.16865
+capital,Generator,AL0 0,solar-hsat,6756418.82032
+capital,Generator,AL0 0,urban central solar thermal,1543256.09175
+capital,Generator,AT0 0,load,0.0
+capital,Generator,AT0 0,onwind,304537979.34383
+capital,Generator,AT0 0,residential rural solar thermal,544615.89456
+capital,Generator,AT0 0,residential urban decentral solar thermal,575861.41994
+capital,Generator,AT0 0,ror,1376929988.78063
+capital,Generator,AT0 0,services rural solar thermal,404420.4648
+capital,Generator,AT0 0,services urban decentral solar thermal,390947.97776
+capital,Generator,AT0 0,solar,4714057017.84106
+capital,Generator,AT0 0,solar rooftop,554418217.25981
+capital,Generator,AT0 0,solar-hsat,9071912.66973
+capital,Generator,AT0 0,urban central solar thermal,667681.65496
+capital,Generator,BA0 0,load,0.0
+capital,Generator,BA0 0,offwind-ac,538494.41714
+capital,Generator,BA0 0,onwind,40970687.44976
+capital,Generator,BA0 0,residential rural solar thermal,609860.02133
+capital,Generator,BA0 0,residential urban decentral solar thermal,688447.47498
+capital,Generator,BA0 0,services rural solar thermal,394028.06142
+capital,Generator,BA0 0,services urban decentral solar thermal,390543.47077
+capital,Generator,BA0 0,solar,8397080.85789
+capital,Generator,BA0 0,solar rooftop,57198552.84476
+capital,Generator,BA0 0,solar-hsat,4520558.29998
+capital,Generator,BA0 0,urban central solar thermal,839808.99448
+capital,Generator,BE0 0,load,0.0
+capital,Generator,BE0 0,nuclear,4470930576.90768
+capital,Generator,BE0 0,offwind-ac,419079145.3416
+capital,Generator,BE0 0,offwind-dc,177041486.24589
+capital,Generator,BE0 0,onwind,1321613548.46862
+capital,Generator,BE0 0,residential rural solar thermal,263970.85817
+capital,Generator,BE0 0,residential urban decentral solar thermal,337015.80974
+capital,Generator,BE0 0,ror,18186779.19648
+capital,Generator,BE0 0,services rural solar thermal,288672.85943
+capital,Generator,BE0 0,services urban decentral solar thermal,305154.07948
+capital,Generator,BE0 0,solar,2248074154.68607
+capital,Generator,BE0 0,solar rooftop,6447225.74937
+capital,Generator,BE0 0,solar-hsat,5472832.94753
+capital,Generator,BE0 0,urban central solar thermal,365546.7422
+capital,Generator,BG0 0,load,0.0
+capital,Generator,BG0 0,nuclear,1567913317.24782
+capital,Generator,BG0 0,offwind-ac,11116312.62535
+capital,Generator,BG0 0,offwind-dc,494746525.90934
+capital,Generator,BG0 0,onwind,66212070.56577
+capital,Generator,BG0 0,residential rural solar thermal,566756.52033
+capital,Generator,BG0 0,residential urban decentral solar thermal,619054.71396
+capital,Generator,BG0 0,ror,34022009.05814
+capital,Generator,BG0 0,services rural solar thermal,474293.17821
+capital,Generator,BG0 0,services urban decentral solar thermal,474185.42895
+capital,Generator,BG0 0,solar,197060430.00771
+capital,Generator,BG0 0,solar rooftop,184040106.36543
+capital,Generator,BG0 0,solar-hsat,9139674.80133
+capital,Generator,BG0 0,urban central solar thermal,515056.19115
+capital,Generator,CH0 0,load,0.0
+capital,Generator,CH0 0,nuclear,2529273839.33287
+capital,Generator,CH0 0,onwind,8194858.70418
+capital,Generator,CH0 0,residential rural solar thermal,590780.34816
+capital,Generator,CH0 0,residential urban decentral solar thermal,730795.29815
+capital,Generator,CH0 0,ror,1295123214.9052
+capital,Generator,CH0 0,services rural solar thermal,347990.17331
+capital,Generator,CH0 0,services urban decentral solar thermal,380477.53332
+capital,Generator,CH0 0,solar,2171590563.27994
+capital,Generator,CH0 0,solar rooftop,258058583.44488
+capital,Generator,CH0 0,solar-hsat,1574448288.55639
+capital,Generator,CH0 0,urban central solar thermal,955432.34046
+capital,Generator,CZ0 0,load,0.0
+capital,Generator,CZ0 0,nuclear,3138913207.36635
+capital,Generator,CZ0 0,onwind,31960457.3843
+capital,Generator,CZ0 0,residential rural solar thermal,344594.97564
+capital,Generator,CZ0 0,residential urban decentral solar thermal,376762.31457
+capital,Generator,CZ0 0,ror,12396579.18494
+capital,Generator,CZ0 0,services rural solar thermal,340666.84155
+capital,Generator,CZ0 0,services urban decentral solar thermal,333706.22211
+capital,Generator,CZ0 0,solar,63844978.55376
+capital,Generator,CZ0 0,solar rooftop,13890960.70651
+capital,Generator,CZ0 0,solar-hsat,4409772.54299
+capital,Generator,CZ0 0,urban central solar thermal,424386.6339
+capital,Generator,DE0 0,load,0.0
+capital,Generator,DE0 0,nuclear,11516357471.45522
+capital,Generator,DE0 0,offwind-ac,1460336957.2813
+capital,Generator,DE0 0,offwind-dc,3011119133.19842
+capital,Generator,DE0 0,onwind,2825994005.95786
+capital,Generator,DE0 0,residential rural solar thermal,349163.61661
+capital,Generator,DE0 0,residential urban decentral solar thermal,405905.02875
+capital,Generator,DE0 0,ror,506429478.63486
+capital,Generator,DE0 0,services rural solar thermal,345954.24833
+capital,Generator,DE0 0,services urban decentral solar thermal,374361.97262
+capital,Generator,DE0 0,solar,1470874829.88957
+capital,Generator,DE0 0,solar rooftop,192071975.68642
+capital,Generator,DE0 0,solar-hsat,11222616.59361
+capital,Generator,DE0 0,urban central solar thermal,475743.5807
+capital,Generator,DE0 1,load,0.0
+capital,Generator,DE0 1,nuclear,5895591971.1083
+capital,Generator,DE0 1,offwind-ac,419734773.36387
+capital,Generator,DE0 1,offwind-dc,55571996.9637
+capital,Generator,DE0 1,onwind,2296273997.44319
+capital,Generator,DE0 1,residential rural solar thermal,442620.18126
+capital,Generator,DE0 1,residential urban decentral solar thermal,445373.2382
+capital,Generator,DE0 1,ror,1107467645.73254
+capital,Generator,DE0 1,services rural solar thermal,392139.00364
+capital,Generator,DE0 1,services urban decentral solar thermal,380548.66491
+capital,Generator,DE0 1,solar,4129189650.51274
+capital,Generator,DE0 1,solar rooftop,1196376471.60128
+capital,Generator,DE0 1,solar-hsat,9025141.83245
+capital,Generator,DE0 1,urban central solar thermal,495592.11528
+capital,Generator,DK0 0,load,0.0
+capital,Generator,DK0 0,offwind-ac,299779975.70333
+capital,Generator,DK0 0,offwind-dc,10156200.392
+capital,Generator,DK0 0,onwind,5859992664.89018
+capital,Generator,DK0 0,residential rural solar thermal,266053.19956
+capital,Generator,DK0 0,residential urban decentral solar thermal,310629.57087
+capital,Generator,DK0 0,services rural solar thermal,277896.37098
+capital,Generator,DK0 0,services urban decentral solar thermal,274344.9408
+capital,Generator,DK0 0,solar,48108833.50287
+capital,Generator,DK0 0,solar rooftop,1184390.97304
+capital,Generator,DK0 0,solar-hsat,2218655.16043
+capital,Generator,DK0 0,urban central solar thermal,312945.09278
+capital,Generator,DK1 0,load,0.0
+capital,Generator,DK1 0,offwind-ac,2116265804.41547
+capital,Generator,DK1 0,offwind-dc,663842046.76403
+capital,Generator,DK1 0,onwind,1509370727.33971
+capital,Generator,DK1 0,residential rural solar thermal,274052.28143
+capital,Generator,DK1 0,residential urban decentral solar thermal,312363.47782
+capital,Generator,DK1 0,services rural solar thermal,288206.40769
+capital,Generator,DK1 0,services urban decentral solar thermal,283599.98908
+capital,Generator,DK1 0,solar,927557380.4731
+capital,Generator,DK1 0,solar rooftop,15713052.16822
+capital,Generator,DK1 0,solar-hsat,3610431.3789
+capital,Generator,DK1 0,urban central solar thermal,313226.7387
+capital,Generator,EE0 0,load,0.0
+capital,Generator,EE0 0,offwind-ac,5985499.31582
+capital,Generator,EE0 0,offwind-dc,4086780.21578
+capital,Generator,EE0 0,onwind,1529809032.03113
+capital,Generator,EE0 0,residential rural solar thermal,356339.2344
+capital,Generator,EE0 0,residential urban decentral solar thermal,367231.88501
+capital,Generator,EE0 0,services rural solar thermal,340492.18451
+capital,Generator,EE0 0,services urban decentral solar thermal,334023.99666
+capital,Generator,EE0 0,solar,26005448.79899
+capital,Generator,EE0 0,solar rooftop,26384856.47422
+capital,Generator,EE0 0,solar-hsat,3677478.36627
+capital,Generator,EE0 0,urban central solar thermal,366819.42353
+capital,Generator,ES0 0,load,0.0
+capital,Generator,ES0 0,nuclear,3543530562.22653
+capital,Generator,ES0 0,offwind-ac,4199836.73087
+capital,Generator,ES0 0,offwind-dc,33682088.68104
+capital,Generator,ES0 0,onwind,11235995956.58021
+capital,Generator,ES0 0,residential rural solar thermal,1840316.9957
+capital,Generator,ES0 0,residential urban decentral solar thermal,2319131.09801
+capital,Generator,ES0 0,ror,40062148.34745
+capital,Generator,ES0 0,services rural solar thermal,507233.86586
+capital,Generator,ES0 0,services urban decentral solar thermal,485060.71301
+capital,Generator,ES0 0,solar,11114811829.28992
+capital,Generator,ES0 0,solar rooftop,1765510580.56381
+capital,Generator,ES0 0,solar-hsat,1305989174.59614
+capital,Generator,ES0 0,urban central solar thermal,4368083.21599
+capital,Generator,ES6 0,load,0.0
+capital,Generator,ES6 0,nuclear,2286127551.06881
+capital,Generator,ES6 0,offwind-ac,1658787.89543
+capital,Generator,ES6 0,offwind-dc,3629980.32456
+capital,Generator,ES6 0,onwind,256255894.25404
+capital,Generator,ES6 0,residential rural solar thermal,359622.28035
+capital,Generator,ES6 0,residential urban decentral solar thermal,386942.40258
+capital,Generator,ES6 0,ror,45303586.30495
+capital,Generator,ES6 0,services rural solar thermal,329606.72168
+capital,Generator,ES6 0,services urban decentral solar thermal,317567.87131
+capital,Generator,ES6 0,solar,7969407.06741
+capital,Generator,ES6 0,solar rooftop,35692332.42586
+capital,Generator,ES6 0,solar-hsat,2476491.94498
+capital,Generator,ES6 0,urban central solar thermal,382866.45173
+capital,Generator,EU,biogas,0.0
+capital,Generator,EU,gas,0.0
+capital,Generator,EU,load,0.0
+capital,Generator,EU,oil primary,0.0
+capital,Generator,EU,solid biomass,0.0
+capital,Generator,FI1 0,load,0.0
+capital,Generator,FI1 0,nuclear,3288072563.96214
+capital,Generator,FI1 0,offwind-ac,14157901.12182
+capital,Generator,FI1 0,offwind-dc,7987963931.83309
+capital,Generator,FI1 0,onwind,891298771.70348
+capital,Generator,FI1 0,residential rural solar thermal,253739.3259
+capital,Generator,FI1 0,residential urban decentral solar thermal,295020.48731
+capital,Generator,FI1 0,ror,453195348.92122
+capital,Generator,FI1 0,services rural solar thermal,265264.29967
+capital,Generator,FI1 0,services urban decentral solar thermal,260243.724
+capital,Generator,FI1 0,solar,9374019.1737
+capital,Generator,FI1 0,solar rooftop,3609113.41489
+capital,Generator,FI1 0,solar-hsat,2648529.71027
+capital,Generator,FI1 0,urban central solar thermal,318328.55955
+capital,Generator,FR0 0,load,0.0
+capital,Generator,FR0 0,nuclear,48756610625.52437
+capital,Generator,FR0 0,offwind-ac,467101914.47554
+capital,Generator,FR0 0,offwind-dc,49771854771.77903
+capital,Generator,FR0 0,onwind,2217100731.88256
+capital,Generator,FR0 0,residential rural solar thermal,626971.70202
+capital,Generator,FR0 0,residential urban decentral solar thermal,674797.93757
+capital,Generator,FR0 0,ror,2104829751.47617
+capital,Generator,FR0 0,services rural solar thermal,468697.37218
+capital,Generator,FR0 0,services urban decentral solar thermal,471255.32134
+capital,Generator,FR0 0,solar,2488950751.48182
+capital,Generator,FR0 0,solar rooftop,3124970475.5151
+capital,Generator,FR0 0,solar-hsat,17651755.48937
+capital,Generator,FR0 0,urban central solar thermal,907113.32596
+capital,Generator,FR5 0,load,0.0
+capital,Generator,FR5 0,offwind-ac,2075930.13432
+capital,Generator,FR5 0,offwind-dc,3194843.27281
+capital,Generator,FR5 0,onwind,2465015.60765
+capital,Generator,FR5 0,residential rural solar thermal,666097.46287
+capital,Generator,FR5 0,residential urban decentral solar thermal,0.0
+capital,Generator,FR5 0,ror,45627745.23532
+capital,Generator,FR5 0,services rural solar thermal,381981.00204
+capital,Generator,FR5 0,services urban decentral solar thermal,347362.97189
+capital,Generator,FR5 0,solar,259745531.49641
+capital,Generator,FR5 0,solar rooftop,14621611.69771
+capital,Generator,FR5 0,solar-hsat,4936536.66632
+capital,Generator,GB2 0,load,0.0
+capital,Generator,GB2 0,nuclear,12020794819.36628
+capital,Generator,GB2 0,offwind-ac,21551555862.84546
+capital,Generator,GB2 0,offwind-dc,19749066.27371
+capital,Generator,GB2 0,onwind,22584193384.14302
+capital,Generator,GB2 0,residential rural solar thermal,375275.0538
+capital,Generator,GB2 0,residential urban decentral solar thermal,439996.33554
+capital,Generator,GB2 0,ror,678984076.15559
+capital,Generator,GB2 0,services rural solar thermal,328304.55301
+capital,Generator,GB2 0,services urban decentral solar thermal,394487.4016
+capital,Generator,GB2 0,solar,387430341.9764
+capital,Generator,GB2 0,solar rooftop,5469461.52485
+capital,Generator,GB2 0,solar-hsat,5526070.24169
+capital,Generator,GB2 0,urban central solar thermal,468909.72781
+capital,Generator,GB3 0,load,0.0
+capital,Generator,GB3 0,nuclear,2441605000.51207
+capital,Generator,GB3 0,offwind-ac,1095290448.01552
+capital,Generator,GB3 0,offwind-dc,400647499.78814
+capital,Generator,GB3 0,onwind,2088720296.05142
+capital,Generator,GB3 0,residential rural solar thermal,312314.15329
+capital,Generator,GB3 0,residential urban decentral solar thermal,306480.64709
+capital,Generator,GB3 0,ror,441577325.90046
+capital,Generator,GB3 0,services rural solar thermal,295198.43306
+capital,Generator,GB3 0,services urban decentral solar thermal,285010.89473
+capital,Generator,GB3 0,solar,10380871.27449
+capital,Generator,GB3 0,solar rooftop,983980.31825
+capital,Generator,GB3 0,solar-hsat,1194279.62698
+capital,Generator,GB3 0,urban central solar thermal,232035.01023
+capital,Generator,GR0 0,load,0.0
+capital,Generator,GR0 0,offwind-ac,5704300.2649
+capital,Generator,GR0 0,offwind-dc,12938437.98284
+capital,Generator,GR0 0,onwind,867775128.55687
+capital,Generator,GR0 0,residential rural solar thermal,1001910.07183
+capital,Generator,GR0 0,residential urban decentral solar thermal,1075767.44225
+capital,Generator,GR0 0,ror,31772365.34325
+capital,Generator,GR0 0,services rural solar thermal,563732.96485
+capital,Generator,GR0 0,services urban decentral solar thermal,560992.94683
+capital,Generator,GR0 0,solar,5361796528.43983
+capital,Generator,GR0 0,solar rooftop,215537749.22468
+capital,Generator,GR0 0,solar-hsat,16994071.75776
+capital,Generator,GR0 0,urban central solar thermal,787593.75525
+capital,Generator,HR0 0,load,0.0
+capital,Generator,HR0 0,offwind-ac,6516620.32079
+capital,Generator,HR0 0,offwind-dc,11926911.35695
+capital,Generator,HR0 0,onwind,107349118.60798
+capital,Generator,HR0 0,residential rural solar thermal,554018.40052
+capital,Generator,HR0 0,residential urban decentral solar thermal,533125.74413
+capital,Generator,HR0 0,ror,85877138.08148
+capital,Generator,HR0 0,services rural solar thermal,425970.01577
+capital,Generator,HR0 0,services urban decentral solar thermal,407206.1109
+capital,Generator,HR0 0,solar,5270966.41714
+capital,Generator,HR0 0,solar rooftop,22517753.46259
+capital,Generator,HR0 0,solar-hsat,3315293.25305
+capital,Generator,HR0 0,urban central solar thermal,662120.50684
+capital,Generator,HU0 0,load,0.0
+capital,Generator,HU0 0,nuclear,1431475445.85902
+capital,Generator,HU0 0,onwind,4052904762.13755
+capital,Generator,HU0 0,residential rural solar thermal,457184.84668
+capital,Generator,HU0 0,residential urban decentral solar thermal,481473.41857
+capital,Generator,HU0 0,ror,6070956.3265
+capital,Generator,HU0 0,services rural solar thermal,429420.9767
+capital,Generator,HU0 0,services urban decentral solar thermal,410155.5253
+capital,Generator,HU0 0,solar,75922477.92938
+capital,Generator,HU0 0,solar rooftop,105205964.40302
+capital,Generator,HU0 0,solar-hsat,5887450.27772
+capital,Generator,HU0 0,urban central solar thermal,526134.16673
+capital,Generator,IE3 0,load,0.0
+capital,Generator,IE3 0,offwind-ac,8876723665.00096
+capital,Generator,IE3 0,offwind-dc,6794438463.05702
+capital,Generator,IE3 0,onwind,447606500.3421
+capital,Generator,IE3 0,residential rural solar thermal,390053.05122
+capital,Generator,IE3 0,residential urban decentral solar thermal,399500.96053
+capital,Generator,IE3 0,ror,66564800.33115
+capital,Generator,IE3 0,services rural solar thermal,394771.01757
+capital,Generator,IE3 0,services urban decentral solar thermal,414644.10648
+capital,Generator,IE3 0,solar,36024723.23013
+capital,Generator,IE3 0,solar rooftop,1749533.20682
+capital,Generator,IE3 0,solar-hsat,2626841.14875
+capital,Generator,IE3 0,urban central solar thermal,462594.80908
+capital,Generator,IT0 0,load,0.0
+capital,Generator,IT0 0,nuclear,1110015337.19766
+capital,Generator,IT0 0,offwind-ac,5910455.8833
+capital,Generator,IT0 0,offwind-dc,21889069702.96
+capital,Generator,IT0 0,onwind,901818893.9117
+capital,Generator,IT0 0,residential rural solar thermal,1424182.64247
+capital,Generator,IT0 0,residential urban decentral solar thermal,1625939.7089
+capital,Generator,IT0 0,ror,2385990614.24019
+capital,Generator,IT0 0,services rural solar thermal,586736.24796
+capital,Generator,IT0 0,services urban decentral solar thermal,592182.01932
+capital,Generator,IT0 0,solar,6732176520.15952
+capital,Generator,IT0 0,solar rooftop,2077499889.09164
+capital,Generator,IT0 0,solar-hsat,54426134.09835
+capital,Generator,IT0 0,urban central solar thermal,8105774.84356
+capital,Generator,IT4 0,load,0.0
+capital,Generator,IT4 0,offwind-ac,3934546.60917
+capital,Generator,IT4 0,offwind-dc,14760100.43709
+capital,Generator,IT4 0,onwind,1450334757.80388
+capital,Generator,IT4 0,residential rural solar thermal,1387907.77102
+capital,Generator,IT4 0,residential urban decentral solar thermal,1054855.64999
+capital,Generator,IT4 0,ror,39784795.01274
+capital,Generator,IT4 0,services rural solar thermal,416874.7648
+capital,Generator,IT4 0,services urban decentral solar thermal,388517.60577
+capital,Generator,IT4 0,solar,764207134.49104
+capital,Generator,IT4 0,solar rooftop,65377403.34808
+capital,Generator,IT4 0,solar-hsat,11101150.05148
+capital,Generator,IT4 0,urban central solar thermal,1478299.82472
+capital,Generator,LT0 0,load,0.0
+capital,Generator,LT0 0,nuclear,1959879744.67459
+capital,Generator,LT0 0,offwind-ac,7478073.78438
+capital,Generator,LT0 0,offwind-dc,164009943.34809
+capital,Generator,LT0 0,onwind,112574151.97799
+capital,Generator,LT0 0,residential rural solar thermal,328210.16069
+capital,Generator,LT0 0,residential urban decentral solar thermal,336944.43418
+capital,Generator,LT0 0,ror,31125207.56225
+capital,Generator,LT0 0,services rural solar thermal,326680.88193
+capital,Generator,LT0 0,services urban decentral solar thermal,318565.43297
+capital,Generator,LT0 0,solar,98914699.05935
+capital,Generator,LT0 0,solar rooftop,92151281.36466
+capital,Generator,LT0 0,solar-hsat,6196786.63778
+capital,Generator,LT0 0,urban central solar thermal,368235.96758
+capital,Generator,LU0 0,load,0.0
+capital,Generator,LU0 0,onwind,14387431.56676
+capital,Generator,LU0 0,residential rural solar thermal,230056.79751
+capital,Generator,LU0 0,residential urban decentral solar thermal,431707.80399
+capital,Generator,LU0 0,services rural solar thermal,233609.27534
+capital,Generator,LU0 0,services urban decentral solar thermal,239702.7902
+capital,Generator,LU0 0,solar,172462082.10501
+capital,Generator,LU0 0,solar rooftop,36287751.86303
+capital,Generator,LU0 0,solar-hsat,3132821.16486
+capital,Generator,LU0 0,urban central solar thermal,375066.08469
+capital,Generator,LV0 0,load,0.0
+capital,Generator,LV0 0,offwind-ac,6790234.06028
+capital,Generator,LV0 0,offwind-dc,47064805.8465
+capital,Generator,LV0 0,onwind,14083738.18273
+capital,Generator,LV0 0,residential rural solar thermal,393973.24902
+capital,Generator,LV0 0,residential urban decentral solar thermal,413502.9441
+capital,Generator,LV0 0,ror,473380508.2809
+capital,Generator,LV0 0,services rural solar thermal,351081.84599
+capital,Generator,LV0 0,services urban decentral solar thermal,337975.98229
+capital,Generator,LV0 0,solar,536691409.79161
+capital,Generator,LV0 0,solar rooftop,72560596.07609
+capital,Generator,LV0 0,solar-hsat,4721788.35812
+capital,Generator,LV0 0,urban central solar thermal,396070.72087
+capital,Generator,ME0 0,load,0.0
+capital,Generator,ME0 0,offwind-ac,4728202.29216
+capital,Generator,ME0 0,offwind-dc,520829187.29042
+capital,Generator,ME0 0,onwind,11114980.85949
+capital,Generator,ME0 0,residential rural solar thermal,678607.28186
+capital,Generator,ME0 0,residential urban decentral solar thermal,856514.2473
+capital,Generator,ME0 0,ror,1651793.1934
+capital,Generator,ME0 0,services rural solar thermal,384998.86559
+capital,Generator,ME0 0,services urban decentral solar thermal,391120.52389
+capital,Generator,ME0 0,solar,256704304.02572
+capital,Generator,ME0 0,solar rooftop,8800813.4092
+capital,Generator,ME0 0,solar-hsat,6254644.74851
+capital,Generator,ME0 0,urban central solar thermal,1196553.91627
+capital,Generator,MK0 0,load,0.0
+capital,Generator,MK0 0,onwind,6873629.6824
+capital,Generator,MK0 0,residential rural solar thermal,873413.13598
+capital,Generator,MK0 0,residential urban decentral solar thermal,766187.93081
+capital,Generator,MK0 0,ror,59045443.2567
+capital,Generator,MK0 0,services rural solar thermal,427258.37055
+capital,Generator,MK0 0,services urban decentral solar thermal,427292.45581
+capital,Generator,MK0 0,solar,544950221.29422
+capital,Generator,MK0 0,solar rooftop,24721609.7366
+capital,Generator,MK0 0,solar-hsat,5951395.55196
+capital,Generator,MK0 0,urban central solar thermal,665674.65861
+capital,Generator,NL0 0,load,0.0
+capital,Generator,NL0 0,nuclear,45272916.41395
+capital,Generator,NL0 0,offwind-ac,1067399499.81026
+capital,Generator,NL0 0,offwind-dc,17832005.92791
+capital,Generator,NL0 0,onwind,4408737798.17736
+capital,Generator,NL0 0,residential rural solar thermal,279047.57972
+capital,Generator,NL0 0,residential urban decentral solar thermal,359500.18546
+capital,Generator,NL0 0,services rural solar thermal,357990.97059
+capital,Generator,NL0 0,services urban decentral solar thermal,331704.36966
+capital,Generator,NL0 0,solar,3457717347.60853
+capital,Generator,NL0 0,solar rooftop,108496286.30568
+capital,Generator,NL0 0,solar-hsat,5214895.01591
+capital,Generator,NL0 0,urban central solar thermal,400278.56914
+capital,Generator,NO1 0,load,0.0
+capital,Generator,NO1 0,offwind-ac,2919789715.61914
+capital,Generator,NO1 0,offwind-dc,95152524.95813
+capital,Generator,NO1 0,onwind,520424355.53851
+capital,Generator,NO1 0,residential rural solar thermal,224302.24463
+capital,Generator,NO1 0,residential urban decentral solar thermal,251248.99471
+capital,Generator,NO1 0,ror,340682346.13927
+capital,Generator,NO1 0,services rural solar thermal,213470.66572
+capital,Generator,NO1 0,services urban decentral solar thermal,234816.04245
+capital,Generator,NO1 0,solar,4917721.37597
+capital,Generator,NO1 0,solar rooftop,1050634.93544
+capital,Generator,NO1 0,solar-hsat,3806927.62973
+capital,Generator,NO1 0,urban central solar thermal,276099.08992
+capital,Generator,PL0 0,load,0.0
+capital,Generator,PL0 0,offwind-ac,1294755314.40387
+capital,Generator,PL0 0,offwind-dc,3584237910.46941
+capital,Generator,PL0 0,onwind,6385415924.66679
+capital,Generator,PL0 0,residential rural solar thermal,452419.96276
+capital,Generator,PL0 0,residential urban decentral solar thermal,460224.09048
+capital,Generator,PL0 0,ror,56210389.48212
+capital,Generator,PL0 0,services rural solar thermal,463965.61195
+capital,Generator,PL0 0,services urban decentral solar thermal,398579.63387
+capital,Generator,PL0 0,solar,1266529555.11659
+capital,Generator,PL0 0,solar rooftop,13531999.55968
+capital,Generator,PL0 0,solar-hsat,12550679.7137
+capital,Generator,PL0 0,urban central solar thermal,510393.32882
+capital,Generator,PT0 0,load,0.0
+capital,Generator,PT0 0,offwind-ac,13534085.70135
+capital,Generator,PT0 0,offwind-dc,11713631.79525
+capital,Generator,PT0 0,onwind,501512987.46422
+capital,Generator,PT0 0,residential rural solar thermal,716606.65895
+capital,Generator,PT0 0,residential urban decentral solar thermal,825807.55717
+capital,Generator,PT0 0,ror,788238177.25466
+capital,Generator,PT0 0,services rural solar thermal,704433.98781
+capital,Generator,PT0 0,services urban decentral solar thermal,682025.36253
+capital,Generator,PT0 0,solar,139559180.48024
+capital,Generator,PT0 0,solar rooftop,217429388.24646
+capital,Generator,PT0 0,solar-hsat,246264132.40341
+capital,Generator,PT0 0,urban central solar thermal,981750.28044
+capital,Generator,RO0 0,load,0.0
+capital,Generator,RO0 0,nuclear,980015003.93064
+capital,Generator,RO0 0,offwind-ac,308102747.92229
+capital,Generator,RO0 0,offwind-dc,4437847792.53463
+capital,Generator,RO0 0,onwind,518777836.86893
+capital,Generator,RO0 0,residential rural solar thermal,626150.5811
+capital,Generator,RO0 0,residential urban decentral solar thermal,650198.43679
+capital,Generator,RO0 0,ror,1085206556.13942
+capital,Generator,RO0 0,services rural solar thermal,511802.0902
+capital,Generator,RO0 0,services urban decentral solar thermal,491519.41545
+capital,Generator,RO0 0,solar,580614753.75966
+capital,Generator,RO0 0,solar rooftop,606939173.37367
+capital,Generator,RO0 0,solar-hsat,9264495.35105
+capital,Generator,RO0 0,urban central solar thermal,658205.36031
+capital,Generator,RS0 0,load,0.0
+capital,Generator,RS0 0,onwind,72770615.80082
+capital,Generator,RS0 0,residential rural solar thermal,545886.01162
+capital,Generator,RS0 0,residential urban decentral solar thermal,522241.65601
+capital,Generator,RS0 0,ror,526478263.35986
+capital,Generator,RS0 0,services rural solar thermal,424354.40551
+capital,Generator,RS0 0,services urban decentral solar thermal,423084.81285
+capital,Generator,RS0 0,solar,104549226.75773
+capital,Generator,RS0 0,solar rooftop,29959995.81482
+capital,Generator,RS0 0,solar-hsat,5925120.96683
+capital,Generator,RS0 0,urban central solar thermal,621387.03608
+capital,Generator,SE1 0,load,0.0
+capital,Generator,SE1 0,nuclear,7432150871.18787
+capital,Generator,SE1 0,offwind-ac,66255677.64022
+capital,Generator,SE1 0,offwind-dc,13815616501.88764
+capital,Generator,SE1 0,onwind,1561520971.92946
+capital,Generator,SE1 0,residential rural solar thermal,291636.88564
+capital,Generator,SE1 0,residential urban decentral solar thermal,355473.39065
+capital,Generator,SE1 0,ror,428664987.31771
+capital,Generator,SE1 0,services rural solar thermal,293055.06379
+capital,Generator,SE1 0,services urban decentral solar thermal,305061.93969
+capital,Generator,SE1 0,solar,32692995.24873
+capital,Generator,SE1 0,solar rooftop,11926800.43273
+capital,Generator,SE1 0,solar-hsat,5752382.05411
+capital,Generator,SE1 0,urban central solar thermal,381487.65925
+capital,Generator,SI0 0,load,0.0
+capital,Generator,SI0 0,nuclear,524648714.35731
+capital,Generator,SI0 0,offwind-ac,929785.65322
+capital,Generator,SI0 0,onwind,1037409.88112
+capital,Generator,SI0 0,residential rural solar thermal,442631.66735
+capital,Generator,SI0 0,residential urban decentral solar thermal,445310.86932
+capital,Generator,SI0 0,ror,155445758.14368
+capital,Generator,SI0 0,services rural solar thermal,342423.76056
+capital,Generator,SI0 0,services urban decentral solar thermal,334874.41785
+capital,Generator,SI0 0,solar,10856120.03417
+capital,Generator,SI0 0,solar rooftop,2060526.04042
+capital,Generator,SI0 0,solar-hsat,1280708.43353
+capital,Generator,SI0 0,urban central solar thermal,492593.0392
+capital,Generator,SK0 0,load,0.0
+capital,Generator,SK0 0,nuclear,1462389656.68451
+capital,Generator,SK0 0,onwind,4828281.86722
+capital,Generator,SK0 0,residential rural solar thermal,394902.1777
+capital,Generator,SK0 0,residential urban decentral solar thermal,398696.43004
+capital,Generator,SK0 0,ror,375255980.16312
+capital,Generator,SK0 0,services rural solar thermal,388383.68896
+capital,Generator,SK0 0,services urban decentral solar thermal,381663.64756
+capital,Generator,SK0 0,solar,45951755.53108
+capital,Generator,SK0 0,solar rooftop,150878702.9291
+capital,Generator,SK0 0,solar-hsat,7522758.51519
+capital,Generator,SK0 0,urban central solar thermal,427292.80069
+capital,Generator,XK0 0,load,0.0
+capital,Generator,XK0 0,onwind,12727901.60148
+capital,Generator,XK0 0,residential rural solar thermal,430728.87597
+capital,Generator,XK0 0,residential urban decentral solar thermal,431960.93573
+capital,Generator,XK0 0,ror,9306745.23148
+capital,Generator,XK0 0,services rural solar thermal,389151.12247
+capital,Generator,XK0 0,services urban decentral solar thermal,385489.67135
+capital,Generator,XK0 0,solar,6415912.24456
+capital,Generator,XK0 0,solar rooftop,7271453.0643
+capital,Generator,XK0 0,solar-hsat,3301333.12684
+capital,Generator,XK0 0,urban central solar thermal,653989.10105
+capital,Line,AL0 0,AC,124738026.88484
+capital,Line,AT0 0,AC,1094530661.19998
+capital,Line,BA0 0,AC,167219258.13404
+capital,Line,BE0 0,AC,540425525.11698
+capital,Line,BG0 0,AC,325222418.12137
+capital,Line,CH0 0,AC,1532653361.67629
+capital,Line,CZ0 0,AC,508017988.12118
+capital,Line,DE0 0,AC,1615816398.44021
+capital,Line,DE0 1,AC,196416003.9877
+capital,Line,DK1 0,AC,151623357.26274
+capital,Line,EE0 0,AC,77413223.67465
+capital,Line,ES0 0,AC,500891554.51887
+capital,Line,FI1 0,AC,268784644.91631
+capital,Line,FR0 0,AC,238098191.93883
+capital,Line,GB3 0,AC,47987813.78405
+capital,Line,GR0 0,AC,87156866.91429
+capital,Line,HR0 0,AC,260975672.78485
+capital,Line,HU0 0,AC,558644642.60849
+capital,Line,IT0 0,AC,44318492.68994
+capital,Line,LT0 0,AC,164406259.92711
+capital,Line,ME0 0,AC,59776999.78919
+capital,Line,MK0 0,AC,68507075.43211
+capital,Line,NO1 0,AC,128920353.32892
+capital,Line,PL0 0,AC,189479944.74225
+capital,Line,RO0 0,AC,110201282.7315
+capital,Line,RS0 0,AC,34817841.30737
+capital,Link,AL0 0,BEV charger,0.0
+capital,Link,AL0 0,Fischer-Tropsch,5662383.02289
+capital,Link,AL0 0,H2 Electrolysis,12263230.15069
+capital,Link,AL0 0,H2 pipeline,20654385.59144
+capital,Link,AL0 0,battery charger,6545815.75189
+capital,Link,AL0 0,battery discharger,0.0
+capital,Link,AL0 0,electricity distribution grid,60940915.4082
+capital,Link,AL0 0,home battery charger,2276222.29565
+capital,Link,AL0 0,home battery discharger,0.0
+capital,Link,AL0 0,methanolisation,2861766.89435
+capital,Link,AL0 0,residential rural air heat pump,8660211.7216
+capital,Link,AL0 0,residential rural ground heat pump,30537431.76801
+capital,Link,AL0 0,residential urban decentral air heat pump,19791955.53093
+capital,Link,AL0 0,services rural air heat pump,5705441.79986
+capital,Link,AL0 0,services rural ground heat pump,14818154.12821
+capital,Link,AL0 0,services urban decentral air heat pump,10153118.64092
+capital,Link,AL0 0,urban central air heat pump,40371230.73425
+capital,Link,AT0 0,BEV charger,0.0
+capital,Link,AT0 0,Fischer-Tropsch,2463440.46131
+capital,Link,AT0 0,H2 Electrolysis,3963048.5435
+capital,Link,AT0 0,H2 pipeline,65125906.79222
+capital,Link,AT0 0,battery charger,222423096.66807
+capital,Link,AT0 0,battery discharger,0.0
+capital,Link,AT0 0,electricity distribution grid,1053526202.06401
+capital,Link,AT0 0,home battery charger,8409654.24163
+capital,Link,AT0 0,home battery discharger,0.0
+capital,Link,AT0 0,methanolisation,1072422.58865
+capital,Link,AT0 0,residential rural air heat pump,118360250.17994
+capital,Link,AT0 0,residential rural ground heat pump,715255290.45053
+capital,Link,AT0 0,residential urban decentral air heat pump,364491699.84247
+capital,Link,AT0 0,services rural air heat pump,41335844.67673
+capital,Link,AT0 0,services rural ground heat pump,298683633.10514
+capital,Link,AT0 0,services urban decentral air heat pump,124824037.54241
+capital,Link,AT0 0,urban central air heat pump,550359674.97818
+capital,Link,BA0 0,BEV charger,0.0
+capital,Link,BA0 0,Fischer-Tropsch,1923682.46829
+capital,Link,BA0 0,H2 Electrolysis,4514155.26866
+capital,Link,BA0 0,H2 pipeline,10239547.11279
+capital,Link,BA0 0,battery charger,2892366.52186
+capital,Link,BA0 0,battery discharger,0.0
+capital,Link,BA0 0,electricity distribution grid,151015050.79264
+capital,Link,BA0 0,home battery charger,3232849.61331
+capital,Link,BA0 0,home battery discharger,0.0
+capital,Link,BA0 0,methanolisation,1316907.29496
+capital,Link,BA0 0,residential rural air heat pump,36988776.20172
+capital,Link,BA0 0,residential rural ground heat pump,142265149.84535
+capital,Link,BA0 0,residential urban decentral air heat pump,56728561.48311
+capital,Link,BA0 0,services rural air heat pump,12191411.38104
+capital,Link,BA0 0,services rural ground heat pump,40849812.26662
+capital,Link,BA0 0,services urban decentral air heat pump,16757683.50613
+capital,Link,BA0 0,urban central air heat pump,100354502.6423
+capital,Link,BE0 0,BEV charger,0.0
+capital,Link,BE0 0,DC,343418803.67184
+capital,Link,BE0 0,Fischer-Tropsch,53042424.29507
+capital,Link,BE0 0,H2 Electrolysis,9339474.82248
+capital,Link,BE0 0,H2 pipeline,282599797.01339
+capital,Link,BE0 0,battery charger,52742811.16075
+capital,Link,BE0 0,battery discharger,0.0
+capital,Link,BE0 0,electricity distribution grid,1643449343.82004
+capital,Link,BE0 0,home battery charger,27012493.1841
+capital,Link,BE0 0,home battery discharger,0.0
+capital,Link,BE0 0,methanolisation,1282755.50092
+capital,Link,BE0 0,residential rural air heat pump,11671052.07347
+capital,Link,BE0 0,residential rural ground heat pump,127770950.77127
+capital,Link,BE0 0,residential urban decentral air heat pump,894917655.18795
+capital,Link,BE0 0,services rural air heat pump,7211606.17963
+capital,Link,BE0 0,services rural ground heat pump,156365798.85722
+capital,Link,BE0 0,services urban decentral air heat pump,421207931.94756
+capital,Link,BE0 0,urban central air heat pump,1255978758.54435
+capital,Link,BG0 0,BEV charger,0.0
+capital,Link,BG0 0,Fischer-Tropsch,4051508.06847
+capital,Link,BG0 0,H2 Electrolysis,32026620.35182
+capital,Link,BG0 0,H2 pipeline,19466373.48836
+capital,Link,BG0 0,battery charger,5480215.32056
+capital,Link,BG0 0,battery discharger,0.0
+capital,Link,BG0 0,electricity distribution grid,432707576.58148
+capital,Link,BG0 0,home battery charger,5455287.7137
+capital,Link,BG0 0,home battery discharger,0.0
+capital,Link,BG0 0,methanolisation,4020573.73247
+capital,Link,BG0 0,residential rural air heat pump,31903814.99055
+capital,Link,BG0 0,residential rural ground heat pump,114440213.92522
+capital,Link,BG0 0,residential urban decentral air heat pump,144873422.34877
+capital,Link,BG0 0,services rural air heat pump,14907911.69127
+capital,Link,BG0 0,services rural ground heat pump,65443064.17115
+capital,Link,BG0 0,services urban decentral air heat pump,60240188.70086
+capital,Link,BG0 0,urban central air heat pump,284324547.04807
+capital,Link,CH0 0,BEV charger,0.0
+capital,Link,CH0 0,DC,0.0
+capital,Link,CH0 0,Fischer-Tropsch,175668438.34976
+capital,Link,CH0 0,H2 Electrolysis,1354423293.73196
+capital,Link,CH0 0,H2 pipeline,79907701.70692
+capital,Link,CH0 0,battery charger,49357754.29778
+capital,Link,CH0 0,battery discharger,0.0
+capital,Link,CH0 0,electricity distribution grid,807641025.96297
+capital,Link,CH0 0,home battery charger,3779965.13372
+capital,Link,CH0 0,home battery discharger,0.0
+capital,Link,CH0 0,methanolisation,3781946.33482
+capital,Link,CH0 0,residential rural air heat pump,47532267.99116
+capital,Link,CH0 0,residential rural ground heat pump,287239580.30356
+capital,Link,CH0 0,residential urban decentral air heat pump,406901606.75716
+capital,Link,CH0 0,services rural air heat pump,30401532.53507
+capital,Link,CH0 0,services rural ground heat pump,129147195.49823
+capital,Link,CH0 0,services urban decentral air heat pump,196900798.09932
+capital,Link,CH0 0,urban central air heat pump,781027744.82859
+capital,Link,CZ0 0,BEV charger,0.0
+capital,Link,CZ0 0,Fischer-Tropsch,1884783.11214
+capital,Link,CZ0 0,H2 Electrolysis,2476834.04866
+capital,Link,CZ0 0,H2 pipeline,20453096.95972
+capital,Link,CZ0 0,battery charger,23593976.2056
+capital,Link,CZ0 0,battery discharger,0.0
+capital,Link,CZ0 0,electricity distribution grid,1054324218.2764
+capital,Link,CZ0 0,home battery charger,28323183.92351
+capital,Link,CZ0 0,home battery discharger,0.0
+capital,Link,CZ0 0,methanolisation,579555.41398
+capital,Link,CZ0 0,residential rural air heat pump,84161597.63018
+capital,Link,CZ0 0,residential rural ground heat pump,557258044.96815
+capital,Link,CZ0 0,residential urban decentral air heat pump,545728803.05517
+capital,Link,CZ0 0,services rural air heat pump,30722217.50316
+capital,Link,CZ0 0,services rural ground heat pump,258724378.25192
+capital,Link,CZ0 0,services urban decentral air heat pump,189360020.66771
+capital,Link,CZ0 0,urban central air heat pump,463009019.29691
+capital,Link,DE0 0,BEV charger,0.0
+capital,Link,DE0 0,DC,1556781193.18211
+capital,Link,DE0 0,Fischer-Tropsch,3682121.11265
+capital,Link,DE0 0,H2 Electrolysis,4077423.92329
+capital,Link,DE0 0,H2 pipeline,141173718.97591
+capital,Link,DE0 0,battery charger,39912398.83303
+capital,Link,DE0 0,battery discharger,0.0
+capital,Link,DE0 0,electricity distribution grid,6074783306.5863
+capital,Link,DE0 0,home battery charger,131074612.76511
+capital,Link,DE0 0,home battery discharger,0.0
+capital,Link,DE0 0,methanolisation,667880.0363
+capital,Link,DE0 0,residential rural air heat pump,79920229.1265
+capital,Link,DE0 0,residential rural ground heat pump,1579516419.12333
+capital,Link,DE0 0,residential urban decentral air heat pump,3440084476.31865
+capital,Link,DE0 0,services rural air heat pump,40074721.27343
+capital,Link,DE0 0,services rural ground heat pump,869148003.57651
+capital,Link,DE0 0,services urban decentral air heat pump,1386354300.40807
+capital,Link,DE0 0,urban central air heat pump,4506576096.18484
+capital,Link,DE0 1,BEV charger,0.0
+capital,Link,DE0 1,DC,0.0
+capital,Link,DE0 1,Fischer-Tropsch,2396642.13744
+capital,Link,DE0 1,H2 Electrolysis,4624525.40893
+capital,Link,DE0 1,H2 pipeline,31684134.06847
+capital,Link,DE0 1,battery charger,113783405.83112
+capital,Link,DE0 1,battery discharger,0.0
+capital,Link,DE0 1,electricity distribution grid,3388798765.69255
+capital,Link,DE0 1,home battery charger,71106163.71829
+capital,Link,DE0 1,home battery discharger,0.0
+capital,Link,DE0 1,methanolisation,657189.88387
+capital,Link,DE0 1,residential rural air heat pump,248578250.47027
+capital,Link,DE0 1,residential rural ground heat pump,2662649519.18072
+capital,Link,DE0 1,residential urban decentral air heat pump,1487722016.54755
+capital,Link,DE0 1,services rural air heat pump,118119033.83327
+capital,Link,DE0 1,services rural ground heat pump,1194906279.82562
+capital,Link,DE0 1,services urban decentral air heat pump,601465073.84425
+capital,Link,DE0 1,urban central air heat pump,1769313918.01207
+capital,Link,DK0 0,BEV charger,0.0
+capital,Link,DK0 0,DC,1226449409.96983
+capital,Link,DK0 0,Fischer-Tropsch,172976390.93444
+capital,Link,DK0 0,H2 Electrolysis,1585573797.69911
+capital,Link,DK0 0,H2 pipeline,135971722.96331
+capital,Link,DK0 0,battery charger,35099862.0365
+capital,Link,DK0 0,battery discharger,0.0
+capital,Link,DK0 0,electricity distribution grid,483205754.12772
+capital,Link,DK0 0,home battery charger,7522968.78359
+capital,Link,DK0 0,home battery discharger,0.0
+capital,Link,DK0 0,methanolisation,2147306.92352
+capital,Link,DK0 0,residential rural air heat pump,7192183.88973
+capital,Link,DK0 0,residential rural ground heat pump,88944981.23463
+capital,Link,DK0 0,residential urban decentral air heat pump,313488119.67885
+capital,Link,DK0 0,services rural air heat pump,3412017.90885
+capital,Link,DK0 0,services rural ground heat pump,69892820.71998
+capital,Link,DK0 0,services urban decentral air heat pump,94665106.56543
+capital,Link,DK0 0,urban central air heat pump,562031644.29545
+capital,Link,DK1 0,BEV charger,0.0
+capital,Link,DK1 0,DC,883704668.6461
+capital,Link,DK1 0,Fischer-Tropsch,109769815.65546
+capital,Link,DK1 0,H2 Electrolysis,620163722.00561
+capital,Link,DK1 0,H2 pipeline,9316334.97973
+capital,Link,DK1 0,battery charger,94918743.80241
+capital,Link,DK1 0,battery discharger,0.0
+capital,Link,DK1 0,electricity distribution grid,288705961.7433
+capital,Link,DK1 0,home battery charger,7475437.85657
+capital,Link,DK1 0,home battery discharger,0.0
+capital,Link,DK1 0,methanolisation,2020176.29604
+capital,Link,DK1 0,residential rural air heat pump,4311628.41302
+capital,Link,DK1 0,residential rural ground heat pump,37377697.56389
+capital,Link,DK1 0,residential urban decentral air heat pump,185200172.22641
+capital,Link,DK1 0,services rural air heat pump,1940393.93771
+capital,Link,DK1 0,services rural ground heat pump,36259708.74376
+capital,Link,DK1 0,services urban decentral air heat pump,55925721.33535
+capital,Link,DK1 0,urban central air heat pump,326670054.65117
+capital,Link,EE0 0,BEV charger,0.0
+capital,Link,EE0 0,DC,206272323.89765
+capital,Link,EE0 0,Fischer-Tropsch,8340526.87614
+capital,Link,EE0 0,H2 Electrolysis,304931758.82751
+capital,Link,EE0 0,H2 pipeline,16630374.31481
+capital,Link,EE0 0,battery charger,12061531.54429
+capital,Link,EE0 0,battery discharger,0.0
+capital,Link,EE0 0,electricity distribution grid,135875698.10969
+capital,Link,EE0 0,home battery charger,4949022.9183
+capital,Link,EE0 0,home battery discharger,0.0
+capital,Link,EE0 0,methanolisation,1595214.72611
+capital,Link,EE0 0,residential rural air heat pump,21391085.27925
+capital,Link,EE0 0,residential rural ground heat pump,77335493.36596
+capital,Link,EE0 0,residential urban decentral air heat pump,76512391.0658
+capital,Link,EE0 0,services rural air heat pump,8471983.79915
+capital,Link,EE0 0,services rural ground heat pump,40730610.11508
+capital,Link,EE0 0,services urban decentral air heat pump,29231819.48225
+capital,Link,EE0 0,urban central air heat pump,76978607.32874
+capital,Link,ES0 0,BEV charger,0.0
+capital,Link,ES0 0,DC,326547012.62337
+capital,Link,ES0 0,Fischer-Tropsch,13372129.9686
+capital,Link,ES0 0,H2 Electrolysis,5630447893.38975
+capital,Link,ES0 0,H2 pipeline,414781397.13706
+capital,Link,ES0 0,battery charger,848818902.38848
+capital,Link,ES0 0,battery discharger,0.0
+capital,Link,ES0 0,electricity distribution grid,2867854821.97527
+capital,Link,ES0 0,home battery charger,82514027.25023
+capital,Link,ES0 0,home battery discharger,0.0
+capital,Link,ES0 0,methanolisation,2626223764.58688
+capital,Link,ES0 0,residential rural air heat pump,138258810.61774
+capital,Link,ES0 0,residential rural ground heat pump,377990262.39601
+capital,Link,ES0 0,residential urban decentral air heat pump,706361073.92499
+capital,Link,ES0 0,services rural air heat pump,75100283.8407
+capital,Link,ES0 0,services rural ground heat pump,447794296.67558
+capital,Link,ES0 0,services urban decentral air heat pump,334085847.94684
+capital,Link,ES0 0,urban central air heat pump,1264184510.09427
+capital,Link,ES6 0,BEV charger,0.0
+capital,Link,ES6 0,DC,0.0
+capital,Link,ES6 0,Fischer-Tropsch,381152.70764
+capital,Link,ES6 0,H2 Electrolysis,154528477.33837
+capital,Link,ES6 0,H2 pipeline,0.0
+capital,Link,ES6 0,battery charger,3212780.40319
+capital,Link,ES6 0,battery discharger,0.0
+capital,Link,ES6 0,electricity distribution grid,84489806.44561
+capital,Link,ES6 0,home battery charger,3475643.83975
+capital,Link,ES6 0,home battery discharger,0.0
+capital,Link,ES6 0,methanolisation,1264161.63497
+capital,Link,ES6 0,residential rural air heat pump,4595653.46258
+capital,Link,ES6 0,residential rural ground heat pump,3514309.51889
+capital,Link,ES6 0,residential urban decentral air heat pump,33266377.72333
+capital,Link,ES6 0,services rural air heat pump,2979413.13267
+capital,Link,ES6 0,services rural ground heat pump,5378811.11659
+capital,Link,ES6 0,services urban decentral air heat pump,15928424.22563
+capital,Link,ES6 0,urban central air heat pump,64161118.64669
+capital,Link,EU,CCGT,26672954.51339
+capital,Link,EU,HVC to air,0.0
+capital,Link,EU,agriculture machinery oil,0.0
+capital,Link,EU,co2 sequestered,0.0
+capital,Link,EU,gas for industry,0.0
+capital,Link,EU,gas for industry CC,1211951058.69489
+capital,Link,EU,industry methanol,0.0
+capital,Link,EU,kerosene for aviation,0.0
+capital,Link,EU,naphtha for industry,0.0
+capital,Link,EU,oil refining,0.0
+capital,Link,EU,process emissions,0.0
+capital,Link,EU,process emissions CC,3186808505.33996
+capital,Link,EU,shipping methanol,0.0
+capital,Link,EU,solid biomass for industry,0.0
+capital,Link,EU,solid biomass for industry CC,7255276393.82476
+capital,Link,EU,waste CHP,26723934.71796
+capital,Link,EU,waste CHP CC,31246533715.06656
+capital,Link,FI1 0,BEV charger,0.0
+capital,Link,FI1 0,DC,47400946.0375
+capital,Link,FI1 0,Fischer-Tropsch,438348618.62343
+capital,Link,FI1 0,H2 Electrolysis,1693816352.70565
+capital,Link,FI1 0,H2 pipeline,25855687.56416
+capital,Link,FI1 0,battery charger,66069214.31099
+capital,Link,FI1 0,battery discharger,0.0
+capital,Link,FI1 0,electricity distribution grid,1132425909.286
+capital,Link,FI1 0,home battery charger,24685891.79838
+capital,Link,FI1 0,home battery discharger,0.0
+capital,Link,FI1 0,methanolisation,2125696.75026
+capital,Link,FI1 0,residential rural air heat pump,30144901.26291
+capital,Link,FI1 0,residential rural ground heat pump,264802184.62243
+capital,Link,FI1 0,residential urban decentral air heat pump,549928104.82554
+capital,Link,FI1 0,services rural air heat pump,13586821.94823
+capital,Link,FI1 0,services rural ground heat pump,192499483.23815
+capital,Link,FI1 0,services urban decentral air heat pump,213682838.53467
+capital,Link,FI1 0,urban central air heat pump,810146065.47218
+capital,Link,FR0 0,BEV charger,0.0
+capital,Link,FR0 0,DC,2296310084.17959
+capital,Link,FR0 0,Fischer-Tropsch,2484850240.49813
+capital,Link,FR0 0,H2 Electrolysis,9125916600.31092
+capital,Link,FR0 0,H2 pipeline,118892485.03019
+capital,Link,FR0 0,battery charger,3372128.60987
+capital,Link,FR0 0,battery discharger,0.0
+capital,Link,FR0 0,electricity distribution grid,7486101005.11982
+capital,Link,FR0 0,home battery charger,132415088.73127
+capital,Link,FR0 0,home battery discharger,0.0
+capital,Link,FR0 0,methanolisation,5419730.21238
+capital,Link,FR0 0,residential rural air heat pump,707300409.66367
+capital,Link,FR0 0,residential rural ground heat pump,2480047874.59805
+capital,Link,FR0 0,residential urban decentral air heat pump,4391929047.41234
+capital,Link,FR0 0,services rural air heat pump,285142542.69897
+capital,Link,FR0 0,services rural ground heat pump,1352231804.92021
+capital,Link,FR0 0,services urban decentral air heat pump,1639515729.21957
+capital,Link,FR0 0,urban central air heat pump,8036879004.43412
+capital,Link,FR5 0,BEV charger,0.0
+capital,Link,FR5 0,DC,57495227.84963
+capital,Link,FR5 0,Fischer-Tropsch,8405846.90416
+capital,Link,FR5 0,H2 Electrolysis,447822132.20415
+capital,Link,FR5 0,H2 pipeline,16051519.38589
+capital,Link,FR5 0,battery charger,20037530.35214
+capital,Link,FR5 0,battery discharger,0.0
+capital,Link,FR5 0,electricity distribution grid,49721880.6678
+capital,Link,FR5 0,home battery charger,2513982.09131
+capital,Link,FR5 0,home battery discharger,0.0
+capital,Link,FR5 0,methanolisation,94301470.74558
+capital,Link,FR5 0,residential rural air heat pump,27116723.03044
+capital,Link,FR5 0,residential rural ground heat pump,58524823.27872
+capital,Link,FR5 0,residential urban decentral air heat pump,0.0
+capital,Link,FR5 0,services rural air heat pump,10710640.03649
+capital,Link,FR5 0,services rural ground heat pump,23132208.47213
+capital,Link,FR5 0,services urban decentral air heat pump,111499.45666
+capital,Link,GB2 0,BEV charger,0.0
+capital,Link,GB2 0,DC,9328495690.00775
+capital,Link,GB2 0,Fischer-Tropsch,2143432501.4289
+capital,Link,GB2 0,H2 Electrolysis,12570283603.36284
+capital,Link,GB2 0,H2 pipeline,237722822.0562
+capital,Link,GB2 0,battery charger,95203326.91556
+capital,Link,GB2 0,battery discharger,0.0
+capital,Link,GB2 0,electricity distribution grid,5309493296.26704
+capital,Link,GB2 0,home battery charger,92434433.80811
+capital,Link,GB2 0,home battery discharger,0.0
+capital,Link,GB2 0,methanolisation,1504469226.7304
+capital,Link,GB2 0,residential rural air heat pump,169714447.12462
+capital,Link,GB2 0,residential rural ground heat pump,1201574910.83199
+capital,Link,GB2 0,residential urban decentral air heat pump,2626045462.98359
+capital,Link,GB2 0,services rural air heat pump,65215069.31504
+capital,Link,GB2 0,services rural ground heat pump,444229217.39784
+capital,Link,GB2 0,services urban decentral air heat pump,940975320.10171
+capital,Link,GB2 0,urban central air heat pump,4993160914.71626
+capital,Link,GB3 0,BEV charger,0.0
+capital,Link,GB3 0,DC,700226548.15201
+capital,Link,GB3 0,Fischer-Tropsch,765668.65096
+capital,Link,GB3 0,H2 Electrolysis,367333248.87516
+capital,Link,GB3 0,H2 pipeline,8910382.53915
+capital,Link,GB3 0,battery charger,20908373.63121
+capital,Link,GB3 0,battery discharger,0.0
+capital,Link,GB3 0,electricity distribution grid,150388845.72815
+capital,Link,GB3 0,home battery charger,3178539.7665
+capital,Link,GB3 0,home battery discharger,0.0
+capital,Link,GB3 0,methanolisation,22445737.19333
+capital,Link,GB3 0,residential rural air heat pump,37116516.02222
+capital,Link,GB3 0,residential rural ground heat pump,124840347.322
+capital,Link,GB3 0,residential urban decentral air heat pump,29594234.47779
+capital,Link,GB3 0,services rural air heat pump,12722188.78513
+capital,Link,GB3 0,services rural ground heat pump,45974277.9552
+capital,Link,GB3 0,services urban decentral air heat pump,10570116.99704
+capital,Link,GB3 0,urban central air heat pump,50186946.60794
+capital,Link,GR0 0,BEV charger,0.0
+capital,Link,GR0 0,DC,0.0
+capital,Link,GR0 0,Fischer-Tropsch,1680997.97408
+capital,Link,GR0 0,H2 Electrolysis,1523682992.86192
+capital,Link,GR0 0,H2 pipeline,51655916.07115
+capital,Link,GR0 0,battery charger,368878876.92658
+capital,Link,GR0 0,battery discharger,0.0
+capital,Link,GR0 0,electricity distribution grid,610677924.84327
+capital,Link,GR0 0,home battery charger,5553243.95236
+capital,Link,GR0 0,home battery discharger,0.0
+capital,Link,GR0 0,methanolisation,364838605.80785
+capital,Link,GR0 0,residential rural air heat pump,69523737.20279
+capital,Link,GR0 0,residential rural ground heat pump,123150020.57543
+capital,Link,GR0 0,residential urban decentral air heat pump,290546769.97246
+capital,Link,GR0 0,services rural air heat pump,39648309.19674
+capital,Link,GR0 0,services rural ground heat pump,117997302.53846
+capital,Link,GR0 0,services urban decentral air heat pump,152429872.2524
+capital,Link,GR0 0,urban central air heat pump,576245950.0288
+capital,Link,HR0 0,BEV charger,0.0
+capital,Link,HR0 0,Fischer-Tropsch,1391122.64869
+capital,Link,HR0 0,H2 Electrolysis,3191495.40822
+capital,Link,HR0 0,H2 pipeline,11163508.7557
+capital,Link,HR0 0,battery charger,3744251.89544
+capital,Link,HR0 0,battery discharger,0.0
+capital,Link,HR0 0,electricity distribution grid,300925835.36228
+capital,Link,HR0 0,home battery charger,7141594.45218
+capital,Link,HR0 0,home battery discharger,0.0
+capital,Link,HR0 0,methanolisation,1069068.46004
+capital,Link,HR0 0,residential rural air heat pump,67322727.20205
+capital,Link,HR0 0,residential rural ground heat pump,239279037.73014
+capital,Link,HR0 0,residential urban decentral air heat pump,138471907.11203
+capital,Link,HR0 0,services rural air heat pump,15171174.60238
+capital,Link,HR0 0,services rural ground heat pump,78083932.88219
+capital,Link,HR0 0,services urban decentral air heat pump,30308300.91008
+capital,Link,HR0 0,urban central air heat pump,234767574.49187
+capital,Link,HU0 0,BEV charger,0.0
+capital,Link,HU0 0,Fischer-Tropsch,1611468.91789
+capital,Link,HU0 0,H2 Electrolysis,3503580.86241
+capital,Link,HU0 0,H2 pipeline,32431178.5233
+capital,Link,HU0 0,battery charger,27638702.4409
+capital,Link,HU0 0,battery discharger,0.0
+capital,Link,HU0 0,electricity distribution grid,823341158.96733
+capital,Link,HU0 0,home battery charger,15999414.14981
+capital,Link,HU0 0,home battery discharger,0.0
+capital,Link,HU0 0,methanolisation,954490.16009
+capital,Link,HU0 0,residential rural air heat pump,68361614.94693
+capital,Link,HU0 0,residential rural ground heat pump,500810457.91644
+capital,Link,HU0 0,residential urban decentral air heat pump,427550318.94083
+capital,Link,HU0 0,services rural air heat pump,27919657.25502
+capital,Link,HU0 0,services rural ground heat pump,237282353.51784
+capital,Link,HU0 0,services urban decentral air heat pump,146213514.10641
+capital,Link,HU0 0,urban central air heat pump,793217458.93243
+capital,Link,IE3 0,BEV charger,0.0
+capital,Link,IE3 0,DC,1281912238.91293
+capital,Link,IE3 0,Fischer-Tropsch,928146.03034
+capital,Link,IE3 0,H2 Electrolysis,2127569275.89928
+capital,Link,IE3 0,H2 pipeline,0.0
+capital,Link,IE3 0,battery charger,17462807.04393
+capital,Link,IE3 0,battery discharger,0.0
+capital,Link,IE3 0,electricity distribution grid,421258645.91442
+capital,Link,IE3 0,home battery charger,5568136.88202
+capital,Link,IE3 0,home battery discharger,0.0
+capital,Link,IE3 0,methanolisation,26529687.33881
+capital,Link,IE3 0,residential rural air heat pump,67539107.33238
+capital,Link,IE3 0,residential rural ground heat pump,189094949.60319
+capital,Link,IE3 0,residential urban decentral air heat pump,160609970.09765
+capital,Link,IE3 0,services rural air heat pump,28792574.9492
+capital,Link,IE3 0,services rural ground heat pump,105276124.56894
+capital,Link,IE3 0,services urban decentral air heat pump,68992724.13853
+capital,Link,IE3 0,urban central air heat pump,279818308.89293
+capital,Link,IT0 0,BEV charger,0.0
+capital,Link,IT0 0,DC,1533599859.38163
+capital,Link,IT0 0,Fischer-Tropsch,106963150.70965
+capital,Link,IT0 0,H2 Electrolysis,783007327.48572
+capital,Link,IT0 0,H2 pipeline,29702152.449
+capital,Link,IT0 0,battery charger,375686017.04995
+capital,Link,IT0 0,battery discharger,0.0
+capital,Link,IT0 0,electricity distribution grid,4693517949.02545
+capital,Link,IT0 0,home battery charger,89628877.98756
+capital,Link,IT0 0,home battery discharger,0.0
+capital,Link,IT0 0,methanolisation,5791993.77897
+capital,Link,IT0 0,residential rural air heat pump,736109795.37693
+capital,Link,IT0 0,residential rural ground heat pump,2056244082.15596
+capital,Link,IT0 0,residential urban decentral air heat pump,2543635083.6636
+capital,Link,IT0 0,services rural air heat pump,461423802.34367
+capital,Link,IT0 0,services rural ground heat pump,1401919552.05559
+capital,Link,IT0 0,services urban decentral air heat pump,1459772045.18997
+capital,Link,IT0 0,urban central air heat pump,5420105970.18154
+capital,Link,IT4 0,BEV charger,0.0
+capital,Link,IT4 0,DC,457902158.76775
+capital,Link,IT4 0,Fischer-Tropsch,504299.17149
+capital,Link,IT4 0,H2 Electrolysis,145057535.54098
+capital,Link,IT4 0,H2 pipeline,0.0
+capital,Link,IT4 0,battery charger,70160758.43046
+capital,Link,IT4 0,battery discharger,0.0
+capital,Link,IT4 0,electricity distribution grid,144732747.95336
+capital,Link,IT4 0,home battery charger,4588195.31079
+capital,Link,IT4 0,home battery discharger,0.0
+capital,Link,IT4 0,methanolisation,1352172.34157
+capital,Link,IT4 0,residential rural air heat pump,102289870.8135
+capital,Link,IT4 0,residential rural ground heat pump,177492216.52553
+capital,Link,IT4 0,residential urban decentral air heat pump,26700995.29116
+capital,Link,IT4 0,services rural air heat pump,66336057.05891
+capital,Link,IT4 0,services rural ground heat pump,99866965.33645
+capital,Link,IT4 0,services urban decentral air heat pump,15750577.30858
+capital,Link,IT4 0,urban central air heat pump,54736081.68684
+capital,Link,LT0 0,BEV charger,0.0
+capital,Link,LT0 0,DC,91476153.59053
+capital,Link,LT0 0,Fischer-Tropsch,1595293.08625
+capital,Link,LT0 0,H2 Electrolysis,61049942.84915
+capital,Link,LT0 0,H2 pipeline,28983259.71119
+capital,Link,LT0 0,battery charger,6046893.37472
+capital,Link,LT0 0,battery discharger,0.0
+capital,Link,LT0 0,electricity distribution grid,218079115.67455
+capital,Link,LT0 0,home battery charger,6196440.92543
+capital,Link,LT0 0,home battery discharger,0.0
+capital,Link,LT0 0,methanolisation,863413.89262
+capital,Link,LT0 0,residential rural air heat pump,16906867.63187
+capital,Link,LT0 0,residential rural ground heat pump,149980059.64523
+capital,Link,LT0 0,residential urban decentral air heat pump,114838684.01786
+capital,Link,LT0 0,services rural air heat pump,6874732.60666
+capital,Link,LT0 0,services rural ground heat pump,51676563.53412
+capital,Link,LT0 0,services urban decentral air heat pump,31633601.4337
+capital,Link,LT0 0,urban central air heat pump,96127837.7866
+capital,Link,LU0 0,BEV charger,0.0
+capital,Link,LU0 0,Fischer-Tropsch,7569622.10504
+capital,Link,LU0 0,H2 Electrolysis,2569882.0813
+capital,Link,LU0 0,H2 pipeline,0.0
+capital,Link,LU0 0,battery charger,10158743.46157
+capital,Link,LU0 0,battery discharger,0.0
+capital,Link,LU0 0,electricity distribution grid,100830756.54818
+capital,Link,LU0 0,home battery charger,3956916.48491
+capital,Link,LU0 0,home battery discharger,0.0
+capital,Link,LU0 0,methanolisation,817992.37762
+capital,Link,LU0 0,residential rural air heat pump,1341700.13412
+capital,Link,LU0 0,residential rural ground heat pump,11336954.87451
+capital,Link,LU0 0,residential urban decentral air heat pump,43370291.67798
+capital,Link,LU0 0,services rural air heat pump,1299550.06479
+capital,Link,LU0 0,services rural ground heat pump,9751871.67524
+capital,Link,LU0 0,services urban decentral air heat pump,29842155.07208
+capital,Link,LU0 0,urban central air heat pump,71469750.89702
+capital,Link,LV0 0,BEV charger,0.0
+capital,Link,LV0 0,Fischer-Tropsch,7215886.83438
+capital,Link,LV0 0,H2 Electrolysis,31187843.65107
+capital,Link,LV0 0,H2 pipeline,0.0
+capital,Link,LV0 0,battery charger,12465339.72783
+capital,Link,LV0 0,battery discharger,0.0
+capital,Link,LV0 0,electricity distribution grid,163268932.75388
+capital,Link,LV0 0,home battery charger,3946862.33471
+capital,Link,LV0 0,home battery discharger,0.0
+capital,Link,LV0 0,methanolisation,1047856.80116
+capital,Link,LV0 0,residential rural air heat pump,19194818.44959
+capital,Link,LV0 0,residential rural ground heat pump,122040736.73593
+capital,Link,LV0 0,residential urban decentral air heat pump,91084679.31563
+capital,Link,LV0 0,services rural air heat pump,12212776.22827
+capital,Link,LV0 0,services rural ground heat pump,73299421.91522
+capital,Link,LV0 0,services urban decentral air heat pump,41483048.97779
+capital,Link,LV0 0,urban central air heat pump,82015547.79947
+capital,Link,ME0 0,BEV charger,0.0
+capital,Link,ME0 0,DC,0.0
+capital,Link,ME0 0,Fischer-Tropsch,2555841.61522
+capital,Link,ME0 0,H2 Electrolysis,6027157.40032
+capital,Link,ME0 0,H2 pipeline,5134685.13242
+capital,Link,ME0 0,battery charger,5975817.84458
+capital,Link,ME0 0,battery discharger,0.0
+capital,Link,ME0 0,electricity distribution grid,32240156.17098
+capital,Link,ME0 0,home battery charger,2264777.3172
+capital,Link,ME0 0,home battery discharger,0.0
+capital,Link,ME0 0,methanolisation,1864761.14188
+capital,Link,ME0 0,residential rural air heat pump,3841685.07091
+capital,Link,ME0 0,residential rural ground heat pump,14676746.31459
+capital,Link,ME0 0,residential urban decentral air heat pump,10804121.93324
+capital,Link,ME0 0,services rural air heat pump,887697.75567
+capital,Link,ME0 0,services rural ground heat pump,1532237.90821
+capital,Link,ME0 0,services urban decentral air heat pump,1016246.92207
+capital,Link,ME0 0,urban central air heat pump,15504472.56768
+capital,Link,MK0 0,BEV charger,0.0
+capital,Link,MK0 0,Fischer-Tropsch,5689870.6108
+capital,Link,MK0 0,H2 Electrolysis,24922489.91387
+capital,Link,MK0 0,H2 pipeline,6976720.49009
+capital,Link,MK0 0,battery charger,24735767.30399
+capital,Link,MK0 0,battery discharger,0.0
+capital,Link,MK0 0,electricity distribution grid,84015063.41701
+capital,Link,MK0 0,home battery charger,3346048.36442
+capital,Link,MK0 0,home battery discharger,0.0
+capital,Link,MK0 0,methanolisation,4029389.79405
+capital,Link,MK0 0,residential rural air heat pump,13003113.69603
+capital,Link,MK0 0,residential rural ground heat pump,52012675.77452
+capital,Link,MK0 0,residential urban decentral air heat pump,30867456.60841
+capital,Link,MK0 0,services rural air heat pump,5096837.07813
+capital,Link,MK0 0,services rural ground heat pump,17478630.13176
+capital,Link,MK0 0,services urban decentral air heat pump,10687695.47844
+capital,Link,MK0 0,urban central air heat pump,56133498.23821
+capital,Link,NL0 0,BEV charger,0.0
+capital,Link,NL0 0,DC,199315316.7247
+capital,Link,NL0 0,Fischer-Tropsch,6497858.90868
+capital,Link,NL0 0,H2 Electrolysis,14232309.96595
+capital,Link,NL0 0,H2 pipeline,8693368.95949
+capital,Link,NL0 0,battery charger,173623889.91335
+capital,Link,NL0 0,battery discharger,0.0
+capital,Link,NL0 0,electricity distribution grid,2323068867.62872
+capital,Link,NL0 0,home battery charger,29751015.34444
+capital,Link,NL0 0,home battery discharger,0.0
+capital,Link,NL0 0,methanolisation,1144608.65203
+capital,Link,NL0 0,residential rural air heat pump,16486618.07199
+capital,Link,NL0 0,residential rural ground heat pump,205645251.35127
+capital,Link,NL0 0,residential urban decentral air heat pump,1144060863.61455
+capital,Link,NL0 0,services rural air heat pump,11385888.39824
+capital,Link,NL0 0,services rural ground heat pump,615055379.99865
+capital,Link,NL0 0,services urban decentral air heat pump,667000595.41268
+capital,Link,NL0 0,urban central air heat pump,1634618146.94125
+capital,Link,NO1 0,BEV charger,0.0
+capital,Link,NO1 0,DC,385770934.43924
+capital,Link,NO1 0,Fischer-Tropsch,338946100.20567
+capital,Link,NO1 0,H2 Electrolysis,973395605.76511
+capital,Link,NO1 0,H2 pipeline,27474934.61058
+capital,Link,NO1 0,battery charger,4333233.934
+capital,Link,NO1 0,battery discharger,0.0
+capital,Link,NO1 0,electricity distribution grid,1101542046.81074
+capital,Link,NO1 0,home battery charger,9379734.77587
+capital,Link,NO1 0,home battery discharger,0.0
+capital,Link,NO1 0,methanolisation,2359715.07935
+capital,Link,NO1 0,residential rural air heat pump,16194200.75275
+capital,Link,NO1 0,residential rural ground heat pump,157644087.27961
+capital,Link,NO1 0,residential urban decentral air heat pump,271407151.48069
+capital,Link,NO1 0,services rural air heat pump,16613399.47861
+capital,Link,NO1 0,services rural ground heat pump,137280959.71732
+capital,Link,NO1 0,services urban decentral air heat pump,233378257.90856
+capital,Link,NO1 0,urban central air heat pump,629655722.62118
+capital,Link,PL0 0,BEV charger,0.0
+capital,Link,PL0 0,DC,1647511440.07338
+capital,Link,PL0 0,Fischer-Tropsch,1490190.12305
+capital,Link,PL0 0,H2 Electrolysis,374270346.7508
+capital,Link,PL0 0,H2 pipeline,19368269.79077
+capital,Link,PL0 0,battery charger,139724958.62952
+capital,Link,PL0 0,battery discharger,0.0
+capital,Link,PL0 0,electricity distribution grid,2754607779.21074
+capital,Link,PL0 0,home battery charger,97644318.64553
+capital,Link,PL0 0,home battery discharger,0.0
+capital,Link,PL0 0,methanolisation,614522.19385
+capital,Link,PL0 0,residential rural air heat pump,268800104.23671
+capital,Link,PL0 0,residential rural ground heat pump,2683463975.51411
+capital,Link,PL0 0,residential urban decentral air heat pump,1374986092.83471
+capital,Link,PL0 0,services rural air heat pump,102092854.04709
+capital,Link,PL0 0,services rural ground heat pump,1226467775.639
+capital,Link,PL0 0,services urban decentral air heat pump,416705869.56219
+capital,Link,PL0 0,urban central air heat pump,1142979302.13209
+capital,Link,PT0 0,BEV charger,0.0
+capital,Link,PT0 0,Fischer-Tropsch,68878647.56833
+capital,Link,PT0 0,H2 Electrolysis,110143543.73044
+capital,Link,PT0 0,H2 pipeline,0.0
+capital,Link,PT0 0,battery charger,12081894.26653
+capital,Link,PT0 0,battery discharger,0.0
+capital,Link,PT0 0,electricity distribution grid,588212813.69369
+capital,Link,PT0 0,home battery charger,17710821.97542
+capital,Link,PT0 0,home battery discharger,0.0
+capital,Link,PT0 0,methanolisation,2561268.12713
+capital,Link,PT0 0,residential rural air heat pump,51560209.22858
+capital,Link,PT0 0,residential rural ground heat pump,83923863.74525
+capital,Link,PT0 0,residential urban decentral air heat pump,89612827.67458
+capital,Link,PT0 0,services rural air heat pump,69024226.2369
+capital,Link,PT0 0,services rural ground heat pump,135870814.70283
+capital,Link,PT0 0,services urban decentral air heat pump,107238617.06941
+capital,Link,PT0 0,urban central air heat pump,281869482.98957
+capital,Link,RO0 0,BEV charger,0.0
+capital,Link,RO0 0,Fischer-Tropsch,4326744.73765
+capital,Link,RO0 0,H2 Electrolysis,362662545.44045
+capital,Link,RO0 0,H2 pipeline,3989471.82647
+capital,Link,RO0 0,battery charger,13400546.32943
+capital,Link,RO0 0,battery discharger,0.0
+capital,Link,RO0 0,electricity distribution grid,1072968736.91185
+capital,Link,RO0 0,home battery charger,11937493.21329
+capital,Link,RO0 0,home battery discharger,0.0
+capital,Link,RO0 0,methanolisation,4394377.99693
+capital,Link,RO0 0,residential rural air heat pump,205256276.639
+capital,Link,RO0 0,residential rural ground heat pump,953976220.08476
+capital,Link,RO0 0,residential urban decentral air heat pump,445720898.46384
+capital,Link,RO0 0,services rural air heat pump,55885085.96831
+capital,Link,RO0 0,services rural ground heat pump,238861938.5391
+capital,Link,RO0 0,services urban decentral air heat pump,92835849.08823
+capital,Link,RO0 0,urban central air heat pump,744832331.36707
+capital,Link,RS0 0,BEV charger,0.0
+capital,Link,RS0 0,Fischer-Tropsch,2255163.07652
+capital,Link,RS0 0,H2 Electrolysis,5111164.58233
+capital,Link,RS0 0,H2 pipeline,4025961.89269
+capital,Link,RS0 0,battery charger,3318363.07535
+capital,Link,RS0 0,battery discharger,0.0
+capital,Link,RS0 0,electricity distribution grid,462230419.61935
+capital,Link,RS0 0,home battery charger,6822772.50423
+capital,Link,RS0 0,home battery discharger,0.0
+capital,Link,RS0 0,methanolisation,1307305.52432
+capital,Link,RS0 0,residential rural air heat pump,69241668.71762
+capital,Link,RS0 0,residential rural ground heat pump,323827211.29977
+capital,Link,RS0 0,residential urban decentral air heat pump,160107967.16941
+capital,Link,RS0 0,services rural air heat pump,23172922.45696
+capital,Link,RS0 0,services rural ground heat pump,84900104.4329
+capital,Link,RS0 0,services urban decentral air heat pump,43597489.27934
+capital,Link,RS0 0,urban central air heat pump,284343004.55425
+capital,Link,SE1 0,BEV charger,0.0
+capital,Link,SE1 0,DC,1151383064.85399
+capital,Link,SE1 0,Fischer-Tropsch,596321036.48008
+capital,Link,SE1 0,H2 Electrolysis,2915222834.70625
+capital,Link,SE1 0,H2 pipeline,0.0
+capital,Link,SE1 0,battery charger,8928045.82829
+capital,Link,SE1 0,battery discharger,0.0
+capital,Link,SE1 0,electricity distribution grid,1595247075.57984
+capital,Link,SE1 0,home battery charger,15728347.06337
+capital,Link,SE1 0,home battery discharger,0.0
+capital,Link,SE1 0,methanolisation,1820593.81923
+capital,Link,SE1 0,residential rural air heat pump,26521853.70711
+capital,Link,SE1 0,residential rural ground heat pump,332464067.53029
+capital,Link,SE1 0,residential urban decentral air heat pump,799174088.35224
+capital,Link,SE1 0,services rural air heat pump,10121231.98241
+capital,Link,SE1 0,services rural ground heat pump,166786560.01533
+capital,Link,SE1 0,services urban decentral air heat pump,246676644.89624
+capital,Link,SE1 0,urban central air heat pump,1053855886.68693
+capital,Link,SI0 0,BEV charger,0.0
+capital,Link,SI0 0,DC,0.0
+capital,Link,SI0 0,Fischer-Tropsch,1760912.90544
+capital,Link,SI0 0,H2 Electrolysis,5403650.87116
+capital,Link,SI0 0,H2 pipeline,0.0
+capital,Link,SI0 0,battery charger,14511740.16589
+capital,Link,SI0 0,battery discharger,0.0
+capital,Link,SI0 0,electricity distribution grid,205213965.02357
+capital,Link,SI0 0,home battery charger,6719570.39621
+capital,Link,SI0 0,home battery discharger,0.0
+capital,Link,SI0 0,methanolisation,1284872.28318
+capital,Link,SI0 0,residential rural air heat pump,36862004.31898
+capital,Link,SI0 0,residential rural ground heat pump,134936161.16949
+capital,Link,SI0 0,residential urban decentral air heat pump,74054565.89978
+capital,Link,SI0 0,services rural air heat pump,12350038.08839
+capital,Link,SI0 0,services rural ground heat pump,50805171.52871
+capital,Link,SI0 0,services urban decentral air heat pump,23830717.41962
+capital,Link,SI0 0,urban central air heat pump,134794313.9274
+capital,Link,SK0 0,BEV charger,0.0
+capital,Link,SK0 0,Fischer-Tropsch,1033720.12273
+capital,Link,SK0 0,H2 Electrolysis,2602584.91204
+capital,Link,SK0 0,H2 pipeline,0.0
+capital,Link,SK0 0,battery charger,17473924.97332
+capital,Link,SK0 0,battery discharger,0.0
+capital,Link,SK0 0,electricity distribution grid,421539446.76992
+capital,Link,SK0 0,home battery charger,3790255.78311
+capital,Link,SK0 0,home battery discharger,0.0
+capital,Link,SK0 0,methanolisation,746727.75051
+capital,Link,SK0 0,residential rural air heat pump,43593255.4894
+capital,Link,SK0 0,residential rural ground heat pump,345333266.34662
+capital,Link,SK0 0,residential urban decentral air heat pump,168021366.42098
+capital,Link,SK0 0,services rural air heat pump,36118756.15321
+capital,Link,SK0 0,services rural ground heat pump,198736609.05252
+capital,Link,SK0 0,services urban decentral air heat pump,97359906.6534
+capital,Link,SK0 0,urban central air heat pump,242439035.34103
+capital,Link,XK0 0,BEV charger,0.0
+capital,Link,XK0 0,Fischer-Tropsch,3963882.97631
+capital,Link,XK0 0,H2 Electrolysis,7395520.33095
+capital,Link,XK0 0,H2 pipeline,0.0
+capital,Link,XK0 0,battery charger,4493497.677
+capital,Link,XK0 0,battery discharger,0.0
+capital,Link,XK0 0,electricity distribution grid,76075465.68756
+capital,Link,XK0 0,home battery charger,2561116.49893
+capital,Link,XK0 0,home battery discharger,0.0
+capital,Link,XK0 0,methanolisation,2302465.32313
+capital,Link,XK0 0,residential rural air heat pump,8982234.19438
+capital,Link,XK0 0,residential rural ground heat pump,40225688.34676
+capital,Link,XK0 0,residential urban decentral air heat pump,25158748.2328
+capital,Link,XK0 0,services rural air heat pump,2936814.10496
+capital,Link,XK0 0,services rural ground heat pump,10389364.44811
+capital,Link,XK0 0,services urban decentral air heat pump,6605744.32658
+capital,Link,XK0 0,urban central air heat pump,42828818.34793
+capital,StorageUnit,AL0 0,hydro,308888750.57444
+capital,StorageUnit,AT0 0,PHS,968906199.16096
+capital,StorageUnit,AT0 0,hydro,795309515.52648
+capital,StorageUnit,BA0 0,PHS,80387443.22041
+capital,StorageUnit,BA0 0,hydro,324016205.79865
+capital,StorageUnit,BE0 0,PHS,238969944.84614
+capital,StorageUnit,BE0 0,hydro,2326790.57208
+capital,StorageUnit,BG0 0,PHS,157851706.68736
+capital,StorageUnit,BG0 0,hydro,351720641.91216
+capital,StorageUnit,CH0 0,PHS,933142921.86461
+capital,StorageUnit,CH0 0,hydro,1974036076.42945
+capital,StorageUnit,CZ0 0,PHS,214672758.22305
+capital,StorageUnit,CZ0 0,hydro,122953307.34807
+capital,StorageUnit,DE0 0,PHS,768968011.97303
+capital,StorageUnit,DE0 1,PHS,595672050.45568
+capital,StorageUnit,ES0 0,PHS,1369939056.52681
+capital,StorageUnit,ES0 0,hydro,2495507959.01041
+capital,StorageUnit,ES6 0,PHS,250735743.35386
+capital,StorageUnit,ES6 0,hydro,245465798.35455
+capital,StorageUnit,FI1 0,hydro,213940218.20706
+capital,StorageUnit,FR0 0,PHS,956665383.94331
+capital,StorageUnit,FR0 0,hydro,1174055117.17553
+capital,StorageUnit,FR5 0,hydro,441059997.29543
+capital,StorageUnit,GB3 0,PHS,80387443.22041
+capital,StorageUnit,GB3 0,hydro,40467769.7121
+capital,StorageUnit,GR0 0,PHS,127706415.4797
+capital,StorageUnit,GR0 0,hydro,468804952.96269
+capital,StorageUnit,HR0 0,PHS,44889079.08922
+capital,StorageUnit,HR0 0,hydro,265352456.70155
+capital,StorageUnit,HU0 0,hydro,5115564.56857
+capital,StorageUnit,IE3 0,PHS,71617903.96001
+capital,StorageUnit,IE3 0,hydro,182698.73459
+capital,StorageUnit,IT0 0,PHS,1233563586.09072
+capital,StorageUnit,IT0 0,hydro,747749380.93753
+capital,StorageUnit,IT4 0,PHS,149812962.36532
+capital,StorageUnit,IT4 0,hydro,18635270.92837
+capital,StorageUnit,LT0 0,PHS,164428861.13267
+capital,StorageUnit,LU0 0,PHS,236412162.56186
+capital,StorageUnit,ME0 0,PHS,56088511.5197
+capital,StorageUnit,ME0 0,hydro,63023938.18354
+capital,StorageUnit,MK0 0,hydro,67781230.53358
+capital,StorageUnit,NO1 0,PHS,42806313.51487
+capital,StorageUnit,NO1 0,hydro,5680394149.44865
+capital,StorageUnit,PL0 0,PHS,465516375.74004
+capital,StorageUnit,PL0 0,hydro,26949227.03851
+capital,StorageUnit,PT0 0,PHS,716727135.80383
+capital,StorageUnit,PT0 0,hydro,326921115.67866
+capital,StorageUnit,RO0 0,hydro,812998407.00966
+capital,StorageUnit,RS0 0,PHS,112177023.0394
+capital,StorageUnit,RS0 0,hydro,144350270.20102
+capital,StorageUnit,SE1 0,PHS,16808283.58245
+capital,StorageUnit,SE1 0,hydro,2159259090.9128
+capital,StorageUnit,SI0 0,PHS,32885772.22653
+capital,StorageUnit,SI0 0,hydro,105269183.88448
+capital,StorageUnit,SK0 0,PHS,150273363.17649
+capital,StorageUnit,SK0 0,hydro,51594122.64874
+capital,StorageUnit,XK0 0,hydro,6394455.71071
+capital,Store,AL0 0,battery,33555001.19158
+capital,Store,AL0 0,home battery,7382198.29682
+capital,Store,AT0 0,H2 Store,70771468.646
+capital,Store,AT0 0,battery,1160085849.20606
+capital,Store,AT0 0,home battery,43661371.90312
+capital,Store,BA0 0,battery,12967718.31999
+capital,Store,BA0 0,home battery,15773469.66426
+capital,Store,BE0 0,H2 Store,1381672220.72884
+capital,Store,BE0 0,battery,278843667.64241
+capital,Store,BE0 0,home battery,145819740.55289
+capital,Store,BG0 0,H2 Store,41072024.52752
+capital,Store,BG0 0,battery,26968849.006
+capital,Store,BG0 0,home battery,27121995.32789
+capital,Store,CH0 0,H2 Store,485240115.38171
+capital,Store,CH0 0,battery,256486670.26053
+capital,Store,CH0 0,home battery,16196125.27309
+capital,Store,CZ0 0,H2 Store,106865596.84419
+capital,Store,CZ0 0,battery,255894185.22057
+capital,Store,CZ0 0,home battery,152942444.99895
+capital,Store,DE0 0,battery,404814789.86931
+capital,Store,DE0 0,home battery,707694874.7937
+capital,Store,DE0 1,battery,648277734.22537
+capital,Store,DE0 1,home battery,383802406.11418
+capital,Store,DK0 0,battery,362903463.25386
+capital,Store,DK0 0,home battery,40561124.34123
+capital,Store,DK1 0,battery,1060578329.75106
+capital,Store,DK1 0,home battery,40324602.53783
+capital,Store,EE0 0,H2 Store,52522145.95281
+capital,Store,EE0 0,battery,195700036.50118
+capital,Store,EE0 0,home battery,31305077.01521
+capital,Store,ES0 0,battery,4426421847.50679
+capital,Store,ES0 0,home battery,426967951.89497
+capital,Store,ES6 0,H2 Store,16550402.19543
+capital,Store,ES6 0,battery,11847861.65065
+capital,Store,ES6 0,home battery,13982820.37428
+capital,Store,EU,co2,0.0
+capital,Store,EU,co2 sequestered,4314663520.71337
+capital,Store,EU,co2 stored,1670995.18397
+capital,Store,EU,gas,1573362.15971
+capital,Store,EU,methanol,328617410.32757
+capital,Store,EU,non-sequestered HVC,0.0
+capital,Store,EU,oil,998721.40126
+capital,Store,FI1 0,H2 Store,717969950.89218
+capital,Store,FI1 0,battery,490578131.85517
+capital,Store,FI1 0,home battery,133299143.01482
+capital,Store,FR0 0,battery,14777262.01885
+capital,Store,FR0 0,home battery,694612185.94868
+capital,Store,FR5 0,H2 Store,50646084.21302
+capital,Store,FR5 0,battery,104127576.44046
+capital,Store,FR5 0,home battery,9079168.20572
+capital,Store,GB2 0,battery,504834869.58744
+capital,Store,GB2 0,home battery,498965133.78356
+capital,Store,GB3 0,battery,113403463.08065
+capital,Store,GB3 0,home battery,15076064.70461
+capital,Store,GR0 0,battery,1923421060.01836
+capital,Store,GR0 0,home battery,27629533.39115
+capital,Store,HR0 0,H2 Store,39439697.52798
+capital,Store,HR0 0,battery,18663263.67131
+capital,Store,HR0 0,home battery,36986210.37392
+capital,Store,HU0 0,H2 Store,57855487.88843
+capital,Store,HU0 0,battery,145346226.19937
+capital,Store,HU0 0,home battery,86276576.41784
+capital,Store,IE3 0,H2 Store,1411518178.39016
+capital,Store,IE3 0,battery,94867123.28015
+capital,Store,IE3 0,home battery,29766717.98187
+capital,Store,IT0 0,H2 Store,138578968.52593
+capital,Store,IT0 0,battery,1958856034.2547
+capital,Store,IT0 0,home battery,464321827.99001
+capital,Store,IT4 0,H2 Store,33445878.32189
+capital,Store,IT4 0,battery,365672875.55228
+capital,Store,IT4 0,home battery,23000285.90313
+capital,Store,LT0 0,H2 Store,81211294.7942
+capital,Store,LT0 0,battery,89086047.58181
+capital,Store,LT0 0,home battery,33232369.23632
+capital,Store,LU0 0,H2 Store,543060431.96883
+capital,Store,LU0 0,battery,57799669.50592
+capital,Store,LU0 0,home battery,21104220.57988
+capital,Store,LV0 0,H2 Store,54972051.8509
+capital,Store,LV0 0,battery,163713953.33098
+capital,Store,LV0 0,home battery,26924299.49972
+capital,Store,ME0 0,H2 Store,37508122.99874
+capital,Store,ME0 0,battery,30442776.51315
+capital,Store,ME0 0,home battery,6489207.53282
+capital,Store,MK0 0,H2 Store,63075741.67697
+capital,Store,MK0 0,battery,128740742.89165
+capital,Store,MK0 0,home battery,15962722.62467
+capital,Store,NL0 0,battery,2074996031.06322
+capital,Store,NL0 0,home battery,160585712.10994
+capital,Store,NO1 0,battery,23712052.84495
+capital,Store,NO1 0,home battery,50552639.50443
+capital,Store,PL0 0,battery,2723661775.38344
+capital,Store,PL0 0,home battery,527101004.97969
+capital,Store,PT0 0,battery,61971971.85267
+capital,Store,PT0 0,home battery,91462048.32485
+capital,Store,RO0 0,battery,69542986.36058
+capital,Store,RO0 0,home battery,62040023.68233
+capital,Store,RS0 0,H2 Store,34868539.44951
+capital,Store,RS0 0,battery,15768719.72434
+capital,Store,RS0 0,home battery,35249346.08722
+capital,Store,SE1 0,H2 Store,1215561042.97696
+capital,Store,SE1 0,battery,96667685.99877
+capital,Store,SE1 0,home battery,84861759.79549
+capital,Store,SI0 0,H2 Store,42486649.28985
+capital,Store,SI0 0,battery,75224837.48272
+capital,Store,SI0 0,home battery,35179129.76547
+capital,Store,SK0 0,H2 Store,64934865.43224
+capital,Store,SK0 0,battery,93777702.85222
+capital,Store,SK0 0,home battery,18539701.52598
+capital,Store,XK0 0,H2 Store,37947387.97726
+capital,Store,XK0 0,battery,22639410.77295
+capital,Store,XK0 0,home battery,10806015.69811
+marginal,Generator,AL0 0,load,4704433.84431
+marginal,Generator,AL0 0,offwind-ac,22903.73455
+marginal,Generator,AL0 0,offwind-dc,387203.77961
+marginal,Generator,AL0 0,onwind,2441.41342
+marginal,Generator,AL0 0,residential rural solar thermal,100.3545
+marginal,Generator,AL0 0,residential urban decentral solar thermal,98.15235
+marginal,Generator,AL0 0,ror,1468.11727
+marginal,Generator,AL0 0,services rural solar thermal,16.84045
+marginal,Generator,AL0 0,services urban decentral solar thermal,15.46959
+marginal,Generator,AL0 0,solar,188180.54694
+marginal,Generator,AL0 0,solar rooftop,9943.61629
+marginal,Generator,AL0 0,solar-hsat,5083.48819
+marginal,Generator,AL0 0,urban central solar thermal,148.86841
+marginal,Generator,AT0 0,load,4761210.0227
+marginal,Generator,AT0 0,onwind,88840.11498
+marginal,Generator,AT0 0,residential rural solar thermal,25.39098
+marginal,Generator,AT0 0,residential urban decentral solar thermal,22.17501
+marginal,Generator,AT0 0,ror,191722.75602
+marginal,Generator,AT0 0,services rural solar thermal,14.4924
+marginal,Generator,AT0 0,services urban decentral solar thermal,13.09116
+marginal,Generator,AT0 0,solar,3176857.56834
+marginal,Generator,AT0 0,solar rooftop,328674.64448
+marginal,Generator,AT0 0,solar-hsat,5173.92747
+marginal,Generator,AT0 0,urban central solar thermal,60.1603
+marginal,Generator,BA0 0,load,4694078.22045
+marginal,Generator,BA0 0,offwind-ac,63.31265
+marginal,Generator,BA0 0,onwind,3685.4313
+marginal,Generator,BA0 0,residential rural solar thermal,22.98093
+marginal,Generator,BA0 0,residential urban decentral solar thermal,26.34683
+marginal,Generator,BA0 0,services rural solar thermal,14.56102
+marginal,Generator,BA0 0,services urban decentral solar thermal,12.63048
+marginal,Generator,BA0 0,solar,5405.97924
+marginal,Generator,BA0 0,solar rooftop,35910.08145
+marginal,Generator,BA0 0,solar-hsat,2921.95124
+marginal,Generator,BA0 0,urban central solar thermal,56.63813
+marginal,Generator,BE0 0,load,4273061.34257
+marginal,Generator,BE0 0,nuclear,417756372.3218
+marginal,Generator,BE0 0,offwind-ac,239990.1769
+marginal,Generator,BE0 0,offwind-dc,104228.12364
+marginal,Generator,BE0 0,onwind,899541.87635
+marginal,Generator,BE0 0,residential rural solar thermal,7.19006
+marginal,Generator,BE0 0,residential urban decentral solar thermal,12.79068
+marginal,Generator,BE0 0,ror,2902.56129
+marginal,Generator,BE0 0,services rural solar thermal,10.44561
+marginal,Generator,BE0 0,services urban decentral solar thermal,9.58279
+marginal,Generator,BE0 0,solar,1480408.30358
+marginal,Generator,BE0 0,solar rooftop,2876.45806
+marginal,Generator,BE0 0,solar-hsat,2734.46307
+marginal,Generator,BE0 0,urban central solar thermal,25.37407
+marginal,Generator,BG0 0,load,4246940.48516
+marginal,Generator,BG0 0,nuclear,124968593.18559
+marginal,Generator,BG0 0,offwind-ac,3422.02158
+marginal,Generator,BG0 0,offwind-dc,192019.944
+marginal,Generator,BG0 0,onwind,17093.4319
+marginal,Generator,BG0 0,residential rural solar thermal,25.3227
+marginal,Generator,BG0 0,residential urban decentral solar thermal,29.12747
+marginal,Generator,BG0 0,ror,1912.95983
+marginal,Generator,BG0 0,services rural solar thermal,20.59813
+marginal,Generator,BG0 0,services urban decentral solar thermal,19.61021
+marginal,Generator,BG0 0,solar,159171.6475
+marginal,Generator,BG0 0,solar rooftop,126605.73475
+marginal,Generator,BG0 0,solar-hsat,5532.53113
+marginal,Generator,BG0 0,urban central solar thermal,41.16025
+marginal,Generator,CH0 0,load,4252862.28308
+marginal,Generator,CH0 0,nuclear,202459480.84067
+marginal,Generator,CH0 0,onwind,579.68846
+marginal,Generator,CH0 0,residential rural solar thermal,24.83035
+marginal,Generator,CH0 0,residential urban decentral solar thermal,38.48429
+marginal,Generator,CH0 0,ror,89216.71938
+marginal,Generator,CH0 0,services rural solar thermal,12.70823
+marginal,Generator,CH0 0,services urban decentral solar thermal,16.99302
+marginal,Generator,CH0 0,solar,1688507.38207
+marginal,Generator,CH0 0,solar rooftop,167613.6973
+marginal,Generator,CH0 0,solar-hsat,1196897.97205
+marginal,Generator,CH0 0,urban central solar thermal,101.93904
+marginal,Generator,CZ0 0,load,4264442.01533
+marginal,Generator,CZ0 0,nuclear,308247025.6329
+marginal,Generator,CZ0 0,onwind,11328.06744
+marginal,Generator,CZ0 0,residential rural solar thermal,10.53072
+marginal,Generator,CZ0 0,residential urban decentral solar thermal,12.93803
+marginal,Generator,CZ0 0,ror,1430.76959
+marginal,Generator,CZ0 0,services rural solar thermal,10.80325
+marginal,Generator,CZ0 0,services urban decentral solar thermal,10.37492
+marginal,Generator,CZ0 0,solar,37631.35206
+marginal,Generator,CZ0 0,solar rooftop,6692.36321
+marginal,Generator,CZ0 0,solar-hsat,2367.17946
+marginal,Generator,CZ0 0,urban central solar thermal,31.32301
+marginal,Generator,DE0 0,load,4294040.59565
+marginal,Generator,DE0 0,nuclear,1238003284.527
+marginal,Generator,DE0 0,offwind-ac,818760.13164
+marginal,Generator,DE0 0,offwind-dc,1724353.96942
+marginal,Generator,DE0 0,onwind,1553365.26321
+marginal,Generator,DE0 0,residential rural solar thermal,12.085
+marginal,Generator,DE0 0,residential urban decentral solar thermal,19.83887
+marginal,Generator,DE0 0,ror,71092.85704
+marginal,Generator,DE0 0,services rural solar thermal,12.67001
+marginal,Generator,DE0 0,services urban decentral solar thermal,13.67491
+marginal,Generator,DE0 0,solar,937968.11687
+marginal,Generator,DE0 0,solar rooftop,97499.23055
+marginal,Generator,DE0 0,solar-hsat,5739.25839
+marginal,Generator,DE0 0,urban central solar thermal,48.32971
+marginal,Generator,DE0 1,load,4283838.41227
+marginal,Generator,DE0 1,nuclear,606134323.14965
+marginal,Generator,DE0 1,offwind-ac,239040.64954
+marginal,Generator,DE0 1,offwind-dc,30792.88379
+marginal,Generator,DE0 1,onwind,1012925.91324
+marginal,Generator,DE0 1,residential rural solar thermal,18.11212
+marginal,Generator,DE0 1,residential urban decentral solar thermal,21.12888
+marginal,Generator,DE0 1,ror,139571.02025
+marginal,Generator,DE0 1,services rural solar thermal,16.82845
+marginal,Generator,DE0 1,services urban decentral solar thermal,15.08219
+marginal,Generator,DE0 1,solar,2547540.62447
+marginal,Generator,DE0 1,solar rooftop,679787.52007
+marginal,Generator,DE0 1,solar-hsat,4608.45935
+marginal,Generator,DE0 1,urban central solar thermal,43.01935
+marginal,Generator,DK0 0,load,4568440.3446
+marginal,Generator,DK0 0,offwind-ac,169200.42562
+marginal,Generator,DK0 0,offwind-dc,4698.48232
+marginal,Generator,DK0 0,onwind,5271533.15003
+marginal,Generator,DK0 0,residential rural solar thermal,7.95821
+marginal,Generator,DK0 0,residential urban decentral solar thermal,12.36733
+marginal,Generator,DK0 0,services rural solar thermal,8.54468
+marginal,Generator,DK0 0,services urban decentral solar thermal,8.2954
+marginal,Generator,DK0 0,solar,28859.6735
+marginal,Generator,DK0 0,solar rooftop,462.35773
+marginal,Generator,DK0 0,solar-hsat,1092.70384
+marginal,Generator,DK0 0,urban central solar thermal,16.81415
+marginal,Generator,DK1 0,load,4635078.58216
+marginal,Generator,DK1 0,offwind-ac,1157237.95828
+marginal,Generator,DK1 0,offwind-dc,324391.99818
+marginal,Generator,DK1 0,onwind,1590042.72582
+marginal,Generator,DK1 0,residential rural solar thermal,7.46372
+marginal,Generator,DK1 0,residential urban decentral solar thermal,10.73795
+marginal,Generator,DK1 0,services rural solar thermal,9.33925
+marginal,Generator,DK1 0,services urban decentral solar thermal,7.62779
+marginal,Generator,DK1 0,solar,624458.29214
+marginal,Generator,DK1 0,solar rooftop,7569.54413
+marginal,Generator,DK1 0,solar-hsat,1941.43577
+marginal,Generator,DK1 0,urban central solar thermal,20.96031
+marginal,Generator,EE0 0,load,4401693.78643
+marginal,Generator,EE0 0,offwind-ac,2212.13077
+marginal,Generator,EE0 0,offwind-dc,1500.57865
+marginal,Generator,EE0 0,onwind,952273.97462
+marginal,Generator,EE0 0,residential rural solar thermal,10.33683
+marginal,Generator,EE0 0,residential urban decentral solar thermal,10.67579
+marginal,Generator,EE0 0,services rural solar thermal,11.06526
+marginal,Generator,EE0 0,services urban decentral solar thermal,9.80596
+marginal,Generator,EE0 0,solar,15224.41639
+marginal,Generator,EE0 0,solar rooftop,13622.62773
+marginal,Generator,EE0 0,solar-hsat,2049.8054
+marginal,Generator,EE0 0,urban central solar thermal,18.48825
+marginal,Generator,ES0 0,load,4284085.79567
+marginal,Generator,ES0 0,nuclear,325347561.31372
+marginal,Generator,ES0 0,offwind-ac,1369.12487
+marginal,Generator,ES0 0,offwind-dc,15622.69514
+marginal,Generator,ES0 0,onwind,4670409.11706
+marginal,Generator,ES0 0,residential rural solar thermal,161.60736
+marginal,Generator,ES0 0,residential urban decentral solar thermal,257.1135
+marginal,Generator,ES0 0,ror,2917.99847
+marginal,Generator,ES0 0,services rural solar thermal,40.08304
+marginal,Generator,ES0 0,services urban decentral solar thermal,35.46699
+marginal,Generator,ES0 0,solar,11238706.66811
+marginal,Generator,ES0 0,solar rooftop,1564391.89796
+marginal,Generator,ES0 0,solar-hsat,1220943.16286
+marginal,Generator,ES0 0,urban central solar thermal,781.70209
+marginal,Generator,ES6 0,load,4083339.59773
+marginal,Generator,ES6 0,nuclear,211403440.73974
+marginal,Generator,ES6 0,offwind-ac,442.02539
+marginal,Generator,ES6 0,offwind-dc,1065.35005
+marginal,Generator,ES6 0,onwind,141981.43578
+marginal,Generator,ES6 0,residential rural solar thermal,13.63689
+marginal,Generator,ES6 0,residential urban decentral solar thermal,21.35972
+marginal,Generator,ES6 0,ror,3136.14141
+marginal,Generator,ES6 0,services rural solar thermal,15.97411
+marginal,Generator,ES6 0,services urban decentral solar thermal,13.58636
+marginal,Generator,ES6 0,solar,6423.76803
+marginal,Generator,ES6 0,solar rooftop,29860.43023
+marginal,Generator,ES6 0,solar-hsat,1905.1848
+marginal,Generator,ES6 0,urban central solar thermal,15.32832
+marginal,Generator,EU,biogas,0.0
+marginal,Generator,EU,gas,6318684814.7137
+marginal,Generator,EU,load,21016910413291.785
+marginal,Generator,EU,oil primary,9276.25527
+marginal,Generator,EU,solid biomass,11356028587.89918
+marginal,Generator,FI1 0,load,4257206.58226
+marginal,Generator,FI1 0,nuclear,323704502.16675
+marginal,Generator,FI1 0,offwind-ac,6263.43861
+marginal,Generator,FI1 0,offwind-dc,4574330.098
+marginal,Generator,FI1 0,onwind,404059.35188
+marginal,Generator,FI1 0,residential rural solar thermal,2.72623
+marginal,Generator,FI1 0,residential urban decentral solar thermal,4.50937
+marginal,Generator,FI1 0,ror,71330.53414
+marginal,Generator,FI1 0,services rural solar thermal,3.0357
+marginal,Generator,FI1 0,services urban decentral solar thermal,3.12677
+marginal,Generator,FI1 0,solar,5365.24805
+marginal,Generator,FI1 0,solar rooftop,1589.05932
+marginal,Generator,FI1 0,solar-hsat,1365.72872
+marginal,Generator,FI1 0,urban central solar thermal,9.39125
+marginal,Generator,FR0 0,load,4299128.5583
+marginal,Generator,FR0 0,nuclear,3028050824.62871
+marginal,Generator,FR0 0,offwind-ac,238711.65386
+marginal,Generator,FR0 0,offwind-dc,26505489.27978
+marginal,Generator,FR0 0,onwind,1132997.90186
+marginal,Generator,FR0 0,residential rural solar thermal,35.3884
+marginal,Generator,FR0 0,residential urban decentral solar thermal,44.52935
+marginal,Generator,FR0 0,ror,271150.17977
+marginal,Generator,FR0 0,services rural solar thermal,29.79851
+marginal,Generator,FR0 0,services urban decentral solar thermal,28.13836
+marginal,Generator,FR0 0,solar,1927577.51883
+marginal,Generator,FR0 0,solar rooftop,2076662.67704
+marginal,Generator,FR0 0,solar-hsat,10872.50632
+marginal,Generator,FR0 0,urban central solar thermal,132.15658
+marginal,Generator,FR5 0,load,4287895.1463
+marginal,Generator,FR5 0,offwind-ac,409.1843
+marginal,Generator,FR5 0,offwind-dc,862.65997
+marginal,Generator,FR5 0,onwind,584.79932
+marginal,Generator,FR5 0,residential rural solar thermal,31.75225
+marginal,Generator,FR5 0,residential urban decentral solar thermal,0.0
+marginal,Generator,FR5 0,ror,5463.8108
+marginal,Generator,FR5 0,services rural solar thermal,16.57619
+marginal,Generator,FR5 0,services urban decentral solar thermal,8.71076
+marginal,Generator,FR5 0,solar,235445.96341
+marginal,Generator,FR5 0,solar rooftop,10177.80775
+marginal,Generator,FR5 0,solar-hsat,3411.95252
+marginal,Generator,GB2 0,load,4282914.48838
+marginal,Generator,GB2 0,nuclear,806146425.96057
+marginal,Generator,GB2 0,offwind-ac,13474170.8211
+marginal,Generator,GB2 0,offwind-dc,8572.65421
+marginal,Generator,GB2 0,onwind,19530713.65075
+marginal,Generator,GB2 0,residential rural solar thermal,12.97974
+marginal,Generator,GB2 0,residential urban decentral solar thermal,17.7103
+marginal,Generator,GB2 0,ror,26197.12524
+marginal,Generator,GB2 0,services rural solar thermal,9.63215
+marginal,Generator,GB2 0,services urban decentral solar thermal,13.51165
+marginal,Generator,GB2 0,solar,222305.21969
+marginal,Generator,GB2 0,solar rooftop,2245.0998
+marginal,Generator,GB2 0,solar-hsat,2686.91726
+marginal,Generator,GB2 0,urban central solar thermal,41.54384
+marginal,Generator,GB3 0,load,4180095.37817
+marginal,Generator,GB3 0,nuclear,145790758.65609
+marginal,Generator,GB3 0,offwind-ac,619782.52638
+marginal,Generator,GB3 0,offwind-dc,177120.64701
+marginal,Generator,GB3 0,onwind,1484858.34951
+marginal,Generator,GB3 0,residential rural solar thermal,6.90736
+marginal,Generator,GB3 0,residential urban decentral solar thermal,6.20611
+marginal,Generator,GB3 0,ror,15599.31349
+marginal,Generator,GB3 0,services rural solar thermal,5.72716
+marginal,Generator,GB3 0,services urban decentral solar thermal,5.19828
+marginal,Generator,GB3 0,solar,4781.89979
+marginal,Generator,GB3 0,solar rooftop,361.76146
+marginal,Generator,GB3 0,solar-hsat,487.21376
+marginal,Generator,GB3 0,urban central solar thermal,6.07397
+marginal,Generator,GR0 0,load,4337524.96911
+marginal,Generator,GR0 0,offwind-ac,1386.32515
+marginal,Generator,GR0 0,offwind-dc,3949.42414
+marginal,Generator,GR0 0,onwind,318878.44853
+marginal,Generator,GR0 0,residential rural solar thermal,60.86102
+marginal,Generator,GR0 0,residential urban decentral solar thermal,74.51396
+marginal,Generator,GR0 0,ror,2280.02545
+marginal,Generator,GR0 0,services rural solar thermal,34.70705
+marginal,Generator,GR0 0,services urban decentral solar thermal,31.90814
+marginal,Generator,GR0 0,solar,4557028.48014
+marginal,Generator,GR0 0,solar rooftop,154681.41502
+marginal,Generator,GR0 0,solar-hsat,11118.39569
+marginal,Generator,GR0 0,urban central solar thermal,64.35344
+marginal,Generator,HR0 0,load,4671025.67423
+marginal,Generator,HR0 0,offwind-ac,1376.08144
+marginal,Generator,HR0 0,offwind-dc,3003.97137
+marginal,Generator,HR0 0,onwind,21939.68343
+marginal,Generator,HR0 0,residential rural solar thermal,25.20805
+marginal,Generator,HR0 0,residential urban decentral solar thermal,21.61634
+marginal,Generator,HR0 0,ror,12091.14225
+marginal,Generator,HR0 0,services rural solar thermal,19.79877
+marginal,Generator,HR0 0,services urban decentral solar thermal,15.76067
+marginal,Generator,HR0 0,solar,3529.19715
+marginal,Generator,HR0 0,solar rooftop,13932.0194
+marginal,Generator,HR0 0,solar-hsat,2088.1499
+marginal,Generator,HR0 0,urban central solar thermal,51.00996
+marginal,Generator,HU0 0,load,4242357.84773
+marginal,Generator,HU0 0,nuclear,129177640.46045
+marginal,Generator,HU0 0,onwind,1507230.12556
+marginal,Generator,HU0 0,residential rural solar thermal,19.46614
+marginal,Generator,HU0 0,residential urban decentral solar thermal,24.9385
+marginal,Generator,HU0 0,ror,629.02912
+marginal,Generator,HU0 0,services rural solar thermal,21.18509
+marginal,Generator,HU0 0,services urban decentral solar thermal,16.05566
+marginal,Generator,HU0 0,solar,53244.82461
+marginal,Generator,HU0 0,solar rooftop,68303.52383
+marginal,Generator,HU0 0,solar-hsat,3450.10463
+marginal,Generator,HU0 0,urban central solar thermal,48.35398
+marginal,Generator,IE3 0,load,4340882.93044
+marginal,Generator,IE3 0,offwind-ac,5417579.69297
+marginal,Generator,IE3 0,offwind-dc,3707315.22447
+marginal,Generator,IE3 0,onwind,270025.25202
+marginal,Generator,IE3 0,residential rural solar thermal,11.42443
+marginal,Generator,IE3 0,residential urban decentral solar thermal,11.18516
+marginal,Generator,IE3 0,ror,4946.67822
+marginal,Generator,IE3 0,services rural solar thermal,9.69461
+marginal,Generator,IE3 0,services urban decentral solar thermal,10.79625
+marginal,Generator,IE3 0,solar,19286.1664
+marginal,Generator,IE3 0,solar rooftop,680.50392
+marginal,Generator,IE3 0,solar-hsat,1132.01268
+marginal,Generator,IE3 0,urban central solar thermal,18.11132
+marginal,Generator,IT0 0,load,2906947.39801
+marginal,Generator,IT0 0,nuclear,105041539.30122
+marginal,Generator,IT0 0,offwind-ac,1123.24915
+marginal,Generator,IT0 0,offwind-dc,6863410.43159
+marginal,Generator,IT0 0,onwind,228981.03273
+marginal,Generator,IT0 0,residential rural solar thermal,119.59893
+marginal,Generator,IT0 0,residential urban decentral solar thermal,135.49978
+marginal,Generator,IT0 0,ror,327619.1225
+marginal,Generator,IT0 0,services rural solar thermal,46.946
+marginal,Generator,IT0 0,services urban decentral solar thermal,43.53934
+marginal,Generator,IT0 0,solar,5838294.25789
+marginal,Generator,IT0 0,solar rooftop,1527909.85376
+marginal,Generator,IT0 0,solar-hsat,40450.7415
+marginal,Generator,IT0 0,urban central solar thermal,1610.31513
+marginal,Generator,IT4 0,load,4359708.00445
+marginal,Generator,IT4 0,offwind-ac,1041.94458
+marginal,Generator,IT4 0,offwind-dc,4924.25705
+marginal,Generator,IT4 0,onwind,607715.66469
+marginal,Generator,IT4 0,residential rural solar thermal,82.59355
+marginal,Generator,IT4 0,residential urban decentral solar thermal,51.17577
+marginal,Generator,IT4 0,ror,4829.52705
+marginal,Generator,IT4 0,services rural solar thermal,19.85911
+marginal,Generator,IT4 0,services urban decentral solar thermal,14.34389
+marginal,Generator,IT4 0,solar,651054.31577
+marginal,Generator,IT4 0,solar rooftop,46223.91941
+marginal,Generator,IT4 0,solar-hsat,7882.83216
+marginal,Generator,IT4 0,urban central solar thermal,68.61204
+marginal,Generator,LT0 0,load,2850134.74475
+marginal,Generator,LT0 0,nuclear,213455370.06338
+marginal,Generator,LT0 0,offwind-ac,3547.09285
+marginal,Generator,LT0 0,offwind-dc,84924.38771
+marginal,Generator,LT0 0,onwind,53271.77856
+marginal,Generator,LT0 0,residential rural solar thermal,9.62581
+marginal,Generator,LT0 0,residential urban decentral solar thermal,11.06516
+marginal,Generator,LT0 0,ror,4313.85935
+marginal,Generator,LT0 0,services rural solar thermal,8.8279
+marginal,Generator,LT0 0,services urban decentral solar thermal,8.56648
+marginal,Generator,LT0 0,solar,63733.8503
+marginal,Generator,LT0 0,solar rooftop,49512.58948
+marginal,Generator,LT0 0,solar-hsat,3199.29043
+marginal,Generator,LT0 0,urban central solar thermal,21.27176
+marginal,Generator,LU0 0,load,4776588.70262
+marginal,Generator,LU0 0,onwind,7139.04592
+marginal,Generator,LU0 0,residential rural solar thermal,4.60299
+marginal,Generator,LU0 0,residential urban decentral solar thermal,11.67791
+marginal,Generator,LU0 0,services rural solar thermal,5.41758
+marginal,Generator,LU0 0,services urban decentral solar thermal,6.28756
+marginal,Generator,LU0 0,solar,109035.29401
+marginal,Generator,LU0 0,solar rooftop,18498.97732
+marginal,Generator,LU0 0,solar-hsat,1681.67388
+marginal,Generator,LU0 0,urban central solar thermal,18.71909
+marginal,Generator,LV0 0,load,4450084.65758
+marginal,Generator,LV0 0,offwind-ac,2747.54562
+marginal,Generator,LV0 0,offwind-dc,22726.66651
+marginal,Generator,LV0 0,onwind,6761.2529
+marginal,Generator,LV0 0,residential rural solar thermal,11.32448
+marginal,Generator,LV0 0,residential urban decentral solar thermal,14.03129
+marginal,Generator,LV0 0,ror,25005.29345
+marginal,Generator,LV0 0,services rural solar thermal,10.39136
+marginal,Generator,LV0 0,services urban decentral solar thermal,9.45902
+marginal,Generator,LV0 0,solar,345102.37903
+marginal,Generator,LV0 0,solar rooftop,38225.62151
+marginal,Generator,LV0 0,solar-hsat,2423.66053
+marginal,Generator,LV0 0,urban central solar thermal,22.85691
+marginal,Generator,ME0 0,load,4428975.68762
+marginal,Generator,ME0 0,offwind-ac,900.79479
+marginal,Generator,ME0 0,offwind-dc,153862.51668
+marginal,Generator,ME0 0,onwind,868.34896
+marginal,Generator,ME0 0,residential rural solar thermal,24.89988
+marginal,Generator,ME0 0,residential urban decentral solar thermal,37.90251
+marginal,Generator,ME0 0,ror,211.87776
+marginal,Generator,ME0 0,services rural solar thermal,15.10886
+marginal,Generator,ME0 0,services urban decentral solar thermal,11.30547
+marginal,Generator,ME0 0,solar,208147.8673
+marginal,Generator,ME0 0,solar rooftop,6056.09442
+marginal,Generator,ME0 0,solar-hsat,4328.09004
+marginal,Generator,ME0 0,urban central solar thermal,95.98015
+marginal,Generator,MK0 0,load,4737461.61445
+marginal,Generator,MK0 0,onwind,338.32394
+marginal,Generator,MK0 0,residential rural solar thermal,35.01702
+marginal,Generator,MK0 0,residential urban decentral solar thermal,35.73079
+marginal,Generator,MK0 0,ror,4969.20573
+marginal,Generator,MK0 0,services rural solar thermal,15.74663
+marginal,Generator,MK0 0,services urban decentral solar thermal,16.05891
+marginal,Generator,MK0 0,solar,454518.14922
+marginal,Generator,MK0 0,solar rooftop,17005.22576
+marginal,Generator,MK0 0,solar-hsat,4091.29974
+marginal,Generator,MK0 0,urban central solar thermal,49.3634
+marginal,Generator,NL0 0,load,4277897.43117
+marginal,Generator,NL0 0,nuclear,4211775.00975
+marginal,Generator,NL0 0,offwind-ac,621841.26186
+marginal,Generator,NL0 0,offwind-dc,8594.87279
+marginal,Generator,NL0 0,onwind,3507238.14503
+marginal,Generator,NL0 0,residential rural solar thermal,7.48482
+marginal,Generator,NL0 0,residential urban decentral solar thermal,13.96829
+marginal,Generator,NL0 0,services rural solar thermal,14.74012
+marginal,Generator,NL0 0,services urban decentral solar thermal,12.60656
+marginal,Generator,NL0 0,solar,2283048.95172
+marginal,Generator,NL0 0,solar rooftop,54432.81291
+marginal,Generator,NL0 0,solar-hsat,2726.19102
+marginal,Generator,NL0 0,urban central solar thermal,32.97946
+marginal,Generator,NO1 0,load,4348806.11948
+marginal,Generator,NO1 0,offwind-ac,1409432.48407
+marginal,Generator,NO1 0,offwind-dc,44309.5133
+marginal,Generator,NO1 0,onwind,235753.29075
+marginal,Generator,NO1 0,residential rural solar thermal,3.30355
+marginal,Generator,NO1 0,residential urban decentral solar thermal,4.41554
+marginal,Generator,NO1 0,ror,42760.68491
+marginal,Generator,NO1 0,services rural solar thermal,3.45254
+marginal,Generator,NO1 0,services urban decentral solar thermal,3.74547
+marginal,Generator,NO1 0,solar,2295.75334
+marginal,Generator,NO1 0,solar rooftop,378.51472
+marginal,Generator,NO1 0,solar-hsat,1836.77777
+marginal,Generator,NO1 0,urban central solar thermal,9.31815
+marginal,Generator,PL0 0,load,4501342.32884
+marginal,Generator,PL0 0,offwind-ac,680519.76469
+marginal,Generator,PL0 0,offwind-dc,1976711.01688
+marginal,Generator,PL0 0,onwind,3636536.47747
+marginal,Generator,PL0 0,residential rural solar thermal,18.14512
+marginal,Generator,PL0 0,residential urban decentral solar thermal,20.09867
+marginal,Generator,PL0 0,ror,10819.40723
+marginal,Generator,PL0 0,services rural solar thermal,19.43609
+marginal,Generator,PL0 0,services urban decentral solar thermal,14.9836
+marginal,Generator,PL0 0,solar,809820.70327
+marginal,Generator,PL0 0,solar rooftop,6521.43267
+marginal,Generator,PL0 0,solar-hsat,7155.66778
+marginal,Generator,PL0 0,urban central solar thermal,45.22512
+marginal,Generator,PT0 0,load,4340875.6254
+marginal,Generator,PT0 0,offwind-ac,6285.73904
+marginal,Generator,PT0 0,offwind-dc,5278.45348
+marginal,Generator,PT0 0,onwind,199435.9076
+marginal,Generator,PT0 0,residential rural solar thermal,51.97656
+marginal,Generator,PT0 0,residential urban decentral solar thermal,57.91144
+marginal,Generator,PT0 0,ror,63763.10411
+marginal,Generator,PT0 0,services rural solar thermal,52.90722
+marginal,Generator,PT0 0,services urban decentral solar thermal,41.81619
+marginal,Generator,PT0 0,solar,138019.772
+marginal,Generator,PT0 0,solar rooftop,183077.04516
+marginal,Generator,PT0 0,solar-hsat,249372.12527
+marginal,Generator,PT0 0,urban central solar thermal,146.22622
+marginal,Generator,RO0 0,load,4262639.06219
+marginal,Generator,RO0 0,nuclear,82301906.57643
+marginal,Generator,RO0 0,offwind-ac,134993.13552
+marginal,Generator,RO0 0,offwind-dc,1789574.04062
+marginal,Generator,RO0 0,onwind,152419.0636
+marginal,Generator,RO0 0,residential rural solar thermal,29.21042
+marginal,Generator,RO0 0,residential urban decentral solar thermal,34.73032
+marginal,Generator,RO0 0,ror,58402.90893
+marginal,Generator,RO0 0,services rural solar thermal,21.96093
+marginal,Generator,RO0 0,services urban decentral solar thermal,19.72705
+marginal,Generator,RO0 0,solar,412740.02427
+marginal,Generator,RO0 0,solar rooftop,386275.54685
+marginal,Generator,RO0 0,solar-hsat,5375.25339
+marginal,Generator,RO0 0,urban central solar thermal,63.15793
+marginal,Generator,RS0 0,load,4754132.20044
+marginal,Generator,RS0 0,onwind,16903.0081
+marginal,Generator,RS0 0,residential rural solar thermal,25.32278
+marginal,Generator,RS0 0,residential urban decentral solar thermal,23.32916
+marginal,Generator,RS0 0,ror,65784.78317
+marginal,Generator,RS0 0,services rural solar thermal,17.12232
+marginal,Generator,RS0 0,services urban decentral solar thermal,15.50682
+marginal,Generator,RS0 0,solar,85415.72303
+marginal,Generator,RS0 0,solar rooftop,18182.92915
+marginal,Generator,RS0 0,solar-hsat,3802.99252
+marginal,Generator,RS0 0,urban central solar thermal,48.04319
+marginal,Generator,SE1 0,load,4264933.88883
+marginal,Generator,SE1 0,nuclear,654527193.39214
+marginal,Generator,SE1 0,offwind-ac,32802.86355
+marginal,Generator,SE1 0,offwind-dc,7508526.65013
+marginal,Generator,SE1 0,onwind,806680.91614
+marginal,Generator,SE1 0,residential rural solar thermal,6.10658
+marginal,Generator,SE1 0,residential urban decentral solar thermal,9.62138
+marginal,Generator,SE1 0,ror,58769.71539
+marginal,Generator,SE1 0,services rural solar thermal,6.00217
+marginal,Generator,SE1 0,services urban decentral solar thermal,6.52011
+marginal,Generator,SE1 0,solar,21361.33813
+marginal,Generator,SE1 0,solar rooftop,6367.04318
+marginal,Generator,SE1 0,solar-hsat,3312.04316
+marginal,Generator,SE1 0,urban central solar thermal,17.56635
+marginal,Generator,SI0 0,load,4225441.92475
+marginal,Generator,SI0 0,nuclear,46286742.82278
+marginal,Generator,SI0 0,offwind-ac,133.00751
+marginal,Generator,SI0 0,onwind,92.33418
+marginal,Generator,SI0 0,residential rural solar thermal,15.69945
+marginal,Generator,SI0 0,residential urban decentral solar thermal,16.27613
+marginal,Generator,SI0 0,ror,21356.25371
+marginal,Generator,SI0 0,services rural solar thermal,10.40595
+marginal,Generator,SI0 0,services urban decentral solar thermal,10.64436
+marginal,Generator,SI0 0,solar,6729.64619
+marginal,Generator,SI0 0,solar rooftop,1030.91257
+marginal,Generator,SI0 0,solar-hsat,670.23121
+marginal,Generator,SI0 0,urban central solar thermal,26.05029
+marginal,Generator,SK0 0,load,4244068.57716
+marginal,Generator,SK0 0,nuclear,138945713.35048
+marginal,Generator,SK0 0,onwind,1317.53033
+marginal,Generator,SK0 0,residential rural solar thermal,14.08952
+marginal,Generator,SK0 0,residential urban decentral solar thermal,14.36786
+marginal,Generator,SK0 0,ror,34040.11398
+marginal,Generator,SK0 0,services rural solar thermal,14.39948
+marginal,Generator,SK0 0,services urban decentral solar thermal,11.58796
+marginal,Generator,SK0 0,solar,31665.07651
+marginal,Generator,SK0 0,solar rooftop,92484.22309
+marginal,Generator,SK0 0,solar-hsat,4841.19599
+marginal,Generator,SK0 0,urban central solar thermal,30.06095
+marginal,Generator,XK0 0,load,4630312.68479
+marginal,Generator,XK0 0,onwind,966.42936
+marginal,Generator,XK0 0,residential rural solar thermal,16.98525
+marginal,Generator,XK0 0,residential urban decentral solar thermal,18.15299
+marginal,Generator,XK0 0,ror,510.19954
+marginal,Generator,XK0 0,services rural solar thermal,14.41591
+marginal,Generator,XK0 0,services urban decentral solar thermal,13.53081
+marginal,Generator,XK0 0,solar,4592.79247
+marginal,Generator,XK0 0,solar rooftop,4287.45854
+marginal,Generator,XK0 0,solar-hsat,2256.95222
+marginal,Generator,XK0 0,urban central solar thermal,47.02722
+marginal,Link,AL0 0,BEV charger,24473.32122
+marginal,Link,AL0 0,Fischer-Tropsch,1577980.0057
+marginal,Link,AL0 0,H2 Electrolysis,6617.70307
+marginal,Link,AL0 0,H2 pipeline,81745.84735
+marginal,Link,AL0 0,battery charger,16189.44854
+marginal,Link,AL0 0,battery discharger,15351.52908
+marginal,Link,AL0 0,electricity distribution grid,83254.5667
+marginal,Link,AL0 0,home battery charger,3414.31198
+marginal,Link,AL0 0,home battery discharger,2874.4932
+marginal,Link,AL0 0,methanolisation,3600.49874
+marginal,Link,AL0 0,residential rural air heat pump,-1034.64858
+marginal,Link,AL0 0,residential rural ground heat pump,-9464.93711
+marginal,Link,AL0 0,residential urban decentral air heat pump,-6969.36679
+marginal,Link,AL0 0,services rural air heat pump,-739.01938
+marginal,Link,AL0 0,services rural ground heat pump,-3708.16467
+marginal,Link,AL0 0,services urban decentral air heat pump,-2602.87053
+marginal,Link,AL0 0,urban central air heat pump,-15924.3458
+marginal,Link,AT0 0,BEV charger,232685.98814
+marginal,Link,AT0 0,Fischer-Tropsch,658610.7512
+marginal,Link,AT0 0,H2 Electrolysis,1604.42038
+marginal,Link,AT0 0,H2 pipeline,116500.95258
+marginal,Link,AT0 0,battery charger,627455.90401
+marginal,Link,AT0 0,battery discharger,560279.70516
+marginal,Link,AT0 0,electricity distribution grid,1117986.29235
+marginal,Link,AT0 0,home battery charger,14250.95562
+marginal,Link,AT0 0,home battery discharger,14421.66648
+marginal,Link,AT0 0,methanolisation,1269.0753
+marginal,Link,AT0 0,residential rural air heat pump,-6748.9108
+marginal,Link,AT0 0,residential rural ground heat pump,-237623.16965
+marginal,Link,AT0 0,residential urban decentral air heat pump,-133606.77628
+marginal,Link,AT0 0,services rural air heat pump,-3388.14477
+marginal,Link,AT0 0,services rural ground heat pump,-105773.36692
+marginal,Link,AT0 0,services urban decentral air heat pump,-36719.79544
+marginal,Link,AT0 0,urban central air heat pump,-263900.31782
+marginal,Link,BA0 0,BEV charger,40299.88541
+marginal,Link,BA0 0,Fischer-Tropsch,521408.76799
+marginal,Link,BA0 0,H2 Electrolysis,2097.73128
+marginal,Link,BA0 0,H2 pipeline,55240.95751
+marginal,Link,BA0 0,battery charger,6362.03385
+marginal,Link,BA0 0,battery discharger,6003.78742
+marginal,Link,BA0 0,electricity distribution grid,176301.21041
+marginal,Link,BA0 0,home battery charger,5431.25475
+marginal,Link,BA0 0,home battery discharger,5601.98729
+marginal,Link,BA0 0,methanolisation,1433.91037
+marginal,Link,BA0 0,residential rural air heat pump,-2675.13257
+marginal,Link,BA0 0,residential rural ground heat pump,-37648.70259
+marginal,Link,BA0 0,residential urban decentral air heat pump,-15881.09225
+marginal,Link,BA0 0,services rural air heat pump,-921.57137
+marginal,Link,BA0 0,services rural ground heat pump,-10980.93856
+marginal,Link,BA0 0,services urban decentral air heat pump,-4574.13697
+marginal,Link,BA0 0,urban central air heat pump,-39084.72243
+marginal,Link,BE0 0,BEV charger,345360.72669
+marginal,Link,BE0 0,DC,732661.59273
+marginal,Link,BE0 0,Fischer-Tropsch,15159909.64156
+marginal,Link,BE0 0,H2 Electrolysis,4625.91633
+marginal,Link,BE0 0,H2 pipeline,788896.2229
+marginal,Link,BE0 0,battery charger,112859.86661
+marginal,Link,BE0 0,battery discharger,134072.34203
+marginal,Link,BE0 0,electricity distribution grid,1915566.86096
+marginal,Link,BE0 0,home battery charger,50820.9038
+marginal,Link,BE0 0,home battery discharger,43954.66249
+marginal,Link,BE0 0,methanolisation,1341.77385
+marginal,Link,BE0 0,residential rural air heat pump,-788.59111
+marginal,Link,BE0 0,residential rural ground heat pump,-29876.37011
+marginal,Link,BE0 0,residential urban decentral air heat pump,-245426.42558
+marginal,Link,BE0 0,services rural air heat pump,-867.86093
+marginal,Link,BE0 0,services rural ground heat pump,-82258.59966
+marginal,Link,BE0 0,services urban decentral air heat pump,-104740.0331
+marginal,Link,BE0 0,urban central air heat pump,-587702.60203
+marginal,Link,BG0 0,BEV charger,83286.73275
+marginal,Link,BG0 0,Fischer-Tropsch,1113888.6053
+marginal,Link,BG0 0,H2 Electrolysis,18736.28297
+marginal,Link,BG0 0,H2 pipeline,55294.88278
+marginal,Link,BG0 0,battery charger,19314.77375
+marginal,Link,BG0 0,battery discharger,16538.83311
+marginal,Link,BG0 0,electricity distribution grid,498698.36975
+marginal,Link,BG0 0,home battery charger,13063.45696
+marginal,Link,BG0 0,home battery discharger,11390.25926
+marginal,Link,BG0 0,methanolisation,4409.90441
+marginal,Link,BG0 0,residential rural air heat pump,-1765.0849
+marginal,Link,BG0 0,residential rural ground heat pump,-25353.78274
+marginal,Link,BG0 0,residential urban decentral air heat pump,-35580.10764
+marginal,Link,BG0 0,services rural air heat pump,-1523.54945
+marginal,Link,BG0 0,services rural ground heat pump,-23776.2419
+marginal,Link,BG0 0,services urban decentral air heat pump,-13865.8855
+marginal,Link,BG0 0,urban central air heat pump,-98878.7434
+marginal,Link,CH0 0,BEV charger,155783.81114
+marginal,Link,CH0 0,DC,339816.47571
+marginal,Link,CH0 0,Fischer-Tropsch,50261396.31757
+marginal,Link,CH0 0,H2 Electrolysis,812315.88275
+marginal,Link,CH0 0,H2 pipeline,423686.26265
+marginal,Link,CH0 0,battery charger,157887.09173
+marginal,Link,CH0 0,battery discharger,153462.48247
+marginal,Link,CH0 0,electricity distribution grid,903086.30841
+marginal,Link,CH0 0,home battery charger,9908.55889
+marginal,Link,CH0 0,home battery discharger,9906.7926
+marginal,Link,CH0 0,methanolisation,4856.99709
+marginal,Link,CH0 0,residential rural air heat pump,-3260.524
+marginal,Link,CH0 0,residential rural ground heat pump,-84318.93651
+marginal,Link,CH0 0,residential urban decentral air heat pump,-133395.79703
+marginal,Link,CH0 0,services rural air heat pump,-1941.14471
+marginal,Link,CH0 0,services rural ground heat pump,-37625.03316
+marginal,Link,CH0 0,services urban decentral air heat pump,-68990.02039
+marginal,Link,CH0 0,urban central air heat pump,-303019.62779
+marginal,Link,CZ0 0,BEV charger,244612.78243
+marginal,Link,CZ0 0,Fischer-Tropsch,495168.46541
+marginal,Link,CZ0 0,H2 Electrolysis,1007.99729
+marginal,Link,CZ0 0,H2 pipeline,91504.09067
+marginal,Link,CZ0 0,battery charger,56249.63173
+marginal,Link,CZ0 0,battery discharger,59725.2526
+marginal,Link,CZ0 0,electricity distribution grid,1313959.84025
+marginal,Link,CZ0 0,home battery charger,39143.1647
+marginal,Link,CZ0 0,home battery discharger,38926.89912
+marginal,Link,CZ0 0,methanolisation,630.74627
+marginal,Link,CZ0 0,residential rural air heat pump,-3453.79765
+marginal,Link,CZ0 0,residential rural ground heat pump,-144042.95178
+marginal,Link,CZ0 0,residential urban decentral air heat pump,-148319.08626
+marginal,Link,CZ0 0,services rural air heat pump,-2102.32497
+marginal,Link,CZ0 0,services rural ground heat pump,-97769.06911
+marginal,Link,CZ0 0,services urban decentral air heat pump,-51557.14975
+marginal,Link,CZ0 0,urban central air heat pump,-275444.61148
+marginal,Link,DE0 0,BEV charger,1198897.92595
+marginal,Link,DE0 0,DC,579674.65337
+marginal,Link,DE0 0,Fischer-Tropsch,991300.91034
+marginal,Link,DE0 0,H2 Electrolysis,1753.71107
+marginal,Link,DE0 0,H2 pipeline,235846.84006
+marginal,Link,DE0 0,battery charger,107632.67635
+marginal,Link,DE0 0,battery discharger,101898.51163
+marginal,Link,DE0 0,electricity distribution grid,6702955.41355
+marginal,Link,DE0 0,home battery charger,174030.31304
+marginal,Link,DE0 0,home battery discharger,177861.48552
+marginal,Link,DE0 0,methanolisation,769.8238
+marginal,Link,DE0 0,residential rural air heat pump,-5163.72826
+marginal,Link,DE0 0,residential rural ground heat pump,-418529.82928
+marginal,Link,DE0 0,residential urban decentral air heat pump,-1061778.8762
+marginal,Link,DE0 0,services rural air heat pump,-3342.26519
+marginal,Link,DE0 0,services rural ground heat pump,-299232.89292
+marginal,Link,DE0 0,services urban decentral air heat pump,-433228.22232
+marginal,Link,DE0 0,urban central air heat pump,-2547229.51136
+marginal,Link,DE0 1,BEV charger,716690.09012
+marginal,Link,DE0 1,DC,464203.72894
+marginal,Link,DE0 1,Fischer-Tropsch,634747.33299
+marginal,Link,DE0 1,H2 Electrolysis,2226.10197
+marginal,Link,DE0 1,H2 pipeline,146593.57325
+marginal,Link,DE0 1,battery charger,250240.38516
+marginal,Link,DE0 1,battery discharger,240443.19136
+marginal,Link,DE0 1,electricity distribution grid,4105517.11781
+marginal,Link,DE0 1,home battery charger,118651.87627
+marginal,Link,DE0 1,home battery discharger,117515.05194
+marginal,Link,DE0 1,methanolisation,713.49859
+marginal,Link,DE0 1,residential rural air heat pump,-13149.4169
+marginal,Link,DE0 1,residential rural ground heat pump,-711378.27913
+marginal,Link,DE0 1,residential urban decentral air heat pump,-444643.70052
+marginal,Link,DE0 1,services rural air heat pump,-6955.22481
+marginal,Link,DE0 1,services rural ground heat pump,-340658.98701
+marginal,Link,DE0 1,services urban decentral air heat pump,-185811.76232
+marginal,Link,DE0 1,urban central air heat pump,-1101150.58602
+marginal,Link,DK0 0,BEV charger,93368.38429
+marginal,Link,DK0 0,DC,1470330.70234
+marginal,Link,DK0 0,Fischer-Tropsch,49156657.68058
+marginal,Link,DK0 0,H2 Electrolysis,888904.65924
+marginal,Link,DK0 0,H2 pipeline,542255.37427
+marginal,Link,DK0 0,battery charger,75251.80538
+marginal,Link,DK0 0,battery discharger,78600.66841
+marginal,Link,DK0 0,electricity distribution grid,557643.41822
+marginal,Link,DK0 0,home battery charger,12065.9673
+marginal,Link,DK0 0,home battery discharger,11261.49421
+marginal,Link,DK0 0,methanolisation,2753.79134
+marginal,Link,DK0 0,residential rural air heat pump,-747.67264
+marginal,Link,DK0 0,residential rural ground heat pump,-21780.14728
+marginal,Link,DK0 0,residential urban decentral air heat pump,-106431.39801
+marginal,Link,DK0 0,services rural air heat pump,-503.42974
+marginal,Link,DK0 0,services rural ground heat pump,-36276.74294
+marginal,Link,DK0 0,services urban decentral air heat pump,-29552.03778
+marginal,Link,DK0 0,urban central air heat pump,-168659.38805
+marginal,Link,DK1 0,BEV charger,55292.46346
+marginal,Link,DK1 0,DC,1406003.32328
+marginal,Link,DK1 0,Fischer-Tropsch,31099525.88759
+marginal,Link,DK1 0,H2 Electrolysis,377735.57879
+marginal,Link,DK1 0,H2 pipeline,126749.15238
+marginal,Link,DK1 0,battery charger,190857.15952
+marginal,Link,DK1 0,battery discharger,191500.57752
+marginal,Link,DK1 0,electricity distribution grid,290987.27784
+marginal,Link,DK1 0,home battery charger,11220.53728
+marginal,Link,DK1 0,home battery discharger,10341.90997
+marginal,Link,DK1 0,methanolisation,2569.14526
+marginal,Link,DK1 0,residential rural air heat pump,-487.23969
+marginal,Link,DK1 0,residential rural ground heat pump,-9285.43262
+marginal,Link,DK1 0,residential urban decentral air heat pump,-55998.5853
+marginal,Link,DK1 0,services rural air heat pump,-312.61252
+marginal,Link,DK1 0,services rural ground heat pump,-21219.09815
+marginal,Link,DK1 0,services urban decentral air heat pump,-16172.52561
+marginal,Link,DK1 0,urban central air heat pump,-120453.19791
+marginal,Link,EE0 0,BEV charger,25384.70142
+marginal,Link,EE0 0,DC,113657.72519
+marginal,Link,EE0 0,Fischer-Tropsch,2348502.14523
+marginal,Link,EE0 0,H2 Electrolysis,187952.822
+marginal,Link,EE0 0,H2 pipeline,121577.4744
+marginal,Link,EE0 0,battery charger,30287.17224
+marginal,Link,EE0 0,battery discharger,31330.40232
+marginal,Link,EE0 0,electricity distribution grid,167256.29974
+marginal,Link,EE0 0,home battery charger,7666.9615
+marginal,Link,EE0 0,home battery discharger,7666.33198
+marginal,Link,EE0 0,methanolisation,2047.35383
+marginal,Link,EE0 0,residential rural air heat pump,-1218.75727
+marginal,Link,EE0 0,residential rural ground heat pump,-20539.32229
+marginal,Link,EE0 0,residential urban decentral air heat pump,-20250.8652
+marginal,Link,EE0 0,services rural air heat pump,-861.64577
+marginal,Link,EE0 0,services rural ground heat pump,-14230.57241
+marginal,Link,EE0 0,services urban decentral air heat pump,-6412.89812
+marginal,Link,EE0 0,urban central air heat pump,-35462.55333
+marginal,Link,ES0 0,BEV charger,898744.24968
+marginal,Link,ES0 0,DC,910008.72225
+marginal,Link,ES0 0,Fischer-Tropsch,3689158.3296
+marginal,Link,ES0 0,H2 Electrolysis,3347402.28065
+marginal,Link,ES0 0,H2 pipeline,304945.30383
+marginal,Link,ES0 0,battery charger,2614744.55895
+marginal,Link,ES0 0,battery discharger,2459883.17592
+marginal,Link,ES0 0,electricity distribution grid,3798160.2297
+marginal,Link,ES0 0,home battery charger,154726.25309
+marginal,Link,ES0 0,home battery discharger,174690.38764
+marginal,Link,ES0 0,methanolisation,3293076.06737
+marginal,Link,ES0 0,residential rural air heat pump,-15927.42229
+marginal,Link,ES0 0,residential rural ground heat pump,-123713.35973
+marginal,Link,ES0 0,residential urban decentral air heat pump,-250024.88909
+marginal,Link,ES0 0,services rural air heat pump,-10386.02644
+marginal,Link,ES0 0,services rural ground heat pump,-249647.18805
+marginal,Link,ES0 0,services urban decentral air heat pump,-101443.96522
+marginal,Link,ES0 0,urban central air heat pump,-449449.64847
+marginal,Link,ES6 0,BEV charger,15482.95343
+marginal,Link,ES6 0,DC,122695.69941
+marginal,Link,ES6 0,Fischer-Tropsch,90977.35144
+marginal,Link,ES6 0,H2 Electrolysis,114469.19014
+marginal,Link,ES6 0,H2 pipeline,83454.54661
+marginal,Link,ES6 0,battery charger,10990.5221
+marginal,Link,ES6 0,battery discharger,11476.37869
+marginal,Link,ES6 0,electricity distribution grid,123397.3418
+marginal,Link,ES6 0,home battery charger,8755.58191
+marginal,Link,ES6 0,home battery discharger,9154.462
+marginal,Link,ES6 0,methanolisation,1429.7756
+marginal,Link,ES6 0,residential rural air heat pump,-471.59017
+marginal,Link,ES6 0,residential rural ground heat pump,-516.89734
+marginal,Link,ES6 0,residential urban decentral air heat pump,-4473.34934
+marginal,Link,ES6 0,services rural air heat pump,-1221.38416
+marginal,Link,ES6 0,services rural ground heat pump,-2268.96877
+marginal,Link,ES6 0,services urban decentral air heat pump,-2092.35876
+marginal,Link,ES6 0,urban central air heat pump,-8591.16284
+marginal,Link,EU,CCGT,1195.57784
+marginal,Link,EU,HVC to air,0.08698
+marginal,Link,EU,agriculture machinery oil,249196.1858
+marginal,Link,EU,co2 sequestered,1535432.48116
+marginal,Link,EU,gas for industry,0.07794
+marginal,Link,EU,gas for industry CC,2737651.86404
+marginal,Link,EU,industry methanol,85546.55823
+marginal,Link,EU,kerosene for aviation,5711621.90457
+marginal,Link,EU,naphtha for industry,2654854.42947
+marginal,Link,EU,oil refining,1.77643
+marginal,Link,EU,process emissions,0.02502
+marginal,Link,EU,process emissions CC,1210241.55408
+marginal,Link,EU,shipping methanol,5023889.93628
+marginal,Link,EU,solid biomass for industry,0.06017
+marginal,Link,EU,solid biomass for industry CC,7861233.98911
+marginal,Link,EU,waste CHP,9707.71116
+marginal,Link,EU,waste CHP CC,3176706884.0205
+marginal,Link,FI1 0,BEV charger,152628.74379
+marginal,Link,FI1 0,DC,136636.55977
+marginal,Link,FI1 0,Fischer-Tropsch,124847746.06969
+marginal,Link,FI1 0,H2 Electrolysis,986387.00376
+marginal,Link,FI1 0,H2 pipeline,57831.84204
+marginal,Link,FI1 0,battery charger,101712.49479
+marginal,Link,FI1 0,battery discharger,101084.8696
+marginal,Link,FI1 0,electricity distribution grid,1320335.52584
+marginal,Link,FI1 0,home battery charger,32557.95235
+marginal,Link,FI1 0,home battery discharger,35750.41839
+marginal,Link,FI1 0,methanolisation,2753.71611
+marginal,Link,FI1 0,residential rural air heat pump,-2386.22792
+marginal,Link,FI1 0,residential rural ground heat pump,-69606.4903
+marginal,Link,FI1 0,residential urban decentral air heat pump,-174431.96439
+marginal,Link,FI1 0,services rural air heat pump,-1816.01722
+marginal,Link,FI1 0,services rural ground heat pump,-84325.26445
+marginal,Link,FI1 0,services urban decentral air heat pump,-61142.73867
+marginal,Link,FI1 0,urban central air heat pump,-366143.90318
+marginal,Link,FR0 0,BEV charger,1391302.79272
+marginal,Link,FR0 0,DC,3410949.2842
+marginal,Link,FR0 0,Fischer-Tropsch,709801098.79498
+marginal,Link,FR0 0,H2 Electrolysis,5792428.27572
+marginal,Link,FR0 0,H2 pipeline,1361846.05264
+marginal,Link,FR0 0,battery charger,11383.40146
+marginal,Link,FR0 0,battery discharger,10639.02377
+marginal,Link,FR0 0,electricity distribution grid,6423509.43516
+marginal,Link,FR0 0,home battery charger,243457.07332
+marginal,Link,FR0 0,home battery discharger,237611.28406
+marginal,Link,FR0 0,methanolisation,6191.53241
+marginal,Link,FR0 0,residential rural air heat pump,-21986.98032
+marginal,Link,FR0 0,residential rural ground heat pump,-723833.22251
+marginal,Link,FR0 0,residential urban decentral air heat pump,-1240168.9262
+marginal,Link,FR0 0,services rural air heat pump,-19141.68746
+marginal,Link,FR0 0,services rural ground heat pump,-497387.12919
+marginal,Link,FR0 0,services urban decentral air heat pump,-463897.02653
+marginal,Link,FR0 0,urban central air heat pump,-2437163.08851
+marginal,Link,FR5 0,BEV charger,6546.7016
+marginal,Link,FR5 0,DC,58392.2058
+marginal,Link,FR5 0,Fischer-Tropsch,2324261.6641
+marginal,Link,FR5 0,H2 Electrolysis,276289.5966
+marginal,Link,FR5 0,H2 pipeline,100292.11009
+marginal,Link,FR5 0,battery charger,55395.54506
+marginal,Link,FR5 0,battery discharger,52888.2634
+marginal,Link,FR5 0,electricity distribution grid,57469.32417
+marginal,Link,FR5 0,home battery charger,4500.85736
+marginal,Link,FR5 0,home battery discharger,4091.43448
+marginal,Link,FR5 0,methanolisation,117978.12592
+marginal,Link,FR5 0,residential rural air heat pump,-1540.13167
+marginal,Link,FR5 0,residential rural ground heat pump,-13959.60227
+marginal,Link,FR5 0,residential urban decentral air heat pump,0.0
+marginal,Link,FR5 0,services rural air heat pump,-1059.21385
+marginal,Link,FR5 0,services rural ground heat pump,-6065.49655
+marginal,Link,FR5 0,services urban decentral air heat pump,-83.47905
+marginal,Link,GB2 0,BEV charger,1178956.76107
+marginal,Link,GB2 0,DC,4897745.71005
+marginal,Link,GB2 0,Fischer-Tropsch,610333001.89673
+marginal,Link,GB2 0,H2 Electrolysis,7757841.15845
+marginal,Link,GB2 0,H2 pipeline,948298.49877
+marginal,Link,GB2 0,battery charger,182167.5798
+marginal,Link,GB2 0,battery discharger,176253.27408
+marginal,Link,GB2 0,electricity distribution grid,5791202.14892
+marginal,Link,GB2 0,home battery charger,139964.10131
+marginal,Link,GB2 0,home battery discharger,140654.88904
+marginal,Link,GB2 0,methanolisation,1827649.54972
+marginal,Link,GB2 0,residential rural air heat pump,-14221.36099
+marginal,Link,GB2 0,residential rural ground heat pump,-376409.85216
+marginal,Link,GB2 0,residential urban decentral air heat pump,-932368.50981
+marginal,Link,GB2 0,services rural air heat pump,-5725.44514
+marginal,Link,GB2 0,services rural ground heat pump,-156559.79735
+marginal,Link,GB2 0,services urban decentral air heat pump,-367139.69117
+marginal,Link,GB2 0,urban central air heat pump,-1863665.2666
+marginal,Link,GB3 0,BEV charger,27655.10344
+marginal,Link,GB3 0,DC,748077.74483
+marginal,Link,GB3 0,Fischer-Tropsch,195204.26638
+marginal,Link,GB3 0,H2 Electrolysis,205381.11371
+marginal,Link,GB3 0,H2 pipeline,174493.36732
+marginal,Link,GB3 0,battery charger,58323.25516
+marginal,Link,GB3 0,battery discharger,55514.15671
+marginal,Link,GB3 0,electricity distribution grid,188386.90517
+marginal,Link,GB3 0,home battery charger,8023.11438
+marginal,Link,GB3 0,home battery discharger,7366.09244
+marginal,Link,GB3 0,methanolisation,28219.32113
+marginal,Link,GB3 0,residential rural air heat pump,-5243.98252
+marginal,Link,GB3 0,residential rural ground heat pump,-42609.35089
+marginal,Link,GB3 0,residential urban decentral air heat pump,-11502.17147
+marginal,Link,GB3 0,services rural air heat pump,-1839.29534
+marginal,Link,GB3 0,services rural ground heat pump,-16047.25932
+marginal,Link,GB3 0,services urban decentral air heat pump,-3535.66131
+marginal,Link,GB3 0,urban central air heat pump,-18720.471
+marginal,Link,GR0 0,BEV charger,184295.89081
+marginal,Link,GR0 0,DC,84827.35237
+marginal,Link,GR0 0,Fischer-Tropsch,445975.28513
+marginal,Link,GR0 0,H2 Electrolysis,789069.15781
+marginal,Link,GR0 0,H2 pipeline,214132.9258
+marginal,Link,GR0 0,battery charger,1082601.8045
+marginal,Link,GR0 0,battery discharger,992928.12043
+marginal,Link,GR0 0,electricity distribution grid,710783.08246
+marginal,Link,GR0 0,home battery charger,12166.55167
+marginal,Link,GR0 0,home battery discharger,12951.62526
+marginal,Link,GR0 0,methanolisation,483988.5768
+marginal,Link,GR0 0,residential rural air heat pump,-4351.04319
+marginal,Link,GR0 0,residential rural ground heat pump,-27413.02383
+marginal,Link,GR0 0,residential urban decentral air heat pump,-65067.46574
+marginal,Link,GR0 0,services rural air heat pump,-4997.02347
+marginal,Link,GR0 0,services rural ground heat pump,-46589.45599
+marginal,Link,GR0 0,services urban decentral air heat pump,-31977.35078
+marginal,Link,GR0 0,urban central air heat pump,-118841.59863
+marginal,Link,HR0 0,BEV charger,77724.82603
+marginal,Link,HR0 0,Fischer-Tropsch,371318.62368
+marginal,Link,HR0 0,H2 Electrolysis,1407.61832
+marginal,Link,HR0 0,H2 pipeline,58159.23291
+marginal,Link,HR0 0,battery charger,9045.33906
+marginal,Link,HR0 0,battery discharger,8783.56782
+marginal,Link,HR0 0,electricity distribution grid,362519.15091
+marginal,Link,HR0 0,home battery charger,11079.00901
+marginal,Link,HR0 0,home battery discharger,10889.56784
+marginal,Link,HR0 0,methanolisation,1190.75122
+marginal,Link,HR0 0,residential rural air heat pump,-2750.62634
+marginal,Link,HR0 0,residential rural ground heat pump,-56543.80152
+marginal,Link,HR0 0,residential urban decentral air heat pump,-32273.24317
+marginal,Link,HR0 0,services rural air heat pump,-1444.21634
+marginal,Link,HR0 0,services rural ground heat pump,-31369.68386
+marginal,Link,HR0 0,services urban decentral air heat pump,-7997.12869
+marginal,Link,HR0 0,urban central air heat pump,-81318.34302
+marginal,Link,HU0 0,BEV charger,156158.78053
+marginal,Link,HU0 0,Fischer-Tropsch,427731.79702
+marginal,Link,HU0 0,H2 Electrolysis,1630.72926
+marginal,Link,HU0 0,H2 pipeline,145623.09276
+marginal,Link,HU0 0,battery charger,68815.42742
+marginal,Link,HU0 0,battery discharger,68885.50446
+marginal,Link,HU0 0,electricity distribution grid,932632.58727
+marginal,Link,HU0 0,home battery charger,30504.75301
+marginal,Link,HU0 0,home battery discharger,29948.88981
+marginal,Link,HU0 0,methanolisation,1113.0574
+marginal,Link,HU0 0,residential rural air heat pump,-3380.77488
+marginal,Link,HU0 0,residential rural ground heat pump,-130639.00187
+marginal,Link,HU0 0,residential urban decentral air heat pump,-110423.08925
+marginal,Link,HU0 0,services rural air heat pump,-2440.66856
+marginal,Link,HU0 0,services rural ground heat pump,-85059.85132
+marginal,Link,HU0 0,services urban decentral air heat pump,-39598.58013
+marginal,Link,HU0 0,urban central air heat pump,-262566.4543
+marginal,Link,IE3 0,BEV charger,118599.14079
+marginal,Link,IE3 0,DC,2051016.31379
+marginal,Link,IE3 0,Fischer-Tropsch,232359.52637
+marginal,Link,IE3 0,H2 Electrolysis,1324081.41419
+marginal,Link,IE3 0,H2 pipeline,1038716.62825
+marginal,Link,IE3 0,battery charger,43298.80857
+marginal,Link,IE3 0,battery discharger,44276.25964
+marginal,Link,IE3 0,electricity distribution grid,583673.14021
+marginal,Link,IE3 0,home battery charger,10707.85892
+marginal,Link,IE3 0,home battery discharger,10699.93468
+marginal,Link,IE3 0,methanolisation,28715.7623
+marginal,Link,IE3 0,residential rural air heat pump,-10170.91383
+marginal,Link,IE3 0,residential rural ground heat pump,-66253.86731
+marginal,Link,IE3 0,residential urban decentral air heat pump,-58889.03872
+marginal,Link,IE3 0,services rural air heat pump,-4506.20865
+marginal,Link,IE3 0,services rural ground heat pump,-38364.32223
+marginal,Link,IE3 0,services urban decentral air heat pump,-25664.37499
+marginal,Link,IE3 0,urban central air heat pump,-93461.84114
+marginal,Link,IT0 0,BEV charger,1065067.05896
+marginal,Link,IT0 0,DC,1578049.15434
+marginal,Link,IT0 0,Fischer-Tropsch,30263027.22187
+marginal,Link,IT0 0,H2 Electrolysis,435103.80099
+marginal,Link,IT0 0,H2 pipeline,313576.09556
+marginal,Link,IT0 0,battery charger,1167858.76664
+marginal,Link,IT0 0,battery discharger,1015440.40446
+marginal,Link,IT0 0,electricity distribution grid,5143739.03861
+marginal,Link,IT0 0,home battery charger,182849.00339
+marginal,Link,IT0 0,home battery discharger,160319.24334
+marginal,Link,IT0 0,methanolisation,7500.92227
+marginal,Link,IT0 0,residential rural air heat pump,-32372.88103
+marginal,Link,IT0 0,residential rural ground heat pump,-532394.6381
+marginal,Link,IT0 0,residential urban decentral air heat pump,-716938.19175
+marginal,Link,IT0 0,services rural air heat pump,-25785.37
+marginal,Link,IT0 0,services rural ground heat pump,-521451.43365
+marginal,Link,IT0 0,services urban decentral air heat pump,-387963.6479
+marginal,Link,IT0 0,urban central air heat pump,-1641920.20125
+marginal,Link,IT4 0,BEV charger,30924.38276
+marginal,Link,IT4 0,DC,363961.59554
+marginal,Link,IT4 0,Fischer-Tropsch,124321.91499
+marginal,Link,IT4 0,H2 Electrolysis,85811.72981
+marginal,Link,IT4 0,H2 pipeline,65782.77146
+marginal,Link,IT4 0,battery charger,202939.25225
+marginal,Link,IT4 0,battery discharger,208264.35627
+marginal,Link,IT4 0,electricity distribution grid,191518.3818
+marginal,Link,IT4 0,home battery charger,8792.05114
+marginal,Link,IT4 0,home battery discharger,9819.86225
+marginal,Link,IT4 0,methanolisation,1647.91994
+marginal,Link,IT4 0,residential rural air heat pump,-6342.87875
+marginal,Link,IT4 0,residential rural ground heat pump,-36560.63236
+marginal,Link,IT4 0,residential urban decentral air heat pump,-5598.50971
+marginal,Link,IT4 0,services rural air heat pump,-4107.83778
+marginal,Link,IT4 0,services rural ground heat pump,-25047.84867
+marginal,Link,IT4 0,services urban decentral air heat pump,-2908.84198
+marginal,Link,IT4 0,urban central air heat pump,-13084.75167
+marginal,Link,LT0 0,BEV charger,69015.02287
+marginal,Link,LT0 0,DC,19688.71204
+marginal,Link,LT0 0,Fischer-Tropsch,431803.46376
+marginal,Link,LT0 0,H2 Electrolysis,33749.61612
+marginal,Link,LT0 0,H2 pipeline,98488.18054
+marginal,Link,LT0 0,battery charger,20391.25948
+marginal,Link,LT0 0,battery discharger,20463.15816
+marginal,Link,LT0 0,electricity distribution grid,232909.96357
+marginal,Link,LT0 0,home battery charger,12177.74484
+marginal,Link,LT0 0,home battery discharger,13075.45958
+marginal,Link,LT0 0,methanolisation,947.97222
+marginal,Link,LT0 0,residential rural air heat pump,-1070.73742
+marginal,Link,LT0 0,residential rural ground heat pump,-31899.83295
+marginal,Link,LT0 0,residential urban decentral air heat pump,-28064.1852
+marginal,Link,LT0 0,services rural air heat pump,-725.04023
+marginal,Link,LT0 0,services rural ground heat pump,-17702.19809
+marginal,Link,LT0 0,services urban decentral air heat pump,-8297.76678
+marginal,Link,LT0 0,urban central air heat pump,-58278.88502
+marginal,Link,LU0 0,BEV charger,33112.94023
+marginal,Link,LU0 0,Fischer-Tropsch,2138877.75875
+marginal,Link,LU0 0,H2 Electrolysis,868.05634
+marginal,Link,LU0 0,H2 pipeline,170961.79836
+marginal,Link,LU0 0,battery charger,21258.91492
+marginal,Link,LU0 0,battery discharger,18099.58355
+marginal,Link,LU0 0,electricity distribution grid,133055.21561
+marginal,Link,LU0 0,home battery charger,5031.17818
+marginal,Link,LU0 0,home battery discharger,5392.52005
+marginal,Link,LU0 0,methanolisation,951.19603
+marginal,Link,LU0 0,residential rural air heat pump,-169.3127
+marginal,Link,LU0 0,residential rural ground heat pump,-2957.55149
+marginal,Link,LU0 0,residential urban decentral air heat pump,-13773.72291
+marginal,Link,LU0 0,services rural air heat pump,-198.52616
+marginal,Link,LU0 0,services rural ground heat pump,-3719.60649
+marginal,Link,LU0 0,services urban decentral air heat pump,-9371.11993
+marginal,Link,LU0 0,urban central air heat pump,-38808.80186
+marginal,Link,LV0 0,BEV charger,35206.09913
+marginal,Link,LV0 0,Fischer-Tropsch,2032193.15781
+marginal,Link,LV0 0,H2 Electrolysis,16176.96129
+marginal,Link,LV0 0,H2 pipeline,120401.09882
+marginal,Link,LV0 0,battery charger,33771.28004
+marginal,Link,LV0 0,battery discharger,32454.93017
+marginal,Link,LV0 0,electricity distribution grid,194997.25133
+marginal,Link,LV0 0,home battery charger,6326.91872
+marginal,Link,LV0 0,home battery discharger,6852.32353
+marginal,Link,LV0 0,methanolisation,1286.93951
+marginal,Link,LV0 0,residential rural air heat pump,-1279.94444
+marginal,Link,LV0 0,residential rural ground heat pump,-28922.74373
+marginal,Link,LV0 0,residential urban decentral air heat pump,-23625.54355
+marginal,Link,LV0 0,services rural air heat pump,-1117.57465
+marginal,Link,LV0 0,services rural ground heat pump,-24486.2777
+marginal,Link,LV0 0,services urban decentral air heat pump,-8818.80588
+marginal,Link,LV0 0,urban central air heat pump,-44954.00734
+marginal,Link,ME0 0,BEV charger,8344.51829
+marginal,Link,ME0 0,DC,29752.62652
+marginal,Link,ME0 0,Fischer-Tropsch,699095.48907
+marginal,Link,ME0 0,H2 Electrolysis,2883.24574
+marginal,Link,ME0 0,H2 pipeline,99663.89897
+marginal,Link,ME0 0,battery charger,16791.47147
+marginal,Link,ME0 0,battery discharger,16011.56735
+marginal,Link,ME0 0,electricity distribution grid,41165.12016
+marginal,Link,ME0 0,home battery charger,3152.99628
+marginal,Link,ME0 0,home battery discharger,3052.1826
+marginal,Link,ME0 0,methanolisation,2004.65492
+marginal,Link,ME0 0,residential rural air heat pump,-453.39574
+marginal,Link,ME0 0,residential rural ground heat pump,-4180.13819
+marginal,Link,ME0 0,residential urban decentral air heat pump,-3238.63699
+marginal,Link,ME0 0,services rural air heat pump,-194.88421
+marginal,Link,ME0 0,services rural ground heat pump,-418.3863
+marginal,Link,ME0 0,services urban decentral air heat pump,-393.83041
+marginal,Link,ME0 0,urban central air heat pump,-6137.84488
+marginal,Link,MK0 0,BEV charger,21764.00973
+marginal,Link,MK0 0,Fischer-Tropsch,1581047.67387
+marginal,Link,MK0 0,H2 Electrolysis,13161.36978
+marginal,Link,MK0 0,H2 pipeline,121314.37213
+marginal,Link,MK0 0,battery charger,61333.61129
+marginal,Link,MK0 0,battery discharger,57410.15266
+marginal,Link,MK0 0,electricity distribution grid,107177.30287
+marginal,Link,MK0 0,home battery charger,5793.68793
+marginal,Link,MK0 0,home battery discharger,5338.48313
+marginal,Link,MK0 0,methanolisation,4746.28651
+marginal,Link,MK0 0,residential rural air heat pump,-852.67847
+marginal,Link,MK0 0,residential rural ground heat pump,-12969.61662
+marginal,Link,MK0 0,residential urban decentral air heat pump,-8091.24607
+marginal,Link,MK0 0,services rural air heat pump,-434.74845
+marginal,Link,MK0 0,services rural ground heat pump,-4075.92776
+marginal,Link,MK0 0,services urban decentral air heat pump,-2545.9085
+marginal,Link,MK0 0,urban central air heat pump,-17832.45919
+marginal,Link,NL0 0,BEV charger,432099.00791
+marginal,Link,NL0 0,DC,347178.46021
+marginal,Link,NL0 0,Fischer-Tropsch,1793916.59663
+marginal,Link,NL0 0,H2 Electrolysis,7672.0821
+marginal,Link,NL0 0,H2 pipeline,408029.13599
+marginal,Link,NL0 0,battery charger,393809.09457
+marginal,Link,NL0 0,battery discharger,444902.40397
+marginal,Link,NL0 0,electricity distribution grid,2827715.60617
+marginal,Link,NL0 0,home battery charger,56353.1304
+marginal,Link,NL0 0,home battery discharger,47753.04536
+marginal,Link,NL0 0,methanolisation,1231.06978
+marginal,Link,NL0 0,residential rural air heat pump,-1471.86274
+marginal,Link,NL0 0,residential rural ground heat pump,-50180.23476
+marginal,Link,NL0 0,residential urban decentral air heat pump,-317792.8541
+marginal,Link,NL0 0,services rural air heat pump,-1803.79163
+marginal,Link,NL0 0,services rural ground heat pump,-331154.28307
+marginal,Link,NL0 0,services urban decentral air heat pump,-160479.69808
+marginal,Link,NL0 0,urban central air heat pump,-792647.24219
+marginal,Link,NO1 0,BEV charger,94797.80011
+marginal,Link,NO1 0,DC,574603.7563
+marginal,Link,NO1 0,Fischer-Tropsch,96554792.88514
+marginal,Link,NO1 0,H2 Electrolysis,696849.10005
+marginal,Link,NO1 0,H2 pipeline,115713.63639
+marginal,Link,NO1 0,battery charger,12548.06468
+marginal,Link,NO1 0,battery discharger,13827.89735
+marginal,Link,NO1 0,electricity distribution grid,1405579.13309
+marginal,Link,NO1 0,home battery charger,16091.09757
+marginal,Link,NO1 0,home battery discharger,15948.65178
+marginal,Link,NO1 0,methanolisation,3026.18929
+marginal,Link,NO1 0,residential rural air heat pump,-1251.2434
+marginal,Link,NO1 0,residential rural ground heat pump,-54539.83592
+marginal,Link,NO1 0,residential urban decentral air heat pump,-104430.09964
+marginal,Link,NO1 0,services rural air heat pump,-1213.45091
+marginal,Link,NO1 0,services rural ground heat pump,-44697.21149
+marginal,Link,NO1 0,services urban decentral air heat pump,-76748.85419
+marginal,Link,NO1 0,urban central air heat pump,-288514.50519
+marginal,Link,PL0 0,BEV charger,761779.2056
+marginal,Link,PL0 0,DC,129954.28375
+marginal,Link,PL0 0,Fischer-Tropsch,384831.51032
+marginal,Link,PL0 0,H2 Electrolysis,217657.41866
+marginal,Link,PL0 0,H2 pipeline,135254.95083
+marginal,Link,PL0 0,battery charger,296647.00456
+marginal,Link,PL0 0,battery discharger,328874.41738
+marginal,Link,PL0 0,electricity distribution grid,3690688.45911
+marginal,Link,PL0 0,home battery charger,95163.54551
+marginal,Link,PL0 0,home battery discharger,93112.34517
+marginal,Link,PL0 0,methanolisation,671.52627
+marginal,Link,PL0 0,residential rural air heat pump,-13529.95973
+marginal,Link,PL0 0,residential rural ground heat pump,-661969.55097
+marginal,Link,PL0 0,residential urban decentral air heat pump,-419592.82142
+marginal,Link,PL0 0,services rural air heat pump,-8146.20636
+marginal,Link,PL0 0,services rural ground heat pump,-481706.97876
+marginal,Link,PL0 0,services urban decentral air heat pump,-99132.31869
+marginal,Link,PL0 0,urban central air heat pump,-612844.68766
+marginal,Link,PT0 0,BEV charger,220939.47392
+marginal,Link,PT0 0,Fischer-Tropsch,19604008.19231
+marginal,Link,PT0 0,H2 Electrolysis,71076.3876
+marginal,Link,PT0 0,H2 pipeline,4496.44431
+marginal,Link,PT0 0,battery charger,32279.90307
+marginal,Link,PT0 0,battery discharger,36379.62246
+marginal,Link,PT0 0,electricity distribution grid,846364.91798
+marginal,Link,PT0 0,home battery charger,34914.2896
+marginal,Link,PT0 0,home battery discharger,34412.82269
+marginal,Link,PT0 0,methanolisation,2573.53298
+marginal,Link,PT0 0,residential rural air heat pump,-6873.98718
+marginal,Link,PT0 0,residential rural ground heat pump,-29502.96662
+marginal,Link,PT0 0,residential urban decentral air heat pump,-27458.84631
+marginal,Link,PT0 0,services rural air heat pump,-10437.67379
+marginal,Link,PT0 0,services rural ground heat pump,-55842.17648
+marginal,Link,PT0 0,services urban decentral air heat pump,-29242.05366
+marginal,Link,PT0 0,urban central air heat pump,-104005.79001
+marginal,Link,RO0 0,BEV charger,228470.39358
+marginal,Link,RO0 0,Fischer-Tropsch,1183808.09001
+marginal,Link,RO0 0,H2 Electrolysis,208623.65392
+marginal,Link,RO0 0,H2 pipeline,97287.03928
+marginal,Link,RO0 0,battery charger,43125.41238
+marginal,Link,RO0 0,battery discharger,42149.84974
+marginal,Link,RO0 0,electricity distribution grid,1069451.99626
+marginal,Link,RO0 0,home battery charger,24138.35517
+marginal,Link,RO0 0,home battery discharger,25515.21881
+marginal,Link,RO0 0,methanolisation,4990.02422
+marginal,Link,RO0 0,residential rural air heat pump,-7351.5241
+marginal,Link,RO0 0,residential rural ground heat pump,-210244.55744
+marginal,Link,RO0 0,residential urban decentral air heat pump,-111283.12639
+marginal,Link,RO0 0,services rural air heat pump,-3957.96076
+marginal,Link,RO0 0,services rural ground heat pump,-73814.18462
+marginal,Link,RO0 0,services urban decentral air heat pump,-21705.6086
+marginal,Link,RO0 0,urban central air heat pump,-252023.17822
+marginal,Link,RS0 0,BEV charger,63038.72907
+marginal,Link,RS0 0,Fischer-Tropsch,607892.38313
+marginal,Link,RS0 0,H2 Electrolysis,2491.90873
+marginal,Link,RS0 0,H2 pipeline,104801.23022
+marginal,Link,RS0 0,battery charger,8910.47173
+marginal,Link,RS0 0,battery discharger,7557.34291
+marginal,Link,RS0 0,electricity distribution grid,571135.4391
+marginal,Link,RS0 0,home battery charger,12970.67818
+marginal,Link,RS0 0,home battery discharger,12370.51853
+marginal,Link,RS0 0,methanolisation,1409.41114
+marginal,Link,RS0 0,residential rural air heat pump,-3536.07983
+marginal,Link,RS0 0,residential rural ground heat pump,-86010.63269
+marginal,Link,RS0 0,residential urban decentral air heat pump,-45086.595
+marginal,Link,RS0 0,services rural air heat pump,-1477.98098
+marginal,Link,RS0 0,services rural ground heat pump,-19100.82399
+marginal,Link,RS0 0,services urban decentral air heat pump,-10623.23525
+marginal,Link,RS0 0,urban central air heat pump,-89553.72299
+marginal,Link,SE1 0,BEV charger,234551.49117
+marginal,Link,SE1 0,DC,1276756.07898
+marginal,Link,SE1 0,Fischer-Tropsch,169443096.14259
+marginal,Link,SE1 0,H2 Electrolysis,1882241.35746
+marginal,Link,SE1 0,H2 pipeline,374221.27029
+marginal,Link,SE1 0,battery charger,21841.8829
+marginal,Link,SE1 0,battery discharger,25352.24169
+marginal,Link,SE1 0,electricity distribution grid,1955959.29564
+marginal,Link,SE1 0,home battery charger,26809.50498
+marginal,Link,SE1 0,home battery discharger,25387.66814
+marginal,Link,SE1 0,methanolisation,2015.83619
+marginal,Link,SE1 0,residential rural air heat pump,-2143.62776
+marginal,Link,SE1 0,residential rural ground heat pump,-86907.12323
+marginal,Link,SE1 0,residential urban decentral air heat pump,-262696.15925
+marginal,Link,SE1 0,services rural air heat pump,-1086.76392
+marginal,Link,SE1 0,services rural ground heat pump,-75063.63424
+marginal,Link,SE1 0,services urban decentral air heat pump,-80199.77509
+marginal,Link,SE1 0,urban central air heat pump,-536819.33374
+marginal,Link,SI0 0,BEV charger,61332.61421
+marginal,Link,SI0 0,DC,85588.24319
+marginal,Link,SI0 0,Fischer-Tropsch,474939.23814
+marginal,Link,SI0 0,H2 Electrolysis,2777.93718
+marginal,Link,SI0 0,H2 pipeline,134593.07976
+marginal,Link,SI0 0,battery charger,40180.43132
+marginal,Link,SI0 0,battery discharger,39229.42834
+marginal,Link,SI0 0,electricity distribution grid,281128.28272
+marginal,Link,SI0 0,home battery charger,14156.75342
+marginal,Link,SI0 0,home battery discharger,15208.95324
+marginal,Link,SI0 0,methanolisation,1467.93139
+marginal,Link,SI0 0,residential rural air heat pump,-1829.25216
+marginal,Link,SI0 0,residential rural ground heat pump,-37880.22974
+marginal,Link,SI0 0,residential urban decentral air heat pump,-21363.26922
+marginal,Link,SI0 0,services rural air heat pump,-1034.77859
+marginal,Link,SI0 0,services rural ground heat pump,-17102.46031
+marginal,Link,SI0 0,services urban decentral air heat pump,-6325.64091
+marginal,Link,SI0 0,urban central air heat pump,-50759.68817
+marginal,Link,SK0 0,BEV charger,98624.83582
+marginal,Link,SK0 0,Fischer-Tropsch,269619.89728
+marginal,Link,SK0 0,H2 Electrolysis,953.76152
+marginal,Link,SK0 0,H2 pipeline,92770.92787
+marginal,Link,SK0 0,battery charger,48859.80065
+marginal,Link,SK0 0,battery discharger,48090.77295
+marginal,Link,SK0 0,electricity distribution grid,490950.46259
+marginal,Link,SK0 0,home battery charger,8144.75913
+marginal,Link,SK0 0,home battery discharger,7871.47756
+marginal,Link,SK0 0,methanolisation,784.20744
+marginal,Link,SK0 0,residential rural air heat pump,-1992.9673
+marginal,Link,SK0 0,residential rural ground heat pump,-91288.76568
+marginal,Link,SK0 0,residential urban decentral air heat pump,-51951.39087
+marginal,Link,SK0 0,services rural air heat pump,-2205.09827
+marginal,Link,SK0 0,services rural ground heat pump,-58421.01389
+marginal,Link,SK0 0,services urban decentral air heat pump,-24273.87968
+marginal,Link,SK0 0,urban central air heat pump,-110012.75993
+marginal,Link,XK0 0,BEV charger,13080.5229
+marginal,Link,XK0 0,Fischer-Tropsch,1093879.18109
+marginal,Link,XK0 0,H2 Electrolysis,3482.33455
+marginal,Link,XK0 0,H2 pipeline,73005.32061
+marginal,Link,XK0 0,battery charger,10942.87489
+marginal,Link,XK0 0,battery discharger,10495.24269
+marginal,Link,XK0 0,electricity distribution grid,99497.8765
+marginal,Link,XK0 0,home battery charger,3388.88513
+marginal,Link,XK0 0,home battery discharger,3944.49537
+marginal,Link,XK0 0,methanolisation,2546.88487
+marginal,Link,XK0 0,residential rural air heat pump,-649.05429
+marginal,Link,XK0 0,residential rural ground heat pump,-9260.38989
+marginal,Link,XK0 0,residential urban decentral air heat pump,-7042.98552
+marginal,Link,XK0 0,services rural air heat pump,-406.98335
+marginal,Link,XK0 0,services rural ground heat pump,-2663.67821
+marginal,Link,XK0 0,services urban decentral air heat pump,-1625.94149
+marginal,Link,XK0 0,urban central air heat pump,-13644.38838
+marginal,StorageUnit,AL0 0,hydro,52739.29113
+marginal,StorageUnit,AT0 0,PHS,125382.55319
+marginal,StorageUnit,AT0 0,hydro,179393.60047
+marginal,StorageUnit,BA0 0,PHS,2219.4117
+marginal,StorageUnit,BA0 0,hydro,59137.05702
+marginal,StorageUnit,BE0 0,PHS,11290.39812
+marginal,StorageUnit,BE0 0,hydro,517.36178
+marginal,StorageUnit,BG0 0,PHS,16787.53055
+marginal,StorageUnit,BG0 0,hydro,36878.24982
+marginal,StorageUnit,CH0 0,PHS,110633.60359
+marginal,StorageUnit,CH0 0,hydro,233903.46886
+marginal,StorageUnit,CZ0 0,PHS,4372.65817
+marginal,StorageUnit,CZ0 0,hydro,22717.44885
+marginal,StorageUnit,DE0 0,PHS,26735.77036
+marginal,StorageUnit,DE0 1,PHS,20703.40636
+marginal,StorageUnit,ES0 0,PHS,211264.50671
+marginal,StorageUnit,ES0 0,hydro,308031.39667
+marginal,StorageUnit,ES6 0,PHS,29761.6773
+marginal,StorageUnit,ES6 0,hydro,30170.04354
+marginal,StorageUnit,FI1 0,hydro,45860.68995
+marginal,StorageUnit,FR0 0,PHS,63345.86975
+marginal,StorageUnit,FR0 0,hydro,270412.3095
+marginal,StorageUnit,FR5 0,hydro,101820.19865
+marginal,StorageUnit,GB3 0,PHS,7217.07115
+marginal,StorageUnit,GB3 0,hydro,2239.94395
+marginal,StorageUnit,GR0 0,PHS,11125.90997
+marginal,StorageUnit,GR0 0,hydro,57818.63213
+marginal,StorageUnit,HR0 0,PHS,5359.31864
+marginal,StorageUnit,HR0 0,hydro,61570.6349
+marginal,StorageUnit,HU0 0,hydro,1011.73306
+marginal,StorageUnit,IE3 0,PHS,6306.20477
+marginal,StorageUnit,IE3 0,hydro,18.20584
+marginal,StorageUnit,IT0 0,PHS,141266.98595
+marginal,StorageUnit,IT0 0,hydro,146969.71422
+marginal,StorageUnit,IT4 0,PHS,14184.03269
+marginal,StorageUnit,IT4 0,hydro,4028.94505
+marginal,StorageUnit,LT0 0,PHS,8169.058
+marginal,StorageUnit,LU0 0,PHS,10148.10152
+marginal,StorageUnit,ME0 0,PHS,4551.54947
+marginal,StorageUnit,ME0 0,hydro,17840.63648
+marginal,StorageUnit,MK0 0,hydro,9049.9234
+marginal,StorageUnit,NO1 0,PHS,6498.64215
+marginal,StorageUnit,NO1 0,hydro,1094938.1342
+marginal,StorageUnit,PL0 0,PHS,15932.49214
+marginal,StorageUnit,PL0 0,hydro,9496.55072
+marginal,StorageUnit,PT0 0,PHS,94274.77877
+marginal,StorageUnit,PT0 0,hydro,53168.58317
+marginal,StorageUnit,RO0 0,hydro,76096.83424
+marginal,StorageUnit,RS0 0,PHS,8784.62457
+marginal,StorageUnit,RS0 0,hydro,25584.34014
+marginal,StorageUnit,SE1 0,PHS,2189.10852
+marginal,StorageUnit,SE1 0,hydro,497430.63746
+marginal,StorageUnit,SI0 0,PHS,2382.64453
+marginal,StorageUnit,SI0 0,hydro,23189.04141
+marginal,StorageUnit,SK0 0,PHS,7554.68578
+marginal,StorageUnit,SK0 0,hydro,7060.34753
+marginal,StorageUnit,XK0 0,hydro,652.7414
+marginal,Store,AL0 0,battery,0.0
+marginal,Store,AL0 0,home battery,-0.0
+marginal,Store,AT0 0,H2 Store,0.0
+marginal,Store,AT0 0,battery,0.0
+marginal,Store,AT0 0,home battery,0.0
+marginal,Store,BA0 0,battery,0.0
+marginal,Store,BA0 0,home battery,-0.0
+marginal,Store,BE0 0,H2 Store,-0.0
+marginal,Store,BE0 0,battery,-0.0
+marginal,Store,BE0 0,home battery,0.0
+marginal,Store,BG0 0,H2 Store,-0.0
+marginal,Store,BG0 0,battery,0.0
+marginal,Store,BG0 0,home battery,0.0
+marginal,Store,CH0 0,H2 Store,0.0
+marginal,Store,CH0 0,battery,0.0
+marginal,Store,CH0 0,home battery,0.0
+marginal,Store,CZ0 0,H2 Store,-0.0
+marginal,Store,CZ0 0,battery,0.0
+marginal,Store,CZ0 0,home battery,0.0
+marginal,Store,DE0 0,battery,-0.0
+marginal,Store,DE0 0,home battery,-0.0
+marginal,Store,DE0 1,battery,0.0
+marginal,Store,DE0 1,home battery,-0.0
+marginal,Store,DK0 0,battery,0.0
+marginal,Store,DK0 0,home battery,0.0
+marginal,Store,DK1 0,battery,0.0
+marginal,Store,DK1 0,home battery,0.0
+marginal,Store,EE0 0,H2 Store,0.0
+marginal,Store,EE0 0,battery,0.0
+marginal,Store,EE0 0,home battery,0.0
+marginal,Store,ES0 0,battery,0.0
+marginal,Store,ES0 0,home battery,0.0
+marginal,Store,ES6 0,H2 Store,0.0
+marginal,Store,ES6 0,battery,-0.0
+marginal,Store,ES6 0,home battery,-0.0
+marginal,Store,EU,co2,-0.00957
+marginal,Store,EU,co2 sequestered,13022527.94249
+marginal,Store,EU,co2 stored,-0.0
+marginal,Store,EU,gas,-0.0
+marginal,Store,EU,methanol,-0.0
+marginal,Store,EU,non-sequestered HVC,1080031.87408
+marginal,Store,EU,oil,0.0
+marginal,Store,FI1 0,H2 Store,0.0
+marginal,Store,FI1 0,battery,-0.0
+marginal,Store,FI1 0,home battery,-0.0
+marginal,Store,FR0 0,battery,0.0
+marginal,Store,FR0 0,home battery,-0.0
+marginal,Store,FR5 0,H2 Store,0.0
+marginal,Store,FR5 0,battery,0.0
+marginal,Store,FR5 0,home battery,0.0
+marginal,Store,GB2 0,battery,0.0
+marginal,Store,GB2 0,home battery,0.0
+marginal,Store,GB3 0,battery,0.0
+marginal,Store,GB3 0,home battery,-0.0
+marginal,Store,GR0 0,battery,-0.0
+marginal,Store,GR0 0,home battery,0.0
+marginal,Store,HR0 0,H2 Store,-0.0
+marginal,Store,HR0 0,battery,-0.0
+marginal,Store,HR0 0,home battery,0.0
+marginal,Store,HU0 0,H2 Store,0.0
+marginal,Store,HU0 0,battery,0.0
+marginal,Store,HU0 0,home battery,-0.0
+marginal,Store,IE3 0,H2 Store,-0.0
+marginal,Store,IE3 0,battery,-0.0
+marginal,Store,IE3 0,home battery,0.0
+marginal,Store,IT0 0,H2 Store,-0.0
+marginal,Store,IT0 0,battery,3e-05
+marginal,Store,IT0 0,home battery,-0.0
+marginal,Store,IT4 0,H2 Store,0.0
+marginal,Store,IT4 0,battery,0.0
+marginal,Store,IT4 0,home battery,0.0
+marginal,Store,LT0 0,H2 Store,-0.0
+marginal,Store,LT0 0,battery,2e-05
+marginal,Store,LT0 0,home battery,0.0
+marginal,Store,LU0 0,H2 Store,-0.0
+marginal,Store,LU0 0,battery,-0.0
+marginal,Store,LU0 0,home battery,0.0
+marginal,Store,LV0 0,H2 Store,-0.0
+marginal,Store,LV0 0,battery,0.0
+marginal,Store,LV0 0,home battery,0.0
+marginal,Store,ME0 0,H2 Store,-0.0
+marginal,Store,ME0 0,battery,0.0
+marginal,Store,ME0 0,home battery,0.0
+marginal,Store,MK0 0,H2 Store,-0.0
+marginal,Store,MK0 0,battery,0.0
+marginal,Store,MK0 0,home battery,-0.0
+marginal,Store,NL0 0,battery,0.0
+marginal,Store,NL0 0,home battery,0.0
+marginal,Store,NO1 0,battery,-0.0
+marginal,Store,NO1 0,home battery,0.0
+marginal,Store,PL0 0,battery,-0.0
+marginal,Store,PL0 0,home battery,-0.0
+marginal,Store,PT0 0,battery,0.0
+marginal,Store,PT0 0,home battery,0.0
+marginal,Store,RO0 0,battery,-0.0
+marginal,Store,RO0 0,home battery,0.0
+marginal,Store,RS0 0,H2 Store,0.0
+marginal,Store,RS0 0,battery,-0.0
+marginal,Store,RS0 0,home battery,0.0
+marginal,Store,SE1 0,H2 Store,-0.0
+marginal,Store,SE1 0,battery,-0.0
+marginal,Store,SE1 0,home battery,-0.0
+marginal,Store,SI0 0,H2 Store,-0.0
+marginal,Store,SI0 0,battery,-0.0
+marginal,Store,SI0 0,home battery,-0.0
+marginal,Store,SK0 0,H2 Store,0.0
+marginal,Store,SK0 0,battery,0.0
+marginal,Store,SK0 0,home battery,0.0
+marginal,Store,XK0 0,H2 Store,0.0
+marginal,Store,XK0 0,battery,0.0
+marginal,Store,XK0 0,home battery,-0.0

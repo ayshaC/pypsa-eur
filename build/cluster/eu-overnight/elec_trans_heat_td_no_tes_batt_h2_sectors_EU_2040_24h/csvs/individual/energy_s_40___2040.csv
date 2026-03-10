@@ -1,0 +1,48 @@
+component,carrier,0
+Generator,offwind-dc,1709320583.59256
+Generator,offwind-ac,1124745314.05127
+Generator,load,947303926.81432
+Generator,solar,946702559.80438
+Link,urban central air heat pump,741978953.21095
+Link,residential urban decentral air heat pump,644325048.93698
+Generator,onwind,514427735.0373
+Link,residential rural ground heat pump,373767575.44819
+StorageUnit,hydro,341100330.46442
+Link,services urban decentral air heat pump,253020599.57506
+Generator,ror,170263943.78281
+Generator,solar rooftop,147345172.46626
+Link,services rural ground heat pump,138551251.56759
+Link,residential rural air heat pump,7909170.90588
+Link,services rural air heat pump,3942781.89218
+Link,land transport oil,102831.55531
+Generator,solar-hsat,13562.52578
+Store,EV battery,-0.0
+Store,home battery,0.0
+Store,battery,-0.0
+Generator,biogas,0.0
+Store,oil,0.0
+Generator,solid biomass,0.0
+Link,co2 sequestered,0.0
+Store,co2 stored,-0.00014
+Store,co2 sequestered,-0.08069
+Link,H2 Electrolysis,-0.16953
+Store,H2 Store,-0.68947
+Link,home battery discharger,-1903.57063
+Link,home battery charger,-1942.80607
+Store,co2,-102831.55531
+Link,V2G,-196367.53379
+Link,battery discharger,-759376.24269
+Link,battery charger,-775035.1176
+StorageUnit,PHS,-7224199.14047
+Link,DC,-45945554.63488
+Line,AC,-61032460.37808
+Link,BEV charger,-76478632.19506
+Link,electricity distribution grid,-140865217.63534
+Load,services rural heat,-204568447.88144
+Load,services urban decentral heat,-452252347.74388
+Load,residential rural heat,-547909224.68024
+Load,land transport EV,-686344015.27808
+Load,land transport oil,-947303921.78965
+Load,urban central heat,-1147326184.40367
+Load,residential urban decentral heat,-1152043401.26022
+Load,electricity,-2593690274.57493

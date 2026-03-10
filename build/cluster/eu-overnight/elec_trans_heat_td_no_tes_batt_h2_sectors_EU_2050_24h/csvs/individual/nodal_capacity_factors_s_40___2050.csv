@@ -1,0 +1,660 @@
+component,location,carrier,0
+Generator,AL0 0,load,0.0
+Generator,AL0 0,offwind-ac,0.15818039992118424
+Generator,AL0 0,offwind-dc,0.3057992849296251
+Generator,AL0 0,onwind,0.03315900745521309
+Generator,AL0 0,ror,0.3612680497925311
+Generator,AL0 0,solar,0.09402872517166494
+Generator,AL0 0,solar rooftop,0.09230283177305908
+Generator,AL0 0,solar-hsat,0.10717850825729847
+Generator,AT0 0,load,0.0
+Generator,AT0 0,onwind,0.06954582319545823
+Generator,AT0 0,ror,0.4984282209766966
+Generator,AT0 0,solar,0.12013130231810303
+Generator,AT0 0,solar rooftop,0.11880016703099368
+Generator,AT0 0,solar-hsat,0.08310129572481177
+Generator,BA0 0,load,0.0
+Generator,BA0 0,offwind-ac,0.08699289000418234
+Generator,BA0 0,onwind,0.025079617834394906
+Generator,BA0 0,solar,0.08274706648429678
+Generator,BA0 0,solar rooftop,0.08245745568742838
+Generator,BA0 0,solar-hsat,0.09426640424820827
+Generator,BE0 0,load,0.0
+Generator,BE0 0,offwind-ac,0.5151884944386524
+Generator,BE0 0,offwind-dc,0.5542056993225285
+Generator,BE0 0,onwind,0.19417731524173362
+Generator,BE0 0,ror,0.5438325018546025
+Generator,BE0 0,solar,0.06475453810244461
+Generator,BE0 0,solar rooftop,0.05989200539973002
+Generator,BE0 0,solar-hsat,0.07348343951565035
+Generator,BG0 0,load,0.0
+Generator,BG0 0,offwind-ac,0.18441196938065416
+Generator,BG0 0,offwind-dc,0.3098754135966619
+Generator,BG0 0,onwind,0.07123925789093245
+Generator,BG0 0,ror,0.2083675724637681
+Generator,BG0 0,solar,0.0882611082439491
+Generator,BG0 0,solar rooftop,0.08969036727570796
+Generator,BG0 0,solar-hsat,0.09823658402875067
+Generator,CH0 0,load,0.0
+Generator,CH0 0,onwind,0.021061742642815923
+Generator,CH0 0,ror,0.27011502203577353
+Generator,CH0 0,solar,0.13950970345698996
+Generator,CH0 0,solar rooftop,0.13937195544409786
+Generator,CH0 0,solar-hsat,0.09800793618982724
+Generator,CZ0 0,load,0.0
+Generator,CZ0 0,onwind,0.09114682647779895
+Generator,CZ0 0,ror,0.39626384477052123
+Generator,CZ0 0,solar,0.05891844613342984
+Generator,CZ0 0,solar rooftop,0.059832655541532276
+Generator,CZ0 0,solar-hsat,0.06937474005268265
+Generator,DE0 0,load,0.0
+Generator,DE0 0,offwind-ac,0.49340301486272836
+Generator,DE0 0,offwind-dc,0.5861733091654848
+Generator,DE0 0,onwind,0.1333113890717577
+Generator,DE0 0,ror,0.48062825344147825
+Generator,DE0 0,solar,0.056367116663308486
+Generator,DE0 0,solar rooftop,0.05614445950942931
+Generator,DE0 0,solar-hsat,0.06665687138799099
+Generator,DE0 1,load,0.0
+Generator,DE0 1,offwind-ac,0.48053805314865955
+Generator,DE0 1,offwind-dc,0.5386923340179364
+Generator,DE0 1,onwind,0.09923467194083756
+Generator,DE0 1,ror,0.48140077924608843
+Generator,DE0 1,solar,0.059349634654651616
+Generator,DE0 1,solar rooftop,0.05816321270234045
+Generator,DE0 1,solar-hsat,0.06889891765785751
+Generator,DK0 0,load,0.0
+Generator,DK0 0,offwind-ac,0.28807605844885725
+Generator,DK0 0,offwind-dc,0.3432745306793526
+Generator,DK0 0,onwind,0.4051587891448929
+Generator,DK0 0,solar,0.056732355239170064
+Generator,DK0 0,solar rooftop,0.05839334561491654
+Generator,DK0 0,solar-hsat,0.06784848134888555
+Generator,DK1 0,load,0.0
+Generator,DK1 0,offwind-ac,0.47348089635805
+Generator,DK1 0,offwind-dc,0.39441494735569016
+Generator,DK1 0,onwind,0.4579792531850856
+Generator,DK1 0,solar,0.06533069370934508
+Generator,DK1 0,solar rooftop,0.06441176470588235
+Generator,DK1 0,solar-hsat,0.07824153757888697
+Generator,EE0 0,load,0.0
+Generator,EE0 0,offwind-ac,0.2555589093470168
+Generator,EE0 0,offwind-dc,0.2808627616832311
+Generator,EE0 0,onwind,0.15499705023961202
+Generator,EE0 0,solar,0.058651583023308786
+Generator,EE0 0,solar rooftop,0.06121348755146049
+Generator,EE0 0,solar-hsat,0.07019294743845642
+Generator,ES0 0,load,0.0
+Generator,ES0 0,offwind-ac,0.1940393151553583
+Generator,ES0 0,offwind-dc,0.29933802234174595
+Generator,ES0 0,onwind,0.05371058466858004
+Generator,ES0 0,ror,0.24675676923076925
+Generator,ES0 0,solar,0.13258387911288427
+Generator,ES0 0,solar rooftop,0.1749228402075723
+Generator,ES0 0,solar-hsat,0.11225031456432841
+Generator,ES6 0,load,0.0
+Generator,ES6 0,offwind-ac,0.1819145178382197
+Generator,ES6 0,offwind-dc,0.21924384876975395
+Generator,ES6 0,onwind,0.25192964501270204
+Generator,ES6 0,ror,0.2646728329872643
+Generator,ES6 0,solar,0.0942349001347547
+Generator,ES6 0,solar rooftop,0.09804009041161077
+Generator,ES6 0,solar-hsat,0.11336569321768653
+Generator,EU,biogas,0.0
+Generator,EU,load,0.0
+Generator,EU,solid biomass,0.0
+Generator,FI1 0,load,0.0
+Generator,FI1 0,offwind-ac,0.0964992923065702
+Generator,FI1 0,offwind-dc,0.38339175841850165
+Generator,FI1 0,onwind,0.10976836956178392
+Generator,FI1 0,ror,0.5390546851625188
+Generator,FI1 0,solar,0.05285933646642781
+Generator,FI1 0,solar rooftop,0.05511641662633759
+Generator,FI1 0,solar-hsat,0.06438168698681264
+Generator,FR0 0,load,0.0
+Generator,FR0 0,offwind-ac,0.2588120810206877
+Generator,FR0 0,offwind-dc,0.44344420886796543
+Generator,FR0 0,onwind,0.11967830471692091
+Generator,FR0 0,ror,0.4890899384201344
+Generator,FR0 0,solar,0.06742874526138438
+Generator,FR0 0,solar rooftop,0.06751111937900593
+Generator,FR0 0,solar-hsat,0.08037706635092672
+Generator,FR5 0,load,0.0
+Generator,FR5 0,offwind-ac,0.13994213491700927
+Generator,FR5 0,offwind-dc,0.18792882893359694
+Generator,FR5 0,onwind,0.08233638282899367
+Generator,FR5 0,ror,0.4587553718884348
+Generator,FR5 0,solar,0.047458061981337514
+Generator,FR5 0,solar rooftop,0.14588123752998963
+Generator,FR5 0,solar-hsat,0.10827401745129277
+Generator,GB2 0,load,0.0
+Generator,GB2 0,offwind-ac,0.4531270558714085
+Generator,GB2 0,offwind-dc,0.31172568140036766
+Generator,GB2 0,onwind,0.3784802754675597
+Generator,GB2 0,ror,0.137572141471219
+Generator,GB2 0,solar,0.05489111031774367
+Generator,GB2 0,solar rooftop,0.05492453117853331
+Generator,GB2 0,solar-hsat,0.06466815028145045
+Generator,GB3 0,load,0.0
+Generator,GB3 0,offwind-ac,0.07238944126321202
+Generator,GB3 0,offwind-dc,0.23339066855166105
+Generator,GB3 0,onwind,0.23948872985350905
+Generator,GB3 0,ror,0.13669030637169377
+Generator,GB3 0,solar,0.050802402284139014
+Generator,GB3 0,solar rooftop,0.051708516696867726
+Generator,GB3 0,solar-hsat,0.05912596401028278
+Generator,GR0 0,load,0.0
+Generator,GR0 0,offwind-ac,0.1912367796244334
+Generator,GR0 0,offwind-dc,0.2628443782576322
+Generator,GR0 0,onwind,0.06846979174352037
+Generator,GR0 0,ror,0.250070611057226
+Generator,GR0 0,solar,0.11507714585428341
+Generator,GR0 0,solar rooftop,0.16633142766975048
+Generator,GR0 0,solar-hsat,0.10874233768399984
+Generator,HR0 0,load,0.0
+Generator,HR0 0,offwind-ac,0.20978646124997236
+Generator,HR0 0,offwind-dc,0.18191693772212944
+Generator,HR0 0,onwind,0.05539872971065631
+Generator,HR0 0,ror,0.48578523964723147
+Generator,HR0 0,solar,0.07579562919368744
+Generator,HR0 0,solar rooftop,0.07646908812707202
+Generator,HR0 0,solar-hsat,0.08825486182190379
+Generator,HU0 0,load,0.0
+Generator,HU0 0,onwind,0.15008755699423715
+Generator,HU0 0,ror,0.38751522842639596
+Generator,HU0 0,solar,0.06930389451088623
+Generator,HU0 0,solar rooftop,0.07107038309787451
+Generator,HU0 0,solar-hsat,0.08255847623950324
+Generator,IE3 0,load,0.0
+Generator,IE3 0,offwind-ac,0.11266004205327669
+Generator,IE3 0,offwind-dc,0.1651071078018558
+Generator,IE3 0,onwind,0.18270816428029213
+Generator,IE3 0,ror,0.2984968055555555
+Generator,IE3 0,solar,0.053563977087363907
+Generator,IE3 0,solar rooftop,0.05584161931818181
+Generator,IE3 0,solar-hsat,0.06288601909039865
+Generator,IT0 0,load,0.0
+Generator,IT0 0,offwind-ac,0.1284475965327029
+Generator,IT0 0,offwind-dc,0.2522789861988141
+Generator,IT0 0,onwind,0.07001098972137824
+Generator,IT0 0,ror,0.47849581010637476
+Generator,IT0 0,solar,0.15361842394962602
+Generator,IT0 0,solar rooftop,0.09517888476946743
+Generator,IT0 0,solar-hsat,0.10107964324831795
+Generator,IT4 0,load,0.0
+Generator,IT4 0,offwind-ac,0.17717717717717715
+Generator,IT4 0,offwind-dc,0.23522291708694773
+Generator,IT4 0,onwind,0.04539756186083802
+Generator,IT4 0,ror,0.45259728892331524
+Generator,IT4 0,solar,0.05009764899523219
+Generator,IT4 0,solar rooftop,0.16072628751251294
+Generator,IT4 0,solar-hsat,0.11546803792069799
+Generator,LT0 0,load,0.0
+Generator,LT0 0,offwind-ac,0.2366569626394954
+Generator,LT0 0,offwind-dc,0.3133072451310819
+Generator,LT0 0,onwind,0.12152889116911435
+Generator,LT0 0,ror,0.5597145544554456
+Generator,LT0 0,solar,0.0585868745285391
+Generator,LT0 0,solar rooftop,0.06209813461115321
+Generator,LT0 0,solar-hsat,0.0678800723056785
+Generator,LU0 0,load,0.0
+Generator,LU0 0,onwind,0.13102044012843606
+Generator,LU0 0,solar,0.061772872483355064
+Generator,LU0 0,solar rooftop,0.06170090746550619
+Generator,LU0 0,solar-hsat,0.07386915339941007
+Generator,LV0 0,load,0.0
+Generator,LV0 0,offwind-ac,0.236592065564912
+Generator,LV0 0,offwind-dc,0.27927176794136316
+Generator,LV0 0,onwind,0.13273480128478
+Generator,LV0 0,ror,0.20912356617407724
+Generator,LV0 0,solar,0.058295814573953636
+Generator,LV0 0,solar rooftop,0.062440826694377095
+Generator,LV0 0,solar-hsat,0.06879150931110822
+Generator,ME0 0,load,0.0
+Generator,ME0 0,offwind-ac,0.16213859158896943
+Generator,ME0 0,offwind-dc,0.2534799614867436
+Generator,ME0 0,onwind,0.02318655605190385
+Generator,ME0 0,ror,0.45174440298507457
+Generator,ME0 0,solar,0.09103932029243232
+Generator,ME0 0,solar rooftop,0.08232910593064252
+Generator,ME0 0,solar-hsat,0.10545932909449682
+Generator,MK0 0,load,0.0
+Generator,MK0 0,onwind,0.015445284258954979
+Generator,MK0 0,ror,0.29353971816283925
+Generator,MK0 0,solar,0.15300592499920943
+Generator,MK0 0,solar rooftop,0.15109598361248058
+Generator,MK0 0,solar-hsat,0.10922418740543642
+Generator,NL0 0,load,0.0
+Generator,NL0 0,offwind-ac,0.526456372591932
+Generator,NL0 0,offwind-dc,0.5838988720688786
+Generator,NL0 0,onwind,0.34148846632800517
+Generator,NL0 0,solar,0.05974233417999947
+Generator,NL0 0,solar rooftop,0.059046409699750134
+Generator,NL0 0,solar-hsat,0.06946075814201816
+Generator,NO1 0,load,0.0
+Generator,NO1 0,offwind-ac,0.33569909281396454
+Generator,NO1 0,offwind-dc,0.29001805943194875
+Generator,NO1 0,onwind,0.10901256443298969
+Generator,NO1 0,ror,0.4483948891904116
+Generator,NO1 0,solar,0.04997613365155131
+Generator,NO1 0,solar rooftop,0.0506360380387798
+Generator,NO1 0,solar-hsat,0.060969946261527234
+Generator,PL0 0,load,0.0
+Generator,PL0 0,offwind-ac,0.4586867165773139
+Generator,PL0 0,offwind-dc,0.5315476471100523
+Generator,PL0 0,onwind,0.2394374034712074
+Generator,PL0 0,ror,0.7340234013779687
+Generator,PL0 0,solar,0.05679937797802987
+Generator,PL0 0,solar rooftop,0.05665367483296214
+Generator,PL0 0,solar-hsat,0.06761445635152148
+Generator,PT0 0,load,0.0
+Generator,PT0 0,offwind-ac,0.23106947697111632
+Generator,PT0 0,offwind-dc,0.2920438303954264
+Generator,PT0 0,onwind,0.09460235429227677
+Generator,PT0 0,ror,0.29851787864571117
+Generator,PT0 0,solar,0.09122459958005796
+Generator,PT0 0,solar rooftop,0.09750571175015577
+Generator,PT0 0,solar-hsat,0.11139997763614
+Generator,RO0 0,load,0.0
+Generator,RO0 0,offwind-ac,0.37572814989800135
+Generator,RO0 0,offwind-dc,0.32451124519653674
+Generator,RO0 0,onwind,0.07216342239656576
+Generator,RO0 0,ror,0.21319601016626674
+Generator,RO0 0,solar,0.078629873412751
+Generator,RO0 0,solar rooftop,0.08106053194314387
+Generator,RO0 0,solar-hsat,0.08622943256958326
+Generator,RS0 0,load,0.0
+Generator,RS0 0,onwind,0.06507801637571452
+Generator,RS0 0,ror,0.4535136736127371
+Generator,RS0 0,solar,0.07923666910153397
+Generator,RS0 0,solar rooftop,0.0787215829915993
+Generator,RS0 0,solar-hsat,0.08817605646815352
+Generator,SE1 0,load,0.0
+Generator,SE1 0,offwind-ac,0.11692036207980941
+Generator,SE1 0,offwind-dc,0.36917388720643785
+Generator,SE1 0,onwind,0.11677885623843938
+Generator,SE1 0,ror,0.5222603810208484
+Generator,SE1 0,solar,0.05727215512332543
+Generator,SE1 0,solar rooftop,0.0589536302623551
+Generator,SE1 0,solar-hsat,0.06959294691427499
+Generator,SI0 0,load,0.0
+Generator,SI0 0,offwind-ac,0.08784430500903967
+Generator,SI0 0,onwind,0.03274819294881251
+Generator,SI0 0,ror,0.46280128465648324
+Generator,SI0 0,solar,0.06989837635790211
+Generator,SI0 0,solar rooftop,0.07164052564646037
+Generator,SI0 0,solar-hsat,0.08236650572890393
+Generator,SK0 0,load,0.0
+Generator,SK0 0,onwind,0.0817009399223177
+Generator,SK0 0,ror,0.3270793058988741
+Generator,SK0 0,solar,0.06884321897278514
+Generator,SK0 0,solar rooftop,0.06922952207670552
+Generator,SK0 0,solar-hsat,0.08083091923973716
+Generator,XK0 0,load,0.0
+Generator,XK0 0,onwind,0.024081632653061225
+Generator,XK0 0,ror,0.2076635761589404
+Generator,XK0 0,solar,0.09179118863904857
+Generator,XK0 0,solar rooftop,0.08839312058972089
+Generator,XK0 0,solar-hsat,0.10475940534448958
+Load,AL0 0,electricity,
+Load,AL0 0,land transport EV,
+Load,AL0 0,residential rural heat,
+Load,AL0 0,residential urban decentral heat,
+Load,AL0 0,services rural heat,
+Load,AL0 0,services urban decentral heat,
+Load,AL0 0,urban central heat,
+Load,AT0 0,electricity,
+Load,AT0 0,land transport EV,
+Load,AT0 0,residential rural heat,
+Load,AT0 0,residential urban decentral heat,
+Load,AT0 0,services rural heat,
+Load,AT0 0,services urban decentral heat,
+Load,AT0 0,urban central heat,
+Load,BA0 0,electricity,
+Load,BA0 0,land transport EV,
+Load,BA0 0,residential rural heat,
+Load,BA0 0,residential urban decentral heat,
+Load,BA0 0,services rural heat,
+Load,BA0 0,services urban decentral heat,
+Load,BA0 0,urban central heat,
+Load,BE0 0,electricity,
+Load,BE0 0,land transport EV,
+Load,BE0 0,residential rural heat,
+Load,BE0 0,residential urban decentral heat,
+Load,BE0 0,services rural heat,
+Load,BE0 0,services urban decentral heat,
+Load,BE0 0,urban central heat,
+Load,BG0 0,electricity,
+Load,BG0 0,land transport EV,
+Load,BG0 0,residential rural heat,
+Load,BG0 0,residential urban decentral heat,
+Load,BG0 0,services rural heat,
+Load,BG0 0,services urban decentral heat,
+Load,BG0 0,urban central heat,
+Load,CH0 0,electricity,
+Load,CH0 0,land transport EV,
+Load,CH0 0,residential rural heat,
+Load,CH0 0,residential urban decentral heat,
+Load,CH0 0,services rural heat,
+Load,CH0 0,services urban decentral heat,
+Load,CH0 0,urban central heat,
+Load,CZ0 0,electricity,
+Load,CZ0 0,land transport EV,
+Load,CZ0 0,residential rural heat,
+Load,CZ0 0,residential urban decentral heat,
+Load,CZ0 0,services rural heat,
+Load,CZ0 0,services urban decentral heat,
+Load,CZ0 0,urban central heat,
+Load,DE0 0,electricity,
+Load,DE0 0,land transport EV,
+Load,DE0 0,residential rural heat,
+Load,DE0 0,residential urban decentral heat,
+Load,DE0 0,services rural heat,
+Load,DE0 0,services urban decentral heat,
+Load,DE0 0,urban central heat,
+Load,DE0 1,electricity,
+Load,DE0 1,land transport EV,
+Load,DE0 1,residential rural heat,
+Load,DE0 1,residential urban decentral heat,
+Load,DE0 1,services rural heat,
+Load,DE0 1,services urban decentral heat,
+Load,DE0 1,urban central heat,
+Load,DK0 0,electricity,
+Load,DK0 0,land transport EV,
+Load,DK0 0,residential rural heat,
+Load,DK0 0,residential urban decentral heat,
+Load,DK0 0,services rural heat,
+Load,DK0 0,services urban decentral heat,
+Load,DK0 0,urban central heat,
+Load,DK1 0,electricity,
+Load,DK1 0,land transport EV,
+Load,DK1 0,residential rural heat,
+Load,DK1 0,residential urban decentral heat,
+Load,DK1 0,services rural heat,
+Load,DK1 0,services urban decentral heat,
+Load,DK1 0,urban central heat,
+Load,EE0 0,electricity,
+Load,EE0 0,land transport EV,
+Load,EE0 0,residential rural heat,
+Load,EE0 0,residential urban decentral heat,
+Load,EE0 0,services rural heat,
+Load,EE0 0,services urban decentral heat,
+Load,EE0 0,urban central heat,
+Load,ES0 0,electricity,
+Load,ES0 0,land transport EV,
+Load,ES0 0,residential rural heat,
+Load,ES0 0,residential urban decentral heat,
+Load,ES0 0,services rural heat,
+Load,ES0 0,services urban decentral heat,
+Load,ES0 0,urban central heat,
+Load,ES6 0,electricity,
+Load,ES6 0,land transport EV,
+Load,ES6 0,residential rural heat,
+Load,ES6 0,residential urban decentral heat,
+Load,ES6 0,services rural heat,
+Load,ES6 0,services urban decentral heat,
+Load,ES6 0,urban central heat,
+Load,FI1 0,electricity,
+Load,FI1 0,land transport EV,
+Load,FI1 0,residential rural heat,
+Load,FI1 0,residential urban decentral heat,
+Load,FI1 0,services rural heat,
+Load,FI1 0,services urban decentral heat,
+Load,FI1 0,urban central heat,
+Load,FR0 0,electricity,
+Load,FR0 0,land transport EV,
+Load,FR0 0,residential rural heat,
+Load,FR0 0,residential urban decentral heat,
+Load,FR0 0,services rural heat,
+Load,FR0 0,services urban decentral heat,
+Load,FR0 0,urban central heat,
+Load,FR5 0,electricity,
+Load,FR5 0,land transport EV,
+Load,FR5 0,residential rural heat,
+Load,FR5 0,residential urban decentral heat,
+Load,FR5 0,services rural heat,
+Load,FR5 0,services urban decentral heat,
+Load,GB2 0,electricity,
+Load,GB2 0,land transport EV,
+Load,GB2 0,residential rural heat,
+Load,GB2 0,residential urban decentral heat,
+Load,GB2 0,services rural heat,
+Load,GB2 0,services urban decentral heat,
+Load,GB2 0,urban central heat,
+Load,GB3 0,electricity,
+Load,GB3 0,land transport EV,
+Load,GB3 0,residential rural heat,
+Load,GB3 0,residential urban decentral heat,
+Load,GB3 0,services rural heat,
+Load,GB3 0,services urban decentral heat,
+Load,GB3 0,urban central heat,
+Load,GR0 0,electricity,
+Load,GR0 0,land transport EV,
+Load,GR0 0,residential rural heat,
+Load,GR0 0,residential urban decentral heat,
+Load,GR0 0,services rural heat,
+Load,GR0 0,services urban decentral heat,
+Load,GR0 0,urban central heat,
+Load,HR0 0,electricity,
+Load,HR0 0,land transport EV,
+Load,HR0 0,residential rural heat,
+Load,HR0 0,residential urban decentral heat,
+Load,HR0 0,services rural heat,
+Load,HR0 0,services urban decentral heat,
+Load,HR0 0,urban central heat,
+Load,HU0 0,electricity,
+Load,HU0 0,land transport EV,
+Load,HU0 0,residential rural heat,
+Load,HU0 0,residential urban decentral heat,
+Load,HU0 0,services rural heat,
+Load,HU0 0,services urban decentral heat,
+Load,HU0 0,urban central heat,
+Load,IE3 0,electricity,
+Load,IE3 0,land transport EV,
+Load,IE3 0,residential rural heat,
+Load,IE3 0,residential urban decentral heat,
+Load,IE3 0,services rural heat,
+Load,IE3 0,services urban decentral heat,
+Load,IE3 0,urban central heat,
+Load,IT0 0,electricity,
+Load,IT0 0,land transport EV,
+Load,IT0 0,residential rural heat,
+Load,IT0 0,residential urban decentral heat,
+Load,IT0 0,services rural heat,
+Load,IT0 0,services urban decentral heat,
+Load,IT0 0,urban central heat,
+Load,IT4 0,electricity,
+Load,IT4 0,land transport EV,
+Load,IT4 0,residential rural heat,
+Load,IT4 0,residential urban decentral heat,
+Load,IT4 0,services rural heat,
+Load,IT4 0,services urban decentral heat,
+Load,IT4 0,urban central heat,
+Load,LT0 0,electricity,
+Load,LT0 0,land transport EV,
+Load,LT0 0,residential rural heat,
+Load,LT0 0,residential urban decentral heat,
+Load,LT0 0,services rural heat,
+Load,LT0 0,services urban decentral heat,
+Load,LT0 0,urban central heat,
+Load,LU0 0,electricity,
+Load,LU0 0,land transport EV,
+Load,LU0 0,residential rural heat,
+Load,LU0 0,residential urban decentral heat,
+Load,LU0 0,services rural heat,
+Load,LU0 0,services urban decentral heat,
+Load,LU0 0,urban central heat,
+Load,LV0 0,electricity,
+Load,LV0 0,land transport EV,
+Load,LV0 0,residential rural heat,
+Load,LV0 0,residential urban decentral heat,
+Load,LV0 0,services rural heat,
+Load,LV0 0,services urban decentral heat,
+Load,LV0 0,urban central heat,
+Load,ME0 0,electricity,
+Load,ME0 0,land transport EV,
+Load,ME0 0,residential rural heat,
+Load,ME0 0,residential urban decentral heat,
+Load,ME0 0,services rural heat,
+Load,ME0 0,services urban decentral heat,
+Load,ME0 0,urban central heat,
+Load,MK0 0,electricity,
+Load,MK0 0,land transport EV,
+Load,MK0 0,residential rural heat,
+Load,MK0 0,residential urban decentral heat,
+Load,MK0 0,services rural heat,
+Load,MK0 0,services urban decentral heat,
+Load,MK0 0,urban central heat,
+Load,NL0 0,electricity,
+Load,NL0 0,land transport EV,
+Load,NL0 0,residential rural heat,
+Load,NL0 0,residential urban decentral heat,
+Load,NL0 0,services rural heat,
+Load,NL0 0,services urban decentral heat,
+Load,NL0 0,urban central heat,
+Load,NO1 0,electricity,
+Load,NO1 0,land transport EV,
+Load,NO1 0,residential rural heat,
+Load,NO1 0,residential urban decentral heat,
+Load,NO1 0,services rural heat,
+Load,NO1 0,services urban decentral heat,
+Load,NO1 0,urban central heat,
+Load,PL0 0,electricity,
+Load,PL0 0,land transport EV,
+Load,PL0 0,residential rural heat,
+Load,PL0 0,residential urban decentral heat,
+Load,PL0 0,services rural heat,
+Load,PL0 0,services urban decentral heat,
+Load,PL0 0,urban central heat,
+Load,PT0 0,electricity,
+Load,PT0 0,land transport EV,
+Load,PT0 0,residential rural heat,
+Load,PT0 0,residential urban decentral heat,
+Load,PT0 0,services rural heat,
+Load,PT0 0,services urban decentral heat,
+Load,PT0 0,urban central heat,
+Load,RO0 0,electricity,
+Load,RO0 0,land transport EV,
+Load,RO0 0,residential rural heat,
+Load,RO0 0,residential urban decentral heat,
+Load,RO0 0,services rural heat,
+Load,RO0 0,services urban decentral heat,
+Load,RO0 0,urban central heat,
+Load,RS0 0,electricity,
+Load,RS0 0,land transport EV,
+Load,RS0 0,residential rural heat,
+Load,RS0 0,residential urban decentral heat,
+Load,RS0 0,services rural heat,
+Load,RS0 0,services urban decentral heat,
+Load,RS0 0,urban central heat,
+Load,SE1 0,electricity,
+Load,SE1 0,land transport EV,
+Load,SE1 0,residential rural heat,
+Load,SE1 0,residential urban decentral heat,
+Load,SE1 0,services rural heat,
+Load,SE1 0,services urban decentral heat,
+Load,SE1 0,urban central heat,
+Load,SI0 0,electricity,
+Load,SI0 0,land transport EV,
+Load,SI0 0,residential rural heat,
+Load,SI0 0,residential urban decentral heat,
+Load,SI0 0,services rural heat,
+Load,SI0 0,services urban decentral heat,
+Load,SI0 0,urban central heat,
+Load,SK0 0,electricity,
+Load,SK0 0,land transport EV,
+Load,SK0 0,residential rural heat,
+Load,SK0 0,residential urban decentral heat,
+Load,SK0 0,services rural heat,
+Load,SK0 0,services urban decentral heat,
+Load,SK0 0,urban central heat,
+Load,XK0 0,electricity,
+Load,XK0 0,land transport EV,
+Load,XK0 0,residential rural heat,
+Load,XK0 0,residential urban decentral heat,
+Load,XK0 0,services rural heat,
+Load,XK0 0,services urban decentral heat,
+Load,XK0 0,urban central heat,
+StorageUnit,AL0 0,hydro,0.36790502158869104
+StorageUnit,AT0 0,PHS,0.20885006882507118
+StorageUnit,AT0 0,hydro,0.4664854908663212
+StorageUnit,BA0 0,PHS,0.004464068181818182
+StorageUnit,BA0 0,hydro,0.4135104539047082
+StorageUnit,BE0 0,PHS,0.009881689602446484
+StorageUnit,BE0 0,hydro,0.4642488381058868
+StorageUnit,BG0 0,PHS,0.10400689814814815
+StorageUnit,BG0 0,hydro,0.20094956210976864
+StorageUnit,CH0 0,PHS,0.08012736047615784
+StorageUnit,CH0 0,hydro,0.24361844427559054
+StorageUnit,CZ0 0,PHS,0.005607971441593815
+StorageUnit,CZ0 0,hydro,0.38641282503192126
+StorageUnit,DE0 0,PHS,0.007672021934263735
+StorageUnit,DE0 1,PHS,0.009111340734865536
+StorageUnit,ES0 0,PHS,0.21837574266338594
+StorageUnit,ES0 0,hydro,0.2446824617534542
+StorageUnit,ES6 0,PHS,0.0747906951326144
+StorageUnit,ES6 0,hydro,0.24430744554558614
+StorageUnit,FI1 0,hydro,0.4889270538001708
+StorageUnit,FR0 0,PHS,0.039400832649007886
+StorageUnit,FR0 0,hydro,0.46065854520319927
+StorageUnit,FR5 0,hydro,0.4583650144108153
+StorageUnit,GB3 0,PHS,0.04029825
+StorageUnit,GB3 0,hydro,0.11719273137697517
+StorageUnit,GR0 0,PHS,0.02755665236051502
+StorageUnit,GR0 0,hydro,0.24265308261886206
+StorageUnit,HR0 0,PHS,0.11091383801383801
+StorageUnit,HR0 0,hydro,0.5045762321605649
+StorageUnit,HU0 0,hydro,0.40461214285714286
+StorageUnit,IE3 0,PHS,0.020321836734693878
+StorageUnit,IE3 0,hydro,0.20295
+StorageUnit,IT0 0,PHS,0.1036663590989203
+StorageUnit,IT0 0,hydro,0.44379824325645034
+StorageUnit,IT4 0,PHS,0.04823390243902439
+StorageUnit,IT4 0,hydro,0.4130406862745098
+StorageUnit,LT0 0,PHS,0.03414107777777778
+StorageUnit,LU0 0,PHS,0.012733902627511591
+StorageUnit,ME0 0,PHS,0.025988827361563518
+StorageUnit,ME0 0,hydro,0.5613905050136102
+StorageUnit,MK0 0,hydro,0.2748812398921833
+StorageUnit,NO1 0,PHS,0.26377622705932563
+StorageUnit,NO1 0,hydro,0.4067920797874924
+StorageUnit,PL0 0,PHS,0.018917813971742543
+StorageUnit,PL0 0,hydro,0.7360671949285987
+StorageUnit,PT0 0,PHS,0.17414211317868977
+StorageUnit,PT0 0,hydro,0.32056957080585674
+StorageUnit,RO0 0,hydro,0.19245938596924905
+StorageUnit,RS0 0,PHS,0.020633208469055375
+StorageUnit,RS0 0,hydro,0.4126123275534742
+StorageUnit,SE1 0,PHS,0.3120636956521739
+StorageUnit,SE1 0,hydro,0.4724076244268841
+StorageUnit,SI0 0,PHS,0.026005833333333332
+StorageUnit,SI0 0,hydro,0.42931906142071186
+StorageUnit,SK0 0,PHS,0.01947304624811555
+StorageUnit,SK0 0,hydro,0.2907395538243626
+StorageUnit,XK0 0,hydro,0.19387142857142856
+Line,AL0 0,AC,0.3704325773166942
+Line,AT0 0,AC,0.32550913393949016
+Line,BA0 0,AC,0.26644745525949526
+Line,BE0 0,AC,0.32220393332394565
+Line,BG0 0,AC,0.4514325735156293
+Line,CH0 0,AC,0.3423797332986406
+Line,CZ0 0,AC,0.18220812310619697
+Line,DE0 0,AC,0.32304134918215277
+Line,DE0 1,AC,0.38296083148573357
+Line,DK1 0,AC,0.6629958492024169
+Line,EE0 0,AC,0.40457262313727516
+Line,ES0 0,AC,0.5227645853993105
+Line,FI1 0,AC,0.5172776001848255
+Line,FR0 0,AC,0.30975727893275123
+Line,GB3 0,AC,0.5661878788412257
+Line,GR0 0,AC,0.523118950027438
+Line,HR0 0,AC,0.17203369663772572
+Line,HU0 0,AC,0.1908545850525329
+Line,IT0 0,AC,0.5068909804037743
+Line,LT0 0,AC,0.36907755160044187
+Line,ME0 0,AC,0.32797055125835733
+Line,MK0 0,AC,0.4785695987076245
+Line,NO1 0,AC,0.20218669901076203
+Line,PL0 0,AC,0.20832936040193606
+Line,RO0 0,AC,0.28017777216167616
+Line,RS0 0,AC,0.402708453163919

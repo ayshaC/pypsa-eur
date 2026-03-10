@@ -4,9 +4,12 @@
 
 master
 
+.env
+
 .snakemake*
 .ipynb_checkpoints
 __pycache__
+*.egg-info
 *dconf
 gurobi.log
 .vscode
@@ -25,17 +28,15 @@ gurobi.log
 /cutouts
 /tmp
 doc/_build
+_build
 
 /scripts/old
 /scripts/create_scenarios.py
 /config/create_scenarios.py
 
-/build
-
 config/config.yaml
 config/scenarios.yaml
 
-dconf
 /data/links_p_nom.csv
 /data/*totals.csv
 /data/biomass*
@@ -48,7 +49,6 @@ dconf
 /data/transport_data.csv
 /data/.nfs*
 /data/retro/*
-/data/bundle/nuts*
 data/gas_network/scigrid-gas/
 data/costs_*.csv
 !/data/custom_costs.csv
@@ -63,6 +63,8 @@ d1gam3xoknrgr2.cloudfront.net/
 
 *~
 
+*.egg-info
+
 *.pyc
 
 *.xlsx
@@ -72,8 +74,6 @@ d1gam3xoknrgr2.cloudfront.net/
 *.geojson
 
 *.ipynb
-
-*.csv
 
 merger-todos.md
 
@@ -90,10 +90,3 @@ CLAUDE.local.md
 # pixi environments
 .pixi/*
 !.pixi/config.toml
-
-.git-backup
-.git-broken
-
-.DS_Store
-
-analysis/figures/*

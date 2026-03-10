@@ -1,0 +1,65 @@
+component,carrier,0
+Generator,biogas,347323678.55875
+Generator,load,inf
+Generator,offwind-ac,150966.28605
+Generator,offwind-dc,277875.19253
+Generator,onwind,643405.03578
+Generator,ror,49069.42293
+Generator,solar,4184062.66024
+Generator,solar rooftop,259508.6706
+Generator,solar-hsat,1864.41343
+Generator,solid biomass,1049092861.83616
+Line,AC,558428.4088
+Link,BEV charger,3212340.17729
+Link,CCGT,310915.21619
+Link,DC,721735.65089
+Link,Fischer-Tropsch,126542.10775
+Link,H2 Electrolysis,424498.24565
+Link,HVC to air,0.3908
+Link,SMR,129185.07486
+Link,SMR CC,340.23567
+Link,Sabatier,24461.45293
+Link,V2G,1606170.08865
+Link,agriculture machinery oil,5870.2988
+Link,battery charger,1173.64301
+Link,battery discharger,1197.84438
+Link,biogas to gas,39649.33525
+Link,biomass to liquid,1.08161
+Link,co2 sequestered,31612.43431
+Link,electricity distribution grid,1971518.53021
+Link,electrobiofuels,37046.72182
+Link,gas for industry,12008.44249
+Link,gas for industry CC,16007.20621
+Link,home battery charger,789.6671
+Link,home battery discharger,805.95061
+Link,industry methanol,997.71669
+Link,kerosene for aviation,84920.88754
+Link,methanolisation,87180.94042
+Link,naphtha for industry,31605.02266
+Link,process emissions,0.20518
+Link,process emissions CC,15284.46442
+Link,residential rural air heat pump,32471.86869
+Link,residential rural ground heat pump,146277.63845
+Link,residential urban decentral air heat pump,237831.7958
+Link,services rural air heat pump,13129.80827
+Link,services rural ground heat pump,79369.61099
+Link,services urban decentral air heat pump,94162.31853
+Link,shipping methanol,57416.63278
+Link,solid biomass for industry,0.90757
+Link,solid biomass for industry CC,94903.73368
+Link,urban central air heat pump,517011.9495
+Link,waste CHP,60396.99478
+Link,waste CHP CC,3549.44735
+StorageUnit,PHS,56037.67555
+StorageUnit,hydro,106407.54413
+Store,EV battery,7300773.13021
+Store,H2 Store,200465.90187
+Store,battery,7015.23499
+Store,co2,inf
+Store,co2 sequestered,92899190.55388
+Store,co2 stored,714.70977
+Store,gas,165666791.86277
+Store,home battery,1629.57413
+Store,methanol,76969007.81423
+Store,non-sequestered HVC,117504290.15947
+Store,oil,126392571.93489

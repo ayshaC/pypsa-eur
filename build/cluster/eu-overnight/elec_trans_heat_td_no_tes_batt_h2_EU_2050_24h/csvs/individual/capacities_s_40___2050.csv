@@ -1,0 +1,36 @@
+component,carrier,0
+Generator,load,inf
+Generator,offwind-ac,375807.65333
+Generator,offwind-dc,560146.98651
+Generator,onwind,372737.68123
+Generator,ror,49069.42293
+Generator,solar,929732.40478
+Generator,solar rooftop,104431.95462
+Generator,solar-hsat,17.04822
+Line,AC,630165.27075
+Link,BEV charger,3212340.17729
+Link,DC,1100156.94708
+Link,H2 Electrolysis,0.39618
+Link,V2G,1606170.08865
+Link,battery charger,101512.3119
+Link,battery discharger,103605.56949
+Link,co2 sequestered,1e-05
+Link,electricity distribution grid,1830568.51965
+Link,home battery charger,22.28549
+Link,home battery discharger,22.74503
+Link,residential rural air heat pump,25456.13848
+Link,residential rural ground heat pump,153292.93048
+Link,residential urban decentral air heat pump,237831.7958
+Link,services rural air heat pump,10681.2028
+Link,services rural ground heat pump,57295.77646
+Link,services urban decentral air heat pump,94161.17697
+Link,urban central air heat pump,572682.56198
+StorageUnit,PHS,56037.67555
+StorageUnit,hydro,106407.54413
+Store,EV battery,7300773.13021
+Store,H2 Store,30.24853
+Store,battery,4445979.90361
+Store,co2,inf
+Store,co2 sequestered,60.52318
+Store,co2 stored,16.61239
+Store,home battery,63.99029

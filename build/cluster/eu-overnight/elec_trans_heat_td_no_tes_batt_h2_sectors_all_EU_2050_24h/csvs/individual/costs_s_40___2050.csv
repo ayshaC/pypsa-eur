@@ -1,0 +1,128 @@
+cost,component,carrier,0
+capital,Generator,biogas,0.0
+capital,Generator,load,0.0
+capital,Generator,offwind-ac,28894399575.25678
+capital,Generator,offwind-dc,61003116067.83106
+capital,Generator,onwind,60563053227.77112
+capital,Generator,ror,15121742314.61956
+capital,Generator,solar,122784650442.30003
+capital,Generator,solar rooftop,9068879669.11285
+capital,Generator,solar-hsat,66077936.34302
+capital,Generator,solid biomass,0.0
+capital,Line,AC,8265213809.95003
+capital,Link,BEV charger,0.0
+capital,Link,CCGT,18684573952.93021
+capital,Link,DC,19496516886.578
+capital,Link,Fischer-Tropsch,6536762918.57962
+capital,Link,H2 Electrolysis,53406343845.00777
+capital,Link,HVC to air,0.0
+capital,Link,SMR,8809434734.29723
+capital,Link,SMR CC,26913707.52763
+capital,Link,Sabatier,1265182399.71209
+capital,Link,V2G,0.0
+capital,Link,agriculture machinery oil,0.0
+capital,Link,battery charger,11335619.50231
+capital,Link,battery discharger,0.0
+capital,Link,biogas to gas,7234818853.46348
+capital,Link,biomass to liquid,117186.34578
+capital,Link,co2 sequestered,0.0
+capital,Link,electricity distribution grid,49554474585.97415
+capital,Link,electrobiofuels,5323544947.19765
+capital,Link,gas for industry,0.0
+capital,Link,gas for industry CC,660695328.68973
+capital,Link,home battery charger,11113611.72919
+capital,Link,home battery discharger,0.0
+capital,Link,industry methanol,0.0
+capital,Link,kerosene for aviation,0.0
+capital,Link,methanolisation,4952711906.9224
+capital,Link,naphtha for industry,0.0
+capital,Link,process emissions,0.0
+capital,Link,process emissions CC,3186183113.67101
+capital,Link,residential rural air heat pump,3171641847.30093
+capital,Link,residential rural ground heat pump,19099945445.35348
+capital,Link,residential urban decentral air heat pump,23229869623.51421
+capital,Link,services rural air heat pump,1282434643.7838
+capital,Link,services rural ground heat pump,10363547402.73506
+capital,Link,services urban decentral air heat pump,9197165481.85742
+capital,Link,shipping methanol,0.0
+capital,Link,solid biomass for industry,0.0
+capital,Link,solid biomass for industry CC,7254620770.37596
+capital,Link,urban central air heat pump,41293461848.4009
+capital,Link,waste CHP,10635070083.41608
+capital,Link,waste CHP CC,836377038.33553
+capital,StorageUnit,PHS,10238012412.75842
+capital,StorageUnit,hydro,19440523664.00005
+capital,Store,EV battery,0.0
+capital,Store,H2 Store,446031764.0668
+capital,Store,battery,45088098.11128
+capital,Store,co2,0.0
+capital,Store,co2 sequestered,2786975716.61643
+capital,Store,co2 stored,176967.53252
+capital,Store,gas,2957347341.37342
+capital,Store,home battery,15164864.46883
+capital,Store,methanol,433213301.72245
+capital,Store,non-sequestered HVC,0.0
+capital,Store,oil,344956228.75456
+marginal,Generator,biogas,21688503877.47883
+marginal,Generator,load,30576255.29794
+marginal,Generator,offwind-ac,16620431.73381
+marginal,Generator,offwind-dc,28932532.96449
+marginal,Generator,onwind,43692182.14631
+marginal,Generator,ror,1522482.18058
+marginal,Generator,solar,96343289.26098
+marginal,Generator,solar rooftop,6956885.34384
+marginal,Generator,solar-hsat,33005.60011
+marginal,Generator,solid biomass,14328448193.28577
+marginal,Link,BEV charger,11898235.02321
+marginal,Link,CCGT,260704059.25625
+marginal,Link,DC,20301480.69187
+marginal,Link,Fischer-Tropsch,1758228724.07671
+marginal,Link,H2 Electrolysis,27927374.9506
+marginal,Link,HVC to air,35.14154
+marginal,Link,SMR,1243994.53208
+marginal,Link,SMR CC,6160.75078
+marginal,Link,Sabatier,1578208.99267
+marginal,Link,V2G,889493.56938
+marginal,Link,agriculture machinery oil,558677.47971
+marginal,Link,battery charger,38182.13784
+marginal,Link,battery discharger,36853.41639
+marginal,Link,biogas to gas,940987332.15088
+marginal,Link,biomass to liquid,1253.40075
+marginal,Link,co2 sequestered,899777.49494
+marginal,Link,electricity distribution grid,56835175.3815
+marginal,Link,electrobiofuels,378726412.86211
+marginal,Link,gas for industry,999643.10039
+marginal,Link,gas for industry CC,1408738.14499
+marginal,Link,home battery charger,25376.29213
+marginal,Link,home battery discharger,24870.9201
+marginal,Link,industry methanol,92101.37931
+marginal,Link,kerosene for aviation,7769607.31924
+marginal,Link,methanolisation,6000260.18137
+marginal,Link,naphtha for industry,2600440.20779
+marginal,Link,process emissions,16.44508
+marginal,Link,process emissions CC,1464068.28584
+marginal,Link,residential rural air heat pump,-330207.37472
+marginal,Link,residential rural ground heat pump,-5104497.99109
+marginal,Link,residential urban decentral air heat pump,-7481581.41901
+marginal,Link,services rural air heat pump,-243699.32642
+marginal,Link,services rural ground heat pump,-3908994.20112
+marginal,Link,services urban decentral air heat pump,-2941448.08567
+marginal,Link,shipping methanol,4639935.83543
+marginal,Link,solid biomass for industry,81.75666
+marginal,Link,solid biomass for industry CC,7830609.33903
+marginal,Link,urban central air heat pump,-15600893.91444
+marginal,Link,waste CHP,2823497860.19627
+marginal,Link,waste CHP CC,353129323.2508
+marginal,StorageUnit,PHS,924620.74643
+marginal,StorageUnit,hydro,3358250.99706
+marginal,Store,EV battery,0.0
+marginal,Store,H2 Store,-0.0
+marginal,Store,battery,0.0
+marginal,Store,co2,0.02314
+marginal,Store,co2 sequestered,8274290.45193
+marginal,Store,co2 stored,-0.0
+marginal,Store,gas,0.0
+marginal,Store,home battery,-0.0
+marginal,Store,methanol,0.0
+marginal,Store,non-sequestered HVC,1066163.69655
+marginal,Store,oil,-0.0

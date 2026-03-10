@@ -1,0 +1,5 @@
+﻿Technology,Friendly name,Activity long,Unit,Multiplier,Aluminium,Copper,Sillicon,Silver,Cadmium,Tellurium,Indium,Gallium,Selinium,Germanium
+c-Si,"PV, c-Si",,MW,1,6000,3700,1000,1,,,,,,
+CdTe,"PV, CdTe",,MW,1,6000,3700,,,10,11,,,,
+CIGS,"PV, CIGS",,MW,1,6000,6,,,,,5,1,9,
+a-Si,"PV, a-Si",,MW,1,6000,3700,,40,,,,,,10

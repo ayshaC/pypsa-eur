@@ -1,0 +1,43 @@
+component,carrier,0
+Generator,biogas,0.0
+Generator,gas,0.9721625477746572
+Generator,load,0.0
+Generator,nuclear,0.4954499062667292
+Generator,offwind-ac,0.51322334907965
+Generator,offwind-dc,0.4929933651792148
+Generator,oil primary,0.9847145106650672
+Generator,onwind,0.2768352636066717
+Generator,residential rural solar thermal,0.011852008674318687
+Generator,residential urban decentral solar thermal,0.013054753541852175
+Generator,ror,0.38010224853483926
+Generator,services rural solar thermal,0.012413584748848088
+Generator,services urban decentral solar thermal,0.010916027179365325
+Generator,solar,0.12797687224982543
+Generator,solar rooftop,0.1464694215979299
+Generator,solar-hsat,0.19557420773901493
+Generator,solid biomass,9.046253560804552e-05
+Generator,urban central solar thermal,0.014693398283652464
+Line,AC,0.31076262153445067
+Load,H2 for industry,
+Load,agriculture electricity,
+Load,agriculture heat,
+Load,agriculture machinery electric,
+Load,agriculture machinery oil,
+Load,electricity,
+Load,gas for industry,
+Load,industry electricity,
+Load,industry methanol,
+Load,kerosene for aviation,
+Load,land transport EV,
+Load,low-temperature heat for industry,
+Load,naphtha for industry,
+Load,process emissions,
+Load,residential rural heat,
+Load,residential urban decentral heat,
+Load,services rural heat,
+Load,services urban decentral heat,
+Load,shipping methanol,
+Load,solid biomass for industry,
+Load,urban central heat,
+StorageUnit,PHS,0.44041493758925193
+StorageUnit,hydro,0.3658660760221795

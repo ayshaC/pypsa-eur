@@ -1,0 +1,134 @@
+cluster,,,5
+opt,,,
+planning_horizon,,,2050
+component,location,carrier,
+Generator,BE0 0,load,inf
+Generator,BE0 0,nuclear,11985.90009
+Generator,BE0 0,offwind-ac,831.48117
+Generator,BE0 0,offwind-dc,871.22786
+Generator,BE0 0,offwind-float,1702.70903
+Generator,BE0 0,onwind,15235.08073
+Generator,BE0 0,ror,59.01534
+Generator,BE0 0,solar,106452.31369
+Generator,BE0 0,solar-hsat,0.0
+Generator,CH0 0,load,inf
+Generator,CH0 0,nuclear,3355.0
+Generator,CH0 0,onwind,0.0
+Generator,CH0 0,ror,4202.6208
+Generator,CH0 0,solar,54079.42389
+Generator,CH0 0,solar-hsat,0.0
+Generator,DE0 0,load,inf
+Generator,DE0 0,nuclear,71964.44481
+Generator,DE0 0,offwind-ac,4360.41782
+Generator,DE0 0,offwind-dc,21806.77709
+Generator,DE0 0,offwind-float,26167.19491
+Generator,DE0 0,onwind,26732.11564
+Generator,DE0 0,ror,5237.02884
+Generator,DE0 0,solar,871889.46939
+Generator,DE0 0,solar-hsat,0.0
+Generator,EU,load,inf
+Generator,FR0 0,load,inf
+Generator,FR0 0,nuclear,64682.0
+Generator,FR0 0,offwind-ac,0.0
+Generator,FR0 0,offwind-dc,40668.40186
+Generator,FR0 0,offwind-float,0.0
+Generator,FR0 0,onwind,54655.4518
+Generator,FR0 0,ror,6978.14486
+Generator,FR0 0,solar,209323.05101
+Generator,FR0 0,solar-hsat,0.0
+Generator,NL0 0,load,inf
+Generator,NL0 0,nuclear,60.0
+Generator,NL0 0,offwind-ac,3817.06386
+Generator,NL0 0,offwind-dc,16429.52699
+Generator,NL0 0,offwind-float,0.0
+Generator,NL0 0,onwind,46851.74863
+Generator,NL0 0,solar,139573.70789
+Generator,NL0 0,solar-hsat,0.0
+Link,BE0 0,BEV charger,64781.31
+Link,BE0 0,H2 Electrolysis,0.0
+Link,BE0 0,battery charger,2599.25135
+Link,BE0 0,battery discharger,2652.8498
+Link,BE0 0,residential rural air heat pump,32.91566
+Link,BE0 0,residential rural ground heat pump,887.19529
+Link,BE0 0,residential urban decentral air heat pump,7900.30615
+Link,BE0 0,services rural air heat pump,14.94411
+Link,BE0 0,services rural ground heat pump,396.30575
+Link,BE0 0,services urban decentral air heat pump,3531.09572
+Link,BE0 0,urban central air heat pump,10043.9733
+Link,BE0 0,urban central aquifer thermal energy storage charger,4054.16546
+Link,BE0 0,urban central aquifer thermal energy storage discharger,18444.22128
+Link,CH0 0,BEV charger,50863.472
+Link,CH0 0,H2 Electrolysis,0.0
+Link,CH0 0,battery charger,0.0
+Link,CH0 0,battery discharger,0.0
+Link,CH0 0,residential rural air heat pump,436.15504
+Link,CH0 0,residential rural ground heat pump,1949.43457
+Link,CH0 0,residential urban decentral air heat pump,3675.26569
+Link,CH0 0,services rural air heat pump,182.08688
+Link,CH0 0,services rural ground heat pump,802.86041
+Link,CH0 0,services urban decentral air heat pump,1517.42066
+Link,CH0 0,urban central air heat pump,7876.11409
+Link,CH0 0,urban central aquifer thermal energy storage charger,574.70492
+Link,CH0 0,urban central aquifer thermal energy storage discharger,1081.26987
+Link,DE0 0,BEV charger,524875.747
+Link,DE0 0,H2 Electrolysis,0.0
+Link,DE0 0,battery charger,9584.73896
+Link,DE0 0,battery discharger,9782.38324
+Link,DE0 0,residential rural air heat pump,328.05344
+Link,DE0 0,residential rural ground heat pump,30412.85848
+Link,DE0 0,residential urban decentral air heat pump,44035.98744
+Link,DE0 0,services rural air heat pump,127.35805
+Link,DE0 0,services rural ground heat pump,11623.47524
+Link,DE0 0,services urban decentral air heat pump,16832.92768
+Link,DE0 0,urban central air heat pump,59427.77805
+Link,DE0 0,urban central aquifer thermal energy storage charger,20850.25752
+Link,DE0 0,urban central aquifer thermal energy storage discharger,103873.53775
+Link,EU,co2 sequestered,0.0
+Link,FR0 0,BEV charger,422795.098
+Link,FR0 0,H2 Electrolysis,0.0
+Link,FR0 0,battery charger,0.0
+Link,FR0 0,battery discharger,0.0
+Link,FR0 0,residential rural air heat pump,1037.08151
+Link,FR0 0,residential rural ground heat pump,21867.6496
+Link,FR0 0,residential urban decentral air heat pump,38663.7897
+Link,FR0 0,services rural air heat pump,363.43822
+Link,FR0 0,services rural ground heat pump,7773.94172
+Link,FR0 0,services urban decentral air heat pump,13736.11177
+Link,FR0 0,urban central air heat pump,43806.58927
+Link,FR0 0,urban central aquifer thermal energy storage charger,18564.22367
+Link,FR0 0,urban central aquifer thermal energy storage discharger,66397.75644
+Link,NL0 0,BEV charger,95457.021
+Link,NL0 0,H2 Electrolysis,0.0
+Link,NL0 0,battery charger,6346.94843
+Link,NL0 0,battery discharger,6477.82712
+Link,NL0 0,residential rural air heat pump,6.18623
+Link,NL0 0,residential rural ground heat pump,1492.0305
+Link,NL0 0,residential urban decentral air heat pump,10032.33353
+Link,NL0 0,services rural air heat pump,3.83212
+Link,NL0 0,services rural ground heat pump,824.42874
+Link,NL0 0,services urban decentral air heat pump,5546.18634
+Link,NL0 0,urban central air heat pump,14663.2481
+Link,NL0 0,urban central aquifer thermal energy storage charger,3580.04177
+Link,NL0 0,urban central aquifer thermal energy storage discharger,26757.22559
+StorageUnit,BE0 0,PHS,1308.0
+StorageUnit,BE0 0,hydro,12.73567
+StorageUnit,CH0 0,PHS,5107.55
+StorageUnit,CH0 0,hydro,10804.87
+StorageUnit,DE0 0,PHS,7469.346
+StorageUnit,FR0 0,PHS,5236.3
+StorageUnit,FR0 0,hydro,8840.31911
+Store,BE0 0,H2 Store,0.0
+Store,BE0 0,battery,254673.58102
+Store,BE0 0,urban central aquifer thermal energy storage,20442386.2492
+Store,CH0 0,H2 Store,0.0
+Store,CH0 0,battery,0.0
+Store,CH0 0,urban central aquifer thermal energy storage,2886199.39638
+Store,DE0 0,battery,901544.43913
+Store,DE0 0,urban central aquifer thermal energy storage,868710089.827
+Store,EU,co2,inf
+Store,EU,co2 sequestered,1e-05
+Store,EU,co2 stored,0.0
+Store,FR0 0,battery,0.0
+Store,FR0 0,urban central aquifer thermal energy storage,300121233.502
+Store,NL0 0,battery,621871.40306
+Store,NL0 0,urban central aquifer thermal energy storage,132639071.806

@@ -1,0 +1,28 @@
+INFO:pypsa.network.io:Imported network 'Unnamed Network' has buses, carriers, generators, global_constraints, lines, links, loads, storage_units, stores, sub_networks
+WARNING:pypsa.consistency:The following buses have no attached components, which can break the lopf: {'EU'}
+INFO:__main__:Adding generation capacity constraints per carrier and country
+INFO:__main__:Adding solar potential constraint.
+INFO:linopy.model: Solve problem using Gurobi solver
+INFO:linopy.model:Solver logs written to `results/eu-overnight/ccl_high_nuclear/logs/base_s_40___2050_solver.log`.
+INFO:linopy.model:Solver options:
+ - threads: 32
+ - method: 2
+ - crossover: 0
+ - BarConvTol: 1e-05
+ - Seed: 123
+ - AggFill: 0
+ - PreDual: 0
+ - GURO_PAR_BARDENSETHRESH: 200
+INFO:linopy.io:Writing objective.
+INFO:linopy.io: Writing time: 138.6s
+INFO:linopy.constants: Optimization successful: 
+Status: ok
+Termination condition: optimal
+Solution: 10102042 primals, 22673369 duals
+Objective: 6.57e+11
+Solver model: available
+Solver message: 2
+
+INFO:pypsa.optimization.optimize:The shadow-prices of the constraints Generator-fix-p-lower, Generator-fix-p-upper, Generator-ext-p-lower, Generator-ext-p-upper, Line-ext-s-lower, Line-ext-s-upper, Link-fix-p-lower, Link-fix-p-upper, Link-ext-p-lower, Link-ext-p-upper, Store-fix-e-lower, Store-fix-e-upper, Store-ext-e-lower, Store-ext-e-upper, StorageUnit-fix-p_dispatch-lower, StorageUnit-fix-p_dispatch-upper, StorageUnit-fix-p_store-lower, StorageUnit-fix-p_store-upper, StorageUnit-fix-state_of_charge-lower, StorageUnit-fix-state_of_charge-upper, Kirchhoff-Voltage-Law, StorageUnit-energy_balance, Store-energy_balance, Line-loss_upper, Line-loss_tangents-1--1, Line-loss_tangents-1-1, Line-loss_tangents-2--1, Line-loss_tangents-2-1, agg_p_nom_min, solar_potential were not assigned to the network.
+INFO:__main__:Maximum memory usage: (68504.64453125, 1771929480.0833764)
+INFO:pypsa.network.io:Exported network 'Unnamed Network' saved to 'results/eu-overnight/ccl_high_nuclear/networks/base_s_40___2050.nc contains: loads, lines, storage_units, carriers, sub_networks, global_constraints, links, buses, stores, generators

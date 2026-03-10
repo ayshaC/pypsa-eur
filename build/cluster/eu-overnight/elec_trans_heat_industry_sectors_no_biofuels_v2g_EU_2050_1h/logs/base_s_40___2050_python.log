@@ -1,0 +1,26 @@
+INFO:pypsa.network.io:Imported network 'Unnamed Network' has buses, carriers, generators, global_constraints, lines, links, loads, storage_units, stores, sub_networks
+INFO:__main__:Adding solar potential constraint.
+INFO:linopy.model: Solve problem using Gurobi solver
+INFO:linopy.model:Solver logs written to `results/eu-overnight/elec_trans_heat_industry_sectors_no_biofuels_v2g_EU_2050_1h/logs/base_s_40___2050_solver.log`.
+INFO:linopy.model:Solver options:
+ - threads: 32
+ - method: 2
+ - crossover: 0
+ - BarConvTol: 1e-05
+ - Seed: 123
+ - AggFill: 0
+ - PreDual: 0
+ - GURO_PAR_BARDENSETHRESH: 200
+INFO:linopy.io:Writing objective.
+INFO:linopy.io: Writing time: 301.07s
+INFO:linopy.constants: Optimization successful: 
+Status: ok
+Termination condition: optimal
+Solution: 23872683 primals, 48681713 duals
+Objective: 2.27e+13
+Solver model: available
+Solver message: 2
+
+INFO:pypsa.optimization.optimize:The shadow-prices of the constraints Generator-fix-p-lower, Generator-fix-p-upper, Generator-ext-p-lower, Generator-ext-p-upper, Line-ext-s-lower, Line-ext-s-upper, Link-fix-p-lower, Link-fix-p-upper, Link-ext-p-lower, Link-ext-p-upper, Store-fix-e-lower, Store-fix-e-upper, Store-ext-e-lower, Store-ext-e-upper, StorageUnit-fix-p_dispatch-lower, StorageUnit-fix-p_dispatch-upper, StorageUnit-fix-p_store-lower, StorageUnit-fix-p_store-upper, StorageUnit-fix-state_of_charge-lower, StorageUnit-fix-state_of_charge-upper, Kirchhoff-Voltage-Law, StorageUnit-energy_balance, Store-energy_balance, Line-loss_upper, Line-loss_tangents-1--1, Line-loss_tangents-1-1, Line-loss_tangents-2--1, Line-loss_tangents-2-1, solar_potential were not assigned to the network.
+INFO:__main__:Maximum memory usage: (131841.1953125, 1769423011.1024995)
+INFO:pypsa.network.io:Exported network 'Unnamed Network' saved to 'results/eu-overnight/elec_trans_heat_industry_sectors_no_biofuels_v2g_EU_2050_1h/networks/base_s_40___2050.nc contains: links, loads, stores, generators, global_constraints, buses, lines, sub_networks, carriers, storage_units

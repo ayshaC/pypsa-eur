@@ -1,0 +1,103 @@
+country,carrier,e_nom_min,e_nom_max,e_nom_opt
+AL,EV battery,0.0,inf,31927.86161800983
+AL,battery,0.0,inf,4387.899333450851
+AL,home battery,0.0,inf,301.25012673275376
+AT,EV battery,0.0,inf,125988.70000000001
+AT,battery,0.0,inf,169818.5378461538
+AT,home battery,0.0,inf,421.51264429691054
+BA,EV battery,0.0,inf,37612.87868844411
+BA,battery,0.0,inf,1320.6037874797023
+BA,home battery,0.0,inf,255.69260972615174
+BE,EV battery,0.0,inf,147230.25
+BE,battery,0.0,inf,38223.78929820115
+BE,home battery,0.0,inf,376.1544682518324
+BG,EV battery,0.0,inf,80581.1
+BG,battery,0.0,inf,1182.3008816423476
+BG,home battery,0.0,inf,294.2736543352043
+CH,EV battery,0.0,inf,115598.8
+CH,battery,0.0,inf,52908.054526698856
+CH,home battery,0.0,inf,492.6514638428037
+CZ,EV battery,0.0,inf,148124.875
+CZ,battery,0.0,inf,5814.585730480776
+CZ,home battery,0.0,inf,377.86928931109816
+DE,EV battery,0.0,inf,1192899.4249999998
+DE,battery,0.0,inf,94927.07718010385
+DE,home battery,0.0,inf,742.8405892864973
+DK,EV battery,0.0,inf,66539.47500000002
+DK,battery,0.0,inf,107330.7071536009
+DK,home battery,0.0,inf,1184.527221144785
+EE,EV battery,0.0,inf,19873.15
+EE,battery,0.0,inf,21761.26499540206
+EE,home battery,0.0,inf,624.7817065890698
+ES,EV battery,0.0,inf,613953.1499999999
+ES,battery,0.0,inf,654065.264987812
+ES,home battery,0.0,inf,592.8100759825822
+FI,EV battery,0.0,inf,89364.25
+FI,battery,0.0,inf,57311.67737596326
+FI,home battery,0.0,inf,420.47991069113453
+FR,EV battery,0.0,inf,960897.95
+FR,battery,0.0,inf,9629.642559683933
+FR,home battery,0.0,inf,654.2136183351419
+GB,EV battery,0.0,inf,746035.3897311628
+GB,battery,0.0,inf,42128.383900388864
+GB,home battery,0.0,inf,603.1932042823146
+GR,EV battery,0.0,inf,135163.775
+GR,battery,0.0,inf,245277.15655946275
+GR,home battery,0.0,inf,806.3721731435342
+HR,EV battery,0.0,inf,43122.5
+HR,battery,0.0,inf,1491.1404840281332
+HR,home battery,0.0,inf,256.6709234110293
+HU,EV battery,0.0,inf,95300.32500000001
+HU,battery,0.0,inf,8236.732816854987
+HU,home battery,0.0,inf,359.31328617930683
+IE,EV battery,0.0,inf,56330.25
+IE,battery,0.0,inf,3942.3453054507554
+IE,home battery,0.0,inf,344.93520965104466
+IT,EV battery,0.0,inf,988630.7999999999
+IT,battery,0.0,inf,306028.9820566317
+IT,home battery,0.0,inf,1073.4278550062986
+LT,EV battery,0.0,inf,41919.8
+LT,battery,0.0,inf,9693.650291053347
+LT,home battery,0.0,inf,373.1315614189566
+LU,EV battery,0.0,inf,10761.275000000001
+LU,battery,0.0,inf,5098.945202575037
+LU,home battery,0.0,inf,343.53378230066073
+LV,EV battery,0.0,inf,18179.100000000002
+LV,battery,0.0,inf,18709.611887306088
+LV,home battery,0.0,inf,778.0986722080884
+ME,EV battery,0.0,inf,6960.788617736458
+ME,battery,0.0,inf,3529.8395714716116
+ME,home battery,0.0,inf,316.90398126359065
+MK,EV battery,0.0,inf,23232.471335081813
+MK,battery,0.0,inf,5636.883710289879
+MK,home battery,0.0,inf,366.84425714654844
+NL,EV battery,0.0,inf,216947.77500000002
+NL,battery,0.0,inf,104307.34643827606
+NL,home battery,0.0,inf,514.1287815934301
+NO,EV battery,0.0,inf,59849.35293835141
+NO,battery,0.0,inf,2437.0200339266976
+NO,home battery,0.0,inf,357.8978729345165
+PL,EV battery,0.0,inf,609004.15
+PL,battery,0.0,inf,200341.31632200038
+PL,home battery,0.0,inf,464.8230358132206
+PT,EV battery,0.0,inf,137376.025
+PT,battery,0.0,inf,19473.641666181644
+PT,home battery,0.0,inf,282.9288487893094
+RO,EV battery,0.0,inf,172574.6
+RO,battery,0.0,inf,1318.945377015272
+RO,home battery,0.0,inf,500.2724380846908
+RS,EV battery,0.0,inf,77698.96362209682
+RS,battery,0.0,inf,1817.1298302684245
+RS,home battery,0.0,inf,416.4270697881485
+SE,EV battery,0.0,inf,122177.90000000001
+SE,battery,0.0,inf,6725.698433050635
+SE,home battery,0.0,inf,427.87151479337655
+SI,EV battery,0.0,inf,29134.275
+SI,battery,0.0,inf,4057.5175554174843
+SI,home battery,0.0,inf,261.53190717177773
+SK,EV battery,0.0,inf,59839.425
+SK,battery,0.0,inf,5909.700030838663
+SK,home battery,0.0,inf,365.04247697605916
+XK,EV battery,0.0,inf,19942.3236604604
+XK,battery,0.0,inf,1780.5151704653435
+XK,home battery,0.0,inf,287.4743925746924

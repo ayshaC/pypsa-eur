@@ -1,0 +1,81 @@
+cluster,,,40
+opt,,,
+planning_horizon,,,2050
+component,carrier,bus_carrier,
+Generator,biogas,biogas,0.0
+Generator,load,AC,0.96657
+Generator,load,EV battery,0.98198
+Generator,load,H2,0.2877
+Generator,load,battery,0.96052
+Generator,load,biogas,0.0
+Generator,load,co2,0.0
+Generator,load,co2 sequestered,0.02715
+Generator,load,co2 stored,0.0548
+Generator,load,home battery,0.96088
+Generator,load,low voltage,0.96037
+Generator,load,none,0.0
+Generator,load,residential rural heat,0.0
+Generator,load,residential urban decentral heat,0.0
+Generator,load,services rural heat,0.0
+Generator,load,services urban decentral heat,0.0
+Generator,load,solid biomass,0.0
+Generator,load,urban central heat,0.0
+Generator,offwind-ac,AC,1012080753.06976
+Generator,offwind-dc,AC,1828637013.31909
+Generator,onwind,AC,688166517.72198
+Generator,ror,AC,170448846.57111
+Generator,solar,AC,1042316535.66396
+Generator,solar rooftop,low voltage,153149692.50596
+Generator,solar-hsat,AC,15842.03929
+Generator,solid biomass,solid biomass,0.0
+Line,AC,AC,-65768200.00678
+Link,BEV charger,EV battery,982346392.87422
+Link,BEV charger,low voltage,-1091495992.08247
+Link,DC,AC,-49251728.04624
+Link,H2 Electrolysis,AC,-0.85711
+Link,H2 Electrolysis,H2,0.59946
+Link,H2 Electrolysis,urban central heat,0.0298
+Link,V2G,EV battery,-1854943.32306
+Link,V2G,low voltage,1669448.99075
+Link,battery charger,AC,-36429083.2044
+Link,battery charger,battery,35693066.25927
+Link,battery discharger,AC,34971920.54392
+Link,battery discharger,battery,-35693066.94074
+Link,co2 sequestered,co2 sequestered,0.05434
+Link,co2 sequestered,co2 stored,-0.05434
+Link,electricity distribution grid,AC,-4959393153.06014
+Link,electricity distribution grid,low voltage,4810495862.18899
+Link,home battery charger,home battery,99599.50338
+Link,home battery charger,low voltage,-101653.31746
+Link,home battery discharger,home battery,-99600.36634
+Link,home battery discharger,low voltage,97588.03029
+Link,residential rural air heat pump,low voltage,-5171169.59019
+Link,residential rural air heat pump,residential rural heat,13095009.03309
+Link,residential rural ground heat pump,low voltage,-161081801.02462
+Link,residential rural ground heat pump,residential rural heat,534814215.64715
+Link,residential urban decentral air heat pump,low voltage,-332291417.8361
+Link,residential urban decentral air heat pump,residential urban decentral heat,750011223.64406
+Link,services rural air heat pump,low voltage,-2624518.80496
+Link,services rural air heat pump,services rural heat,6486956.91341
+Link,services rural ground heat pump,low voltage,-59446765.89277
+Link,services rural ground heat pump,services rural heat,198081490.96804
+Link,services urban decentral air heat pump,low voltage,-128686172.91064
+Link,services urban decentral air heat pump,services urban decentral heat,290777053.14145
+Link,urban central air heat pump,low voltage,-590822826.65474
+Link,urban central air heat pump,urban central heat,1795359777.42519
+Load,electricity,low voltage,-2593690274.57493
+Load,land transport EV,EV battery,-980491450.39726
+Load,residential rural heat,residential rural heat,-547909224.68024
+Load,residential urban decentral heat,residential urban decentral heat,-750011223.64407
+Load,services rural heat,services rural heat,-204568447.88144
+Load,services urban decentral heat,services urban decentral heat,-290777053.14145
+Load,urban central heat,urban central heat,-1795359777.45503
+StorageUnit,PHS,AC,-7084597.68862
+StorageUnit,hydro,AC,341289335.34887
+Store,EV battery,EV battery,0.0
+Store,H2 Store,H2,-0.88716
+Store,battery,battery,-0.0
+Store,co2,co2,0.0
+Store,co2 sequestered,co2 sequestered,-0.0815
+Store,co2 stored,co2 stored,-0.00045
+Store,home battery,home battery,0.0

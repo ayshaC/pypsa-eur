@@ -1,0 +1,74 @@
+component,carrier,0
+Generator,biogas,347323678.55875
+Generator,gas,405447.26591
+Generator,load,inf
+Generator,nuclear,154409.43132
+Generator,offwind-ac,177389.96894
+Generator,offwind-dc,235028.11943
+Generator,oil primary,92254.74624
+Generator,onwind,741038.62596
+Generator,residential rural solar thermal,160.39348
+Generator,residential urban decentral solar thermal,161.79925
+Generator,ror,49069.42293
+Generator,services rural solar thermal,89.60513
+Generator,services urban decentral solar thermal,91.7099
+Generator,solar,1586597.70895
+Generator,solar rooftop,289662.7588
+Generator,solar-hsat,823353.31563
+Generator,solid biomass,1049092861.83616
+Generator,urban central solar thermal,321.45626
+Line,AC,515542.23083
+Link,BEV charger,3212340.17729
+Link,CCGT,305025.95651
+Link,DC,600594.25766
+Link,Fischer-Tropsch,87146.1357
+Link,H2 Electrolysis,332620.98776
+Link,H2 pipeline,139673.17974
+Link,HVC to air,0.19884
+Link,SMR,12290.61733
+Link,SMR CC,67301.70489
+Link,Sabatier,45.2702
+Link,agriculture machinery oil,5870.29883
+Link,battery charger,303700.09908
+Link,battery discharger,309962.61566
+Link,biogas to gas,8518.31054
+Link,biomass to liquid,0.84582
+Link,co2 sequestered,57223.96545
+Link,electricity distribution grid,1971872.33362
+Link,electrobiofuels,30453.4868
+Link,gas for industry,0.8418
+Link,gas for industry CC,29347.78037
+Link,home battery charger,894.76019
+Link,home battery discharger,913.21079
+Link,industry methanol,997.71675
+Link,kerosene for aviation,84920.88755
+Link,methanolisation,90536.04781
+Link,naphtha for industry,31605.02272
+Link,oil refining,1000000.0
+Link,process emissions,0.08822
+Link,process emissions CC,15284.5395
+Link,residential rural air heat pump,47357.69341
+Link,residential rural ground heat pump,142691.6846
+Link,residential urban decentral air heat pump,252992.32221
+Link,services rural air heat pump,22344.97313
+Link,services rural ground heat pump,78222.23658
+Link,services urban decentral air heat pump,105101.35486
+Link,shipping methanol,57416.63278
+Link,solid biomass for industry,0.42146
+Link,solid biomass for industry CC,94904.19041
+Link,urban central air heat pump,573057.49747
+Link,waste CHP,109.97106
+Link,waste CHP CC,30259.93191
+StorageUnit,PHS,56037.67555
+StorageUnit,hydro,106407.54413
+Store,EV battery,7300773.13021
+Store,H2 Store,720333.63503
+Store,battery,2378930.93741
+Store,co2,inf
+Store,co2 sequestered,249997315.63008
+Store,co2 stored,960.10409
+Store,gas,9403.66999
+Store,home battery,3042.3602
+Store,methanol,77983920.53433
+Store,non-sequestered HVC,117504290.15947
+Store,oil,39169.4522

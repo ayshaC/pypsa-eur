@@ -1,0 +1,1133 @@
+component,location,carrier,0
+Line,AL0 0,AC,0.41465533226700274
+Line,AT0 0,AC,0.34349443164942633
+Line,BA0 0,AC,0.3823120014391548
+Line,BE0 0,AC,0.37617652561696163
+Line,BG0 0,AC,0.4547090314284316
+Line,CH0 0,AC,0.3649255911214386
+Line,CZ0 0,AC,0.2979315702873506
+Line,DE0 0,AC,0.33875988669992246
+Line,DE0 1,AC,0.3909838662792576
+Line,DK1 0,AC,0.5882796938977878
+Line,EE0 0,AC,0.38479800010211784
+Line,ES0 0,AC,0.42973450692794346
+Line,FI1 0,AC,0.4382758372229388
+Line,FR0 0,AC,0.41125837339636895
+Line,GB3 0,AC,0.44566447451240365
+Line,GR0 0,AC,0.5541303634385255
+Line,HR0 0,AC,0.3361437118342237
+Line,HU0 0,AC,0.39956231801345576
+Line,IT0 0,AC,0.38265559871756644
+Line,LT0 0,AC,0.42720025161327796
+Line,ME0 0,AC,0.4033923275557607
+Line,MK0 0,AC,0.48167614663057545
+Line,NO1 0,AC,0.43711457049609237
+Line,PL0 0,AC,0.34306771350823956
+Line,RO0 0,AC,0.31504519606759973
+Line,RS0 0,AC,0.477776482858115
+Generator,AL0 0,load,0.0
+Generator,AL0 0,offwind-ac,0.19123141863087956
+Generator,AL0 0,offwind-dc,0.316581083743375
+Generator,AL0 0,onwind,0.052236473028418155
+Generator,AL0 0,residential rural solar thermal,0.023333714493270284
+Generator,AL0 0,residential urban decentral solar thermal,0.0235789670277995
+Generator,AL0 0,ror,0.34893195020746887
+Generator,AL0 0,services rural solar thermal,0.02342557917030309
+Generator,AL0 0,services urban decentral solar thermal,0.022823810500572663
+Generator,AL0 0,solar,0.14313590906380966
+Generator,AL0 0,solar rooftop,0.14611152137295552
+Generator,AL0 0,solar-hsat,0.1312335722987704
+Generator,AL0 0,urban central solar thermal,0.015091776652904345
+Generator,AT0 0,load,0.0
+Generator,AT0 0,onwind,0.1251203344455655
+Generator,AT0 0,residential rural solar thermal,0.019356341207987588
+Generator,AT0 0,residential urban decentral solar thermal,0.019175347903607434
+Generator,AT0 0,ror,0.4742915871050011
+Generator,AT0 0,services rural solar thermal,0.018173166734222725
+Generator,AT0 0,services urban decentral solar thermal,0.016973069946952416
+Generator,AT0 0,solar,0.10945958214351457
+Generator,AT0 0,solar rooftop,0.11508879601773588
+Generator,AT0 0,solar-hsat,0.11308308337814062
+Generator,AT0 0,urban central solar thermal,0.019286484806861497
+Generator,BA0 0,load,0.0
+Generator,BA0 0,offwind-ac,0.10521057576802768
+Generator,BA0 0,onwind,0.043421685946129364
+Generator,BA0 0,residential rural solar thermal,0.01998471510165326
+Generator,BA0 0,residential urban decentral solar thermal,0.019359612999595734
+Generator,BA0 0,services rural solar thermal,0.01864829867232476
+Generator,BA0 0,services urban decentral solar thermal,0.018505534858073314
+Generator,BA0 0,solar,0.1260468080216147
+Generator,BA0 0,solar rooftop,0.12723101694156047
+Generator,BA0 0,solar-hsat,0.12055612528443817
+Generator,BA0 0,urban central solar thermal,0.01851658944876005
+Generator,BE0 0,load,0.0
+Generator,BE0 0,nuclear,0.6336080360776924
+Generator,BE0 0,offwind-ac,0.49230011495269255
+Generator,BE0 0,offwind-dc,0.5235903813738549
+Generator,BE0 0,onwind,0.28146721780358674
+Generator,BE0 0,residential rural solar thermal,0.012732588020093616
+Generator,BE0 0,residential urban decentral solar thermal,0.01664435117714207
+Generator,BE0 0,ror,0.5303783728095102
+Generator,BE0 0,services rural solar thermal,0.014999132138163606
+Generator,BE0 0,services urban decentral solar thermal,0.015463703635399617
+Generator,BE0 0,solar,0.10840207293471274
+Generator,BE0 0,solar rooftop,0.08879796647737637
+Generator,BE0 0,solar-hsat,0.10686338336641799
+Generator,BE0 0,urban central solar thermal,0.012227079555196205
+Generator,BG0 0,load,0.0
+Generator,BG0 0,nuclear,0.5750435005375314
+Generator,BG0 0,offwind-ac,0.2899636321903553
+Generator,BG0 0,offwind-dc,0.3309715879013051
+Generator,BG0 0,onwind,0.11940242714631617
+Generator,BG0 0,residential rural solar thermal,0.02190362122337571
+Generator,BG0 0,residential urban decentral solar thermal,0.023709259848037532
+Generator,BG0 0,ror,0.19884827898550725
+Generator,BG0 0,services rural solar thermal,0.02218179746961617
+Generator,BG0 0,services urban decentral solar thermal,0.021914259041052302
+Generator,BG0 0,solar,0.14336606812154035
+Generator,BG0 0,solar rooftop,0.14266666103587106
+Generator,BG0 0,solar-hsat,0.12937977469286818
+Generator,BG0 0,urban central solar thermal,0.01844691468966545
+Generator,CH0 0,load,0.0
+Generator,CH0 0,nuclear,0.5426005303792357
+Generator,CH0 0,onwind,0.03654104780345637
+Generator,CH0 0,residential rural solar thermal,0.018873201972739773
+Generator,CH0 0,residential urban decentral solar thermal,0.02215886061565927
+Generator,CH0 0,ror,0.2535073542680796
+Generator,CH0 0,services rural solar thermal,0.01708688774282213
+Generator,CH0 0,services urban decentral solar thermal,0.01990319892900943
+Generator,CH0 0,solar,0.12814099426478245
+Generator,CH0 0,solar rooftop,0.1322121685171332
+Generator,CH0 0,solar-hsat,0.12722968230378146
+Generator,CH0 0,urban central solar thermal,0.01985067204571257
+Generator,CZ0 0,load,0.0
+Generator,CZ0 0,nuclear,0.6549653099062013
+Generator,CZ0 0,onwind,0.16407396152774809
+Generator,CZ0 0,residential rural solar thermal,0.015055054384739747
+Generator,CZ0 0,residential urban decentral solar thermal,0.016239642806458305
+Generator,CZ0 0,ror,0.4023866925137186
+Generator,CZ0 0,services rural solar thermal,0.015102691477070529
+Generator,CZ0 0,services urban decentral solar thermal,0.014448360713478903
+Generator,CZ0 0,solar,0.10679705082553052
+Generator,CZ0 0,solar rooftop,0.08834994599571429
+Generator,CZ0 0,solar-hsat,0.10845216292638184
+Generator,CZ0 0,urban central solar thermal,0.017111430484558477
+Generator,DE0 0,load,0.0
+Generator,DE0 0,nuclear,0.7194139312687399
+Generator,DE0 0,offwind-ac,0.4863896182234665
+Generator,DE0 0,offwind-dc,0.5830816527759997
+Generator,DE0 0,onwind,0.24504977530257946
+Generator,DE0 0,residential rural solar thermal,0.016035358300520396
+Generator,DE0 0,residential urban decentral solar thermal,0.01879462927297673
+Generator,DE0 0,ror,0.4677587696826662
+Generator,DE0 0,services rural solar thermal,0.017081618220392766
+Generator,DE0 0,services urban decentral solar thermal,0.017150937993661654
+Generator,DE0 0,solar,0.10650008351850336
+Generator,DE0 0,solar rooftop,0.0882622604551212
+Generator,DE0 0,solar-hsat,0.10674683650723531
+Generator,DE0 0,urban central solar thermal,0.01913352684226371
+Generator,DE0 1,load,0.0
+Generator,DE0 1,nuclear,0.7078345108973787
+Generator,DE0 1,offwind-ac,0.46920276107022135
+Generator,DE0 1,offwind-dc,0.5220375137482646
+Generator,DE0 1,onwind,0.19459556591997998
+Generator,DE0 1,residential rural solar thermal,0.017286910560720202
+Generator,DE0 1,residential urban decentral solar thermal,0.018004801777552436
+Generator,DE0 1,ror,0.47235081016294933
+Generator,DE0 1,services rural solar thermal,0.017093608138902015
+Generator,DE0 1,services urban decentral solar thermal,0.016038525025594472
+Generator,DE0 1,solar,0.10956840809986186
+Generator,DE0 1,solar rooftop,0.09174484646427489
+Generator,DE0 1,solar-hsat,0.10577961251101166
+Generator,DE0 1,urban central solar thermal,0.018451025589474323
+Generator,DK0 0,load,0.0
+Generator,DK0 0,offwind-ac,0.47195642739304383
+Generator,DK0 0,offwind-dc,0.4829106441250114
+Generator,DK0 0,onwind,0.3932741990383194
+Generator,DK0 0,residential rural solar thermal,0.013557420540183131
+Generator,DK0 0,residential urban decentral solar thermal,0.0162857477327347
+Generator,DK0 0,services rural solar thermal,0.014446586604168723
+Generator,DK0 0,services urban decentral solar thermal,0.013934852280117956
+Generator,DK0 0,solar,0.10108183344197917
+Generator,DK0 0,solar rooftop,0.08490691976773347
+Generator,DK0 0,solar-hsat,0.10941810872405935
+Generator,DK0 0,urban central solar thermal,0.013575754300314961
+Generator,DK1 0,load,0.0
+Generator,DK1 0,offwind-ac,0.4900290642052535
+Generator,DK1 0,offwind-dc,0.4532589403992376
+Generator,DK1 0,onwind,0.45121955710255185
+Generator,DK1 0,residential rural solar thermal,0.013918997627605017
+Generator,DK1 0,residential urban decentral solar thermal,0.01664191865201193
+Generator,DK1 0,services rural solar thermal,0.014967254053292741
+Generator,DK1 0,services urban decentral solar thermal,0.01446872892025267
+Generator,DK1 0,solar,0.10983259153039605
+Generator,DK1 0,solar rooftop,0.09647308243880275
+Generator,DK1 0,solar-hsat,0.11911100474317363
+Generator,DK1 0,urban central solar thermal,0.013800550052839203
+Generator,EE0 0,load,0.0
+Generator,EE0 0,offwind-ac,0.36662510278742055
+Generator,EE0 0,offwind-dc,0.40312521882221136
+Generator,EE0 0,onwind,0.28532189110374107
+Generator,EE0 0,residential rural solar thermal,0.014672627556988017
+Generator,EE0 0,residential urban decentral solar thermal,0.01498082183522603
+Generator,EE0 0,services rural solar thermal,0.014634583574391107
+Generator,EE0 0,services urban decentral solar thermal,0.013992516721485175
+Generator,EE0 0,solar,0.1056515411349
+Generator,EE0 0,solar rooftop,0.1083263420575737
+Generator,EE0 0,solar-hsat,0.119835284128546
+Generator,EE0 0,urban central solar thermal,0.014987530260378338
+Generator,ES0 0,load,0.0
+Generator,ES0 0,nuclear,0.488195030827352
+Generator,ES0 0,offwind-ac,0.3015229502900622
+Generator,ES0 0,offwind-dc,0.4395596120915325
+Generator,ES0 0,onwind,0.1700146152969744
+Generator,ES0 0,residential rural solar thermal,0.03407001494162711
+Generator,ES0 0,residential urban decentral solar thermal,0.040231824304909326
+Generator,ES0 0,ror,0.23463976923076924
+Generator,ES0 0,services rural solar thermal,0.036644223321217896
+Generator,ES0 0,services urban decentral solar thermal,0.03496802798672425
+Generator,ES0 0,solar,0.1565303771574735
+Generator,ES0 0,solar rooftop,0.1721830763034737
+Generator,ES0 0,solar-hsat,0.14031877803712217
+Generator,ES0 0,urban central solar thermal,0.03100789135850523
+Generator,ES6 0,load,0.0
+Generator,ES6 0,nuclear,0.48180533961931515
+Generator,ES6 0,offwind-ac,0.2436420050772968
+Generator,ES6 0,offwind-dc,0.2915206149915974
+Generator,ES6 0,onwind,0.241563054758843
+Generator,ES6 0,residential rural solar thermal,0.025865643790172088
+Generator,ES6 0,residential urban decentral solar thermal,0.02674166059711259
+Generator,ES6 0,ror,0.23722886300598775
+Generator,ES6 0,services rural solar thermal,0.026371498964385134
+Generator,ES6 0,services urban decentral solar thermal,0.025738603106978706
+Generator,ES6 0,solar,0.125230837901307
+Generator,ES6 0,solar rooftop,0.155374654642088
+Generator,ES6 0,solar-hsat,0.13651982850886213
+Generator,ES6 0,urban central solar thermal,0.010191041374833029
+Generator,EU,biogas,0.0
+Generator,EU,coal,0.9999933108152474
+Generator,EU,gas,0.23881471477866312
+Generator,EU,load,0.0
+Generator,EU,oil primary,0.5220730105397381
+Generator,EU,solid biomass,7.585243273957921e-05
+Generator,FI1 0,load,0.0
+Generator,FI1 0,nuclear,0.7622525931276628
+Generator,FI1 0,offwind-ac,0.45030833982309937
+Generator,FI1 0,offwind-dc,0.5310971452507205
+Generator,FI1 0,onwind,0.21118766565564343
+Generator,FI1 0,residential rural solar thermal,0.004798298424600743
+Generator,FI1 0,residential urban decentral solar thermal,0.005620923904660246
+Generator,FI1 0,ror,0.5393103767169862
+Generator,FI1 0,services rural solar thermal,0.005177583223396782
+Generator,FI1 0,services urban decentral solar thermal,0.0050146001217536654
+Generator,FI1 0,solar,0.10048740657408134
+Generator,FI1 0,solar rooftop,0.09274303507670453
+Generator,FI1 0,solar-hsat,0.11573702357260687
+Generator,FI1 0,urban central solar thermal,0.006228803029300762
+Generator,FR0 0,load,0.0
+Generator,FR0 0,nuclear,0.4039132266408933
+Generator,FR0 0,offwind-ac,0.4616795357099806
+Generator,FR0 0,offwind-dc,0.5398300034242549
+Generator,FR0 0,onwind,0.21787271625846474
+Generator,FR0 0,residential rural solar thermal,0.022773212537843437
+Generator,FR0 0,residential urban decentral solar thermal,0.025399804169214953
+Generator,FR0 0,ror,0.4771371057354365
+Generator,FR0 0,services rural solar thermal,0.024938867207983967
+Generator,FR0 0,services urban decentral solar thermal,0.023559617665527104
+Generator,FR0 0,solar,0.12706249277089252
+Generator,FR0 0,solar rooftop,0.1254813388623517
+Generator,FR0 0,solar-hsat,0.11308925352805581
+Generator,FR0 0,urban central solar thermal,0.02193450388667473
+Generator,FR5 0,load,0.0
+Generator,FR5 0,offwind-ac,0.19097253404636855
+Generator,FR5 0,offwind-dc,0.27150984642544085
+Generator,FR5 0,onwind,0.12421326045988165
+Generator,FR5 0,residential rural solar thermal,0.022134947494366702
+Generator,FR5 0,residential urban decentral solar thermal,
+Generator,FR5 0,ror,0.42392155133188125
+Generator,FR5 0,services rural solar thermal,0.021645080655742176
+Generator,FR5 0,services urban decentral solar thermal,0.02164142826124968
+Generator,FR5 0,solar,0.14889103494117037
+Generator,FR5 0,solar rooftop,0.12899318870431872
+Generator,FR5 0,solar-hsat,0.11654046337748976
+Generator,GB2 0,load,0.0
+Generator,GB2 0,nuclear,0.455412124300736
+Generator,GB2 0,offwind-ac,0.5107800054183154
+Generator,GB2 0,offwind-dc,0.45025590315682434
+Generator,GB2 0,onwind,0.3589266875818021
+Generator,GB2 0,residential rural solar thermal,0.014520649429068697
+Generator,GB2 0,residential urban decentral solar thermal,0.01572003096281552
+Generator,GB2 0,ror,0.12509861456241275
+Generator,GB2 0,services rural solar thermal,0.013164809851989069
+Generator,GB2 0,services urban decentral solar thermal,0.015116464267523257
+Generator,GB2 0,solar,0.101008926082736
+Generator,GB2 0,solar rooftop,0.09079437058927918
+Generator,GB2 0,solar-hsat,0.10358958791834258
+Generator,GB2 0,urban central solar thermal,0.013694407017427128
+Generator,GB3 0,load,0.0
+Generator,GB3 0,nuclear,0.4654872436683623
+Generator,GB3 0,offwind-ac,0.5633183128515549
+Generator,GB3 0,offwind-dc,0.4920135845235808
+Generator,GB3 0,onwind,0.33586661158137704
+Generator,GB3 0,residential rural solar thermal,0.01068073115662951
+Generator,GB3 0,residential urban decentral solar thermal,0.0099871619155545
+Generator,GB3 0,ror,0.12670977039570103
+Generator,GB3 0,services rural solar thermal,0.009733750871771026
+Generator,GB3 0,services urban decentral solar thermal,0.009219300608572794
+Generator,GB3 0,solar,0.08756652630673621
+Generator,GB3 0,solar rooftop,0.07990861459366558
+Generator,GB3 0,solar-hsat,0.0943927849423644
+Generator,GB3 0,urban central solar thermal,0.006679711735789625
+Generator,GR0 0,load,0.0
+Generator,GR0 0,offwind-ac,0.24959273271761082
+Generator,GR0 0,offwind-dc,0.3464136689386163
+Generator,GR0 0,onwind,0.14686757741395018
+Generator,GR0 0,residential rural solar thermal,0.027010449385725256
+Generator,GR0 0,residential urban decentral solar thermal,0.029527775393493765
+Generator,GR0 0,ror,0.23380145489815712
+Generator,GR0 0,services rural solar thermal,0.028554972048111135
+Generator,GR0 0,services urban decentral solar thermal,0.02830427695687609
+Generator,GR0 0,solar,0.12982513250786676
+Generator,GR0 0,solar rooftop,0.14247735140484724
+Generator,GR0 0,solar-hsat,0.13152896664437644
+Generator,GR0 0,urban central solar thermal,0.01815762686052756
+Generator,HR0 0,load,0.0
+Generator,HR0 0,offwind-ac,0.1721254564936911
+Generator,HR0 0,offwind-dc,0.23448087912087912
+Generator,HR0 0,onwind,0.09417188556340132
+Generator,HR0 0,residential rural solar thermal,0.020771057478741087
+Generator,HR0 0,residential urban decentral solar thermal,0.02083604391056741
+Generator,HR0 0,ror,0.4790462462230557
+Generator,HR0 0,services rural solar thermal,0.02053857451050103
+Generator,HR0 0,services urban decentral solar thermal,0.01899462332269361
+Generator,HR0 0,solar,0.13184646884193868
+Generator,HR0 0,solar rooftop,0.12686391143240833
+Generator,HR0 0,solar-hsat,0.12426835356841463
+Generator,HR0 0,urban central solar thermal,0.01938486378041811
+Generator,HU0 0,load,0.0
+Generator,HU0 0,nuclear,0.620039997173949
+Generator,HU0 0,onwind,0.14980187259458946
+Generator,HU0 0,residential rural solar thermal,0.02068912861336425
+Generator,HU0 0,residential urban decentral solar thermal,0.021848540135677854
+Generator,HU0 0,ror,0.4099583756345178
+Generator,HU0 0,services rural solar thermal,0.021485832432686435
+Generator,HU0 0,services urban decentral solar thermal,0.019887971469550726
+Generator,HU0 0,solar,0.12637606296381212
+Generator,HU0 0,solar rooftop,0.12521835831641154
+Generator,HU0 0,solar-hsat,0.12098723484376092
+Generator,HU0 0,urban central solar thermal,0.0212767187198365
+Generator,IE3 0,load,0.0
+Generator,IE3 0,offwind-ac,0.5288366043122309
+Generator,IE3 0,offwind-dc,0.6006893506825817
+Generator,IE3 0,onwind,0.3363667717762914
+Generator,IE3 0,residential rural solar thermal,0.012088714027350319
+Generator,IE3 0,residential urban decentral solar thermal,0.013152368617936682
+Generator,IE3 0,ror,0.2807984722222222
+Generator,IE3 0,services rural solar thermal,0.011616266300920391
+Generator,IE3 0,services urban decentral solar thermal,0.011634006519539886
+Generator,IE3 0,solar,0.10038533715422723
+Generator,IE3 0,solar rooftop,0.09814744534592142
+Generator,IE3 0,solar-hsat,0.10653743203609027
+Generator,IE3 0,urban central solar thermal,0.010415073584606515
+Generator,IT0 0,load,0.0
+Generator,IT0 0,nuclear,0.6330499677659815
+Generator,IT0 0,offwind-ac,0.1898748818099899
+Generator,IT0 0,offwind-dc,0.29773545280439817
+Generator,IT0 0,onwind,0.1098384121435577
+Generator,IT0 0,residential rural solar thermal,0.0303786437237053
+Generator,IT0 0,residential urban decentral solar thermal,0.03320215463783944
+Generator,IT0 0,ror,0.45249732384106306
+Generator,IT0 0,services rural solar thermal,0.03180703656407767
+Generator,IT0 0,services urban decentral solar thermal,0.03034915219891621
+Generator,IT0 0,solar,0.12725696565379804
+Generator,IT0 0,solar rooftop,0.15149772882695037
+Generator,IT0 0,solar-hsat,0.1270769339132351
+Generator,IT0 0,urban central solar thermal,0.03104056791852774
+Generator,IT4 0,load,0.0
+Generator,IT4 0,offwind-ac,0.23568285821058643
+Generator,IT4 0,offwind-dc,0.33137193903922224
+Generator,IT4 0,onwind,0.1727234472904645
+Generator,IT4 0,residential rural solar thermal,0.02854487697516841
+Generator,IT4 0,residential urban decentral solar thermal,0.02612738721414701
+Generator,IT4 0,ror,0.40096498838109995
+Generator,IT4 0,services rural solar thermal,0.027544385356089586
+Generator,IT4 0,services urban decentral solar thermal,0.025521871764834676
+Generator,IT4 0,solar,0.1550822284650927
+Generator,IT4 0,solar rooftop,0.1457389574240594
+Generator,IT4 0,solar-hsat,0.1352885712842265
+Generator,IT4 0,urban central solar thermal,0.013313353315358946
+Generator,LT0 0,load,0.0
+Generator,LT0 0,nuclear,0.7705834770778243
+Generator,LT0 0,offwind-ac,0.42204949324150226
+Generator,LT0 0,offwind-dc,0.5098980232476941
+Generator,LT0 0,onwind,0.2221203838184588
+Generator,LT0 0,residential rural solar thermal,0.014200961551338537
+Generator,LT0 0,residential urban decentral solar thermal,0.014481989384360176
+Generator,LT0 0,ror,0.5547812871287129
+Generator,LT0 0,services rural solar thermal,0.014146856812299536
+Generator,LT0 0,services urban decentral solar thermal,0.013378955803693979
+Generator,LT0 0,solar,0.10830574427240758
+Generator,LT0 0,solar rooftop,0.09844856487975095
+Generator,LT0 0,solar-hsat,0.11425231456398408
+Generator,LT0 0,urban central solar thermal,0.014276744553045895
+Generator,LU0 0,load,0.0
+Generator,LU0 0,onwind,0.21457924278361581
+Generator,LU0 0,residential rural solar thermal,0.012284310757629962
+Generator,LU0 0,residential urban decentral solar thermal,0.012631332342002595
+Generator,LU0 0,services rural solar thermal,0.011990889835649585
+Generator,LU0 0,services urban decentral solar thermal,0.012330669217839608
+Generator,LU0 0,solar,0.10613759198860843
+Generator,LU0 0,solar rooftop,0.09720358663811879
+Generator,LU0 0,solar-hsat,0.11004643079653552
+Generator,LU0 0,urban central solar thermal,0.007776927970493421
+Generator,LV0 0,load,0.0
+Generator,LV0 0,offwind-ac,0.36826348280394994
+Generator,LV0 0,offwind-dc,0.44310742990940705
+Generator,LV0 0,onwind,0.22191192357607042
+Generator,LV0 0,residential rural solar thermal,0.014681446962743297
+Generator,LV0 0,residential urban decentral solar thermal,0.015151550372279962
+Generator,LV0 0,ror,0.20482999804700217
+Generator,LV0 0,services rural solar thermal,0.014790127387703862
+Generator,LV0 0,services urban decentral solar thermal,0.01372409793325492
+Generator,LV0 0,solar,0.10956401187119749
+Generator,LV0 0,solar rooftop,0.10504686212542493
+Generator,LV0 0,solar-hsat,0.11484508177032418
+Generator,LV0 0,urban central solar thermal,0.014701012428214396
+Generator,ME0 0,load,0.0
+Generator,ME0 0,offwind-ac,0.15419208349210647
+Generator,ME0 0,offwind-dc,0.24530066187111602
+Generator,ME0 0,onwind,0.036640661996613096
+Generator,ME0 0,residential rural solar thermal,0.020327772289681495
+Generator,ME0 0,residential urban decentral solar thermal,0.02030421703842443
+Generator,ME0 0,ror,0.5023041044776119
+Generator,ME0 0,services rural solar thermal,0.021255426917510853
+Generator,ME0 0,services urban decentral solar thermal,0.019325926220159224
+Generator,ME0 0,solar,0.13304938430883334
+Generator,ME0 0,solar rooftop,0.12969918388833648
+Generator,ME0 0,solar-hsat,0.12017427696579483
+Generator,ME0 0,urban central solar thermal,0.0144821618857388
+Generator,MK0 0,load,0.0
+Generator,MK0 0,onwind,0.024627385258073065
+Generator,MK0 0,residential rural solar thermal,0.02256334213727257
+Generator,MK0 0,residential urban decentral solar thermal,0.021905406108538427
+Generator,MK0 0,ror,0.2714377348643006
+Generator,MK0 0,services rural solar thermal,0.02212112381137411
+Generator,MK0 0,services urban decentral solar thermal,0.02162135234766499
+Generator,MK0 0,solar,0.1379172978471302
+Generator,MK0 0,solar rooftop,0.1380795833501627
+Generator,MK0 0,solar-hsat,0.1234095478937202
+Generator,MK0 0,urban central solar thermal,0.013373698417682798
+Generator,NL0 0,load,0.0
+Generator,NL0 0,nuclear,0.6468075598379982
+Generator,NL0 0,offwind-ac,0.4955085246762338
+Generator,NL0 0,offwind-dc,0.4726353206583849
+Generator,NL0 0,onwind,0.33277335166822986
+Generator,NL0 0,residential rural solar thermal,0.013130918676169091
+Generator,NL0 0,residential urban decentral solar thermal,0.01727855344926421
+Generator,NL0 0,services rural solar thermal,0.018179805481324963
+Generator,NL0 0,services urban decentral solar thermal,0.016118739408077964
+Generator,NL0 0,solar,0.10747585022612297
+Generator,NL0 0,solar rooftop,0.08676762783511359
+Generator,NL0 0,solar-hsat,0.10397691767934006
+Generator,NL0 0,urban central solar thermal,0.017491447943671478
+Generator,NO1 0,load,0.0
+Generator,NO1 0,offwind-ac,0.40548747700917226
+Generator,NO1 0,offwind-dc,0.5399017995906591
+Generator,NO1 0,onwind,0.20216001492090227
+Generator,NO1 0,residential rural solar thermal,0.006447517384016359
+Generator,NO1 0,residential urban decentral solar thermal,0.00803148613999118
+Generator,NO1 0,ror,0.44980027137042067
+Generator,NO1 0,services rural solar thermal,0.006349112338421902
+Generator,NO1 0,services urban decentral solar thermal,0.007785024498241568
+Generator,NO1 0,solar,0.09245280549315228
+Generator,NO1 0,solar rooftop,0.08243832951196871
+Generator,NO1 0,solar-hsat,0.11099155727101716
+Generator,NO1 0,urban central solar thermal,0.00812707243331652
+Generator,PL0 0,load,0.0
+Generator,PL0 0,offwind-ac,0.4525630870948296
+Generator,PL0 0,offwind-dc,0.5300581809961528
+Generator,PL0 0,onwind,0.23659786252104387
+Generator,PL0 0,residential rural solar thermal,0.018066727457823763
+Generator,PL0 0,residential urban decentral solar thermal,0.018315220085599555
+Generator,PL0 0,ror,0.7156208619532953
+Generator,PL0 0,services rural solar thermal,0.019695847546342123
+Generator,PL0 0,services urban decentral solar thermal,0.015974939638664556
+Generator,PL0 0,solar,0.10835449863625807
+Generator,PL0 0,solar rooftop,0.09159713040551393
+Generator,PL0 0,solar-hsat,0.11151782368034133
+Generator,PL0 0,urban central solar thermal,0.020017495165809446
+Generator,PT0 0,load,0.0
+Generator,PT0 0,offwind-ac,0.3796207315079937
+Generator,PT0 0,offwind-dc,0.4487284527904101
+Generator,PT0 0,onwind,0.1686953029038999
+Generator,PT0 0,residential rural solar thermal,0.029505817567063622
+Generator,PT0 0,residential urban decentral solar thermal,0.031230325269665363
+Generator,PT0 0,ror,0.2849247791070451
+Generator,PT0 0,services rural solar thermal,0.0311151844929241
+Generator,PT0 0,services urban decentral solar thermal,0.030850471290848672
+Generator,PT0 0,solar,0.16214513247836118
+Generator,PT0 0,solar rooftop,0.16477606914871554
+Generator,PT0 0,solar-hsat,0.14675788081274677
+Generator,PT0 0,urban central solar thermal,0.021246175263650413
+Generator,RO0 0,load,0.0
+Generator,RO0 0,nuclear,0.6157964190334037
+Generator,RO0 0,offwind-ac,0.36708340676906975
+Generator,RO0 0,offwind-dc,0.4011741025856572
+Generator,RO0 0,onwind,0.12450275796519993
+Generator,RO0 0,residential rural solar thermal,0.022830202520919076
+Generator,RO0 0,residential urban decentral solar thermal,0.022832627069042214
+Generator,RO0 0,ror,0.20443126269008505
+Generator,RO0 0,services rural solar thermal,0.021566172236023598
+Generator,RO0 0,services urban decentral solar thermal,0.019906955391608527
+Generator,RO0 0,solar,0.13357322812911243
+Generator,RO0 0,solar rooftop,0.10316746489085749
+Generator,RO0 0,solar-hsat,0.11740188128446319
+Generator,RO0 0,urban central solar thermal,0.023572534576724896
+Generator,RS0 0,load,0.0
+Generator,RS0 0,onwind,0.10622380976697018
+Generator,RS0 0,residential rural solar thermal,0.02103852740059993
+Generator,RS0 0,residential urban decentral solar thermal,0.020889706052406393
+Generator,RS0 0,ror,0.44108407281667056
+Generator,RS0 0,services rural solar thermal,0.019305142771152327
+Generator,RS0 0,services urban decentral solar thermal,0.019070136619080247
+Generator,RS0 0,solar,0.12192854046451701
+Generator,RS0 0,solar rooftop,0.10914334535667765
+Generator,RS0 0,solar-hsat,0.12161722255048206
+Generator,RS0 0,urban central solar thermal,0.021852078239608802
+Generator,SE1 0,load,0.0
+Generator,SE1 0,nuclear,0.6874254486355481
+Generator,SE1 0,offwind-ac,0.45471554698867706
+Generator,SE1 0,offwind-dc,0.4931083079225473
+Generator,SE1 0,onwind,0.22184570451798596
+Generator,SE1 0,residential rural solar thermal,0.009193233779937967
+Generator,SE1 0,residential urban decentral solar thermal,0.010978746446459998
+Generator,SE1 0,ror,0.5233052192667146
+Generator,SE1 0,services rural solar thermal,0.00934120878388288
+Generator,SE1 0,services urban decentral solar thermal,0.00976162185306137
+Generator,SE1 0,solar,0.11330317708442025
+Generator,SE1 0,solar rooftop,0.10383788135735855
+Generator,SE1 0,solar-hsat,0.13177308977895638
+Generator,SE1 0,urban central solar thermal,0.011855992410439957
+Generator,SI0 0,load,0.0
+Generator,SI0 0,nuclear,0.5954043656345439
+Generator,SI0 0,offwind-ac,0.12794818861099438
+Generator,SI0 0,onwind,0.04097080172272425
+Generator,SI0 0,residential rural solar thermal,0.01702311868214152
+Generator,SI0 0,residential urban decentral solar thermal,0.017358578694584344
+Generator,SI0 0,ror,0.4527299545017495
+Generator,SI0 0,services rural solar thermal,0.016307690098851163
+Generator,SI0 0,services urban decentral solar thermal,0.01575436677803928
+Generator,SI0 0,solar,0.1081961435793281
+Generator,SI0 0,solar rooftop,0.09096771316752589
+Generator,SI0 0,solar-hsat,0.10224948355207668
+Generator,SI0 0,urban central solar thermal,0.016350792435871328
+Generator,SK0 0,load,0.0
+Generator,SK0 0,nuclear,0.6674903538669738
+Generator,SK0 0,onwind,0.11610625678357252
+Generator,SK0 0,residential rural solar thermal,0.017058673779981624
+Generator,SK0 0,residential urban decentral solar thermal,0.017209962843599436
+Generator,SK0 0,ror,0.3232335323440284
+Generator,SK0 0,services rural solar thermal,0.016687772682525356
+Generator,SK0 0,services urban decentral solar thermal,0.016182132946704692
+Generator,SK0 0,solar,0.12224301528675165
+Generator,SK0 0,solar rooftop,0.11246176967587407
+Generator,SK0 0,solar-hsat,0.12063904974016332
+Generator,SK0 0,urban central solar thermal,0.016602875100807744
+Generator,XK0 0,load,0.0
+Generator,XK0 0,onwind,0.03800227366435548
+Generator,XK0 0,residential rural solar thermal,0.020176943124267207
+Generator,XK0 0,residential urban decentral solar thermal,0.02001556766373846
+Generator,XK0 0,ror,0.21234370860927151
+Generator,XK0 0,services rural solar thermal,0.01996009427005769
+Generator,XK0 0,services urban decentral solar thermal,0.019445539819819176
+Generator,XK0 0,solar,0.1082135825030849
+Generator,XK0 0,solar rooftop,0.12899846749282792
+Generator,XK0 0,solar-hsat,0.11819064739251085
+Generator,XK0 0,urban central solar thermal,0.01154040154110508
+Load,AL0 0,H2 for industry,
+Load,AL0 0,agriculture electricity,
+Load,AL0 0,agriculture heat,
+Load,AL0 0,agriculture machinery electric,
+Load,AL0 0,electricity,
+Load,AL0 0,industry electricity,
+Load,AL0 0,land transport EV,
+Load,AL0 0,low-temperature heat for industry,
+Load,AL0 0,residential rural heat,
+Load,AL0 0,residential urban decentral heat,
+Load,AL0 0,services rural heat,
+Load,AL0 0,services urban decentral heat,
+Load,AL0 0,urban central heat,
+Load,AT0 0,H2 for industry,
+Load,AT0 0,agriculture electricity,
+Load,AT0 0,agriculture heat,
+Load,AT0 0,agriculture machinery electric,
+Load,AT0 0,electricity,
+Load,AT0 0,industry electricity,
+Load,AT0 0,land transport EV,
+Load,AT0 0,low-temperature heat for industry,
+Load,AT0 0,residential rural heat,
+Load,AT0 0,residential urban decentral heat,
+Load,AT0 0,services rural heat,
+Load,AT0 0,services urban decentral heat,
+Load,AT0 0,urban central heat,
+Load,BA0 0,H2 for industry,
+Load,BA0 0,agriculture electricity,
+Load,BA0 0,agriculture heat,
+Load,BA0 0,agriculture machinery electric,
+Load,BA0 0,electricity,
+Load,BA0 0,industry electricity,
+Load,BA0 0,land transport EV,
+Load,BA0 0,low-temperature heat for industry,
+Load,BA0 0,residential rural heat,
+Load,BA0 0,residential urban decentral heat,
+Load,BA0 0,services rural heat,
+Load,BA0 0,services urban decentral heat,
+Load,BA0 0,urban central heat,
+Load,BE0 0,H2 for industry,
+Load,BE0 0,agriculture electricity,
+Load,BE0 0,agriculture heat,
+Load,BE0 0,agriculture machinery electric,
+Load,BE0 0,electricity,
+Load,BE0 0,industry electricity,
+Load,BE0 0,land transport EV,
+Load,BE0 0,low-temperature heat for industry,
+Load,BE0 0,residential rural heat,
+Load,BE0 0,residential urban decentral heat,
+Load,BE0 0,services rural heat,
+Load,BE0 0,services urban decentral heat,
+Load,BE0 0,urban central heat,
+Load,BG0 0,H2 for industry,
+Load,BG0 0,agriculture electricity,
+Load,BG0 0,agriculture heat,
+Load,BG0 0,agriculture machinery electric,
+Load,BG0 0,electricity,
+Load,BG0 0,industry electricity,
+Load,BG0 0,land transport EV,
+Load,BG0 0,low-temperature heat for industry,
+Load,BG0 0,residential rural heat,
+Load,BG0 0,residential urban decentral heat,
+Load,BG0 0,services rural heat,
+Load,BG0 0,services urban decentral heat,
+Load,BG0 0,urban central heat,
+Load,CH0 0,H2 for industry,
+Load,CH0 0,agriculture electricity,
+Load,CH0 0,agriculture heat,
+Load,CH0 0,agriculture machinery electric,
+Load,CH0 0,electricity,
+Load,CH0 0,industry electricity,
+Load,CH0 0,land transport EV,
+Load,CH0 0,low-temperature heat for industry,
+Load,CH0 0,residential rural heat,
+Load,CH0 0,residential urban decentral heat,
+Load,CH0 0,services rural heat,
+Load,CH0 0,services urban decentral heat,
+Load,CH0 0,urban central heat,
+Load,CZ0 0,H2 for industry,
+Load,CZ0 0,agriculture electricity,
+Load,CZ0 0,agriculture heat,
+Load,CZ0 0,agriculture machinery electric,
+Load,CZ0 0,electricity,
+Load,CZ0 0,industry electricity,
+Load,CZ0 0,land transport EV,
+Load,CZ0 0,low-temperature heat for industry,
+Load,CZ0 0,residential rural heat,
+Load,CZ0 0,residential urban decentral heat,
+Load,CZ0 0,services rural heat,
+Load,CZ0 0,services urban decentral heat,
+Load,CZ0 0,urban central heat,
+Load,DE0 0,H2 for industry,
+Load,DE0 0,agriculture electricity,
+Load,DE0 0,agriculture heat,
+Load,DE0 0,agriculture machinery electric,
+Load,DE0 0,electricity,
+Load,DE0 0,industry electricity,
+Load,DE0 0,land transport EV,
+Load,DE0 0,low-temperature heat for industry,
+Load,DE0 0,residential rural heat,
+Load,DE0 0,residential urban decentral heat,
+Load,DE0 0,services rural heat,
+Load,DE0 0,services urban decentral heat,
+Load,DE0 0,urban central heat,
+Load,DE0 1,H2 for industry,
+Load,DE0 1,agriculture electricity,
+Load,DE0 1,agriculture heat,
+Load,DE0 1,agriculture machinery electric,
+Load,DE0 1,electricity,
+Load,DE0 1,industry electricity,
+Load,DE0 1,land transport EV,
+Load,DE0 1,low-temperature heat for industry,
+Load,DE0 1,residential rural heat,
+Load,DE0 1,residential urban decentral heat,
+Load,DE0 1,services rural heat,
+Load,DE0 1,services urban decentral heat,
+Load,DE0 1,urban central heat,
+Load,DK0 0,H2 for industry,
+Load,DK0 0,agriculture electricity,
+Load,DK0 0,agriculture heat,
+Load,DK0 0,agriculture machinery electric,
+Load,DK0 0,electricity,
+Load,DK0 0,industry electricity,
+Load,DK0 0,land transport EV,
+Load,DK0 0,low-temperature heat for industry,
+Load,DK0 0,residential rural heat,
+Load,DK0 0,residential urban decentral heat,
+Load,DK0 0,services rural heat,
+Load,DK0 0,services urban decentral heat,
+Load,DK0 0,urban central heat,
+Load,DK1 0,H2 for industry,
+Load,DK1 0,agriculture electricity,
+Load,DK1 0,agriculture heat,
+Load,DK1 0,agriculture machinery electric,
+Load,DK1 0,electricity,
+Load,DK1 0,industry electricity,
+Load,DK1 0,land transport EV,
+Load,DK1 0,low-temperature heat for industry,
+Load,DK1 0,residential rural heat,
+Load,DK1 0,residential urban decentral heat,
+Load,DK1 0,services rural heat,
+Load,DK1 0,services urban decentral heat,
+Load,DK1 0,urban central heat,
+Load,EE0 0,H2 for industry,
+Load,EE0 0,agriculture electricity,
+Load,EE0 0,agriculture heat,
+Load,EE0 0,agriculture machinery electric,
+Load,EE0 0,electricity,
+Load,EE0 0,industry electricity,
+Load,EE0 0,land transport EV,
+Load,EE0 0,low-temperature heat for industry,
+Load,EE0 0,residential rural heat,
+Load,EE0 0,residential urban decentral heat,
+Load,EE0 0,services rural heat,
+Load,EE0 0,services urban decentral heat,
+Load,EE0 0,urban central heat,
+Load,ES0 0,H2 for industry,
+Load,ES0 0,agriculture electricity,
+Load,ES0 0,agriculture heat,
+Load,ES0 0,agriculture machinery electric,
+Load,ES0 0,electricity,
+Load,ES0 0,industry electricity,
+Load,ES0 0,land transport EV,
+Load,ES0 0,low-temperature heat for industry,
+Load,ES0 0,residential rural heat,
+Load,ES0 0,residential urban decentral heat,
+Load,ES0 0,services rural heat,
+Load,ES0 0,services urban decentral heat,
+Load,ES0 0,urban central heat,
+Load,ES6 0,H2 for industry,
+Load,ES6 0,agriculture electricity,
+Load,ES6 0,agriculture heat,
+Load,ES6 0,agriculture machinery electric,
+Load,ES6 0,electricity,
+Load,ES6 0,industry electricity,
+Load,ES6 0,land transport EV,
+Load,ES6 0,low-temperature heat for industry,
+Load,ES6 0,residential rural heat,
+Load,ES6 0,residential urban decentral heat,
+Load,ES6 0,services rural heat,
+Load,ES6 0,services urban decentral heat,
+Load,ES6 0,urban central heat,
+Load,EU,agriculture machinery oil,
+Load,EU,coal for industry,
+Load,EU,gas for industry,
+Load,EU,industry methanol,
+Load,EU,kerosene for aviation,
+Load,EU,land transport oil,
+Load,EU,naphtha for industry,
+Load,EU,process emissions,
+Load,EU,shipping methanol,
+Load,EU,shipping oil,
+Load,EU,solid biomass for industry,
+Load,FI1 0,H2 for industry,
+Load,FI1 0,agriculture electricity,
+Load,FI1 0,agriculture heat,
+Load,FI1 0,agriculture machinery electric,
+Load,FI1 0,electricity,
+Load,FI1 0,industry electricity,
+Load,FI1 0,land transport EV,
+Load,FI1 0,low-temperature heat for industry,
+Load,FI1 0,residential rural heat,
+Load,FI1 0,residential urban decentral heat,
+Load,FI1 0,services rural heat,
+Load,FI1 0,services urban decentral heat,
+Load,FI1 0,urban central heat,
+Load,FR0 0,H2 for industry,
+Load,FR0 0,agriculture electricity,
+Load,FR0 0,agriculture heat,
+Load,FR0 0,agriculture machinery electric,
+Load,FR0 0,electricity,
+Load,FR0 0,industry electricity,
+Load,FR0 0,land transport EV,
+Load,FR0 0,low-temperature heat for industry,
+Load,FR0 0,residential rural heat,
+Load,FR0 0,residential urban decentral heat,
+Load,FR0 0,services rural heat,
+Load,FR0 0,services urban decentral heat,
+Load,FR0 0,urban central heat,
+Load,FR5 0,H2 for industry,
+Load,FR5 0,agriculture electricity,
+Load,FR5 0,agriculture heat,
+Load,FR5 0,agriculture machinery electric,
+Load,FR5 0,electricity,
+Load,FR5 0,industry electricity,
+Load,FR5 0,land transport EV,
+Load,FR5 0,low-temperature heat for industry,
+Load,FR5 0,residential rural heat,
+Load,FR5 0,residential urban decentral heat,
+Load,FR5 0,services rural heat,
+Load,FR5 0,services urban decentral heat,
+Load,GB2 0,H2 for industry,
+Load,GB2 0,agriculture electricity,
+Load,GB2 0,agriculture heat,
+Load,GB2 0,agriculture machinery electric,
+Load,GB2 0,electricity,
+Load,GB2 0,industry electricity,
+Load,GB2 0,land transport EV,
+Load,GB2 0,low-temperature heat for industry,
+Load,GB2 0,residential rural heat,
+Load,GB2 0,residential urban decentral heat,
+Load,GB2 0,services rural heat,
+Load,GB2 0,services urban decentral heat,
+Load,GB2 0,urban central heat,
+Load,GB3 0,H2 for industry,
+Load,GB3 0,agriculture electricity,
+Load,GB3 0,agriculture heat,
+Load,GB3 0,agriculture machinery electric,
+Load,GB3 0,electricity,
+Load,GB3 0,industry electricity,
+Load,GB3 0,land transport EV,
+Load,GB3 0,low-temperature heat for industry,
+Load,GB3 0,residential rural heat,
+Load,GB3 0,residential urban decentral heat,
+Load,GB3 0,services rural heat,
+Load,GB3 0,services urban decentral heat,
+Load,GB3 0,urban central heat,
+Load,GR0 0,H2 for industry,
+Load,GR0 0,agriculture electricity,
+Load,GR0 0,agriculture heat,
+Load,GR0 0,agriculture machinery electric,
+Load,GR0 0,electricity,
+Load,GR0 0,industry electricity,
+Load,GR0 0,land transport EV,
+Load,GR0 0,low-temperature heat for industry,
+Load,GR0 0,residential rural heat,
+Load,GR0 0,residential urban decentral heat,
+Load,GR0 0,services rural heat,
+Load,GR0 0,services urban decentral heat,
+Load,GR0 0,urban central heat,
+Load,HR0 0,H2 for industry,
+Load,HR0 0,agriculture electricity,
+Load,HR0 0,agriculture heat,
+Load,HR0 0,agriculture machinery electric,
+Load,HR0 0,electricity,
+Load,HR0 0,industry electricity,
+Load,HR0 0,land transport EV,
+Load,HR0 0,low-temperature heat for industry,
+Load,HR0 0,residential rural heat,
+Load,HR0 0,residential urban decentral heat,
+Load,HR0 0,services rural heat,
+Load,HR0 0,services urban decentral heat,
+Load,HR0 0,urban central heat,
+Load,HU0 0,H2 for industry,
+Load,HU0 0,agriculture electricity,
+Load,HU0 0,agriculture heat,
+Load,HU0 0,agriculture machinery electric,
+Load,HU0 0,electricity,
+Load,HU0 0,industry electricity,
+Load,HU0 0,land transport EV,
+Load,HU0 0,low-temperature heat for industry,
+Load,HU0 0,residential rural heat,
+Load,HU0 0,residential urban decentral heat,
+Load,HU0 0,services rural heat,
+Load,HU0 0,services urban decentral heat,
+Load,HU0 0,urban central heat,
+Load,IE3 0,H2 for industry,
+Load,IE3 0,agriculture electricity,
+Load,IE3 0,agriculture heat,
+Load,IE3 0,agriculture machinery electric,
+Load,IE3 0,electricity,
+Load,IE3 0,industry electricity,
+Load,IE3 0,land transport EV,
+Load,IE3 0,low-temperature heat for industry,
+Load,IE3 0,residential rural heat,
+Load,IE3 0,residential urban decentral heat,
+Load,IE3 0,services rural heat,
+Load,IE3 0,services urban decentral heat,
+Load,IE3 0,urban central heat,
+Load,IT0 0,H2 for industry,
+Load,IT0 0,agriculture electricity,
+Load,IT0 0,agriculture heat,
+Load,IT0 0,agriculture machinery electric,
+Load,IT0 0,electricity,
+Load,IT0 0,industry electricity,
+Load,IT0 0,land transport EV,
+Load,IT0 0,low-temperature heat for industry,
+Load,IT0 0,residential rural heat,
+Load,IT0 0,residential urban decentral heat,
+Load,IT0 0,services rural heat,
+Load,IT0 0,services urban decentral heat,
+Load,IT0 0,urban central heat,
+Load,IT4 0,H2 for industry,
+Load,IT4 0,agriculture electricity,
+Load,IT4 0,agriculture heat,
+Load,IT4 0,agriculture machinery electric,
+Load,IT4 0,electricity,
+Load,IT4 0,industry electricity,
+Load,IT4 0,land transport EV,
+Load,IT4 0,low-temperature heat for industry,
+Load,IT4 0,residential rural heat,
+Load,IT4 0,residential urban decentral heat,
+Load,IT4 0,services rural heat,
+Load,IT4 0,services urban decentral heat,
+Load,IT4 0,urban central heat,
+Load,LT0 0,H2 for industry,
+Load,LT0 0,agriculture electricity,
+Load,LT0 0,agriculture heat,
+Load,LT0 0,agriculture machinery electric,
+Load,LT0 0,electricity,
+Load,LT0 0,industry electricity,
+Load,LT0 0,land transport EV,
+Load,LT0 0,low-temperature heat for industry,
+Load,LT0 0,residential rural heat,
+Load,LT0 0,residential urban decentral heat,
+Load,LT0 0,services rural heat,
+Load,LT0 0,services urban decentral heat,
+Load,LT0 0,urban central heat,
+Load,LU0 0,H2 for industry,
+Load,LU0 0,agriculture electricity,
+Load,LU0 0,agriculture heat,
+Load,LU0 0,agriculture machinery electric,
+Load,LU0 0,electricity,
+Load,LU0 0,industry electricity,
+Load,LU0 0,land transport EV,
+Load,LU0 0,low-temperature heat for industry,
+Load,LU0 0,residential rural heat,
+Load,LU0 0,residential urban decentral heat,
+Load,LU0 0,services rural heat,
+Load,LU0 0,services urban decentral heat,
+Load,LU0 0,urban central heat,
+Load,LV0 0,H2 for industry,
+Load,LV0 0,agriculture electricity,
+Load,LV0 0,agriculture heat,
+Load,LV0 0,agriculture machinery electric,
+Load,LV0 0,electricity,
+Load,LV0 0,industry electricity,
+Load,LV0 0,land transport EV,
+Load,LV0 0,low-temperature heat for industry,
+Load,LV0 0,residential rural heat,
+Load,LV0 0,residential urban decentral heat,
+Load,LV0 0,services rural heat,
+Load,LV0 0,services urban decentral heat,
+Load,LV0 0,urban central heat,
+Load,ME0 0,H2 for industry,
+Load,ME0 0,agriculture electricity,
+Load,ME0 0,agriculture heat,
+Load,ME0 0,agriculture machinery electric,
+Load,ME0 0,electricity,
+Load,ME0 0,industry electricity,
+Load,ME0 0,land transport EV,
+Load,ME0 0,low-temperature heat for industry,
+Load,ME0 0,residential rural heat,
+Load,ME0 0,residential urban decentral heat,
+Load,ME0 0,services rural heat,
+Load,ME0 0,services urban decentral heat,
+Load,ME0 0,urban central heat,
+Load,MK0 0,H2 for industry,
+Load,MK0 0,agriculture electricity,
+Load,MK0 0,agriculture heat,
+Load,MK0 0,agriculture machinery electric,
+Load,MK0 0,electricity,
+Load,MK0 0,industry electricity,
+Load,MK0 0,land transport EV,
+Load,MK0 0,low-temperature heat for industry,
+Load,MK0 0,residential rural heat,
+Load,MK0 0,residential urban decentral heat,
+Load,MK0 0,services rural heat,
+Load,MK0 0,services urban decentral heat,
+Load,MK0 0,urban central heat,
+Load,NL0 0,H2 for industry,
+Load,NL0 0,agriculture electricity,
+Load,NL0 0,agriculture heat,
+Load,NL0 0,agriculture machinery electric,
+Load,NL0 0,electricity,
+Load,NL0 0,industry electricity,
+Load,NL0 0,land transport EV,
+Load,NL0 0,low-temperature heat for industry,
+Load,NL0 0,residential rural heat,
+Load,NL0 0,residential urban decentral heat,
+Load,NL0 0,services rural heat,
+Load,NL0 0,services urban decentral heat,
+Load,NL0 0,urban central heat,
+Load,NO1 0,H2 for industry,
+Load,NO1 0,agriculture electricity,
+Load,NO1 0,agriculture heat,
+Load,NO1 0,agriculture machinery electric,
+Load,NO1 0,electricity,
+Load,NO1 0,industry electricity,
+Load,NO1 0,land transport EV,
+Load,NO1 0,low-temperature heat for industry,
+Load,NO1 0,residential rural heat,
+Load,NO1 0,residential urban decentral heat,
+Load,NO1 0,services rural heat,
+Load,NO1 0,services urban decentral heat,
+Load,NO1 0,urban central heat,
+Load,PL0 0,H2 for industry,
+Load,PL0 0,agriculture electricity,
+Load,PL0 0,agriculture heat,
+Load,PL0 0,agriculture machinery electric,
+Load,PL0 0,electricity,
+Load,PL0 0,industry electricity,
+Load,PL0 0,land transport EV,
+Load,PL0 0,low-temperature heat for industry,
+Load,PL0 0,residential rural heat,
+Load,PL0 0,residential urban decentral heat,
+Load,PL0 0,services rural heat,
+Load,PL0 0,services urban decentral heat,
+Load,PL0 0,urban central heat,
+Load,PT0 0,H2 for industry,
+Load,PT0 0,agriculture electricity,
+Load,PT0 0,agriculture heat,
+Load,PT0 0,agriculture machinery electric,
+Load,PT0 0,electricity,
+Load,PT0 0,industry electricity,
+Load,PT0 0,land transport EV,
+Load,PT0 0,low-temperature heat for industry,
+Load,PT0 0,residential rural heat,
+Load,PT0 0,residential urban decentral heat,
+Load,PT0 0,services rural heat,
+Load,PT0 0,services urban decentral heat,
+Load,PT0 0,urban central heat,
+Load,RO0 0,H2 for industry,
+Load,RO0 0,agriculture electricity,
+Load,RO0 0,agriculture heat,
+Load,RO0 0,agriculture machinery electric,
+Load,RO0 0,electricity,
+Load,RO0 0,industry electricity,
+Load,RO0 0,land transport EV,
+Load,RO0 0,low-temperature heat for industry,
+Load,RO0 0,residential rural heat,
+Load,RO0 0,residential urban decentral heat,
+Load,RO0 0,services rural heat,
+Load,RO0 0,services urban decentral heat,
+Load,RO0 0,urban central heat,
+Load,RS0 0,H2 for industry,
+Load,RS0 0,agriculture electricity,
+Load,RS0 0,agriculture heat,
+Load,RS0 0,agriculture machinery electric,
+Load,RS0 0,electricity,
+Load,RS0 0,industry electricity,
+Load,RS0 0,land transport EV,
+Load,RS0 0,low-temperature heat for industry,
+Load,RS0 0,residential rural heat,
+Load,RS0 0,residential urban decentral heat,
+Load,RS0 0,services rural heat,
+Load,RS0 0,services urban decentral heat,
+Load,RS0 0,urban central heat,
+Load,SE1 0,H2 for industry,
+Load,SE1 0,agriculture electricity,
+Load,SE1 0,agriculture heat,
+Load,SE1 0,agriculture machinery electric,
+Load,SE1 0,electricity,
+Load,SE1 0,industry electricity,
+Load,SE1 0,land transport EV,
+Load,SE1 0,low-temperature heat for industry,
+Load,SE1 0,residential rural heat,
+Load,SE1 0,residential urban decentral heat,
+Load,SE1 0,services rural heat,
+Load,SE1 0,services urban decentral heat,
+Load,SE1 0,urban central heat,
+Load,SI0 0,H2 for industry,
+Load,SI0 0,agriculture electricity,
+Load,SI0 0,agriculture heat,
+Load,SI0 0,agriculture machinery electric,
+Load,SI0 0,electricity,
+Load,SI0 0,industry electricity,
+Load,SI0 0,land transport EV,
+Load,SI0 0,low-temperature heat for industry,
+Load,SI0 0,residential rural heat,
+Load,SI0 0,residential urban decentral heat,
+Load,SI0 0,services rural heat,
+Load,SI0 0,services urban decentral heat,
+Load,SI0 0,urban central heat,
+Load,SK0 0,H2 for industry,
+Load,SK0 0,agriculture electricity,
+Load,SK0 0,agriculture heat,
+Load,SK0 0,agriculture machinery electric,
+Load,SK0 0,electricity,
+Load,SK0 0,industry electricity,
+Load,SK0 0,land transport EV,
+Load,SK0 0,low-temperature heat for industry,
+Load,SK0 0,residential rural heat,
+Load,SK0 0,residential urban decentral heat,
+Load,SK0 0,services rural heat,
+Load,SK0 0,services urban decentral heat,
+Load,SK0 0,urban central heat,
+Load,XK0 0,H2 for industry,
+Load,XK0 0,agriculture electricity,
+Load,XK0 0,agriculture heat,
+Load,XK0 0,agriculture machinery electric,
+Load,XK0 0,electricity,
+Load,XK0 0,industry electricity,
+Load,XK0 0,land transport EV,
+Load,XK0 0,low-temperature heat for industry,
+Load,XK0 0,residential rural heat,
+Load,XK0 0,residential urban decentral heat,
+Load,XK0 0,services rural heat,
+Load,XK0 0,services urban decentral heat,
+Load,XK0 0,urban central heat,
+StorageUnit,AL0 0,hydro,0.3594955225646182
+StorageUnit,AT0 0,PHS,0.6321474101031433
+StorageUnit,AT0 0,hydro,0.46494167861212193
+StorageUnit,BA0 0,PHS,0.02375938636363636
+StorageUnit,BA0 0,hydro,0.4148641443473358
+StorageUnit,BE0 0,PHS,0.1449852981651376
+StorageUnit,BE0 0,hydro,0.5187029814685838
+StorageUnit,BG0 0,PHS,0.5595413541666667
+StorageUnit,BG0 0,hydro,0.2015980032621004
+StorageUnit,CH0 0,PHS,0.5602745934939453
+StorageUnit,CH0 0,hydro,0.24385797700481354
+StorageUnit,CZ0 0,PHS,0.06796096253004923
+StorageUnit,CZ0 0,hydro,0.38928298284698937
+StorageUnit,DE0 0,PHS,0.14129559936706154
+StorageUnit,DE0 1,PHS,0.1630479547639159
+StorageUnit,ES0 0,PHS,0.7637702561230137
+StorageUnit,ES0 0,hydro,0.24506263277737358
+StorageUnit,ES6 0,PHS,0.5617884727484698
+StorageUnit,ES6 0,hydro,0.24489133678933875
+StorageUnit,FI1 0,hydro,0.4925221093082835
+StorageUnit,FR0 0,PHS,0.4231227507973187
+StorageUnit,FR0 0,hydro,0.46131726304392906
+StorageUnit,FR5 0,hydro,0.445144354659196
+StorageUnit,GB3 0,PHS,0.30896406818181815
+StorageUnit,GB3 0,hydro,0.12470794582392777
+StorageUnit,GR0 0,PHS,0.32302773962804004
+StorageUnit,GR0 0,hydro,0.24381844894777865
+StorageUnit,HR0 0,PHS,0.5328918599918601
+StorageUnit,HR0 0,hydro,0.5063782577478453
+StorageUnit,HU0 0,hydro,0.4424907142857143
+StorageUnit,IE3 0,PHS,0.16280346938775508
+StorageUnit,IE3 0,hydro,0.21247
+StorageUnit,IT0 0,PHS,0.5703264370029177
+StorageUnit,IT0 0,hydro,0.44475763535965596
+StorageUnit,IT4 0,PHS,0.4700265853658537
+StorageUnit,IT4 0,hydro,0.4429236274509804
+StorageUnit,LT0 0,PHS,0.2947279111111111
+StorageUnit,LU0 0,PHS,0.1824213833075734
+StorageUnit,ME0 0,PHS,0.308219674267101
+StorageUnit,ME0 0,hydro,0.5434709720809019
+StorageUnit,MK0 0,hydro,0.27012385444743936
+StorageUnit,NO1 0,PHS,0.7175734101579172
+StorageUnit,NO1 0,hydro,0.4069912992548789
+StorageUnit,PL0 0,PHS,0.18980481554160128
+StorageUnit,PL0 0,hydro,0.7500554721806252
+StorageUnit,PT0 0,PHS,0.6655163395360694
+StorageUnit,PT0 0,hydro,0.322467050407958
+StorageUnit,RO0 0,hydro,0.1927328975222138
+StorageUnit,RS0 0,PHS,0.27839543973941366
+StorageUnit,RS0 0,hydro,0.39630191115048724
+StorageUnit,SE1 0,PHS,0.6855880434782609
+StorageUnit,SE1 0,hydro,0.47289864006902654
+StorageUnit,SI0 0,PHS,0.2589398333333333
+StorageUnit,SI0 0,hydro,0.43342982349572184
+StorageUnit,SK0 0,PHS,0.22610652628507513
+StorageUnit,SK0 0,hydro,0.2960401558073655
+StorageUnit,XK0 0,hydro,0.21039114285714286

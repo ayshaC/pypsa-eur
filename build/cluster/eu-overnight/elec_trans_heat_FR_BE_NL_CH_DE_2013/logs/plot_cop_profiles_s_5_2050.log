@@ -1,0 +1,18 @@
+INFO:__main__:Loaded COP profiles with dimensions: FrozenMappingWarningOnValuesAccess({'time': 8760, 'name': 5, 'heat_source': 2, 'heat_system': 3})
+INFO:__main__:Processing heat system: urban central
+INFO:__main__:Converting Dataset to DataArray using variable: __xarray_dataarray_variable__
+INFO:__main__:Selected 'urban central' heat system
+INFO:__main__:Found 5 regions: ['BE0 0', 'CH0 0', 'DE0 0', 'FR0 0', 'NL0 0']...
+WARNING:__main__:Heat source 'ground' not found in timeseries data for BE0 0
+WARNING:__main__:Heat source 'ground' not found in monthly data for BE0 0
+INFO:__main__:Processing heat system: urban decentral
+INFO:__main__:Converting Dataset to DataArray using variable: __xarray_dataarray_variable__
+INFO:__main__:Selected 'urban decentral' heat system
+INFO:__main__:Found 5 regions: ['BE0 0', 'CH0 0', 'DE0 0', 'FR0 0', 'NL0 0']...
+WARNING:__main__:Heat source 'ground' not found in timeseries data for BE0 0
+WARNING:__main__:Heat source 'ground' not found in monthly data for BE0 0
+INFO:__main__:Processing heat system: rural
+INFO:__main__:Converting Dataset to DataArray using variable: __xarray_dataarray_variable__
+INFO:__main__:Selected 'rural' heat system
+INFO:__main__:Found 5 regions: ['BE0 0', 'CH0 0', 'DE0 0', 'FR0 0', 'NL0 0']...
+INFO:__main__:Interactive COP profile plots saved to results/eu-overnight/elec_trans_heat_FR_BE_NL_CH_DE_2013/graphs/cop_profiles_s_5_2050.html

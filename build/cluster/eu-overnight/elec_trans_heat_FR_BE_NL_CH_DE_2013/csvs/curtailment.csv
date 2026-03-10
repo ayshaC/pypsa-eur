@@ -1,0 +1,15 @@
+cluster,5
+opt,
+planning_horizon,2050
+carrier,
+PHS,
+hydro,
+load,
+nuclear,58.051102056497605
+offwind-ac,35.48608764260151
+offwind-dc,22.267777810547283
+offwind-float,18.006201000223857
+onwind,9.110700645615358
+ror,2.7158690840051946e-08
+solar,2.371772574987705
+solar-hsat,inf

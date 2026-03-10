@@ -1,0 +1,15 @@
+cluster,40
+opt,
+planning_horizon,2050
+AC,94.9561701707721
+EV battery,80.58619289977852
+battery,476.1443724744742
+co2 sequestered,9158.442158994718
+co2 stored,55383.617764678565
+home battery,9.777386223731655
+low voltage,101.4247327899845
+residential rural heat,94.34239166954902
+residential urban decentral heat,117.90855979111022
+services rural heat,93.8932561035477
+services urban decentral heat,118.24962926234656
+urban central heat,88.03823781264184

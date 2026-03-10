@@ -1,0 +1,65 @@
+component,carrier,0
+Generator,biogas,347323678.55875
+Generator,load,inf
+Generator,nuclear,154410.15053
+Generator,offwind-ac,183565.89648
+Generator,offwind-dc,251119.09312
+Generator,onwind,726953.7323
+Generator,residential rural solar thermal,440.26125
+Generator,residential urban decentral solar thermal,458.05181
+Generator,ror,49069.42293
+Generator,services rural solar thermal,407.54312
+Generator,services urban decentral solar thermal,437.42627
+Generator,solar,2924681.72719
+Generator,solar rooftop,230426.45374
+Generator,solar-hsat,1889.87871
+Generator,solid biomass,1049092861.83616
+Generator,urban central solar thermal,771.91575
+Line,AC,558980.18761
+Link,BEV charger,2248638.12411
+Link,CCGT,150.99629
+Link,DC,811996.62499
+Link,Fischer-Tropsch,223485.80332
+Link,H2 Electrolysis,366036.77553
+Link,H2 pipeline,496404.91409
+Link,HVC to air,0.53072
+Link,battery charger,2936.60049
+Link,battery discharger,2997.15533
+Link,co2 sequestered,3.33907
+Link,coal for industry,4355.53721
+Link,electricity distribution grid,1756587.26898
+Link,gas for industry,4274.89571
+Link,gas for industry CC,5.52291
+Link,home battery charger,1930.3299
+Link,home battery discharger,1970.13471
+Link,industry methanol,997.71663
+Link,land transport oil,130977.5079
+Link,methanolisation,1491.46778
+Link,naphtha for industry,57625.57063
+Link,process emissions,12.29445
+Link,process emissions CC,19259.58161
+Link,residential rural air heat pump,29892.24263
+Link,residential rural ground heat pump,148847.83298
+Link,residential urban decentral air heat pump,365759.74419
+Link,services rural air heat pump,12274.35281
+Link,services rural ground heat pump,55694.98252
+Link,services urban decentral air heat pump,146627.3178
+Link,solid biomass for industry,59572.58209
+Link,solid biomass for industry CC,79577.4864
+Link,urban central air heat pump,250476.91264
+Link,waste CHP,209471.3188
+Link,waste CHP CC,195.95283
+StorageUnit,PHS,56037.67555
+StorageUnit,hydro,106407.54413
+Store,EV battery,5110541.19115
+Store,H2 Store,3781269.89302
+Store,battery,22909.8678
+Store,co2,inf
+Store,co2 sequestered,9546.85789
+Store,co2 stored,366843.63452
+Store,coal,2068156.02353
+Store,gas,21876.39773
+Store,home battery,4870.31737
+Store,methanol,1619649.20488
+Store,non-sequestered HVC,221011435.23921
+Store,oil,73197985.99347
