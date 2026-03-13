@@ -1,7 +1,0 @@
-INFO:pypsa.network.io:Imported network 'Unnamed Network' has buses, carriers, generators, global_constraints, lines, links, loads, storage_units, stores, sub_networks
-WARNING:scripts.add_electricity:tech_colors for carriers ['', 'none'] not defined in config.
-ERROR:root:Uncaught exception
-Traceback (most recent call last):
-  File "/cluster/work/cpesm/acott/pypsa-eur/.snakemake/scripts/tmpieyq7f4_.plot_balance_map.py", line 71, in <module>
-    raise ValueError(
-ValueError: Carrier oil is not in the network. Remove from configuration `plotting: balance_map: bus_carriers`.
