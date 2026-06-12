@@ -29,6 +29,10 @@ gurobi.log
 /tmp
 doc/_build
 _build
+build/
+build/cluster/
+build_new/
+build_new/cluster/
 
 /scripts/old
 /scripts/create_scenarios.py
@@ -73,7 +77,7 @@ d1gam3xoknrgr2.cloudfront.net/
 
 *.geojson
 
-*.ipynb
+# *.ipynb
 
 merger-todos.md
 
@@ -90,3 +94,5 @@ CLAUDE.local.md
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+.git-backup/
+.git-broken/
