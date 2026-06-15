@@ -96,3 +96,9 @@ CLAUDE.local.md
 !.pixi/config.toml
 .git-backup/
 .git-broken/
+
+analysis/data/*
+!analysis/data/.gitkeep
+
+analysis/figures/*
+!analysis/figures/.gitkeep
