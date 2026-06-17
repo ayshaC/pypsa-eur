@@ -1145,7 +1145,26 @@ def plot_comparison_barh(
         ax.legend(handles=legend_elements, loc="lower right")
 
 
-def mineral_scenario_comparison_mixed_sources_by_technology(
+def _resolve_tech_color(tech_name):
+    """Resolve a technology name to a colour from tech_colors (case/nice-name tolerant)."""
+    if tech_name == "Other":
+        return "#000000"
+    inverse_nice_names = {v: k for k, v in nice_names.items()}
+    tech_colors_lower = {str(k).strip().lower(): v for k, v in tech_colors.items()}
+    pretty_name = nice_names.get(tech_name, tech_name)
+    candidates = [tech_name, pretty_name, inverse_nice_names.get(tech_name)]
+    for cand in candidates:
+        if cand is None:
+            continue
+        if cand in tech_colors:
+            return tech_colors[cand]
+        cand_lower = str(cand).strip().lower()
+        if cand_lower in tech_colors_lower:
+            return tech_colors_lower[cand_lower]
+    return "#888888"
+
+
+def compute_mineral_scenario_data(
     n,
     base_scenario,
     network_scenarios,
@@ -1159,41 +1178,34 @@ def mineral_scenario_comparison_mixed_sources_by_technology(
     mineral_alloc_factors,
     non_energy_col="GDP-adjusted value entso-e (Mt)",
     grid_demand_year="Cumulative",
-    ncols=3,
-    fig_title="",
     tech_group_col="carrier_renamed",
     min_tech_share=0.01,
-    figwidth=13,
 ):
     """
-    Plot mineral demand bars per scenario with energy demand split by technology.
-
-    This function mirrors ``mineral_scenario_comparison_mixed_sources`` but breaks
-    the energy-demand segment into technology contributions using the merged
-    dataframe returned by ``compute_mineral_usage``.
+    Compute the per-material demand and supply data behind the technology
+    breakdown figure. Plot this later using plot_mineral_scenario_data.
 
     Parameters
     ----------
     - mineral_specs: list of dicts. Required keys per mineral:
       ``mineral``, ``DNEA_source``, ``DNEA_year``, ``avail_source``,
-      ``avail_year``, ``avail_method``.
-      Optional keys:
-      ``energy_minerals``, ``non_energy_mineral``, ``avail_mineral``,
-      ``grid_demand_year``.
-    - tech_group_col: column used to aggregate technology contribution from
-      ``compute_mineral_usage`` merged output.
-    - min_tech_share: hide technologies with total contribution smaller than
-      this share of total energy demand for each mineral subplot.
+      ``avail_year``, ``avail_method``. Optional keys: ``energy_minerals``,
+      ``non_energy_mineral``, ``avail_mineral``, ``grid_demand_year``.
+    - tech_group_col: column used to aggregate technology contributions.
+    - min_tech_share: technologies below this share of a material's total energy
+      demand are collapsed into "Other".
+
+    Returns
+    -------
+    demand_df : DataFrame
+        Long format ["Material", "Scenario", "Component", "Value (Mt)"]; the
+        components ("Non-energy demand", "Grid demand", technologies, "Other")
+        are exactly the stacked-bar segments of the figure.
+    supply_df : DataFrame
+        Indexed by material, with availability and the three allocation-based
+        supply thresholds (GDP / per-capita / per-capita energy-corrected), Mt.
     """
-
-    bar_width = 0.8
     scenario_names = list(network_scenarios) + list(market_scenarios)
-    n_scenarios = len(scenario_names)
-
-    n_minerals = len(mineral_specs)
-    nrows = math.ceil(n_minerals / ncols)
-    fig, axs = plt.subplots(nrows, ncols, figsize=(figwidth, nrows * 2.8 + 2))
-    axes = np.array(axs, ndmin=1).flatten()
 
     def _to_list(value):
         if isinstance(value, (list, tuple, np.ndarray, pd.Index)):
@@ -1209,49 +1221,23 @@ def mineral_scenario_comparison_mixed_sources_by_technology(
             mineral_intensities,
             tech_scenarios,
         )
-
         mineral_cols = [m for m in _to_list(energy_minerals) if m in merged.columns]
         if not mineral_cols:
             return pd.Series(dtype=float)
-
         if tech_group_col not in merged.columns:
             raise ValueError(
                 f"Column '{tech_group_col}' not found in merged dataframe from compute_mineral_usage."
             )
-
-        # Convert kg to Mt and sum selected mineral columns into one energy value per tech.
         tech_use_mt = (
             merged.groupby(tech_group_col)[mineral_cols].sum().sum(axis=1) / 1e9
         )
         tech_use_mt = tech_use_mt[tech_use_mt != 0].sort_values(ascending=False)
         return tech_use_mt
 
-    inverse_nice_names = {v: k for k, v in nice_names.items()}
-    tech_colors_lower = {str(k).strip().lower(): v for k, v in tech_colors.items()}
-
-    def _resolve_tech_color(tech_name):
-        if tech_name == "Other":
-            return "#000000"
-
-        pretty_name = nice_names.get(tech_name, tech_name)
-        candidates = [tech_name, pretty_name, inverse_nice_names.get(tech_name)]
-
-        for cand in candidates:
-            if cand is None:
-                continue
-            if cand in tech_colors:
-                return tech_colors[cand]
-            cand_lower = str(cand).strip().lower()
-            if cand_lower in tech_colors_lower:
-                return tech_colors_lower[cand_lower]
-
-        # Neutral fallback only for truly missing keys.
-        return "#888888"
-
     demand_records = []
     supply_records = []
 
-    for idx, spec in enumerate(mineral_specs):
+    for spec in mineral_specs:
         mineral = spec["mineral"]
         non_energy_mineral = spec.get("non_energy_mineral", mineral)
         avail_mineral = spec.get("avail_mineral", mineral)
@@ -1319,12 +1305,10 @@ def mineral_scenario_comparison_mixed_sources_by_technology(
                         .fillna(0.0)[other]
                         .sum(axis=1)
                     )
-
             energy_df = energy_df.reindex(
                 columns=energy_df.sum(axis=0).sort_values(ascending=False).index
             )
 
-        # collect the values that make up this material's stacked bars
         for scen in scenario_names:
             demand_records.append(
                 {
@@ -1353,49 +1337,6 @@ def mineral_scenario_comparison_mixed_sources_by_technology(
                     }
                 )
 
-        dnea_vals = np.full(n_scenarios, dnea_value, dtype=float)
-        grid_vals = np.full(n_scenarios, grid_demand_value, dtype=float)
-
-        ax = axes[idx]
-        ax.bar(
-            scenario_names,
-            dnea_vals,
-            bar_width,
-            label="Non-energy demand",
-            color="#d9d9d9",
-            zorder=2,
-        )
-        ax.bar(
-            scenario_names,
-            grid_vals,
-            bar_width,
-            bottom=dnea_vals,
-            label="Grid demand",
-            color="#696969",
-            zorder=2,
-        )
-
-        running_bottom = dnea_vals + grid_vals
-        total_energy = 0
-        for tech in energy_df.columns:
-            values = energy_df[tech].values
-            if np.allclose(values, 0.0):
-                continue
-
-            tech_color = _resolve_tech_color(tech)
-            label = nice_names.get(tech, tech)
-            ax.bar(
-                scenario_names,
-                values,
-                bar_width,
-                bottom=running_bottom,
-                color=tech_color,
-                label=label,
-                zorder=2,
-            )
-            total_energy += values
-            running_bottom = running_bottom + values
-
         avail_value = min_prod_gdp = min_prod_pc = min_prod_pce = float("nan")
         if not avail_series.empty:
             avail_value = float(avail_series.iloc[0])
@@ -1405,32 +1346,6 @@ def mineral_scenario_comparison_mixed_sources_by_technology(
                 avail_value
                 * mineral_alloc_factors["Per capita share corrected for energy use"]
             )
-
-            ax.axhline(
-                y=min_prod_gdp,
-                linestyle="--",
-                linewidth=1.5,
-                zorder=3,
-                color="blue",
-                label="GDP-allocated supply",
-            )
-            ax.axhline(
-                y=min_prod_pc,
-                linestyle="--",
-                linewidth=1.5,
-                zorder=3,
-                color="orange",
-                label="Per-capita-allocated supply",
-            )
-            ax.axhline(
-                y=min_prod_pce,
-                linestyle="--",
-                linewidth=1.5,
-                zorder=3,
-                color="green",
-                label="Per-capita allocated supply\n(energy-corrected)",
-            )
-
         supply_records.append(
             {
                 "Material": mineral,
@@ -1441,15 +1356,102 @@ def mineral_scenario_comparison_mixed_sources_by_technology(
             }
         )
 
+    demand_df = pd.DataFrame(
+        demand_records, columns=["Material", "Scenario", "Component", "Value (Mt)"]
+    )
+    supply_df = pd.DataFrame(supply_records).set_index("Material")
+    return demand_df, supply_df
+
+
+def plot_mineral_scenario_comparison(
+    demand_df,
+    supply_df,
+    ncols=3,
+    fig_title="",
+    figwidth=13,
+):
+    """
+    Render the per-material technology-breakdown figure from precomputed data.
+
+    ``demand_df`` and ``supply_df`` are the outputs of
+    ``compute_mineral_scenario_data``. This function performs no data access or
+    model evaluation -- it only reshapes the demand frame into stacked bars and
+    draws the supply thresholds.
+    """
+    bar_width = 0.8
+    materials = list(dict.fromkeys(demand_df["Material"]))
+    scenarios = list(dict.fromkeys(demand_df["Scenario"]))
+    n_minerals = len(materials)
+    nrows = math.ceil(n_minerals / ncols)
+    fig, axs = plt.subplots(nrows, ncols, figsize=(figwidth, nrows * 2.8 + 2))
+    axes = np.array(axs, ndmin=1).flatten()
+
+    supply_styles = [
+        ("GDP-allocated supply (Mt)", "blue", "GDP-allocated supply"),
+        ("Per-capita-allocated supply (Mt)", "orange", "Per-capita-allocated supply"),
+        (
+            "Per-capita energy-corrected supply (Mt)",
+            "green",
+            "Per-capita allocated supply\n(energy-corrected)",
+        ),
+    ]
+
+    for idx, mineral in enumerate(materials):
+        ax = axes[idx]
+        sub = demand_df[demand_df["Material"] == mineral]
+        components = list(dict.fromkeys(sub["Component"]))
+        pivot = (
+            sub.pivot_table(
+                index="Scenario",
+                columns="Component",
+                values="Value (Mt)",
+                aggfunc="sum",
+            )
+            .reindex(index=scenarios, columns=components)
+            .fillna(0.0)
+        )
+
+        running_bottom = np.zeros(len(scenarios))
+        for comp in components:
+            values = pivot[comp].to_numpy()
+            if comp == "Non-energy demand":
+                color, label = "#d9d9d9", "Non-energy demand"
+            elif comp == "Grid demand":
+                color, label = "#696969", "Grid demand"
+            else:
+                if np.allclose(values, 0.0):
+                    continue
+                color, label = _resolve_tech_color(comp), nice_names.get(comp, comp)
+            ax.bar(
+                scenarios,
+                values,
+                bar_width,
+                bottom=running_bottom,
+                color=color,
+                label=label,
+                zorder=2,
+            )
+            running_bottom = running_bottom + values
+
+        if mineral in supply_df.index:
+            row = supply_df.loc[mineral]
+            for col, color, label in supply_styles:
+                value = row.get(col, float("nan"))
+                if pd.notna(value):
+                    ax.axhline(
+                        y=value,
+                        linestyle="--",
+                        linewidth=1.5,
+                        zorder=3,
+                        color=color,
+                        label=label,
+                    )
+
         ax.set_ylabel("Amount (Mt)")
         ax.set_xlabel("Scenario")
         ax.set_title(mineral)
         ax.grid(zorder=0)
         ax.tick_params(axis="x", labelrotation=90)
-
-        # ax.axvspan(-0.5, n_network - 0.5, alpha=0.07, color="steelblue", zorder=0)
-        # ax.axvspan(n_network - 0.5, n_scenarios - 0.5, alpha=0.07, color="darkorange", zorder=0)
-        # ax.axvline(x=n_network - 0.5, color="gray", linestyle=":", linewidth=0.8, zorder=1)
 
     for ax in axes[n_minerals:]:
         ax.set_visible(False)
@@ -1466,9 +1468,9 @@ def mineral_scenario_comparison_mixed_sources_by_technology(
 
     handles, labels = [], []
     for ax in axes[:n_minerals]:
-        h, l = ax.get_legend_handles_labels()
+        h, lab = ax.get_legend_handles_labels()
         handles.extend(h)
-        labels.extend(l)
+        labels.extend(lab)
 
     unique_labels = {}
     for handle, label in zip(handles, labels):
@@ -1478,12 +1480,9 @@ def mineral_scenario_comparison_mixed_sources_by_technology(
     fig.suptitle(fig_title, fontsize=14, y=0.99, x=0.4)
     fig.tight_layout(rect=[0, 0, 0.66, 0.99])
 
-    legend_handles = list(unique_labels.values())
-    legend_labels = list(unique_labels.keys())
-
     fig.legend(
-        legend_handles,
-        legend_labels,
+        list(unique_labels.values()),
+        list(unique_labels.keys()),
         loc="upper left",
         bbox_to_anchor=(0.68, 0.95),
         frameon=False,
@@ -1492,12 +1491,6 @@ def mineral_scenario_comparison_mixed_sources_by_technology(
     )
 
     plt.show()
-
-    demand_df = pd.DataFrame(
-        demand_records, columns=["Material", "Scenario", "Component", "Value (Mt)"]
-    )
-    supply_df = pd.DataFrame(supply_records).set_index("Material")
-    return demand_df, supply_df
 
 
 def plot_mineral_to_tech_sankey(
@@ -2012,11 +2005,6 @@ def rename_techs(label: str) -> str:
         if old == label:
             label = new
     return label
-
-
-# ---------------------------------------------------------------------------
-# Functions moved from the notebook
-# ---------------------------------------------------------------------------
 
 
 def rename_techs_balances(tech):
