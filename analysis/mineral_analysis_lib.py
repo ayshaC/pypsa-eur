@@ -20,6 +20,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import yaml
+from IPython.display import display
 
 with open("../config/plotting.default.yaml") as f:
     pypsa_config = yaml.safe_load(f)
@@ -1413,7 +1414,6 @@ def mineral_scenario_comparison_mixed_sources_by_technology(
     bar_width = 0.8
     scenario_names = list(network_scenarios) + list(market_scenarios)
     n_scenarios = len(scenario_names)
-    n_network = len(network_scenarios)
 
     n_minerals = len(mineral_specs)
     nrows = math.ceil(n_minerals / ncols)
@@ -1686,10 +1686,6 @@ def mineral_scenario_comparison_mixed_sources_by_technology(
     plt.show()
 
 
-# Updated Sankey: supports criticality column "GeoPolRisk Characterization Factor [eq. Kg-Cu/Kg]"
-from IPython.display import display
-
-
 def plot_mineral_to_tech_sankey(
     df,
     minerals,
@@ -1706,6 +1702,7 @@ def plot_mineral_to_tech_sankey(
     title="",
 ):
     """
+    # Updated Sankey: supports criticality column "GeoPolRisk Characterization Factor [eq. Kg-Cu/Kg]"
     Sankey of minerals -> technologies.
 
     Important assumptions:
@@ -1750,7 +1747,6 @@ def plot_mineral_to_tech_sankey(
     pivot_kg = (
         df.groupby(tech_col)[minerals].sum().T
     )  # index: minerals, columns: techs; values in kg
-    pivot_mt = pivot_kg / value_divisor  # index: minerals, columns: techs; values in Mt
 
     # 3) long-format base links (use kg and Mt)
     links = (
@@ -1768,7 +1764,6 @@ def plot_mineral_to_tech_sankey(
     # 4) mode handling
     if mode == "mass":
         links["value"] = links["mass_Mt"]
-        value_label = "Mass (Mt)"
         node_unit_label = "Mt"
     elif mode == "criticality":
         if criticality_df is None:
@@ -1854,7 +1849,6 @@ def plot_mineral_to_tech_sankey(
 
         # criticality flow = mass_kg * score (units: score-units × kg, e.g., Kg-Cu)
         links["value"] = links["mass_kg"] * links["score"]
-        value_label = f"Criticality ({score_col} × kg)"
         node_unit_label = f"{score_col}×kg"
     else:
         raise ValueError("mode must be 'mass' or 'criticality'")
@@ -1908,7 +1902,8 @@ def plot_mineral_to_tech_sankey(
         tech_totals = (
             links.groupby(tech_col)["mass_Mt"].sum().reindex(techs_list).fillna(0)
         )
-        node_label_fmt = lambda x: f"{x:,.{fmt_decimals}f} Mt"
+        def node_label_fmt(x):
+            return f"{x:,.{fmt_decimals}f} Mt"
     else:
         mineral_totals = (
             links.groupby("mineral")["value"].sum().reindex(minerals_list).fillna(0)
@@ -1916,7 +1911,8 @@ def plot_mineral_to_tech_sankey(
         tech_totals = (
             links.groupby(tech_col)["value"].sum().reindex(techs_list).fillna(0)
         )
-        node_label_fmt = lambda x: f"{x:,.{fmt_decimals}f} {node_unit_label}"
+        def node_label_fmt(x):
+            return f"{x:,.{fmt_decimals}f} {node_unit_label}"
 
     node_labels = [
         f"{m}\n{node_label_fmt(mineral_totals.loc[m])}" for m in minerals_list
@@ -2088,7 +2084,6 @@ def plot_system_cost_compare(
     data = df_display.T
     networks = list(data.index)
     components = list(data.columns)
-    x_positions = np.arange(len(networks))
 
     for i, net in enumerate(networks):
         cumulative = 0.0
