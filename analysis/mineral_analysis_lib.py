@@ -2470,3 +2470,76 @@ def plot_mineral_reserve_shares(
     plt.tight_layout()
 
     return merged
+
+
+def build_supply_deficit_table(demand_df, supply_df, base_scenario):
+    """
+    Summarise, per material, how base-scenario demand compares to supply.
+
+    Built purely from the outputs of ``compute_mineral_scenario_data`` (no model
+    access). For the base scenario it classifies the energy demand, the
+    non-energy demand (NED) and the total demand against the three
+    allocation-based supply levels, reports the energy/NED ratio, and lists the
+    scenarios that reduce the material's total demand relative to the base.
+
+    Energy demand is everything except the "Non-energy demand" component
+    (i.e. grid demand plus the per-technology energy demand). The "outcome" is
+    the highest (most generous) supply level a demand still exceeds:
+    "Exceeds GDP supply" > "Exceeds per-capita supply"
+    > "Exceeds per-capita supply (energy-corrected)" > "Within supply".
+
+    Returns a DataFrame indexed by material (alphabetical).
+    """
+
+    def _classify(demand, srow):
+        if srow is None:
+            return "No supply data"
+        gdp = srow["GDP-allocated supply (Mt)"]
+        pc = srow["Per-capita-allocated supply (Mt)"]
+        pce = srow["Per-capita energy-corrected supply (Mt)"]
+        if pd.isna(gdp):
+            return "No supply data"
+        if demand > gdp:
+            return "Exceeds GDP supply"
+        if demand > pc:
+            return "Exceeds per-capita supply"
+        if demand > pce:
+            return "Exceeds per-capita supply (energy-corrected)"
+        return "Within supply"
+
+    rows = []
+    for mineral in sorted(demand_df["Material"].unique()):
+        sub = demand_df[demand_df["Material"] == mineral]
+        base = sub[sub["Scenario"] == base_scenario]
+        ned = float(
+            base.loc[base["Component"] == "Non-energy demand", "Value (Mt)"].sum()
+        )
+        energy = float(
+            base.loc[base["Component"] != "Non-energy demand", "Value (Mt)"].sum()
+        )
+        total = ned + energy
+
+        srow = supply_df.loc[mineral] if mineral in supply_df.index else None
+
+        totals_by_scenario = sub.groupby("Scenario")["Value (Mt)"].sum()
+        base_total = totals_by_scenario.get(base_scenario, float("nan"))
+        reduced = sorted(
+            s
+            for s in totals_by_scenario.index
+            if s != base_scenario and totals_by_scenario[s] < base_total
+        )
+
+        rows.append(
+            {
+                "Material": mineral,
+                "Energy demand outcome": _classify(energy, srow),
+                "Non-energy demand outcome": _classify(ned, srow),
+                "Total demand outcome": _classify(total, srow),
+                "Energy/NED ratio": (energy / ned) if ned > 0 else float("nan"),
+                "Demand-reducing scenarios": ", ".join(reduced)
+                if reduced
+                else "\u2014",
+            }
+        )
+
+    return pd.DataFrame(rows).set_index("Material")
