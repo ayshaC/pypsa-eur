@@ -226,7 +226,7 @@ def compute_ev_mineral_usage(
     # df = pd.concat([df, evs_merged], ignore_index=True)
 
 
-def compute_mineral_usage(
+def compute_mineral_demand_network(
     network,
     minerals,
     scenario,
@@ -363,7 +363,7 @@ def all_mineral_data(
     Assemble per-mineral demand/availability for one network + market-share scenario.
 
     For each spec in ``mineral_specs`` this computes energy-system mineral demand
-    (via :func:`compute_mineral_usage`) and adds non-energy (DNEA) demand and grid
+    (via :func:`compute_mineral_demand_network`) and adds non-energy (DNEA) demand and grid
     demand, returning a dict keyed by mineral name with totals, the per-technology
     breakdown and the matching availability series.
 
@@ -381,7 +381,7 @@ def all_mineral_data(
         mineral = spec["mineral"]
         sub_minerals = spec["sub_minerals"]
 
-        df_merged, totals_Mt = compute_mineral_usage(
+        df_merged, totals_Mt = compute_mineral_demand_network(
             network,
             sub_minerals,
             market_share_scenario,
@@ -457,7 +457,7 @@ def compare_networks(
     details = {}
 
     for k in network_keys:
-        dfk, tot = compute_mineral_usage(k, n, minerals, mineral_intensities, techs)
+        dfk, tot = compute_mineral_demand_network(k, n, minerals, mineral_intensities, techs)
         results[k] = tot
         details[k] = dfk
 
@@ -1200,7 +1200,64 @@ def _resolve_tech_color(tech_name):
     return "#888888"
 
 
-def compute_mineral_scenario_data(
+def compute_mineral_supply(
+    mineral_specs,
+    mineral_avail,
+    mineral_alloc_factors,
+):
+    """
+    Compute the per-material supply thresholds behind the technology breakdown
+    figure. Pair with :func:`compute_mineral_demand_scenarios` and plot via
+    plot_mineral_scenario_data.
+
+    Parameters
+    ----------
+    - mineral_specs: list of dicts. Each spec must provide every key it is read
+      for: ``mineral``, ``avail_source``, ``avail_year`` and ``avail_method``
+      (missing keys raise KeyError rather than silently defaulting).
+
+    Returns
+    -------
+    supply_df : DataFrame
+        Indexed by material, with availability and the three allocation-based
+        supply thresholds (GDP / per-capita / per-capita energy-corrected), Mt.
+    """
+    supply_records = []
+
+    for spec in mineral_specs:
+        mineral = spec["mineral"]
+
+        avail_mask = (
+            (mineral_avail["Mineral"] == mineral)
+            & (mineral_avail["Estimate method"] == spec["avail_method"])
+            & (mineral_avail["Estimate year"] == spec["avail_year"])
+            & (mineral_avail["Source"] == spec["avail_source"])
+        )
+        avail_series = mineral_avail.loc[avail_mask, "Value (Mt)"]
+
+        avail_value = min_prod_gdp = min_prod_pc = min_prod_pce = float("nan")
+        if not avail_series.empty:
+            avail_value = float(avail_series.iloc[0])
+            min_prod_gdp = avail_value * mineral_alloc_factors["GDP share"]
+            min_prod_pc = avail_value * mineral_alloc_factors["Per capita share"]
+            min_prod_pce = (
+                avail_value
+                * mineral_alloc_factors["Per capita share corrected for energy use"]
+            )
+        supply_records.append(
+            {
+                "Material": mineral,
+                "Availability (Mt)": avail_value,
+                "GDP-allocated supply (Mt)": min_prod_gdp,
+                "Per-capita-allocated supply (Mt)": min_prod_pc,
+                "Per-capita energy-corrected supply (Mt)": min_prod_pce,
+            }
+        )
+
+    return pd.DataFrame(supply_records).set_index("Material")
+
+
+def compute_mineral_demand_scenarios(
     n,
     base_scenario,
     network_scenarios,
@@ -1208,24 +1265,23 @@ def compute_mineral_scenario_data(
     mineral_specs,
     mineral_intensities,
     tech_scenarios,
-    mineral_avail,
     non_energy_demand,
     grid_demand,
-    mineral_alloc_factors,
     non_energy_col,
     tech_group_col,
     min_tech_share,
 ):
     """
-    Compute the per-material demand and supply data behind the technology
-    breakdown figure. Plot this later using plot_mineral_scenario_data.
+    Compute the per-material demand data behind the technology breakdown figure.
+    Pair with :func:`compute_mineral_supply` and plot via
+    plot_mineral_scenario_data.
 
     Parameters
     ----------
     - mineral_specs: list of dicts. Each spec must provide every key it is read
-      for: ``mineral``, ``sub_minerals``, ``DNEA_source``, ``DNEA_year``,
-      ``avail_source``, ``avail_year``, ``avail_method`` and ``grid_demand_year``
-      (missing keys raise KeyError rather than silently defaulting).
+      for: ``mineral``, ``sub_minerals``, ``DNEA_source``, ``DNEA_year`` and
+      ``grid_demand_year`` (missing keys raise KeyError rather than silently
+      defaulting).
     - tech_group_col: column used to aggregate technology contributions.
     - min_tech_share: technologies below this share of a material's total energy
       demand are collapsed into "Other".
@@ -1236,9 +1292,6 @@ def compute_mineral_scenario_data(
         Long format ["Material", "Scenario", "Component", "Value (Mt)"]; the
         components ("Non-energy demand", "Grid demand", technologies, "Other")
         are exactly the stacked-bar segments of the figure.
-    supply_df : DataFrame
-        Indexed by material, with availability and the three allocation-based
-        supply thresholds (GDP / per-capita / per-capita energy-corrected), Mt.
     """
     scenario_names = list(network_scenarios) + list(market_scenarios)
 
@@ -1248,7 +1301,7 @@ def compute_mineral_scenario_data(
         return [value]
 
     def _energy_by_tech(network_key, market_scenario, sub_minerals):
-        merged, _ = compute_mineral_usage(
+        merged, _ = compute_mineral_demand_network(
             n[network_key],
             sub_minerals,
             market_scenario,
@@ -1262,7 +1315,7 @@ def compute_mineral_scenario_data(
             return pd.Series(dtype=float)
         if tech_group_col not in merged.columns:
             raise ValueError(
-                f"Column '{tech_group_col}' not found in merged dataframe from compute_mineral_usage."
+                f"Column '{tech_group_col}' not found in merged dataframe from compute_mineral_demand_network."
             )
         tech_use_mt = (
             merged.groupby(tech_group_col)[mineral_cols].sum().sum(axis=1) / 1e9
@@ -1271,7 +1324,6 @@ def compute_mineral_scenario_data(
         return tech_use_mt
 
     demand_records = []
-    supply_records = []
 
     for spec in mineral_specs:
         mineral = spec["mineral"]
@@ -1298,14 +1350,6 @@ def compute_mineral_scenario_data(
         grid_demand_value = (
             float(grid_demand_series.iloc[0]) if not grid_demand_series.empty else 0.0
         )
-
-        avail_mask = (
-            (mineral_avail["Mineral"] == mineral)
-            & (mineral_avail["Estimate method"] == spec["avail_method"])
-            & (mineral_avail["Estimate year"] == spec["avail_year"])
-            & (mineral_avail["Source"] == spec["avail_source"])
-        )
-        avail_series = mineral_avail.loc[avail_mask, "Value (Mt)"]
 
         energy_by_scenario = []
         for network_key in network_scenarios:
@@ -1370,30 +1414,9 @@ def compute_mineral_scenario_data(
                     }
                 )
 
-        avail_value = min_prod_gdp = min_prod_pc = min_prod_pce = float("nan")
-        if not avail_series.empty:
-            avail_value = float(avail_series.iloc[0])
-            min_prod_gdp = avail_value * mineral_alloc_factors["GDP share"]
-            min_prod_pc = avail_value * mineral_alloc_factors["Per capita share"]
-            min_prod_pce = (
-                avail_value
-                * mineral_alloc_factors["Per capita share corrected for energy use"]
-            )
-        supply_records.append(
-            {
-                "Material": mineral,
-                "Availability (Mt)": avail_value,
-                "GDP-allocated supply (Mt)": min_prod_gdp,
-                "Per-capita-allocated supply (Mt)": min_prod_pc,
-                "Per-capita energy-corrected supply (Mt)": min_prod_pce,
-            }
-        )
-
-    demand_df = pd.DataFrame(
+    return pd.DataFrame(
         demand_records, columns=["Material", "Scenario", "Component", "Value (Mt)"]
     )
-    supply_df = pd.DataFrame(supply_records).set_index("Material")
-    return demand_df, supply_df
 
 
 def plot_mineral_scenario_comparison(
@@ -1407,7 +1430,8 @@ def plot_mineral_scenario_comparison(
     Render the per-material technology-breakdown figure from precomputed data.
 
     ``demand_df`` and ``supply_df`` are the outputs of
-    ``compute_mineral_scenario_data``. This function performs no data access or
+    ``compute_mineral_demand_scenarios`` and ``compute_mineral_supply``. This
+    function performs no data access or
     model evaluation -- it only reshapes the demand frame into stacked bars and
     draws the supply thresholds.
     """
@@ -2388,7 +2412,7 @@ def plot_mineral_reserve_shares(
     # Compute energy demand for each scenario and stack on top of non-energy
     results = []
     for label, network_key, scenario in scenario_defs:
-        _, totals_Mt = compute_mineral_usage(
+        _, totals_Mt = compute_mineral_demand_network(
             n[network_key],
             all_minerals,
             scenario,
@@ -2502,7 +2526,8 @@ def build_supply_deficit_table(demand_df, supply_df, base_scenario):
     """
     Summarise, per material, how base-scenario demand compares to supply.
 
-    Built purely from the outputs of ``compute_mineral_scenario_data`` (no model
+    Built purely from the outputs of ``compute_mineral_demand_scenarios`` and
+    ``compute_mineral_supply`` (no model
     access). For the base scenario it classifies the energy demand, the
     non-energy demand (NED) and the total demand against the three
     allocation-based supply levels, reports the energy/NED ratio, and lists the
