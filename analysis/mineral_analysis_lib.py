@@ -3,14 +3,10 @@ Function library and shared configuration for mineral_analysis.ipynb.
 
 This module holds the plotting/analysis functions and the static configuration
 (colours, mineral lists, paths) that were previously defined inline in the
-notebook. The data frames are loaded by `import_data()` and passed explicitly
-into the functions that need them, so there is no hidden module-level state.
-
-Usage in the notebook:
-    from mineral_analysis_lib import import_data, compute_mineral_usage, ...
-
-    (mineral_intensities, tech_scenarios, mineral_avail,
-     non_energy_demand, grid_demand, mineral_alloc_factors) = import_data()
+notebook. Data frames are read from the CSVs in ``data/`` by the notebook and
+passed explicitly into the functions that need them, so there is no hidden
+module-level state. The per-mineral demand/availability specs live in
+``data/mineral_specs.json`` and are loaded directly in the notebook.
 """
 
 import math
@@ -170,7 +166,6 @@ def get_total_EVs(
     )
 
     total_ev_sold_2026_2050 = results_ev_turnover["ev_sales"].sum()
-    # print(f"Estimated total EVs sold ({start_year}-{end_year}): {total_ev_sold_2026_2050:,.0f}")
     return results_ev_turnover, total_ev_sold_2026_2050
 
 
@@ -181,8 +176,8 @@ def compute_ev_mineral_usage(
     land_transport_electric_share,
     minerals,
     scenario,
-    mineral_intensities=None,
-    techs=None,
+    mineral_intensities,
+    techs,
 ):
     # EV battery size in MWh, according to the config file
     BEV_battery_size = 0.05
@@ -236,11 +231,10 @@ def compute_mineral_usage(
     n,
     minerals,
     scenario,
-    mineral_intensities=None,
-    techs=None,
-    capacity_col_name="capacity",
-    verbose=False,
-    evs=True,
+    mineral_intensities,
+    techs,
+    capacity_col_name,
+    evs,
 ):
     """
     Return (df_merged, totals_series) for a given network in dict n.
@@ -353,11 +347,6 @@ def compute_mineral_usage(
 
     totals_Mt = df[minerals].sum() / 1e9
 
-    if verbose:
-        print(
-            f"Network {network_key}: merged rows {len(df)}; minerals found from sources: {', '.join([m for m in minerals if not df[m].isna().all()])}"
-        )
-
     return df, totals_Mt
 
 
@@ -371,9 +360,7 @@ def all_mineral_data(
     non_energy_demand,
     grid_demand,
     mineral_avail,
-    non_energy_col="GDP-adjusted value entso-e (Mt)",
-    local_grid_demand_year="Cumulative",
-    verbose=False,
+    non_energy_col,
 ):
     """
     Assemble per-mineral demand/availability for one network + market-share scenario.
@@ -386,30 +373,35 @@ def all_mineral_data(
     All data frames are passed in explicitly (no module-level state):
         mineral_intensities, tech_scenarios, non_energy_demand, grid_demand,
         mineral_avail.
+
+    Each spec must provide every key it is read for: ``mineral``,
+    ``sub_minerals``, ``DNEA_source``, ``DNEA_year``, ``avail_source``,
+    ``avail_year``, ``avail_method`` and ``grid_demand_year`` (missing keys raise
+    KeyError rather than silently defaulting).
     """
     all_results = {}
     for spec in mineral_specs:
         mineral = spec["mineral"]
-        non_energy_mineral = spec.get("non_energy_mineral", mineral)
-        avail_mineral = spec.get("avail_mineral", mineral)
-        energy_minerals = spec.get("energy_minerals", [mineral])
+        sub_minerals = spec["sub_minerals"]
 
         df_merged, totals_Mt = compute_mineral_usage(
             network_scenario,
             n,
-            energy_minerals,
+            sub_minerals,
             market_share_scenario,
             mineral_intensities,
             tech_scenarios,
+            capacity_col_name="capacity",
+            evs=True,
         )
 
         tech_use_mt = (
-            df_merged.groupby("carrier_renamed")[energy_minerals].sum().sum(axis=1)
+            df_merged.groupby("carrier_renamed")[sub_minerals].sum().sum(axis=1)
             / 1e9
         )
 
         dnea_mask = (
-            (non_energy_demand["Mineral"] == non_energy_mineral)
+            (non_energy_demand["Mineral"] == mineral)
             & (non_energy_demand["Year"] == spec["DNEA_year"])
             & (non_energy_demand["Source"] == spec["DNEA_source"])
         )
@@ -421,7 +413,7 @@ def all_mineral_data(
         dnea_value = float(dnea_series.iloc[0])
 
         grid_demand_mask = (grid_demand["Mineral"] == mineral) & (
-            grid_demand["Year"] == local_grid_demand_year
+            grid_demand["Year"] == spec["grid_demand_year"]
         )
         grid_demand_series = grid_demand.loc[
             grid_demand_mask, "GDP-adjusted value entso-e (Mt)"
@@ -431,18 +423,12 @@ def all_mineral_data(
         )
 
         avail_mask = (
-            (mineral_avail["Mineral"] == avail_mineral)
+            (mineral_avail["Mineral"] == mineral)
             & (mineral_avail["Estimate method"] == spec["avail_method"])
             & (mineral_avail["Estimate year"] == spec["avail_year"])
             & (mineral_avail["Source"] == spec["avail_source"])
         )
         avail_series = mineral_avail.loc[avail_mask, "Value (Mt)"]
-
-        if verbose:
-            print("mineral", mineral)
-            print("total demand:", totals_Mt.sum())
-            print("total demand, non energy", dnea_value)
-            print("total demand, grid:", grid_demand_value)
 
         total_demand = totals_Mt.sum() + dnea_value + grid_demand_value
 
@@ -1230,10 +1216,9 @@ def compute_mineral_scenario_data(
     non_energy_demand,
     grid_demand,
     mineral_alloc_factors,
-    non_energy_col="GDP-adjusted value entso-e (Mt)",
-    grid_demand_year="Cumulative",
-    tech_group_col="carrier_renamed",
-    min_tech_share=0.01,
+    non_energy_col,
+    tech_group_col,
+    min_tech_share,
 ):
     """
     Compute the per-material demand and supply data behind the technology
@@ -1241,10 +1226,10 @@ def compute_mineral_scenario_data(
 
     Parameters
     ----------
-    - mineral_specs: list of dicts. Required keys per mineral:
-      ``mineral``, ``DNEA_source``, ``DNEA_year``, ``avail_source``,
-      ``avail_year``, ``avail_method``. Optional keys: ``energy_minerals``,
-      ``non_energy_mineral``, ``avail_mineral``, ``grid_demand_year``.
+    - mineral_specs: list of dicts. Each spec must provide every key it is read
+      for: ``mineral``, ``sub_minerals``, ``DNEA_source``, ``DNEA_year``,
+      ``avail_source``, ``avail_year``, ``avail_method`` and ``grid_demand_year``
+      (missing keys raise KeyError rather than silently defaulting).
     - tech_group_col: column used to aggregate technology contributions.
     - min_tech_share: technologies below this share of a material's total energy
       demand are collapsed into "Other".
@@ -1266,16 +1251,18 @@ def compute_mineral_scenario_data(
             return list(value)
         return [value]
 
-    def _energy_by_tech(network_key, market_scenario, energy_minerals):
+    def _energy_by_tech(network_key, market_scenario, sub_minerals):
         merged, _ = compute_mineral_usage(
             network_key,
             n,
-            energy_minerals,
+            sub_minerals,
             market_scenario,
             mineral_intensities,
             tech_scenarios,
+            capacity_col_name="capacity",
+            evs=True,
         )
-        mineral_cols = [m for m in _to_list(energy_minerals) if m in merged.columns]
+        mineral_cols = [m for m in _to_list(sub_minerals) if m in merged.columns]
         if not mineral_cols:
             return pd.Series(dtype=float)
         if tech_group_col not in merged.columns:
@@ -1293,13 +1280,10 @@ def compute_mineral_scenario_data(
 
     for spec in mineral_specs:
         mineral = spec["mineral"]
-        non_energy_mineral = spec.get("non_energy_mineral", mineral)
-        avail_mineral = spec.get("avail_mineral", mineral)
-        energy_minerals = spec.get("energy_minerals", mineral)
-        local_grid_demand_year = spec.get("grid_demand_year", grid_demand_year)
+        sub_minerals = spec["sub_minerals"]
 
         dnea_mask = (
-            (non_energy_demand["Mineral"] == non_energy_mineral)
+            (non_energy_demand["Mineral"] == mineral)
             & (non_energy_demand["Year"] == spec["DNEA_year"])
             & (non_energy_demand["Source"] == spec["DNEA_source"])
         )
@@ -1311,7 +1295,7 @@ def compute_mineral_scenario_data(
         dnea_value = float(dnea_series.iloc[0])
 
         grid_demand_mask = (grid_demand["Mineral"] == mineral) & (
-            grid_demand["Year"] == local_grid_demand_year
+            grid_demand["Year"] == spec["grid_demand_year"]
         )
         grid_demand_series = grid_demand.loc[
             grid_demand_mask, "GDP-adjusted value entso-e (Mt)"
@@ -1321,7 +1305,7 @@ def compute_mineral_scenario_data(
         )
 
         avail_mask = (
-            (mineral_avail["Mineral"] == avail_mineral)
+            (mineral_avail["Mineral"] == mineral)
             & (mineral_avail["Estimate method"] == spec["avail_method"])
             & (mineral_avail["Estimate year"] == spec["avail_year"])
             & (mineral_avail["Source"] == spec["avail_source"])
@@ -1331,11 +1315,11 @@ def compute_mineral_scenario_data(
         energy_by_scenario = []
         for network_key in network_scenarios:
             energy_by_scenario.append(
-                _energy_by_tech(network_key, "Market share current", energy_minerals)
+                _energy_by_tech(network_key, "Market share current", sub_minerals)
             )
         for market_scenario in market_scenarios:
             energy_by_scenario.append(
-                _energy_by_tech(base_scenario, market_scenario, energy_minerals)
+                _energy_by_tech(base_scenario, market_scenario, sub_minerals)
             )
 
         if energy_by_scenario:
@@ -1697,15 +1681,12 @@ def plot_mineral_to_tech_sankey(
                 criticality_df[min_col].astype(str), criticality_df[score_col]
             )
         }
-        # print(crit_map)
         links["score"] = links["mineral"].map(
             lambda x: crit_map.get(str(x).strip().lower(), float("nan"))
         )
-        print(links)
 
         missing = links["score"].isna().sum()
         if missing > 0:
-            print(f"Warning: {missing} links missing a score; filling with 0.0")
             links["score"] = links["score"].fillna(0.0)
 
         # criticality flow = mass_kg * score (units: score-units × kg, e.g., Kg-Cu)
@@ -1816,11 +1797,7 @@ def plot_mineral_to_tech_sankey(
             height=figsize[1],
         )
         display(fig)
-    except Exception as e:
-        print(
-            "Plotly not available or sankey rendering failed. Install plotly (`pip install plotly`) to see interactive sankey."
-        )
-        print("Error:", e)
+    except Exception:
         display(links.sort_values("value", ascending=False).reset_index(drop=True))
         node_summary = pd.DataFrame({"node": nodes, "total": node_custom})
         display(node_summary)
@@ -2168,7 +2145,6 @@ def plot_stacked_capacity(
     if storage_only:
         if isinstance(plot_df.index, pd.MultiIndex) and plot_df.index.nlevels >= 2:
             component = plot_df.index.get_level_values(0).astype(str).str.lower()
-            print(component)
             carrier = plot_df.index.get_level_values(1).astype(str).str.lower()
 
             component_mask = component.isin(["storageunit", "store"])
@@ -2424,6 +2400,8 @@ def plot_mineral_reserve_shares(
             scenario,
             mineral_intensities,
             tech_scenarios,
+            capacity_col_name="capacity",
+            evs=True,
         )
 
         totals_Mt.loc["REE"] = totals_Mt.loc[
