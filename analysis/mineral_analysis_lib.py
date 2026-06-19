@@ -227,8 +227,7 @@ def compute_ev_mineral_usage(
 
 
 def compute_mineral_usage(
-    network_key,
-    n,
+    network,
     minerals,
     scenario,
     mineral_intensities,
@@ -237,14 +236,14 @@ def compute_mineral_usage(
     evs,
 ):
     """
-    Return (df_merged, totals_series) for a given network in dict n.
+    Return (df_merged, totals_series) for a single PyPSA network.
 
     - df_merged: expanded capacities merged with intensity data. Contains mineral columns
                  multiplied by capacity (absolute mineral amount per row).
     - totals_series: Series indexed by mineral names with total mineral demand (units: same as conversion below).
 
     Behavior / assumptions:
-    - Uses `n[network_key].statistics.expanded_capacity()` and expects capacity in column 0 (renamed to 'capacity').
+    - Uses `network.statistics.expanded_capacity()` and expects capacity in column 0 (renamed to 'capacity').
     - If techs_map is provided, maps carriers via techs_map[lci_map_key] into column 'lci_technology'.
     - Tries to merge intensity data:
          * primary: merge mineral_intensities on left_on='lci_technology' or provided name -> right_on='Activity'
@@ -277,8 +276,7 @@ def compute_mineral_usage(
 
     # 1) expanded capacities
     df = pd.DataFrame(
-        n[network_key]
-        .statistics.expanded_capacity(bus_carrier=elec_carriers)
+        network.statistics.expanded_capacity(bus_carrier=elec_carriers)
         .reset_index()
     ).rename(columns={0: capacity_col_name})
 
@@ -301,7 +299,7 @@ def compute_mineral_usage(
     )
 
     # use optimal battery capacity, not expanded
-    # df_opt = pd.DataFrame(n[network_key].statistics.installed_capacity(bus_carrier=elec_carriers).reset_index()).rename(columns={0: capacity_col_name})
+    # df_opt = pd.DataFrame(network.statistics.installed_capacity(bus_carrier=elec_carriers).reset_index()).rename(columns={0: capacity_col_name})
     # df.loc[df['carrier'] == 'EV battery', 'capacity'] = df_opt[df_opt['carrier']=='EV battery']['capacity'].values[0]
 
     df = pd.merge(
@@ -351,8 +349,7 @@ def compute_mineral_usage(
 
 
 def all_mineral_data(
-    n,
-    network_scenario,
+    network,
     market_share_scenario,
     mineral_specs,
     mineral_intensities,
@@ -385,8 +382,7 @@ def all_mineral_data(
         sub_minerals = spec["sub_minerals"]
 
         df_merged, totals_Mt = compute_mineral_usage(
-            network_scenario,
-            n,
+            network,
             sub_minerals,
             market_share_scenario,
             mineral_intensities,
@@ -1253,8 +1249,7 @@ def compute_mineral_scenario_data(
 
     def _energy_by_tech(network_key, market_scenario, sub_minerals):
         merged, _ = compute_mineral_usage(
-            network_key,
-            n,
+            n[network_key],
             sub_minerals,
             market_scenario,
             mineral_intensities,
@@ -2394,8 +2389,7 @@ def plot_mineral_reserve_shares(
     results = []
     for label, network_key, scenario in scenario_defs:
         _, totals_Mt = compute_mineral_usage(
-            network_key,
-            n,
+            n[network_key],
             all_minerals,
             scenario,
             mineral_intensities,
