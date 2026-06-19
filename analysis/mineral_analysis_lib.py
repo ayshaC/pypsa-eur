@@ -100,64 +100,10 @@ tech_colors["power-to-hydrogen"] = tech_colors["H2 Electrolysis"]
 tech_colors["direct air capture"] = tech_colors["DAC"]
 tech_colors["carbon capture"] = tech_colors["CO2 sequestration"]
 tech_colors["fossil oil and gas"] = tech_colors["gas"]
+tech_colors["EV battery"] = "#84e8be"
+tech_colors["Battery Storage"] = "#44a554"
+tech_colors["heat pump"] = "#AC4F66"
 
-
-def import_data():
-    """
-    Load and return the mineral data frames used throughout the analysis.
-
-    Returned in a fixed order for explicit unpacking in the notebook:
-        (mineral_intensities, tech_scenarios, mineral_avail,
-         non_energy_demand, grid_demand, mineral_alloc_factors) = import_data()
-    """
-    mineral_alloc_factors = {
-        "GDP share": 0.213,
-        "Per capita share": 0.068,
-        "Per capita share corrected for energy use": 0.046,
-    }
-
-    mineral_intensities = pd.read_csv("data/mineral_intensity_combined.csv")
-
-    tech_scenarios = pd.read_csv("data/tech_market_shares.csv")
-
-    # mineral_alloc = pd.read_csv("data/mineral_alloc.csv")
-
-    mineral_avail = pd.read_csv("data/mineral_availability.csv")
-    mineral_avail["Value (Mt)"] = mineral_avail["Value (kt)"] / 1000
-
-    non_energy_demand = pd.read_csv("data/non_energy_demand.csv")
-    # non_energy_demand["Value entso-e (Mt)"] = non_energy_demand["Value entso-e (kt)"]/1000
-    # non_energy_demand = non_energy_demand.set_index("Mineral")
-    non_energy_demand["GDP-adjusted value entso-e (Mt)"] = (
-        non_energy_demand["Value global (kt)"]
-        * mineral_alloc_factors["GDP share"]
-        / 1000
-    )
-
-    grid_demand = pd.read_csv("data/grid_demand.csv")
-    grid_demand["GDP-adjusted value entso-e (Mt)"] = (
-        grid_demand["Value global (kt)"] * mineral_alloc_factors["GDP share"] / 1000
-    )
-    return (
-        mineral_intensities,
-        tech_scenarios,
-        mineral_avail,
-        non_energy_demand,
-        grid_demand,
-        mineral_alloc_factors,
-    )
-
-
-# EV share pathway from config (can be replaced by reading YAML)
-land_transport_electric_share = {
-    2020: 0.0,
-    2025: 0.05,
-    2030: 0.20,
-    2035: 0.45,
-    2040: 0.70,
-    2045: 0.85,
-    2050: 1.0,
-}
 
 # Assumptions
 start_year = 2025  # set to your "now"
@@ -324,6 +270,17 @@ def compute_mineral_usage(
         "battery",
     ]
 
+    # EV share pathway from config (can be replaced by reading YAML)
+    land_transport_electric_share = {
+    2020: 0.0,
+    2025: 0.05,
+    2030: 0.20,
+    2035: 0.45,
+    2040: 0.70,
+    2045: 0.85,
+    2050: 1.0,
+    }
+
     # 1) expanded capacities
     df = pd.DataFrame(
         n[network_key]
@@ -402,6 +359,103 @@ def compute_mineral_usage(
         )
 
     return df, totals_Mt
+
+
+def all_mineral_data(
+    n,
+    network_scenario,
+    market_share_scenario,
+    mineral_specs,
+    mineral_intensities,
+    tech_scenarios,
+    non_energy_demand,
+    grid_demand,
+    mineral_avail,
+    non_energy_col="GDP-adjusted value entso-e (Mt)",
+    local_grid_demand_year="Cumulative",
+    verbose=False,
+):
+    """
+    Assemble per-mineral demand/availability for one network + market-share scenario.
+
+    For each spec in ``mineral_specs`` this computes energy-system mineral demand
+    (via :func:`compute_mineral_usage`) and adds non-energy (DNEA) demand and grid
+    demand, returning a dict keyed by mineral name with totals, the per-technology
+    breakdown and the matching availability series.
+
+    All data frames are passed in explicitly (no module-level state):
+        mineral_intensities, tech_scenarios, non_energy_demand, grid_demand,
+        mineral_avail.
+    """
+    all_results = {}
+    for spec in mineral_specs:
+        mineral = spec["mineral"]
+        non_energy_mineral = spec.get("non_energy_mineral", mineral)
+        avail_mineral = spec.get("avail_mineral", mineral)
+        energy_minerals = spec.get("energy_minerals", [mineral])
+
+        df_merged, totals_Mt = compute_mineral_usage(
+            network_scenario,
+            n,
+            energy_minerals,
+            market_share_scenario,
+            mineral_intensities,
+            tech_scenarios,
+        )
+
+        tech_use_mt = (
+            df_merged.groupby("carrier_renamed")[energy_minerals].sum().sum(axis=1)
+            / 1e9
+        )
+
+        dnea_mask = (
+            (non_energy_demand["Mineral"] == non_energy_mineral)
+            & (non_energy_demand["Year"] == spec["DNEA_year"])
+            & (non_energy_demand["Source"] == spec["DNEA_source"])
+        )
+        dnea_series = non_energy_demand.loc[dnea_mask, non_energy_col]
+        if dnea_series.empty:
+            raise ValueError(
+                f"No non-energy demand data for {mineral} with source={spec['DNEA_source']}, year={spec['DNEA_year']}"
+            )
+        dnea_value = float(dnea_series.iloc[0])
+
+        grid_demand_mask = (grid_demand["Mineral"] == mineral) & (
+            grid_demand["Year"] == local_grid_demand_year
+        )
+        grid_demand_series = grid_demand.loc[
+            grid_demand_mask, "GDP-adjusted value entso-e (Mt)"
+        ]
+        grid_demand_value = (
+            float(grid_demand_series.iloc[0]) if not grid_demand_series.empty else 0.0
+        )
+
+        avail_mask = (
+            (mineral_avail["Mineral"] == avail_mineral)
+            & (mineral_avail["Estimate method"] == spec["avail_method"])
+            & (mineral_avail["Estimate year"] == spec["avail_year"])
+            & (mineral_avail["Source"] == spec["avail_source"])
+        )
+        avail_series = mineral_avail.loc[avail_mask, "Value (Mt)"]
+
+        if verbose:
+            print("mineral", mineral)
+            print("total demand:", totals_Mt.sum())
+            print("total demand, non energy", dnea_value)
+            print("total demand, grid:", grid_demand_value)
+
+        total_demand = totals_Mt.sum() + dnea_value + grid_demand_value
+
+        all_results[mineral] = {
+            "Total demand": total_demand,
+            "Total demand energy": totals_Mt.sum(),
+            "tech demand": tech_use_mt,
+            "dnea": dnea_value,
+            "grid demand": grid_demand_value,
+            "avail": avail_series,
+        }
+
+    return all_results
 
 
 def compare_networks(
@@ -2523,6 +2577,7 @@ def build_supply_deficit_table(demand_df, supply_df, base_scenario):
 
         totals_by_scenario = sub.groupby("Scenario")["Value (Mt)"].sum()
         base_total = totals_by_scenario.get(base_scenario, float("nan"))
+        lowest_total = float(totals_by_scenario.min())
         reduced = sorted(
             s
             for s in totals_by_scenario.index
@@ -2535,6 +2590,7 @@ def build_supply_deficit_table(demand_df, supply_df, base_scenario):
                 "Energy demand outcome": _classify(energy, srow),
                 "Non-energy demand outcome": _classify(ned, srow),
                 "Total demand outcome": _classify(total, srow),
+                "Outcome after optimisation": _classify(lowest_total, srow),
                 "Energy/NED ratio": (energy / ned) if ned > 0 else float("nan"),
                 "Demand-reducing scenarios": ", ".join(reduced)
                 if reduced
