@@ -1550,6 +1550,147 @@ def plot_mineral_scenario_comparison(
     plt.show()
 
 
+def plot_mineral_supply_demand(
+    demand_df,
+    supply_df,
+    scenario="Base",
+    ncols=3,
+    fig_title="",
+    figwidth=13,
+):
+    """
+    Per-material supply-vs-demand triple bar for a single scenario.
+
+    For each material three bars are drawn:
+      1. "Supply" - the three nested allocation thresholds from ``supply_df``
+         shown as bands of one hue that lighten upward: solid (per-capita
+         energy-corrected, most conservative), mid shade (per-capita), lightest
+         shade (GDP-share, most generous).
+      2. "Energy system" - the stacked technology requirements for ``scenario``,
+         i.e. every component of ``demand_df`` other than "Non-energy demand"
+         (the technologies, "Other", and "Grid demand").
+      3. "Non-energy" - the "Non-energy demand" component.
+
+    ``demand_df`` / ``supply_df`` are the outputs of
+    ``compute_mineral_demand_scenarios`` / ``compute_mineral_supply``. This
+    function does no data access, computation, or methodology -- it only selects
+    ``scenario`` and rearranges those frames into bars.
+    """
+    SUPPLY_HUE = "#08519c"
+    NED_COLOR = "#d9d9d9"
+    GRID_COLOR = "#696969"
+    bar_labels = ["Supply", "Energy\nsystem", "Non-energy"]
+    x = np.arange(3)
+    bar_width = 0.8
+
+    materials = list(dict.fromkeys(demand_df["Material"]))
+    n_minerals = len(materials)
+    nrows = math.ceil(n_minerals / ncols)
+    fig, axs = plt.subplots(nrows, ncols, figsize=(figwidth, nrows * 2.8 + 2))
+    axes = np.array(axs, ndmin=1).flatten()
+
+    scen_demand = demand_df[demand_df["Scenario"] == scenario]
+
+    for idx, mineral in enumerate(materials):
+        ax = axes[idx]
+        sub = scen_demand[scen_demand["Material"] == mineral]
+
+        # Bar 1: nested supply bands (largest GDP-share outline -> solid
+        # energy-corrected at the bottom). Each level is drawn as the slice
+        # above the next-smaller one so they read as one banded bar.
+        if mineral in supply_df.index:
+            row = supply_df.loc[mineral]
+            gdp = row.get("GDP-allocated supply (Mt)", float("nan"))
+            pc = row.get("Per-capita-allocated supply (Mt)", float("nan"))
+            pce = row.get("Per-capita energy-corrected supply (Mt)", float("nan"))
+            if pd.notna(pce):
+                ax.bar(
+                    x[0], pce, bar_width,
+                    color=SUPPLY_HUE, edgecolor=SUPPLY_HUE, zorder=2,
+                )
+            if pd.notna(pc) and pd.notna(pce):
+                ax.bar(
+                    x[0], pc - pce, bar_width, bottom=pce,
+                    color=SUPPLY_HUE, alpha=0.55, edgecolor=SUPPLY_HUE, zorder=2,
+                )
+            if pd.notna(gdp) and pd.notna(pc):
+                ax.bar(
+                    x[0], gdp - pc, bar_width, bottom=pc,
+                    color=SUPPLY_HUE, alpha=0.22, edgecolor=SUPPLY_HUE, zorder=2,
+                )
+
+        # Bar 2: energy-system stack (every component except Non-energy demand).
+        energy = sub[sub["Component"] != "Non-energy demand"]
+        running = 0.0
+        for comp in list(dict.fromkeys(energy["Component"])):
+            value = float(energy.loc[energy["Component"] == comp, "Value (Mt)"].sum())
+            if value == 0.0:
+                continue
+            if comp == "Grid demand":
+                color, label = GRID_COLOR, "Grid demand"
+            else:
+                color, label = _resolve_tech_color(comp), nice_names.get(comp, comp)
+            ax.bar(
+                x[1], value, bar_width, bottom=running,
+                color=color, label=label, zorder=2,
+            )
+            running += value
+
+        # Bar 3: non-energy demand.
+        ned = float(sub.loc[sub["Component"] == "Non-energy demand", "Value (Mt)"].sum())
+        ax.bar(
+            x[2], ned, bar_width, color=NED_COLOR, label="Non-energy demand", zorder=2
+        )
+
+        ax.set_xticks(x)
+        ax.set_xticklabels(bar_labels)
+        ax.set_ylabel("Amount (Mt)")
+        ax.set_title(mineral)
+        ax.grid(axis="y", zorder=0)
+
+    for ax in axes[n_minerals:]:
+        ax.set_visible(False)
+
+    # Legend: hand-built supply proxies first, then dedup the demand segments
+    # collected from the per-material axes.
+    supply_proxies = [
+        mpatches.Patch(
+            facecolor=SUPPLY_HUE, alpha=0.22, edgecolor=SUPPLY_HUE,
+            label="Supply: GDP-allocated",
+        ),
+        mpatches.Patch(
+            facecolor=SUPPLY_HUE, alpha=0.55, edgecolor=SUPPLY_HUE,
+            label="Supply: per-capita",
+        ),
+        mpatches.Patch(
+            facecolor=SUPPLY_HUE, edgecolor=SUPPLY_HUE,
+            label="Supply: per-capita (energy-corrected)",
+        ),
+    ]
+    handles = list(supply_proxies)
+    labels = [p.get_label() for p in supply_proxies]
+    seen = set(labels)
+    for ax in axes[:n_minerals]:
+        for handle, label in zip(*ax.get_legend_handles_labels()):
+            if label not in seen:
+                seen.add(label)
+                handles.append(handle)
+                labels.append(label)
+
+    fig.suptitle(fig_title, fontsize=14, y=0.99, x=0.4)
+    fig.tight_layout(rect=[0, 0, 0.66, 0.99])
+    fig.legend(
+        handles,
+        labels,
+        loc="upper left",
+        bbox_to_anchor=(0.68, 0.95),
+        frameon=False,
+        borderaxespad=0.0,
+        fontsize=9,
+    )
+    plt.show()
+
+
 def plot_mineral_to_tech_sankey(
     df,
     minerals,
