@@ -1444,8 +1444,8 @@ def plot_mineral_scenario_comparison(
     axes = np.array(axs, ndmin=1).flatten()
 
     supply_styles = [
-        ("GDP-allocated supply (Mt)", "blue", "GDP-allocated supply"),
-        ("Per-capita-allocated supply (Mt)", "orange", "Per-capita-allocated supply"),
+        ("GDP-allocated supply (Mt)", "red", "GDP-allocated supply"),
+        ("Per-capita-allocated supply (Mt)", "blue", "Per-capita-allocated supply"),
         (
             "Per-capita energy-corrected supply (Mt)",
             "green",
@@ -1507,7 +1507,7 @@ def plot_mineral_scenario_comparison(
         ax.set_ylabel("Amount (Mt)")
         ax.set_xlabel("Scenario")
         ax.set_title(mineral)
-        ax.grid(zorder=0)
+        ax.grid(axis="y", zorder=0)
         ax.tick_params(axis="x", labelrotation=90)
 
     for ax in axes[n_minerals:]:
