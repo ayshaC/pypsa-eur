@@ -102,3 +102,6 @@ analysis/data/*
 
 analysis/figures/*
 !analysis/figures/.gitkeep
+
+analysis/results
+analysis/export
