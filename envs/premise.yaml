@@ -5,5 +5,7 @@ dependencies:
     - python=3.11
     - ipdb=0.13.13 # replaces default debugger with IPython debugger
     - pip:
-      - premise[bw2]
+      - premise[bw2]==2.3.0  # 2.4.x changed battery Li/Co/Mn/V inventories; 2.3.0 = Aysha's 2025-10-20 build
+      - wurst==0.4           # wurst 0.5 (2025-10-27) breaks 2.3.0: extract_brightway2_databases -> None
+      - pandas==2.3.3        # premise 2.3.0 predates pandas 3
       - openpyxl
